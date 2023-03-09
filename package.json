@@ -1,0 +1,25 @@
+{
+  "name": "byz-html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c -m",
+    "examples": "node ./examples/server.js",
+    "prettier": "prettier --write \"./**/*.{ts,js}\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "danielgarthur",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-terser": "^0.4.0",
+    "minimist": "^1.2.8",
+    "prettier": "^2.8.4",
+    "rollup": "^3.18.0"
+  }
+}
