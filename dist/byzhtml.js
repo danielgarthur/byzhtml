@@ -1273,8 +1273,6 @@ var byzhtml = (function () {
   	modeDeltaCapital: modeDeltaCapital
   };
 
-  //import metadata from "../assets/fonts/neanes.metadata.json";
-
   class NeumeMappingService {
     constructor() {
       this.glyphNameToCodepointMap = new Map();
@@ -1292,13 +1290,6 @@ var byzhtml = (function () {
         const codepoint = Number('0x' + data.codepoint.substring(2));
         this.glyphNameToCodepointMap.set(glyph, String.fromCodePoint(codepoint));
       }
-
-      // TODO support optional glyphs
-      // for (let glyph in metadata.optionalGlyphs) {
-      //   const data = metadata.optionalGlyphs[glyph];
-      //   const codepoint = Number("0x" + data.codepoint.substring(2));
-      //   glyphNameToCodepointMap.set(glyph, String.fromCodePoint(codepoint));
-      // }
     }
   }
 
