@@ -1898,7 +1898,7 @@ var byzhtml = (function () {
       </style>
       <span class="group">
           <div><slot></slot></div>
-          <div><slot name="lyric"></slot></div>
+          <div class="lyrics-container"><slot name="lyric"></slot><slot name="melisma"></slot></div>
       </span>
     `;
     }
@@ -1909,18 +1909,25 @@ var byzhtml = (function () {
       super();
 
       this.attachShadow({ mode: 'open' });
+      this.shadowRoot.innerHTML = `<span><slot></slot></span>`;
+    }
+  }
 
+  class Melisma extends HTMLElement {
+    constructor() {
+      super();
+
+      this.attachShadow({ mode: 'open' });
       this.shadowRoot.innerHTML = `
-      <style>
-        :host {
-          position: relative;
-          display: inline-block;
-        }
-      </style>
-      <span>
-          <slot></slot>
-      </span>
-    `;
+    <style>
+      .melisma {
+        position: absolute;
+        display: inline;
+        overflow: hidden!important;
+        white-space: pre;
+      }
+    </style>
+    <span class="melisma"><slot></slot></span>`;
     }
   }
 
@@ -4889,6 +4896,7 @@ var byzhtml = (function () {
   function defineCustomElements() {
     customElements.define('x-lyric', Lyric);
     customElements.define('x-martyria', Martyria);
+    customElements.define('x-melisma', Melisma);
     customElements.define('x-neume', Neume);
     customElements.define('x-note', Note);
 
