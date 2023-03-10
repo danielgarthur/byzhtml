@@ -12640,19 +12640,58 @@ var byzhtml = (function () {
   const neumeMappingService = new NeumeMappingService();
   const fontService = new FontService();
   const customElementGlyphMappingService = new CustomElementGlyphMappingService();
+  const options = {
+    defaultFontFamily: 'Neanes',
+    useLegacyPositioning: false,
+  };
 
   var byzhtml = {
     neumeMappingService,
     fontService,
     customElementGlyphMappingService,
+    options,
   };
 
+  class Martyria extends HTMLElement {
+    constructor(glyphname) {
+      super();
+
+      this.attachShadow({ mode: 'open' });
+
+      this.shadowRoot.innerHTML = `
+      <style>
+        :host {
+          position: relative;
+          display: inline-block;
+        }
+      </style>
+      <span>
+          <slot></slot>
+      </span>
+    `;
+    }
+  }
+
   class Neume extends HTMLElement {
+    static get observedAttributes() {
+      return ['name', 'font-family'];
+    }
+
     constructor() {
       super();
+
+      this.attachShadow({ mode: 'open' });
     }
 
     connectedCallback() {
+      this.updateStyle();
+    }
+
+    attributeChangedCallback() {
+      this.updateStyle();
+    }
+
+    updateStyle() {
       if (!this.hasAttribute('name')) {
         console.error('Neume: Missing attribute "name"');
       }
@@ -12661,15 +12700,46 @@ var byzhtml = (function () {
         this.getAttribute('name'),
       );
 
+      let saltStyle = '';
+      let fontFamily = byzhtml.options.defaultFontFamily;
+
+      if (this.hasAttribute('font-family')) {
+        fontFamily = this.getAttribute('font-family');
+      }
+
+      if (this.hasAttribute('salt')) {
+        saltStyle = `font-feature-settings: 'salt' ${this.getAttribute('salt')};`;
+      }
+
+      this.shadowRoot.innerHTML = `<span style="font-family: ${fontFamily}; ${saltStyle}">${content}</span>`;
+    }
+  }
+
+  class Note extends HTMLElement {
+    constructor(glyphname) {
+      super();
+
       this.attachShadow({ mode: 'open' });
 
       this.shadowRoot.innerHTML = `
       <style>
         :host {
-          font-family: Neanes;
+          position: relative;
+          display: inline-block;
+        }
+
+        .group {
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
         }
       </style>
-      <span>${content}</span>
+      <span class="group">
+          <div><slot></slot></div>
+          <div><slot name="lyric"></slot></div>
+      </span>
     `;
     }
   }
@@ -12695,31 +12765,39 @@ var byzhtml = (function () {
   }
 
   class BaseBody extends HTMLElement {
+    static get observedAttributes() {
+      return ['font-family'];
+    }
+
     constructor(glyphname) {
       super();
 
+      this.glyphname = glyphname;
+
       this.attachShadow({ mode: 'open' });
+    }
 
-      this.shadowRoot.innerHTML = `
-      <style>
-        :host {
-          position: relative;
-          display: inline-block;
-        }
+    connectedCallback() {
+      this.updateStyle();
+    }
 
-        .group {
-          position: relative;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-        }
-      </style>
-      <span class="group">
-          <x-neume name="${glyphname}"></x-neume>
-          <slot></slot>
-      </span>
-    `;
+    attributeChangedCallback() {
+      this.updateStyle();
+    }
+
+    updateStyle() {
+      let fontFamilyAttr = '';
+      let saltAttr = '';
+
+      if (this.hasAttribute('font-family')) {
+        fontFamilyAttr = `font-family="${this.getAttribute('font-family')}"`;
+      }
+
+      if (this.hasAttribute('salt')) {
+        saltAttr = `salt="${this.getAttribute('salt')}"`;
+      }
+
+      this.shadowRoot.innerHTML = `<x-neume name="${this.glyphname}" ${fontFamilyAttr} ${saltAttr}></x-neume>`;
     }
   }
 
@@ -13356,39 +13434,52 @@ var byzhtml = (function () {
   }
 
   class BaseMark extends HTMLElement {
+    static get observedAttributes() {
+      return ['font-family'];
+    }
+
     constructor(glyphname) {
       super();
 
       this.glyphname = glyphname;
 
       this.attachShadow({ mode: 'open' });
-
-      this.shadowRoot.innerHTML = `
-      <style>
-      </style>
-      <span class="neume">
-          <x-neume name="${glyphname}"></x-neume>
-      </span>
-    `;
     }
 
     connectedCallback() {
-      const base =
-        byzhtml.customElementGlyphMappingService.getGlyphNameFromNodeName(
-          this.parentNode?.nodeName,
-        );
+      this.updateStyle();
+    }
 
-      if (base) {
-        const offset = byzhtml.fontService.getMarkOffset(base, this.glyphname);
+    attributeChangedCallback() {
+      this.updateStyle();
+    }
 
-        this.shadowRoot.querySelector('style').textContent = `
-        .neume {
-              position: absolute;
-              left: ${offset.x}em;
-              top: ${offset.y}em;
-        }
-    `;
+    updateStyle() {
+      let styleAttr = '';
+      let fontFamilyAttr = '';
+      let saltAttr = '';
+
+      if (this.hasAttribute('font-family')) {
+        fontFamilyAttr = `font-family="${this.getAttribute('font-family')}"`;
       }
+
+      if (this.hasAttribute('salt')) {
+        saltAttr = `salt="${this.getAttribute('salt')}"`;
+      }
+
+      if (byzhtml.options.useLegacyPositioning) {
+        const base =
+          byzhtml.customElementGlyphMappingService.getGlyphNameFromNodeName(
+            this.parentNode?.querySelector('[base]')?.nodeName,
+          );
+
+        if (base) {
+          const offset = byzhtml.fontService.getMarkOffset(base, this.glyphname);
+          styleAttr = `style="position: absolute; left: ${offset.x}em; top: ${offset.y}em;"`;
+        }
+      }
+
+      this.shadowRoot.innerHTML = `<x-neume name="${this.glyphname}" ${styleAttr} ${fontFamilyAttr} ${saltAttr}></x-neume>`;
     }
   }
 
@@ -15627,7 +15718,9 @@ var byzhtml = (function () {
 
   function defineCustomElements() {
     customElements.define('x-lyric', Lyric);
+    customElements.define('x-martyria', Martyria);
     customElements.define('x-neume', Neume);
+    customElements.define('x-note', Note);
 
     defineCustomElementsCharactersCodegen();
   }

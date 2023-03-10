@@ -493,9 +493,9 @@ def write_note_supporting_neume(neume, classname=None):
         childnodename = neumeToSbmuflGlyphMap[neume]
         if classname:
             outfile.write(
-                f'\n    <{childnodename} class="{classname}"></{childnodename}>')
+                f'<{childnodename} class="{classname}"></{childnodename}\n    >')
         else:
-            outfile.write(f'\n    <{childnodename}></{childnodename}>')
+            outfile.write(f'<{childnodename}></{childnodename}\n    >')
         return True
     else:
         return False
@@ -518,18 +518,18 @@ with open(outputfilepath, 'w', encoding='utf-8') as outfile:
             ison = element.get('ison')
             lyrics = element.get('lyrics')
 
+            outfile.write(f'<x-note>\n')
+
             # check if there is vareia
             if element.get('vareia'):
                 outfile.write(f'<x-vareia></x-vareia\n>')
 
-            nodename = neumeToSbmuflGlyphMap[quantitativeNeume]
-            outfile.write(f'<{nodename}>')
-
+            need_newline &= write_note_supporting_neume(quantitativeNeume)
+            need_newline &= write_note_supporting_neume(vocalExpressionNeume)
             need_newline &= write_note_supporting_neume(timeNeume)
             need_newline &= write_note_supporting_neume(gorgonNeume, 'gorgon')
             need_newline &= write_note_supporting_neume(
                 secondaryGorgonNeume, 'gorgon')
-            need_newline &= write_note_supporting_neume(vocalExpressionNeume)
             need_newline &= write_note_supporting_neume(fthora, 'fthora')
             need_newline &= write_note_supporting_neume(
                 accidental, 'accidental')
@@ -541,12 +541,19 @@ with open(outputfilepath, 'w', encoding='utf-8') as outfile:
 
             if lyrics:
                 need_newline = True
-                outfile.write(f'\n    <x-lyric>{lyrics}</x-lyric>')
+
+                classattr = ''
+
+                if element.get('vareia'):
+                    classattr = 'class="vareia-shift"'
+
+                outfile.write(
+                    f'\n    <x-lyric slot="lyric" {classattr}>{lyrics}</x-lyric>')
 
             if need_newline:
                 outfile.write('\n')
 
-            outfile.write(f'</{nodename}\n>')
+            outfile.write(f'</x-note\n>')
 
         if element['elementType'] == 'Martyria':
             note = element['note']
@@ -559,8 +566,16 @@ with open(outputfilepath, 'w', encoding='utf-8') as outfile:
             classname = 'martyria'
             if alignRight:
                 classname += ' align-right'
+
+            outfile.write(f'<x-martyria class="{classname}">\n')
+
             outfile.write(
-                f'<{notenode} class="{classname}"><{rootsignnode}></{rootsignnode}></{notenode}\n>')
+                f'<{notenode}></{notenode}\n>')
+
+            outfile.write(
+                f'<{rootsignnode}></{rootsignnode}\n>')
+
+            outfile.write(f'</x-martyria\n>')
 
         if element['elementType'] == 'DropCap':
             content = element.get('content')
