@@ -547,6 +547,9 @@ with open(outputfilepath, 'w', encoding='utf-8') as outfile:
                 if element.get('vareia'):
                     classattr = 'class="vareia-shift"'
 
+                if quantitativeNeume == 'RunningElaphron':
+                    classattr = 'class="running-elafron-shift"'
+
                 outfile.write(
                     f'\n    <x-lyric slot="lyric" {classattr}>{lyrics}</x-lyric>')
 
