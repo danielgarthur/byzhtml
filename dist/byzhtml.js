@@ -12669,9 +12669,7 @@ var byzhtml = (function () {
           font-family: Neanes;
         }
       </style>
-      <span>
-          ${content}
-      </span>
+      <span>${content}</span>
     `;
     }
   }
