@@ -98,10 +98,13 @@ server = http.createServer(function (req, res) {
     return;
   }
   if (/Neanes\.otf$/.test(url)) {
-    pipeFileToResponse(res, '../dist/Neanes.otf.js', 'text/javascript');
+    pipeFileToResponse(res, '../dist/Neanes.otf', 'text/javascript');
     return;
   }
-
+  if (/byzhtml\.default\.css$/.test(url)) {
+    pipeFileToResponse(res, '../dist/byzhtml.default.css', 'text/javascript');
+    return;
+  }
   // Process /
   if (url === '/' || url === '/index.html') {
     send200(res, getIndexTemplate());
