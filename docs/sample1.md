@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="index.css" />
+<link rel="stylesheet" href="sample1.css" />
 
 <style>
     .page-container {
@@ -178,7 +178,7 @@
       <x-apostrofos></x-apostrofos>
       <x-lyric slot="lyric">ζω</x-lyric> </x-note
     ><x-note>
-      <x-apostrofos></x-apostrofos><x-klasma-above><x-klasma-above>
+      <x-apostrofos></x-apostrofos><x-klasma-above></x-klasma-above>
       <x-lyric slot="lyric">ην</x-lyric> </x-note
     ><x-note>
       <x-oligon-kentima-middle></x-oligon-kentima-middle>
@@ -312,7 +312,7 @@
       <x-apostrofos></x-apostrofos>
       <x-lyric slot="lyric">α</x-lyric> </x-note
     ><x-note>
-      <x-apostrofos></x-apostrofos><x-klasma-above><x-klasma-above>
+      <x-apostrofos></x-apostrofos><x-klasma-above></x-klasma-above>
       <x-lyric slot="lyric">σου</x-lyric> </x-note
     ><x-note>
       <x-petasti></x-petasti>
@@ -540,7 +540,7 @@ Source:
       <x-apostrofos></x-apostrofos>
       <x-lyric slot="lyric">ζω</x-lyric> </x-note
     ><x-note>
-      <x-apostrofos></x-apostrofos><x-klasma-above><x-klasma-above>
+      <x-apostrofos></x-apostrofos><x-klasma-above></x-klasma-above>
       <x-lyric slot="lyric">ην</x-lyric> </x-note
     ><x-note>
       <x-oligon-kentima-middle></x-oligon-kentima-middle>
@@ -674,7 +674,7 @@ Source:
       <x-apostrofos></x-apostrofos>
       <x-lyric slot="lyric">α</x-lyric> </x-note
     ><x-note>
-      <x-apostrofos></x-apostrofos><x-klasma-above><x-klasma-above>
+      <x-apostrofos></x-apostrofos><x-klasma-above></x-klasma-above>
       <x-lyric slot="lyric">σου</x-lyric> </x-note
     ><x-note>
       <x-petasti></x-petasti>
@@ -736,4 +736,75 @@ Source:
     ></x-martyria>
   </div>
 </div>
+```
+
+```css
+:root {
+  --red: #880000;
+  --lyric-margin: 2pt;
+  --neume-font-size: 20pt;
+  --lyric-font-size: 12pt;
+}
+
+.martyria,
+.accidental,
+.gorgon,
+.fthora,
+x-heteron,
+x-heteron-connecting,
+x-endofonon {
+  color: var(--red);
+}
+
+.page-container {
+  font-size: var(--neume-font-size);
+  text-align: center;
+}
+
+.page {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+x-lyric {
+  font-size: var(--lyric-font-size);
+  position: relative;
+  top: -8px;
+  margin: 0 var(--lyric-margin);
+}
+
+x-melisma {
+  font-size: var(--lyric-font-size);
+  margin-left: calc(-1 * var(--lyric-margin));
+}
+
+x-drop-cap {
+  font-size: 60pt;
+  color: var(--red);
+
+  position: relative;
+  top: 38px;
+  line-height: 0;
+}
+
+x-spacer-vareia,
+x-spacer-apostrofos {
+  font-size: var(--neume-font-size);
+}
+
+.mode-key {
+  font-size: 20pt;
+  color: var(--red);
+}
+
+.mode-key x-mode-first {
+  margin-right: 8pt;
+  position: relative;
+  top: 8px;
+}
+
+.martyria.align-right {
+  margin-left: auto;
+}
 ```

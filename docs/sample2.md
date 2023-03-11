@@ -298,8 +298,6 @@
 Source:
 
 ```html
-<link rel="stylesheet" href="sample2.css" />
-
 <div class="page-container">
   <div class="title">O All-lauded Martyrs</div>
   <div class="mode-key">Ἤχος <x-mode-first salt="1"></x-mode-first> Πα</div>
