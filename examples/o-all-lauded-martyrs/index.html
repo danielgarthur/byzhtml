@@ -17,13 +17,18 @@
     <style>
       :root {
         --red: #880000;
+        --neume-font-size: 20pt;
         --lyric-margin: 4pt;
       }
 
       body {
-        font-size: 20pt;
+        font-size: var(--neume-font-size);
         font-family: Alegreya, serif;
         margin: 0;
+      }
+
+      x-spacer-vareia {
+        font-size: var(--neume-font-size);
       }
 
       .martyria,
@@ -36,23 +41,10 @@
         color: var(--red);
       }
 
-      x-neume {
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
-          sans-serif;
-      }
-
       x-lyric {
         font-size: 12pt;
         top: -8px;
         margin: 0 var(--lyric-margin);
-      }
-
-      x-lyric.vareia-shift {
-        padding-left: 1em;
-      }
-
-      x-lyric.running-elafron-shift {
-        padding-left: 1em;
       }
 
       x-melisma {

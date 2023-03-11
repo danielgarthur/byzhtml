@@ -2,3 +2,14 @@
   font-family: 'Neanes';
   src: url('Neanes.otf');
 }
+
+/*
+  Set the width of the spacer vareia for your font.
+  This number (measured in ems) is available in the metadata under glyphAdvanceWidths.vareia
+  The default below is the width of the vareia in the default Neanes reference font. 
+  Make sure to set the font-size of the vareia to be the same size as your notes in your
+  main CSS file.
+*/
+x-spacer-vareia {
+  width: 0.534em
+}

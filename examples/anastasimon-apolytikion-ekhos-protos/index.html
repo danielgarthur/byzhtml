@@ -17,12 +17,17 @@
     <style>
       :root {
         --red: #880000;
+        --neume-font-size: 20pt;
       }
 
       body {
-        font-size: 20pt;
+        font-size: var(--neume-font-size);
         font-family: Alegreya, serif;
         margin: 0;
+      }
+
+      x-spacer-vareia {
+        font-size: var(--neume-font-size);
       }
 
       .martyria,
@@ -35,19 +40,10 @@
         color: var(--red);
       }
 
-      x-neume {
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
-          sans-serif;
-      }
-
       x-lyric {
         font-size: 12pt;
         top: -8px;
         margin: 0 2pt;
-      }
-
-      x-lyric.vareia-shift {
-        padding-left: 1em;
       }
 
       x-lyric.running-elafron-shift {
@@ -331,7 +327,9 @@
         ><x-note>
           <x-vareia></x-vareia><x-oligon-ypsili-right></x-oligon-ypsili-right
           ><x-omalon-connecting></x-omalon-connecting>
-          <x-lyric slot="lyric" class="vareia-shift">δο</x-lyric> </x-note
+          <x-lyric slot="lyric"
+            ><x-spacer-vareia></x-spacer-vareia>δο</x-lyric
+          > </x-note
         ><x-note>
           <x-ison></x-ison>
           <x-lyric slot="lyric">ο</x-lyric> </x-note
@@ -434,7 +432,9 @@
           <x-lyric slot="lyric">αν</x-lyric> </x-note
         ><x-note>
           <x-vareia></x-vareia><x-apostrofos></x-apostrofos>
-          <x-lyric slot="lyric" class="vareia-shift">θρω</x-lyric> </x-note
+          <x-lyric slot="lyric"
+            ><x-spacer-vareia></x-spacer-vareia>θρω</x-lyric
+          > </x-note
         ><x-note>
           <x-apostrofos></x-apostrofos>
           <x-lyric slot="lyric">ω</x-lyric> </x-note
