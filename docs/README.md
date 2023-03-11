@@ -2,7 +2,7 @@
 
 # byzhtml
 
-A library of custom web components to write Byzantine neumes in HTML.
+A library of custom web components for displaying Byzantine Chant neumes in HTML.
 
 <div class="example">
     <x-drop-cap>Κ</x-drop-cap>
