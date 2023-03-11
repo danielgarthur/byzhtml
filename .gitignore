@@ -3,3 +3,4 @@ scripts/byzx_test_files
 scripts/byzx_parsed
 node_modules/
 kontakion.html
+examples/playground/

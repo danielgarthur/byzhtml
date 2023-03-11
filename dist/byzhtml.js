@@ -1854,6 +1854,7 @@ var byzhtml = (function () {
     updateStyle() {
       if (!this.hasAttribute('name')) {
         console.error('Neume: Missing attribute "name"');
+        return;
       }
 
       const content = byzhtml.neumeMappingService.getMapping(
@@ -1901,6 +1902,40 @@ var byzhtml = (function () {
           <div class="lyrics-container"><slot name="lyric"></slot><slot name="melisma"></slot></div>
       </span>
     `;
+    }
+  }
+
+  class Spacer extends HTMLElement {
+    static get observedAttributes() {
+      return ['width'];
+    }
+
+    constructor() {
+      super();
+
+      this.attachShadow({ mode: 'open' });
+    }
+
+    connectedCallback() {
+      this.updateStyle();
+    }
+
+    attributeChangedCallback() {
+      this.updateStyle();
+    }
+
+    updateStyle() {
+      if (!this.hasAttribute('width')) {
+        console.error('Neume: Missing attribute "width"');
+      }
+
+      this.shadowRoot.innerHTML = `
+      <style>
+        :host {
+          display: inline-block;
+          width: ${this.getAttribute('width')};
+        }
+      </style>`;
     }
   }
 
@@ -4899,6 +4934,7 @@ var byzhtml = (function () {
     customElements.define('x-melisma', Melisma);
     customElements.define('x-neume', Neume);
     customElements.define('x-note', Note);
+    customElements.define('x-spacer', Spacer);
 
     defineCustomElementsCharactersCodegen();
   }
