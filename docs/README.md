@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="index.css" />
 
-# byzhtml
+# ByzHtml
 
 A library of custom web components for displaying Byzantine Chant neumes in HTML.
 
@@ -64,7 +64,7 @@ A library of custom web components for displaying Byzantine Chant neumes in HTML
     ></x-martyria>
 </div>
 
-Source Code:
+Source:
 
 ```html
 <x-drop-cap>Κ</x-drop-cap>

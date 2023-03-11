@@ -9,8 +9,8 @@ pre[data-lang='html'] {
   height: 250px;
 }
 
-.example {
-  font-size: var(--neume-font-size);
+pre[data-lang='css'] {
+  height: 250px;
 }
 
 x-spacer-vareia,
@@ -28,16 +28,29 @@ x-endofonon {
   color: var(--red);
 }
 
+.page-container {
+  font-size: var(--neume-font-size);
+  text-align: center;
+}
+
+.page {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 x-lyric {
   font-size: var(--lyric-font-size);
+  margin: 0 var(--lyric-margin);
   position: relative;
-  top: -8px;
-  margin: 0 2pt;
+  top: -12pt;
 }
 
 x-melisma {
   font-size: var(--lyric-font-size);
-  margin-left: calc(-1 * var(--lyric-margin));
+  position: relative;
+  left: calc(-1 * var(--lyric-margin));
+  top: -4pt;
 }
 
 x-drop-cap {
