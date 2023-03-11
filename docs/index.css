@@ -31,7 +31,7 @@ x-endofonon {
 x-lyric {
   font-size: var(--lyric-font-size);
   position: relative;
-  top: -8px;
+  top: -16px;
   margin: 0 2pt;
 }
 
