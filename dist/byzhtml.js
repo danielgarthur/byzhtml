@@ -2025,6 +2025,15 @@ var byzhtml = (function () {
     }
   }
 
+  class DropCap extends HTMLElement {
+    constructor() {
+      super();
+
+      this.attachShadow({ mode: 'open' });
+      this.shadowRoot.innerHTML = `<span><slot></slot></span>`;
+    }
+  }
+
   class Lyric extends HTMLElement {
     constructor() {
       super();
@@ -5015,6 +5024,7 @@ var byzhtml = (function () {
   }
 
   function defineCustomElements() {
+    customElements.define('x-drop-cap', DropCap);
     customElements.define('x-lyric', Lyric);
     customElements.define('x-martyria', Martyria);
     customElements.define('x-melisma', Melisma);
