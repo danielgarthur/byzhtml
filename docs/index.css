@@ -1,0 +1,58 @@
+:root {
+  --red: #880000;
+  --lyric-margin: 4pt;
+  --neume-font-size: 20pt;
+  --lyric-font-size: 12pt;
+}
+
+pre[data-lang="html"] {
+    height: 250px;
+}
+
+.example {
+  font-size: var(--neume-font-size);
+}
+
+x-spacer-vareia,
+x-spacer-apostrofos {
+  font-size: var(--neume-font-size);
+}
+
+.martyria,
+.accidental,
+.gorgon,
+.fthora,
+x-heteron,
+x-heteron-connecting,
+x-endofonon {
+  color: var(--red);
+}
+
+x-lyric {
+  font-size: var(--lyric-font-size);
+  position: relative;
+  top: -8px;
+  margin: 0 2pt;
+}
+
+x-melisma {
+  font-size: var(--lyric-font-size);
+  margin-left: calc(-1 * var(--lyric-margin));
+}
+
+x-drop-cap {
+  font-size: 60pt;
+  color: var(--red);
+
+  position: relative;
+  top: 38px;
+  line-height: 0;
+}
+
+.martyria.align-right {
+  margin-left: auto;
+}
+
+.filler {
+  margin-left: auto;
+}
