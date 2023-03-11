@@ -26,7 +26,8 @@
         margin: 0;
       }
 
-      x-spacer-vareia {
+      x-spacer-vareia,
+      x-spacer-apostrofos {
         font-size: var(--neume-font-size);
       }
 
@@ -42,12 +43,9 @@
 
       x-lyric {
         font-size: 12pt;
+        position: relative;
         top: -8px;
         margin: 0 2pt;
-      }
-
-      x-lyric.running-elafron-shift {
-        padding-left: 1em;
       }
 
       .page-container {
@@ -235,8 +233,8 @@
           <x-lyric slot="lyric">νος</x-lyric> </x-note
         ><x-note>
           <x-running-elafron></x-running-elafron>
-          <x-lyric slot="lyric" class="running-elafron-shift"
-            >τω</x-lyric
+          <x-lyric slot="lyric"
+            ><x-spacer-apostrofos></x-spacer-apostrofos>τω</x-lyric
           > </x-note
         ><x-note>
           <x-oligon-kentima-middle></x-oligon-kentima-middle>

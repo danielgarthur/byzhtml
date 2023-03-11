@@ -542,16 +542,16 @@ with open(outputfilepath, 'w', encoding='utf-8') as outfile:
             if lyrics:
                 need_newline = True
 
-                classattr = ''
+                spacer = ''
 
                 if element.get('vareia'):
-                    classattr = 'class="vareia-shift"'
+                    spacer = '<x-spacer-vareia></x-spacer-vareia>'
 
                 if quantitativeNeume == 'RunningElaphron':
-                    classattr = 'class="running-elafron-shift"'
+                    spacer = '<x-spacer-apostrofos></x-spacer-apostrofos>'
 
                 outfile.write(
-                    f'\n    <x-lyric slot="lyric" {classattr}>{lyrics}</x-lyric>')
+                    f'\n    <x-lyric slot="lyric">{spacer}{lyrics}</x-lyric>')
 
             if need_newline:
                 outfile.write('\n')
