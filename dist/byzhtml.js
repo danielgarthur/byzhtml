@@ -1896,10 +1896,21 @@ var byzhtml = (function () {
           align-items: center;
           justify-content: center;
         }
+
+        .lyrics-container {
+          display: flex;
+        }
+
+
       </style>
       <span class="group">
-          <div><slot></slot></div>
-          <div class="lyrics-container"><slot name="lyric"></slot><slot name="melisma"></slot></div>
+          <div>
+            <slot></slot>
+          </div>
+          <div class="lyrics-container">
+            <slot name="lyric"></slot>
+            <slot name="melisma"></slot>
+          </div>
       </span>
     `;
     }

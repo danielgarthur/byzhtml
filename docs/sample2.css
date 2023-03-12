@@ -43,14 +43,12 @@ x-lyric {
   font-size: var(--lyric-font-size);
   margin: 0 var(--lyric-margin);
   position: relative;
-  top: -12pt;
 }
 
 x-melisma {
   font-size: var(--lyric-font-size);
   position: relative;
   left: calc(-1 * var(--lyric-margin));
-  top: -4pt;
 }
 
 x-drop-cap {

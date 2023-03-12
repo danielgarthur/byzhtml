@@ -784,7 +784,7 @@ x-drop-cap {
   color: var(--red);
 
   position: relative;
-  top: 38px;
+  top: 32px;
   line-height: 0;
 }
 
