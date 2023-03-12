@@ -741,9 +741,15 @@ Source:
 ```css
 :root {
   --red: #880000;
-  --lyric-margin: 2pt;
-  --neume-font-size: 20pt;
-  --lyric-font-size: 12pt;
+
+  --byz-neume-font-size: 20pt;
+
+  --byz-lyric-font-size: 12pt;
+  --byz-lyric-offset-h: 2pt;
+  --byz-lyric-offset-v: -6pt;
+
+  --byz-drop-cap-font-size: 60pt;
+  --byz-drop-cap-offset-v: 24pt;
 }
 
 .martyria,
@@ -756,8 +762,11 @@ x-endofonon {
   color: var(--red);
 }
 
+x-drop-cap {
+  color: var(--red);
+}
+
 .page-container {
-  font-size: var(--neume-font-size);
   text-align: center;
 }
 
@@ -765,32 +774,6 @@ x-endofonon {
   display: inline-flex;
   flex-wrap: wrap;
   justify-content: space-between;
-}
-
-x-lyric {
-  font-size: var(--lyric-font-size);
-  position: relative;
-  top: -8px;
-  margin: 0 var(--lyric-margin);
-}
-
-x-melisma {
-  font-size: var(--lyric-font-size);
-  margin-left: calc(-1 * var(--lyric-margin));
-}
-
-x-drop-cap {
-  font-size: 60pt;
-  color: var(--red);
-
-  position: relative;
-  top: 32px;
-  line-height: 0;
-}
-
-x-spacer-vareia,
-x-spacer-apostrofos {
-  font-size: var(--neume-font-size);
 }
 
 .mode-key {

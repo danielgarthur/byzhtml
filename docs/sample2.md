@@ -614,13 +614,11 @@ Source:
 }
 
 x-lyric {
-  font-size: var(--lyric-font-size);
   margin: 0 var(--lyric-margin);
   position: relative;
 }
 
 x-melisma {
-  font-size: var(--lyric-font-size);
   position: relative;
   left: calc(-1 * var(--lyric-margin));
 }
@@ -632,11 +630,6 @@ x-drop-cap {
   position: relative;
   top: 38px;
   line-height: 0;
-}
-
-x-spacer-vareia,
-x-spacer-apostrofos {
-  font-size: var(--neume-font-size);
 }
 
 .martyria,

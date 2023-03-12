@@ -1832,6 +1832,17 @@ var byzhtml = (function () {
     }
   }
 
+  const CssVars = {
+    LyricFontSize: '--byz-lyric-font-size',
+    NeumeFontSize: '--byz-neume-font-size',
+    DropCapFontSize: '--byz-drop-cap-font-size',
+
+    LyricOffsetHorizontal: '--byz-lyric-offset-h',
+    LyricOffsetVertical: '--byz-lyric-offset-v',
+
+    DropCapOffsetVertical: '--byz-drop-cap-offset-v',
+  };
+
   class Neume extends HTMLElement {
     static get observedAttributes() {
       return ['name', 'font-family'];
@@ -1872,7 +1883,7 @@ var byzhtml = (function () {
         saltStyle = `font-feature-settings: 'salt' ${this.getAttribute('salt')};`;
       }
 
-      this.shadowRoot.innerHTML = `<span style="font-family: ${fontFamily}; ${saltStyle}">${content}</span>`;
+      this.shadowRoot.innerHTML = `<span style="font-family: ${fontFamily}; font-size: var(${CssVars.NeumeFontSize}); ${saltStyle}">${content}</span>`;
     }
   }
 
@@ -1899,9 +1910,8 @@ var byzhtml = (function () {
 
         .lyrics-container {
           display: flex;
+          margin-top: var(${CssVars.LyricOffsetVertical}) 
         }
-
-
       </style>
       <span class="group">
           <div>
@@ -1970,9 +1980,8 @@ var byzhtml = (function () {
     }
 
     updateStyle() {
-      getComputedStyle(this);
       let fontFamily = byzhtml.options.defaultFontFamily;
-      let fontSizeAttr = '';
+      let fontSizeAttr = 'font-size: --byz-neume-font-size';
 
       if (this.hasAttribute('font-family')) {
         fontFamily = this.getAttribute('font-family');
@@ -2013,9 +2022,8 @@ var byzhtml = (function () {
     }
 
     updateStyle() {
-      getComputedStyle(this);
       let fontFamily = byzhtml.options.defaultFontFamily;
-      let fontSizeAttr = '';
+      let fontSizeAttr = 'font-size: --byz-neume-font-size';
 
       if (this.hasAttribute('font-family')) {
         fontFamily = this.getAttribute('font-family');
@@ -2041,7 +2049,16 @@ var byzhtml = (function () {
       super();
 
       this.attachShadow({ mode: 'open' });
-      this.shadowRoot.innerHTML = `<span><slot></slot></span>`;
+      this.shadowRoot.innerHTML = `
+      <style>
+        :host {
+          position: relative;
+          line-height: 0;
+          top: var(${CssVars.DropCapOffsetVertical});
+          font-size: var(${CssVars.DropCapFontSize});
+        }
+      </style>
+      <span><slot></slot></span>`;
     }
   }
 
@@ -2050,7 +2067,7 @@ var byzhtml = (function () {
       super();
 
       this.attachShadow({ mode: 'open' });
-      this.shadowRoot.innerHTML = `<span><slot></slot></span>`;
+      this.shadowRoot.innerHTML = `<span style="font-size: var(${CssVars.LyricFontSize}); margin: 0 var(${CssVars.LyricOffsetHorizontal});"><slot></slot></span>`;
     }
   }
 
@@ -2066,6 +2083,8 @@ var byzhtml = (function () {
         display: inline;
         overflow: hidden!important;
         white-space: pre;
+        font-size: var(${CssVars.LyricFontSize});
+        margin-left: calc(-1* var(${CssVars.LyricOffsetHorizontal})); 
       }
     </style>
     <span class="melisma"><slot></slot></span>`;
