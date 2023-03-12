@@ -17,18 +17,20 @@
     <style>
       :root {
         --red: #880000;
-        --neume-font-size: 20pt;
+
+        --byz-neume-font-size: 20pt;
+
+        --byz-lyric-font-size: 12pt;
+        --byz-lyric-offset-h: 2pt;
+        --byz-lyric-offset-v: -6pt;
+
+        --byz-drop-cap-font-size: 60pt;
+        --byz-drop-cap-offset-v: 24pt;
       }
 
       body {
-        font-size: var(--neume-font-size);
         font-family: Alegreya, serif;
         margin: 0;
-      }
-
-      x-spacer-vareia,
-      x-spacer-apostrofos {
-        font-size: var(--neume-font-size);
       }
 
       .accidental,
@@ -41,11 +43,8 @@
         color: var(--red);
       }
 
-      x-lyric {
-        font-size: 12pt;
-        position: relative;
-        top: -8px;
-        margin: 0 2pt;
+      x-drop-cap {
+        color: var(--red);
       }
 
       .page-container {
@@ -59,6 +58,10 @@
         width: 816px;
       }
 
+      .title {
+        font-size: 20pt;
+      }
+
       .mode-key {
         font-size: 20pt;
         color: var(--red);
@@ -68,15 +71,6 @@
         margin-right: 8pt;
         position: relative;
         top: 8px;
-      }
-
-      x-drop-cap {
-        font-size: 60pt;
-        color: var(--red);
-
-        position: relative;
-        top: 36px;
-        line-height: 0;
       }
 
       x-martyria.align-right {
