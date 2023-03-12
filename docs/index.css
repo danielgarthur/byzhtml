@@ -31,13 +31,8 @@ x-endofonon {
 x-lyric {
   font-size: var(--lyric-font-size);
   position: relative;
-  top: -16px;
+  top: -8px;
   margin: 0 2pt;
-}
-
-x-melisma {
-  font-size: var(--lyric-font-size);
-  margin-left: calc(-1 * var(--lyric-margin));
 }
 
 x-drop-cap {
