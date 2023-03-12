@@ -128,7 +128,7 @@ Source:
 
 ## Examples
 
-See the [examples](examples/) folder.
+See the [examples](https://github.com/danielgarthur/byzhtml/blob/master/examples) folder.
 
 ## Installation
 
