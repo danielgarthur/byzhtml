@@ -58,7 +58,7 @@ A library of custom web components for displaying Byzantine Chant neumes in HTML
     <x-note>
       <x-apostrofos></x-apostrofos><x-klasma-above></x-klasma-above>
       <x-lyric slot="lyric">ε</x-lyric> </x-note
-    ><x-martyria class="martyria">
+    ><x-martyria>
       <x-martyria-note-pa></x-martyria-note-pa
       ><x-martyria-alpha-below></x-martyria-alpha-below
     ></x-martyria>
@@ -120,7 +120,7 @@ Source:
 <x-note>
   <x-apostrofos></x-apostrofos><x-klasma-above></x-klasma-above>
   <x-lyric slot="lyric">ε</x-lyric> </x-note
-><x-martyria class="martyria">
+><x-martyria>
   <x-martyria-note-pa></x-martyria-note-pa
   ><x-martyria-alpha-below></x-martyria-alpha-below
 ></x-martyria>

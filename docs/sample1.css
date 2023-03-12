@@ -19,10 +19,10 @@ pre[data-lang='css'] {
   height: 250px;
 }
 
-.martyria,
 .accidental,
 .gorgon,
 .fthora,
+x-martyria,
 x-heteron,
 x-heteron-connecting,
 x-endofonon {
@@ -43,6 +43,10 @@ x-drop-cap {
   justify-content: space-between;
 }
 
+.title {
+  font-size: 20pt;
+}
+
 .mode-key {
   font-size: 20pt;
   color: var(--red);
@@ -54,6 +58,6 @@ x-drop-cap {
   top: 8px;
 }
 
-.martyria.align-right {
+x-martyria.align-right {
   margin-left: auto;
 }

@@ -1,21 +1,5 @@
 <link rel="stylesheet" href="sample1.css" />
 
-<style>
-    .page-container {
-        text-align: center;
-    }
-
-    .page {
-        display: inline-flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-      }
-
-    .title {
-        font-size: 20pt;
-    }
-</style>
-
 <div class="page-container">
   <div class="title">Αναστάσιμον Απολυτίκιον</div>
   <div class="mode-key">Ἤχος <x-mode-first salt="1"></x-mode-first> Πα</div>
@@ -114,7 +98,7 @@
     ><x-note>
       <x-ison></x-ison><x-klasma-above></x-klasma-above>
       <x-lyric slot="lyric">μα</x-lyric> </x-note
-    ><x-martyria class="martyria">
+    ><x-martyria>
       <x-martyria-note-di></x-martyria-note-di
       ><x-martyria-delta-dotted-below><x-martyria-delta-dotted-below></x-martyria
     ><x-note>
@@ -248,7 +232,7 @@
     ><x-note>
       <x-apostrofos></x-apostrofos><x-klasma-above></x-klasma-above>
       <x-lyric slot="lyric">τα</x-lyric> </x-note
-    ><x-martyria class="martyria">
+    ><x-martyria>
       <x-martyria-note-pa></x-martyria-note-pa
       ><x-martyria-alpha-below></x-martyria-alpha-below></x-martyria
     ><x-note>
@@ -476,7 +460,7 @@ Source:
     ><x-note>
       <x-ison></x-ison><x-klasma-above></x-klasma-above>
       <x-lyric slot="lyric">μα</x-lyric> </x-note
-    ><x-martyria class="martyria">
+    ><x-martyria>
       <x-martyria-note-di></x-martyria-note-di
       ><x-martyria-delta-dotted-below><x-martyria-delta-dotted-below></x-martyria
     ><x-note>
@@ -610,7 +594,7 @@ Source:
     ><x-note>
       <x-apostrofos></x-apostrofos><x-klasma-above></x-klasma-above>
       <x-lyric slot="lyric">τα</x-lyric> </x-note
-    ><x-martyria class="martyria">
+    ><x-martyria>
       <x-martyria-note-pa></x-martyria-note-pa
       ><x-martyria-alpha-below></x-martyria-alpha-below></x-martyria
     ><x-note>
@@ -752,10 +736,10 @@ Source:
   --byz-drop-cap-offset-v: 24pt;
 }
 
-.martyria,
 .accidental,
 .gorgon,
 .fthora,
+x-martyria,
 x-heteron,
 x-heteron-connecting,
 x-endofonon {
@@ -776,6 +760,10 @@ x-drop-cap {
   justify-content: space-between;
 }
 
+.title {
+  font-size: 20pt;
+}
+
 .mode-key {
   font-size: 20pt;
   color: var(--red);
@@ -787,7 +775,7 @@ x-drop-cap {
   top: 8px;
 }
 
-.martyria.align-right {
+x-martyria.align-right {
   margin-left: auto;
 }
 ```

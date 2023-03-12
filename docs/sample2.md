@@ -129,7 +129,7 @@
     ><x-note>
       <x-ison></x-ison><x-klasma-above></x-klasma-above>
       <x-lyric slot="lyric">pened.</x-lyric> </x-note
-    ><x-martyria class="martyria">
+    ><x-martyria>
       <x-martyria-note-di></x-martyria-note-di
       ><x-martyria-delta-dotted-below></x-martyria-delta-dotted-below></x-martyria
     ><x-note>
@@ -244,7 +244,7 @@
     ><x-note>
       <x-apostrofos></x-apostrofos><x-klasma-above></x-klasma-above>
       <x-lyric slot="lyric">Lord,</x-lyric> </x-note
-    ><x-martyria class="martyria">
+    ><x-martyria>
       <x-martyria-note-di></x-martyria-note-di
       ><x-martyria-delta-dotted-below></x-martyria-delta-dotted-below></x-martyria
     ><x-note>
@@ -427,7 +427,7 @@ Source:
     ><x-note>
       <x-ison></x-ison><x-klasma-above></x-klasma-above>
       <x-lyric slot="lyric">pened.</x-lyric> </x-note
-    ><x-martyria class="martyria">
+    ><x-martyria>
       <x-martyria-note-di></x-martyria-note-di
       ><x-martyria-delta-dotted-below></x-martyria-delta-dotted-below></x-martyria
     ><x-note>
@@ -542,8 +542,8 @@ Source:
     ><x-note>
       <x-apostrofos></x-apostrofos><x-klasma-above></x-klasma-above>
       <x-lyric slot="lyric">Lord,</x-lyric> </x-note
-    ><x-martyria class="martyria">
-      <x-martyria-note-di></x-martyria-note-di
+    ><x-martyria
+      ><x-martyria-note-di></x-martyria-note-di
       ><x-martyria-delta-dotted-below></x-martyria-delta-dotted-below></x-martyria
     ><x-note>
       <x-apostrofos></x-apostrofos>
@@ -597,13 +597,33 @@ Source:
 ```css
 :root {
   --red: #880000;
-  --lyric-margin: 4pt;
-  --neume-font-size: 20pt;
-  --lyric-font-size: 12pt;
+
+  --byz-neume-font-size: 20pt;
+
+  --byz-lyric-font-size: 12pt;
+  --byz-lyric-offset-h: 4pt;
+  --byz-lyric-offset-v: -3pt;
+
+  --byz-drop-cap-font-size: 60pt;
+  --byz-drop-cap-offset-v: 24pt;
+}
+
+.accidental,
+.gorgon,
+.fthora,
+x-martyria,
+x-heteron,
+x-heteron-connecting,
+x-endofonon {
+  color: var(--red);
+}
+
+x-drop-cap {
+  color: var(--red);
 }
 
 .page-container {
-  font-size: var(--lyric-font-size);
+  font-size: var(--neume-font-size);
   text-align: center;
 }
 
@@ -613,33 +633,8 @@ Source:
   justify-content: space-between;
 }
 
-x-lyric {
-  margin: 0 var(--lyric-margin);
-  position: relative;
-}
-
-x-melisma {
-  position: relative;
-  left: calc(-1 * var(--lyric-margin));
-}
-
-x-drop-cap {
-  font-size: 60pt;
-  color: var(--red);
-
-  position: relative;
-  top: 38px;
-  line-height: 0;
-}
-
-.martyria,
-.accidental,
-.gorgon,
-.fthora,
-x-heteron,
-x-heteron-connecting,
-x-endofonon {
-  color: var(--red);
+.title {
+  font-size: 20pt;
 }
 
 .mode-key {
@@ -653,7 +648,7 @@ x-endofonon {
   top: 8px;
 }
 
-.martyria.align-right {
+x-martyria.align-right {
   margin-left: auto;
 }
 ```

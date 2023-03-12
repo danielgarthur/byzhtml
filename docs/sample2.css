@@ -1,8 +1,14 @@
 :root {
   --red: #880000;
-  --lyric-margin: 4pt;
-  --neume-font-size: 20pt;
-  --lyric-font-size: 12pt;
+
+  --byz-neume-font-size: 20pt;
+  
+  --byz-lyric-font-size: 12pt;
+  --byz-lyric-offset-h: 4pt;
+  --byz-lyric-offset-v: -3pt;
+  
+  --byz-drop-cap-font-size: 60pt;
+  --byz-drop-cap-offset-v: 24pt;
 }
 
 pre[data-lang='html'] {
@@ -13,18 +19,17 @@ pre[data-lang='css'] {
   height: 250px;
 }
 
-x-spacer-vareia,
-x-spacer-apostrofos {
-  font-size: var(--neume-font-size);
-}
-
-.martyria,
 .accidental,
 .gorgon,
 .fthora,
+x-martyria,
 x-heteron,
 x-heteron-connecting,
 x-endofonon {
+  color: var(--red);
+}
+
+x-drop-cap {
   color: var(--red);
 }
 
@@ -39,25 +44,8 @@ x-endofonon {
   justify-content: space-between;
 }
 
-x-lyric {
-  font-size: var(--lyric-font-size);
-  margin: 0 var(--lyric-margin);
-  position: relative;
-}
-
-x-melisma {
-  font-size: var(--lyric-font-size);
-  position: relative;
-  left: calc(-1 * var(--lyric-margin));
-}
-
-x-drop-cap {
-  font-size: 60pt;
-  color: var(--red);
-
-  position: relative;
-  top: 38px;
-  line-height: 0;
+.title {
+  font-size: 20pt;
 }
 
 .mode-key {
@@ -71,6 +59,6 @@ x-drop-cap {
   top: 8px;
 }
 
-.martyria.align-right {
+x-martyria.align-right {
   margin-left: auto;
 }
