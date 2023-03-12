@@ -288,7 +288,7 @@
     ><x-note>
       <x-ison></x-ison><x-klasma-above></x-klasma-above>
       <x-lyric slot="lyric">souls.</x-lyric> </x-note
-    ><x-martyria class="martyria align-right">
+    ><x-martyria class="align-right">
       <x-martyria-note-pa></x-martyria-note-pa
       ><x-martyria-alpha-below></x-martyria-alpha-below
     ></x-martyria>
@@ -586,7 +586,7 @@ Source:
     ><x-note>
       <x-ison></x-ison><x-klasma-above></x-klasma-above>
       <x-lyric slot="lyric">souls.</x-lyric> </x-note
-    ><x-martyria class="martyria align-right">
+    ><x-martyria class="align-right">
       <x-martyria-note-pa></x-martyria-note-pa
       ><x-martyria-alpha-below></x-martyria-alpha-below
     ></x-martyria>
