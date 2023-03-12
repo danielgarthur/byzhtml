@@ -1832,7 +1832,7 @@ var byzhtml = (function () {
     }
   }
 
-  const CssVars$1 = {
+  const CssVars = {
     LyricFontSize: '--byz-lyric-font-size',
     NeumeFontSize: '--byz-neume-font-size',
     DropCapFontSize: '--byz-drop-cap-font-size',
@@ -1883,7 +1883,7 @@ var byzhtml = (function () {
         saltStyle = `font-feature-settings: 'salt' ${this.getAttribute('salt')};`;
       }
 
-      this.shadowRoot.innerHTML = `<span style="font-family: ${fontFamily}; font-size: var(${CssVars$1.NeumeFontSize}); ${saltStyle}">${content}</span>`;
+      this.shadowRoot.innerHTML = `<span style="font-family: ${fontFamily}; font-size: var(${CssVars.NeumeFontSize}); ${saltStyle}">${content}</span>`;
     }
   }
 
@@ -1910,7 +1910,7 @@ var byzhtml = (function () {
 
         .lyrics-container {
           display: flex;
-          margin-top: var(${CssVars$1.LyricOffsetVertical}) 
+          margin-top: var(${CssVars.LyricOffsetVertical}) 
         }
       </style>
       <span class="group">
@@ -2023,7 +2023,7 @@ var byzhtml = (function () {
 
     updateStyle() {
       let fontFamily = byzhtml.options.defaultFontFamily;
-      let fontSizeAttr = `font-size: var(${CssVars$1.NeumeFontSize})`;
+      let fontSizeAttr = `font-size: var(${CssVars.NeumeFontSize})`;
 
       if (this.hasAttribute('font-family')) {
         fontFamily = this.getAttribute('font-family');
@@ -2054,8 +2054,8 @@ var byzhtml = (function () {
         :host {
           position: relative;
           line-height: 0;
-          top: var(${CssVars$1.DropCapOffsetVertical});
-          font-size: var(${CssVars$1.DropCapFontSize});
+          top: var(${CssVars.DropCapOffsetVertical});
+          font-size: var(${CssVars.DropCapFontSize});
         }
       </style>
       <span><slot></slot></span>`;
@@ -2067,7 +2067,7 @@ var byzhtml = (function () {
       super();
 
       this.attachShadow({ mode: 'open' });
-      this.shadowRoot.innerHTML = `<span style="font-size: var(${CssVars$1.LyricFontSize}); margin: 0 var(${CssVars$1.LyricOffsetHorizontal});"><slot></slot></span>`;
+      this.shadowRoot.innerHTML = `<span style="font-size: var(${CssVars.LyricFontSize}); margin: 0 var(${CssVars.LyricOffsetHorizontal});"><slot></slot></span>`;
     }
   }
 
@@ -2083,8 +2083,8 @@ var byzhtml = (function () {
         display: inline;
         overflow: hidden!important;
         white-space: pre;
-        font-size: var(${CssVars$1.LyricFontSize});
-        margin-left: calc(-1* var(${CssVars$1.LyricOffsetHorizontal})); 
+        font-size: var(${CssVars.LyricFontSize});
+        margin-left: calc(-1* var(${CssVars.LyricOffsetHorizontal})); 
       }
     </style>
     <span class="melisma"><slot></slot></span>`;
