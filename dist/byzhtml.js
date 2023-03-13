@@ -1833,6 +1833,8 @@ var byzhtml = (function () {
   }
 
   const CssVars = {
+    LyricFontFamily: '--byz-lyric-font-family',
+
     LyricFontSize: '--byz-lyric-font-size',
     NeumeFontSize: '--byz-neume-font-size',
     DropCapFontSize: '--byz-drop-cap-font-size',
@@ -1954,6 +1956,7 @@ var byzhtml = (function () {
       <style>
         :host {
           display: inline-block;
+          line-height: 0;
           width: ${this.getAttribute('width')};
         }
       </style>`;
@@ -2067,7 +2070,7 @@ var byzhtml = (function () {
       super();
 
       this.attachShadow({ mode: 'open' });
-      this.shadowRoot.innerHTML = `<span style="font-size: var(${CssVars.LyricFontSize}); margin: 0 var(${CssVars.LyricOffsetHorizontal});"><slot></slot></span>`;
+      this.shadowRoot.innerHTML = `<span style="font-family: var(${CssVars.LyricFontFamily}); font-size: var(${CssVars.LyricFontSize}); margin: 0 var(${CssVars.LyricOffsetHorizontal});"><slot></slot></span>`;
     }
   }
 
@@ -2080,9 +2083,10 @@ var byzhtml = (function () {
     <style>
       .melisma {
         position: absolute;
-        display: inline;
+        display: inline-flex;
         overflow: hidden!important;
         white-space: pre;
+        font-family: var(${CssVars.LyricFontFamily});
         font-size: var(${CssVars.LyricFontSize});
         margin-left: calc(-1* var(${CssVars.LyricOffsetHorizontal})); 
       }

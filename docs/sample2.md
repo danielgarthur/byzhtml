@@ -13,7 +13,7 @@
     ><x-note>
       <x-apostrofos></x-apostrofos>
       <x-lyric slot="lyric">laud</x-lyric
-      ><x-melisma slot="melisma">&nbsp;-</x-melisma> </x-note
+      ><x-melisma slot="melisma"><x-spacer width="0.25em"></x-spacer>-</x-melisma> </x-note
     ><x-note>
       <x-apostrofos></x-apostrofos>
       <x-lyric slot="lyric">ed</x-lyric> </x-note
@@ -123,7 +123,7 @@
       <x-ison></x-ison>
       <x-lyric slot="lyric">o</x-lyric
       ><x-melisma slot="melisma"
-        >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-</x-melisma
+        >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-</x-melisma
       > </x-note
     ><x-note> <x-kentimata></x-kentimata></x-note
     ><x-note>
@@ -160,7 +160,7 @@
     ><x-note>
       <x-oligon-kentima-above></x-oligon-kentima-above
       ><x-psifiston></x-psifiston> <x-lyric slot="lyric">joy</x-lyric
-      ><x-melisma slot="melisma">&nbsp;&nbsp;-</x-melisma> </x-note
+      ><x-melisma slot="melisma">&nbsp;-</x-melisma> </x-note
     ><x-note>
       <x-apostrofos></x-apostrofos>
       <x-lyric slot="lyric">ful</x-lyric
@@ -196,7 +196,7 @@
     ><x-note>
       <x-petasti></x-petasti>
       <x-lyric slot="lyric">in</x-lyric
-      ><x-melisma slot="melisma">&nbsp;&nbsp;-</x-melisma> </x-note
+      ><x-melisma slot="melisma">&nbsp;-</x-melisma> </x-note
     ><x-note>
       <x-apostrofos></x-apostrofos>
       <x-lyric slot="lyric">ter</x-lyric
@@ -220,7 +220,7 @@
       <x-oligon-kentima-above></x-oligon-kentima-above>
       <x-lyric slot="lyric">Mas</x-lyric
       ><x-melisma slot="melisma"
-        >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-</x-melisma
+        >&nbsp;&nbsp;&nbsp;-</x-melisma
       > </x-note
     ><x-note> <x-kentimata></x-kentimata></x-note
     ><x-note>
@@ -231,7 +231,7 @@
     ><x-note>
       <x-oligon></x-oligon>
       <x-lyric slot="lyric">ev</x-lyric
-      ><x-melisma slot="melisma">&nbsp;&nbsp;&nbsp;-</x-melisma> </x-note
+      ><x-melisma slot="melisma">&nbsp;&nbsp;-</x-melisma> </x-note
     ><x-note>
       <x-ison></x-ison>
       <x-lyric slot="lyric">en</x-lyric> </x-note
@@ -268,7 +268,7 @@
     ><x-note>
       <x-petasti-ison></x-petasti-ison>
       <x-lyric slot="lyric">mer</x-lyric
-      ><x-melisma slot="melisma">&nbsp;-</x-melisma> </x-note
+      ><x-melisma slot="melisma"><x-spacer width="0.125em"></x-spacer>-</x-melisma> </x-note
     ><x-note>
       <x-apostrofos></x-apostrofos>
       <x-lyric slot="lyric">cy</x-lyric> </x-note
@@ -311,7 +311,9 @@ Source:
     ><x-note>
       <x-apostrofos></x-apostrofos>
       <x-lyric slot="lyric">laud</x-lyric
-      ><x-melisma slot="melisma">&nbsp;-</x-melisma> </x-note
+      ><x-melisma slot="melisma"
+        ><x-spacer width="0.25em"></x-spacer>-</x-melisma
+      > </x-note
     ><x-note>
       <x-apostrofos></x-apostrofos>
       <x-lyric slot="lyric">ed</x-lyric> </x-note
@@ -421,7 +423,7 @@ Source:
       <x-ison></x-ison>
       <x-lyric slot="lyric">o</x-lyric
       ><x-melisma slot="melisma"
-        >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-</x-melisma
+        >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-</x-melisma
       > </x-note
     ><x-note> <x-kentimata></x-kentimata></x-note
     ><x-note>
@@ -458,7 +460,7 @@ Source:
     ><x-note>
       <x-oligon-kentima-above></x-oligon-kentima-above
       ><x-psifiston></x-psifiston> <x-lyric slot="lyric">joy</x-lyric
-      ><x-melisma slot="melisma">&nbsp;&nbsp;-</x-melisma> </x-note
+      ><x-melisma slot="melisma">&nbsp;-</x-melisma> </x-note
     ><x-note>
       <x-apostrofos></x-apostrofos>
       <x-lyric slot="lyric">ful</x-lyric
@@ -494,7 +496,7 @@ Source:
     ><x-note>
       <x-petasti></x-petasti>
       <x-lyric slot="lyric">in</x-lyric
-      ><x-melisma slot="melisma">&nbsp;&nbsp;-</x-melisma> </x-note
+      ><x-melisma slot="melisma">&nbsp;-</x-melisma> </x-note
     ><x-note>
       <x-apostrofos></x-apostrofos>
       <x-lyric slot="lyric">ter</x-lyric
@@ -517,9 +519,7 @@ Source:
     ><x-note>
       <x-oligon-kentima-above></x-oligon-kentima-above>
       <x-lyric slot="lyric">Mas</x-lyric
-      ><x-melisma slot="melisma"
-        >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-</x-melisma
-      > </x-note
+      ><x-melisma slot="melisma">&nbsp;&nbsp;&nbsp;-</x-melisma> </x-note
     ><x-note> <x-kentimata></x-kentimata></x-note
     ><x-note>
       <x-ison></x-ison>
@@ -529,7 +529,7 @@ Source:
     ><x-note>
       <x-oligon></x-oligon>
       <x-lyric slot="lyric">ev</x-lyric
-      ><x-melisma slot="melisma">&nbsp;&nbsp;&nbsp;-</x-melisma> </x-note
+      ><x-melisma slot="melisma">&nbsp;&nbsp;-</x-melisma> </x-note
     ><x-note>
       <x-ison></x-ison>
       <x-lyric slot="lyric">en</x-lyric> </x-note
@@ -542,8 +542,8 @@ Source:
     ><x-note>
       <x-apostrofos></x-apostrofos><x-klasma-above></x-klasma-above>
       <x-lyric slot="lyric">Lord,</x-lyric> </x-note
-    ><x-martyria
-      ><x-martyria-note-di></x-martyria-note-di
+    ><x-martyria>
+      <x-martyria-note-di></x-martyria-note-di
       ><x-martyria-delta-dotted-below></x-martyria-delta-dotted-below></x-martyria
     ><x-note>
       <x-apostrofos></x-apostrofos>
@@ -566,7 +566,9 @@ Source:
     ><x-note>
       <x-petasti-ison></x-petasti-ison>
       <x-lyric slot="lyric">mer</x-lyric
-      ><x-melisma slot="melisma">&nbsp;-</x-melisma> </x-note
+      ><x-melisma slot="melisma"
+        ><x-spacer width="0.125em"></x-spacer>-</x-melisma
+      > </x-note
     ><x-note>
       <x-apostrofos></x-apostrofos>
       <x-lyric slot="lyric">cy</x-lyric> </x-note
@@ -600,6 +602,7 @@ Source:
 
   --byz-neume-font-size: 20pt;
 
+  --byz-neume-font-family: Arial, san-serif;
   --byz-lyric-font-size: 12pt;
   --byz-lyric-offset-h: 4pt;
   --byz-lyric-offset-v: -3pt;
