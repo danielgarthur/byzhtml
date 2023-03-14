@@ -8,6 +8,7 @@ def capitalize(s):
 
 
 os.makedirs(os.path.dirname('./codegen/characters/codegen/'), exist_ok=True)
+os.makedirs(os.path.dirname('./codegen/docs/codegen/'), exist_ok=True)
 os.makedirs(os.path.dirname('./codegen/services/codegen/'), exist_ok=True)
 os.makedirs(os.path.dirname('./codegen/util/codegen/'), exist_ok=True)
 
@@ -212,3 +213,10 @@ with open('./codegen/services/codegen/CustomElementGlyphMappingService.js', 'w')
   }
 }
     ''')
+
+with open('./codegen/docs/codegen/neume-component-list.md', 'w') as outfile:
+    for name, data in glyphnames.items():
+        nodename = 'x-' + pattern.sub('-', name).lower()
+
+        outfile.write(
+            f"|{nodename}|<{nodename}></{nodename}>|\n")

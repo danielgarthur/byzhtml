@@ -1,3 +1,4 @@
+// byzhtml v1.0.0
 var byzhtml = (function () {
   'use strict';
 
@@ -1819,12 +1820,6 @@ var byzhtml = (function () {
       this.attachShadow({ mode: 'open' });
 
       this.shadowRoot.innerHTML = `
-      <style>
-        :host {
-          position: relative;
-          display: inline-block;
-        }
-      </style>
       <span>
           <slot></slot>
       </span>

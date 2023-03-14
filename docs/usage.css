@@ -3,6 +3,7 @@
 
   --byz-neume-font-size: 20pt;
   
+  --byz-lyric-font-family: Arial, san-serif;
   --byz-lyric-font-size: 12pt;
   --byz-lyric-offset-h: 2pt;
   --byz-lyric-offset-v: -6pt;
@@ -18,7 +19,8 @@ pre[data-lang='html'] {
 .accidental,
 .gorgon,
 .fthora,
-x-martyria,
+.ison-indicator,
+x-martyria > :not(.agogi),
 x-heteron,
 x-heteron-connecting,
 x-endofonon {
@@ -46,10 +48,4 @@ x-martyria.align-right {
 
 .filler {
   margin-left: auto;
-}
-
-/* Usage */
-
-.usage-example {
-  border: 1px solid #f8f8f8;
 }

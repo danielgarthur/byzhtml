@@ -129,11 +129,3 @@ Source:
 ## Examples
 
 See the [examples](https://github.com/danielgarthur/byzhtml/blob/master/examples) folder.
-
-## Installation
-
-TODO
-
-## Usage
-
-TODO
