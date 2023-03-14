@@ -1,6 +1,7 @@
 @font-face {
   font-family: 'Neanes';
-  src: url('Neanes.otf');
+  src: url(https://cdn.jsdelivr.net/gh/danielgarthur/byzhtml@latest/dist/Neanes.otf);
+  unicode-range: U+E000–F8FF;
 }
 
 :root {

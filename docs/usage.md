@@ -271,15 +271,17 @@ Result:
 
 Any component may be styled with CSS, using the standard CSS properties. There are also several custom properties that may be used to apply styling.
 
-| Custom Property          | Description                             |
-| ------------------------ | --------------------------------------- |
-| --byz-drop-cap-font-size | Sets the font size for drop caps.       |
-| --byz-drop-cap-offset-v  | Sets the vertical offset for drop caps. |
-| --byz-lyric-font-family  | Sets the font family for lyrics.        |
-| --byz-lyric-font-size    | Sets the font size for lyrics.          |
-| --byz-lyric-offset-h     | Sets the horizontal offset for lyrics.  |
-| --byz-lyric-offset-v     | Sets the vertical offset for lyrics.    |
-| --byz-neume-font-size    | Sets the font size for neumes.          |
+| Custom Property               | Description                              |
+| ----------------------------- | ---------------------------------------- |
+| --byz-drop-cap-font-size      | Sets the font size for drop caps.        |
+| --byz-drop-cap-offset-v       | Sets the vertical offset for drop caps.  |
+| --byz-lyric-font-family       | Sets the font family for lyrics.         |
+| --byz-lyric-font-size         | Sets the font size for lyrics.           |
+| --byz-lyric-offset-h          | Sets the horizontal offset for lyrics.   |
+| --byz-lyric-offset-v          | Sets the vertical offset for lyrics.     |
+| --byz-neume-font-size         | Sets the font size for neumes.           |
+| --byz-spacer-width-apostrofos | Sets the width of the apostrofos spacer. |
+| --byz-spacer-width-vareia     | Sets the width of the vareia spacer.     |
 
 Defaults for these custom properties may be defined in `:root` or `html` and they may be overridden at any scope.
 

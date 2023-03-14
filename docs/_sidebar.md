@@ -1,7 +1,7 @@
 - Getting Started
 
   - [Overview](/)
-  - Installation (TODO)
+  - [Installation](installation.md)
   - [Usage](usage.md)
 
 - Samples

@@ -1838,6 +1838,9 @@ var byzhtml = (function () {
     LyricOffsetVertical: '--byz-lyric-offset-v',
 
     DropCapOffsetVertical: '--byz-drop-cap-offset-v',
+
+    SpacerWidthVareia: '--byz-spacer-width-vareia',
+    SpacerWidthApostrofos: '--byz-spacer-width-apostrofos',
   };
 
   class Neume extends HTMLElement {
@@ -1993,6 +1996,7 @@ var byzhtml = (function () {
       <style>
         :host {
           display: inline-block;
+          width: var(${CssVars.SpacerWidthApostrofos});
           font-family: ${fontFamily};
           ${fontSizeAttr}
         }
@@ -2035,6 +2039,7 @@ var byzhtml = (function () {
       <style>
         :host {
           display: inline-block;
+          width: var(${CssVars.SpacerWidthVareia});
           font-family: ${fontFamily};
           ${fontSizeAttr}
         }
