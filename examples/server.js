@@ -102,7 +102,7 @@ server = http.createServer(function (req, res) {
     return;
   }
   if (/byzhtml\.default\.css$/.test(url)) {
-    pipeFileToResponse(res, '../dist/byzhtml.default.css', 'text/javascript');
+    pipeFileToResponse(res, './byzhtml.default.css', 'text/javascript');
     return;
   }
   // Process /

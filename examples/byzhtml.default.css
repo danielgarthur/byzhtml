@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Neanes';
+  src: url('Neanes.otf');
+}
+
+:root {
+  /*
+    Set the width of the vareia spacer for your font.
+    This number (measured in ems) is available in the metadata under glyphAdvanceWidths.vareia
+    The default below is the width of the vareia in the default Neanes reference font. 
+    Make sure to set the font-size of the x-spacer-vareia to be the same size as your notes in your
+    main CSS file.
+  */
+  --byz-spacer-width-vareia: 0.534em;
+
+  /*
+    Set the width of the apostrofos spacer for your font.
+    The default below is the width of the apostrofos in the running elafron 
+    in the default Neanes reference font. 
+    Make sure to set the font-size of the x-spacer-apostrofos to be the same size as your notes in your
+    main CSS file.
+  */
+  --byz-spacer-width-apostrofos: 0.53em;
+}
