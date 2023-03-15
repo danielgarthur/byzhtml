@@ -125,7 +125,3 @@ Source:
   ><x-martyria-alpha-below></x-martyria-alpha-below
 ></x-martyria>
 ```
-
-## Examples
-
-See the [examples](https://github.com/danielgarthur/byzhtml/blob/master/examples) folder.
