@@ -1829,14 +1829,14 @@ var byzhtml = (function () {
 
   const CssVars = {
     LyricFontFamily: '--byz-lyric-font-family',
-
     LyricFontSize: '--byz-lyric-font-size',
-    NeumeFontSize: '--byz-neume-font-size',
-    DropCapFontSize: '--byz-drop-cap-font-size',
-
     LyricOffsetHorizontal: '--byz-lyric-offset-h',
     LyricOffsetVertical: '--byz-lyric-offset-v',
 
+    NeumeFontSize: '--byz-neume-font-size',
+
+    DropCapFontFamily: '--byz-drop-cap-font-family',
+    DropCapFontSize: '--byz-drop-cap-font-size',
     DropCapOffsetVertical: '--byz-drop-cap-offset-v',
 
     SpacerWidthVareia: '--byz-spacer-width-vareia',
@@ -2059,6 +2059,7 @@ var byzhtml = (function () {
           line-height: 0;
           top: var(${CssVars.DropCapOffsetVertical});
           font-size: var(${CssVars.DropCapFontSize});
+          font-family: var(${CssVars.DropCapFontFamily});
         }
       </style>
       <span><slot></slot></span>`;
@@ -2820,7 +2821,7 @@ var byzhtml = (function () {
         }
       }
 
-      this.shadowRoot.innerHTML = `<x-neume name="${this.glyphname}" ${styleAttr} ${fontFamilyAttr} ${saltAttr}></x-neume>`;
+      this.shadowRoot.innerHTML = `<style> :host { font-size: var(${CssVars.NeumeFontSize}); } </style><x-neume name="${this.glyphname}" ${styleAttr} ${fontFamilyAttr} ${saltAttr}></x-neume>`;
     }
   }
 
