@@ -1837,10 +1837,23 @@ var byzhtml = (function () {
 
     DropCapFontFamily: '--byz-drop-cap-font-family',
     DropCapFontSize: '--byz-drop-cap-font-size',
+    DropCapColor: '--byz-drop-cap-color',
     DropCapOffsetVertical: '--byz-drop-cap-offset-v',
 
     SpacerWidthVareia: '--byz-spacer-width-vareia',
     SpacerWidthApostrofos: '--byz-spacer-width-apostrofos',
+
+    ColorAccidental: '--byz-color-accidental',
+    ColorAgogi: '--byz-color-agogi',
+    ColorBarline: '--byz-color-barline',
+    ColorFthora: '--byz-color-fthora',
+    ColorGorgon: '--byz-color-gorgon',
+    ColorHeteron: '--byz-color-heteron',
+    ColorIsonIndicator: '--byz-color-ison-indicator',
+    ColorKoronis: '--byz-color-koronis',
+    ColorMartyria: '--byz-color-martyria',
+    ColorMeasureNumber: '--byz-color-measure-number',
+    ColorNoteIndicator: '--byz-color-note-indicator',
   };
 
   class Neume extends HTMLElement {
@@ -2058,6 +2071,7 @@ var byzhtml = (function () {
           position: relative;
           line-height: 0;
           top: var(${CssVars.DropCapOffsetVertical});
+          color: var(${CssVars.DropCapColor});
           font-size: var(${CssVars.DropCapFontSize});
           font-family: var(${CssVars.DropCapFontFamily});
         }
@@ -2101,10 +2115,11 @@ var byzhtml = (function () {
       return ['font-family'];
     }
 
-    constructor(glyphname) {
+    constructor(glyphname, args) {
       super();
 
       this.glyphname = glyphname;
+      this.args = args;
 
       this.attachShadow({ mode: 'open' });
     }
@@ -2129,639 +2144,726 @@ var byzhtml = (function () {
         saltAttr = `salt="${this.getAttribute('salt')}"`;
       }
 
-      this.shadowRoot.innerHTML = `<x-neume name="${this.glyphname}" ${fontFamilyAttr} ${saltAttr}></x-neume>`;
+      let otherStyles = '';
+
+      if (this.args) {
+        if (this.args.color) {
+          otherStyles += ` color: var(${this.args.color});`;
+        }
+      }
+
+      this.shadowRoot.innerHTML = `<style>:host { font-size: var(${CssVars.NeumeFontSize} );${otherStyles}}</style><x-neume name="${this.glyphname}" ${fontFamilyAttr} ${saltAttr}></x-neume>`;
     }
   }
 
   const glyphname$4F = 'ison';
+  const args$4F = {};
 
   class Ison extends BaseBody {
     constructor() {
-      super(glyphname$4F);
+      super(glyphname$4F, args$4F);
     }
   }
 
   const glyphname$4E = 'oligon';
+  const args$4E = {};
 
   class Oligon extends BaseBody {
     constructor() {
-      super(glyphname$4E);
+      super(glyphname$4E, args$4E);
     }
   }
 
   const glyphname$4D = 'oligonKentimaMiddle';
+  const args$4D = {};
 
   class OligonKentimaMiddle extends BaseBody {
     constructor() {
-      super(glyphname$4D);
+      super(glyphname$4D, args$4D);
     }
   }
 
   const glyphname$4C = 'oligonKentimaBelow';
+  const args$4C = {};
 
   class OligonKentimaBelow extends BaseBody {
     constructor() {
-      super(glyphname$4C);
+      super(glyphname$4C, args$4C);
     }
   }
 
   const glyphname$4B = 'oligonKentimaAbove';
+  const args$4B = {};
 
   class OligonKentimaAbove extends BaseBody {
     constructor() {
-      super(glyphname$4B);
+      super(glyphname$4B, args$4B);
     }
   }
 
   const glyphname$4A = 'oligonYpsiliRight';
+  const args$4A = {};
 
   class OligonYpsiliRight extends BaseBody {
     constructor() {
-      super(glyphname$4A);
+      super(glyphname$4A, args$4A);
     }
   }
 
   const glyphname$4z = 'oligonYpsiliLeft';
+  const args$4z = {};
 
   class OligonYpsiliLeft extends BaseBody {
     constructor() {
-      super(glyphname$4z);
+      super(glyphname$4z, args$4z);
     }
   }
 
   const glyphname$4y = 'oligonKentimaYpsiliRight';
+  const args$4y = {};
 
   class OligonKentimaYpsiliRight extends BaseBody {
     constructor() {
-      super(glyphname$4y);
+      super(glyphname$4y, args$4y);
     }
   }
 
   const glyphname$4x = 'oligonKentimaYpsiliMiddle';
+  const args$4x = {};
 
   class OligonKentimaYpsiliMiddle extends BaseBody {
     constructor() {
-      super(glyphname$4x);
+      super(glyphname$4x, args$4x);
     }
   }
 
   const glyphname$4w = 'oligonDoubleYpsili';
+  const args$4w = {};
 
   class OligonDoubleYpsili extends BaseBody {
     constructor() {
-      super(glyphname$4w);
+      super(glyphname$4w, args$4w);
     }
   }
 
   const glyphname$4v = 'oligonKentimataDoubleYpsili';
+  const args$4v = {};
 
   class OligonKentimataDoubleYpsili extends BaseBody {
     constructor() {
-      super(glyphname$4v);
+      super(glyphname$4v, args$4v);
     }
   }
 
   const glyphname$4u = 'oligonKentimaDoubleYpsiliRight';
+  const args$4u = {};
 
   class OligonKentimaDoubleYpsiliRight extends BaseBody {
     constructor() {
-      super(glyphname$4u);
+      super(glyphname$4u, args$4u);
     }
   }
 
   const glyphname$4t = 'oligonKentimaDoubleYpsiliLeft';
+  const args$4t = {};
 
   class OligonKentimaDoubleYpsiliLeft extends BaseBody {
     constructor() {
-      super(glyphname$4t);
+      super(glyphname$4t, args$4t);
     }
   }
 
   const glyphname$4s = 'oligonTripleYpsili';
+  const args$4s = {};
 
   class OligonTripleYpsili extends BaseBody {
     constructor() {
-      super(glyphname$4s);
+      super(glyphname$4s, args$4s);
     }
   }
 
   const glyphname$4r = 'oligonKentimataTripleYpsili';
+  const args$4r = {};
 
   class OligonKentimataTripleYpsili extends BaseBody {
     constructor() {
-      super(glyphname$4r);
+      super(glyphname$4r, args$4r);
     }
   }
 
   const glyphname$4q = 'oligonKentimaTripleYpsili';
+  const args$4q = {};
 
   class OligonKentimaTripleYpsili extends BaseBody {
     constructor() {
-      super(glyphname$4q);
+      super(glyphname$4q, args$4q);
     }
   }
 
   const glyphname$4p = 'oligonIson';
+  const args$4p = {};
 
   class OligonIson extends BaseBody {
     constructor() {
-      super(glyphname$4p);
+      super(glyphname$4p, args$4p);
     }
   }
 
   const glyphname$4o = 'oligonApostrofos';
+  const args$4o = {};
 
   class OligonApostrofos extends BaseBody {
     constructor() {
-      super(glyphname$4o);
+      super(glyphname$4o, args$4o);
     }
   }
 
   const glyphname$4n = 'oligonYporroi';
+  const args$4n = {};
 
   class OligonYporroi extends BaseBody {
     constructor() {
-      super(glyphname$4n);
+      super(glyphname$4n, args$4n);
     }
   }
 
   const glyphname$4m = 'oligonElafron';
+  const args$4m = {};
 
   class OligonElafron extends BaseBody {
     constructor() {
-      super(glyphname$4m);
+      super(glyphname$4m, args$4m);
     }
   }
 
   const glyphname$4l = 'oligonElafronApostrofos';
+  const args$4l = {};
 
   class OligonElafronApostrofos extends BaseBody {
     constructor() {
-      super(glyphname$4l);
+      super(glyphname$4l, args$4l);
     }
   }
 
   const glyphname$4k = 'oligonChamili';
+  const args$4k = {};
 
   class OligonChamili extends BaseBody {
     constructor() {
-      super(glyphname$4k);
+      super(glyphname$4k, args$4k);
     }
   }
 
   const glyphname$4j = 'isonApostrofos';
+  const args$4j = {};
 
   class IsonApostrofos extends BaseBody {
     constructor() {
-      super(glyphname$4j);
+      super(glyphname$4j, args$4j);
     }
   }
 
   const glyphname$4i = 'apostrofos';
+  const args$4i = {};
 
   class Apostrofos extends BaseBody {
     constructor() {
-      super(glyphname$4i);
+      super(glyphname$4i, args$4i);
     }
   }
 
   const glyphname$4h = 'apostrofosSyndesmos';
+  const args$4h = {};
 
   class ApostrofosSyndesmos extends BaseBody {
     constructor() {
-      super(glyphname$4h);
+      super(glyphname$4h, args$4h);
     }
   }
 
   const glyphname$4g = 'yporroi';
+  const args$4g = {};
 
   class Yporroi extends BaseBody {
     constructor() {
-      super(glyphname$4g);
+      super(glyphname$4g, args$4g);
     }
   }
 
   const glyphname$4f = 'elafron';
+  const args$4f = {};
 
   class Elafron extends BaseBody {
     constructor() {
-      super(glyphname$4f);
+      super(glyphname$4f, args$4f);
     }
   }
 
   const glyphname$4e = 'runningElafron';
+  const args$4e = {};
 
   class RunningElafron extends BaseBody {
     constructor() {
-      super(glyphname$4e);
+      super(glyphname$4e, args$4e);
     }
   }
 
   const glyphname$4d = 'elafronApostrofos';
+  const args$4d = {};
 
   class ElafronApostrofos extends BaseBody {
     constructor() {
-      super(glyphname$4d);
+      super(glyphname$4d, args$4d);
     }
   }
 
   const glyphname$4c = 'chamili';
+  const args$4c = {};
 
   class Chamili extends BaseBody {
     constructor() {
-      super(glyphname$4c);
+      super(glyphname$4c, args$4c);
     }
   }
 
   const glyphname$4b = 'chamiliApostrofos';
+  const args$4b = {};
 
   class ChamiliApostrofos extends BaseBody {
     constructor() {
-      super(glyphname$4b);
+      super(glyphname$4b, args$4b);
     }
   }
 
   const glyphname$4a = 'chamiliElafron';
+  const args$4a = {};
 
   class ChamiliElafron extends BaseBody {
     constructor() {
-      super(glyphname$4a);
+      super(glyphname$4a, args$4a);
     }
   }
 
   const glyphname$49 = 'chamiliElafronApostrofos';
+  const args$49 = {};
 
   class ChamiliElafronApostrofos extends BaseBody {
     constructor() {
-      super(glyphname$49);
+      super(glyphname$49, args$49);
     }
   }
 
   const glyphname$48 = 'doubleChamili';
+  const args$48 = {};
 
   class DoubleChamili extends BaseBody {
     constructor() {
-      super(glyphname$48);
+      super(glyphname$48, args$48);
     }
   }
 
   const glyphname$47 = 'doubleChamiliApostrofos';
+  const args$47 = {};
 
   class DoubleChamiliApostrofos extends BaseBody {
     constructor() {
-      super(glyphname$47);
+      super(glyphname$47, args$47);
     }
   }
 
   const glyphname$46 = 'doubleChamiliElafron';
+  const args$46 = {};
 
   class DoubleChamiliElafron extends BaseBody {
     constructor() {
-      super(glyphname$46);
+      super(glyphname$46, args$46);
     }
   }
 
   const glyphname$45 = 'doubleChamiliElafronApostrofos';
+  const args$45 = {};
 
   class DoubleChamiliElafronApostrofos extends BaseBody {
     constructor() {
-      super(glyphname$45);
+      super(glyphname$45, args$45);
     }
   }
 
   const glyphname$44 = 'tripleChamili';
+  const args$44 = {};
 
   class TripleChamili extends BaseBody {
     constructor() {
-      super(glyphname$44);
+      super(glyphname$44, args$44);
     }
   }
 
   const glyphname$43 = 'petastiIson';
+  const args$43 = {};
 
   class PetastiIson extends BaseBody {
     constructor() {
-      super(glyphname$43);
+      super(glyphname$43, args$43);
     }
   }
 
   const glyphname$42 = 'petasti';
+  const args$42 = {};
 
   class Petasti extends BaseBody {
     constructor() {
-      super(glyphname$42);
+      super(glyphname$42, args$42);
     }
   }
 
   const glyphname$41 = 'petastiOligon';
+  const args$41 = {};
 
   class PetastiOligon extends BaseBody {
     constructor() {
-      super(glyphname$41);
+      super(glyphname$41, args$41);
     }
   }
 
   const glyphname$40 = 'petastiKentima';
+  const args$40 = {};
 
   class PetastiKentima extends BaseBody {
     constructor() {
-      super(glyphname$40);
+      super(glyphname$40, args$40);
     }
   }
 
   const glyphname$3$ = 'petastiYpsiliRight';
+  const args$3$ = {};
 
   class PetastiYpsiliRight extends BaseBody {
     constructor() {
-      super(glyphname$3$);
+      super(glyphname$3$, args$3$);
     }
   }
 
   const glyphname$3_ = 'petastiYpsiliLeft';
+  const args$3_ = {};
 
   class PetastiYpsiliLeft extends BaseBody {
     constructor() {
-      super(glyphname$3_);
+      super(glyphname$3_, args$3_);
     }
   }
 
   const glyphname$3Z = 'petastiKentimaYpsiliRight';
+  const args$3Z = {};
 
   class PetastiKentimaYpsiliRight extends BaseBody {
     constructor() {
-      super(glyphname$3Z);
+      super(glyphname$3Z, args$3Z);
     }
   }
 
   const glyphname$3Y = 'petastiKentimaYpsiliMiddle';
+  const args$3Y = {};
 
   class PetastiKentimaYpsiliMiddle extends BaseBody {
     constructor() {
-      super(glyphname$3Y);
+      super(glyphname$3Y, args$3Y);
     }
   }
 
   const glyphname$3X = 'petastiDoubleYpsili';
+  const args$3X = {};
 
   class PetastiDoubleYpsili extends BaseBody {
     constructor() {
-      super(glyphname$3X);
+      super(glyphname$3X, args$3X);
     }
   }
 
   const glyphname$3W = 'petastiKentimataDoubleYpsili';
+  const args$3W = {};
 
   class PetastiKentimataDoubleYpsili extends BaseBody {
     constructor() {
-      super(glyphname$3W);
+      super(glyphname$3W, args$3W);
     }
   }
 
   const glyphname$3V = 'petastiKentimaDoubleYpsiliRight';
+  const args$3V = {};
 
   class PetastiKentimaDoubleYpsiliRight extends BaseBody {
     constructor() {
-      super(glyphname$3V);
+      super(glyphname$3V, args$3V);
     }
   }
 
   const glyphname$3U = 'petastiKentimaDoubleYpsiliLeft';
+  const args$3U = {};
 
   class PetastiKentimaDoubleYpsiliLeft extends BaseBody {
     constructor() {
-      super(glyphname$3U);
+      super(glyphname$3U, args$3U);
     }
   }
 
   const glyphname$3T = 'petastiTripleYpsili';
+  const args$3T = {};
 
   class PetastiTripleYpsili extends BaseBody {
     constructor() {
-      super(glyphname$3T);
+      super(glyphname$3T, args$3T);
     }
   }
 
   const glyphname$3S = 'petastiKentimataTripleYpsili';
+  const args$3S = {};
 
   class PetastiKentimataTripleYpsili extends BaseBody {
     constructor() {
-      super(glyphname$3S);
+      super(glyphname$3S, args$3S);
     }
   }
 
   const glyphname$3R = 'petastiKentimaTripleYpsili';
+  const args$3R = {};
 
   class PetastiKentimaTripleYpsili extends BaseBody {
     constructor() {
-      super(glyphname$3R);
+      super(glyphname$3R, args$3R);
     }
   }
 
   const glyphname$3Q = 'petastiApostrofos';
+  const args$3Q = {};
 
   class PetastiApostrofos extends BaseBody {
     constructor() {
-      super(glyphname$3Q);
+      super(glyphname$3Q, args$3Q);
     }
   }
 
   const glyphname$3P = 'petastiYporroi';
+  const args$3P = {};
 
   class PetastiYporroi extends BaseBody {
     constructor() {
-      super(glyphname$3P);
+      super(glyphname$3P, args$3P);
     }
   }
 
   const glyphname$3O = 'petastiElafron';
+  const args$3O = {};
 
   class PetastiElafron extends BaseBody {
     constructor() {
-      super(glyphname$3O);
+      super(glyphname$3O, args$3O);
     }
   }
 
   const glyphname$3N = 'petastiRunningElafron';
+  const args$3N = {};
 
   class PetastiRunningElafron extends BaseBody {
     constructor() {
-      super(glyphname$3N);
+      super(glyphname$3N, args$3N);
     }
   }
 
   const glyphname$3M = 'petastiElafronApostrofos';
+  const args$3M = {};
 
   class PetastiElafronApostrofos extends BaseBody {
     constructor() {
-      super(glyphname$3M);
+      super(glyphname$3M, args$3M);
     }
   }
 
   const glyphname$3L = 'petastiChamili';
+  const args$3L = {};
 
   class PetastiChamili extends BaseBody {
     constructor() {
-      super(glyphname$3L);
+      super(glyphname$3L, args$3L);
     }
   }
 
   const glyphname$3K = 'petastiChamiliApostrofos';
+  const args$3K = {};
 
   class PetastiChamiliApostrofos extends BaseBody {
     constructor() {
-      super(glyphname$3K);
+      super(glyphname$3K, args$3K);
     }
   }
 
   const glyphname$3J = 'petastiChamiliElafron';
+  const args$3J = {};
 
   class PetastiChamiliElafron extends BaseBody {
     constructor() {
-      super(glyphname$3J);
+      super(glyphname$3J, args$3J);
     }
   }
 
   const glyphname$3I = 'petastiChamiliElafronApostrofos';
+  const args$3I = {};
 
   class PetastiChamiliElafronApostrofos extends BaseBody {
     constructor() {
-      super(glyphname$3I);
+      super(glyphname$3I, args$3I);
     }
   }
 
   const glyphname$3H = 'petastiDoubleChamili';
+  const args$3H = {};
 
   class PetastiDoubleChamili extends BaseBody {
     constructor() {
-      super(glyphname$3H);
+      super(glyphname$3H, args$3H);
     }
   }
 
   const glyphname$3G = 'petastiDoubleChamiliApostrofos';
+  const args$3G = {};
 
   class PetastiDoubleChamiliApostrofos extends BaseBody {
     constructor() {
-      super(glyphname$3G);
+      super(glyphname$3G, args$3G);
     }
   }
 
   const glyphname$3F = 'kentima';
+  const args$3F = {};
 
   class Kentima extends BaseBody {
     constructor() {
-      super(glyphname$3F);
+      super(glyphname$3F, args$3F);
     }
   }
 
   const glyphname$3E = 'kentimata';
+  const args$3E = {};
 
   class Kentimata extends BaseBody {
     constructor() {
-      super(glyphname$3E);
+      super(glyphname$3E, args$3E);
     }
   }
 
   const glyphname$3D = 'oligonKentimataBelow';
+  const args$3D = {};
 
   class OligonKentimataBelow extends BaseBody {
     constructor() {
-      super(glyphname$3D);
+      super(glyphname$3D, args$3D);
     }
   }
 
   const glyphname$3C = 'oligonKentimataAbove';
+  const args$3C = {};
 
   class OligonKentimataAbove extends BaseBody {
     constructor() {
-      super(glyphname$3C);
+      super(glyphname$3C, args$3C);
     }
   }
 
   const glyphname$3B = 'oligonIsonKentimata';
+  const args$3B = {};
 
   class OligonIsonKentimata extends BaseBody {
     constructor() {
-      super(glyphname$3B);
+      super(glyphname$3B, args$3B);
     }
   }
 
   const glyphname$3A = 'oligonKentimaMiddleKentimata';
+  const args$3A = {};
 
   class OligonKentimaMiddleKentimata extends BaseBody {
     constructor() {
-      super(glyphname$3A);
+      super(glyphname$3A, args$3A);
     }
   }
 
   const glyphname$3z = 'oligonYpsiliRightKentimata';
+  const args$3z = {};
 
   class OligonYpsiliRightKentimata extends BaseBody {
     constructor() {
-      super(glyphname$3z);
+      super(glyphname$3z, args$3z);
     }
   }
 
   const glyphname$3y = 'oligonYpsiliLeftKentimata';
+  const args$3y = {};
 
   class OligonYpsiliLeftKentimata extends BaseBody {
     constructor() {
-      super(glyphname$3y);
+      super(glyphname$3y, args$3y);
     }
   }
 
   const glyphname$3x = 'oligonApostrofosKentimata';
+  const args$3x = {};
 
   class OligonApostrofosKentimata extends BaseBody {
     constructor() {
-      super(glyphname$3x);
+      super(glyphname$3x, args$3x);
     }
   }
 
   const glyphname$3w = 'oligonYporroiKentimata';
+  const args$3w = {};
 
   class OligonYporroiKentimata extends BaseBody {
     constructor() {
-      super(glyphname$3w);
+      super(glyphname$3w, args$3w);
     }
   }
 
   const glyphname$3v = 'oligonElafronKentimata';
+  const args$3v = {};
 
   class OligonElafronKentimata extends BaseBody {
     constructor() {
-      super(glyphname$3v);
+      super(glyphname$3v, args$3v);
     }
   }
 
   const glyphname$3u = 'oligonRunningElafronKentimata';
+  const args$3u = {};
 
   class OligonRunningElafronKentimata extends BaseBody {
     constructor() {
-      super(glyphname$3u);
+      super(glyphname$3u, args$3u);
     }
   }
 
   const glyphname$3t = 'oligonElafronApostrofosKentimata';
+  const args$3t = {};
 
   class OligonElafronApostrofosKentimata extends BaseBody {
     constructor() {
-      super(glyphname$3t);
+      super(glyphname$3t, args$3t);
     }
   }
 
   const glyphname$3s = 'oligonChamiliKentimata';
+  const args$3s = {};
 
   class OligonChamiliKentimata extends BaseBody {
     constructor() {
-      super(glyphname$3s);
+      super(glyphname$3s, args$3s);
     }
   }
 
   const glyphname$3r = 'vareia';
+  const args$3r = {};
 
   class Vareia extends BaseBody {
     constructor() {
-      super(glyphname$3r);
+      super(glyphname$3r, args$3r);
     }
   }
 
@@ -2770,10 +2872,11 @@ var byzhtml = (function () {
       return ['font-family'];
     }
 
-    constructor(glyphname) {
+    constructor(glyphname, args) {
       super();
 
       this.glyphname = glyphname;
+      this.args = args;
 
       this.attachShadow({ mode: 'open' });
     }
@@ -2821,1759 +2924,1986 @@ var byzhtml = (function () {
         }
       }
 
-      this.shadowRoot.innerHTML = `<style> :host { font-size: var(${CssVars.NeumeFontSize}); } </style><x-neume name="${this.glyphname}" ${styleAttr} ${fontFamilyAttr} ${saltAttr}></x-neume>`;
+      let otherStyles = '';
+
+      if (this.args) {
+        if (this.args.color) {
+          otherStyles += ` color: var(${this.args.color});`;
+        }
+      }
+
+      this.shadowRoot.innerHTML = `<style> :host { font-size: var(${CssVars.NeumeFontSize});${otherStyles} } </style><x-neume name="${this.glyphname}" ${styleAttr} ${fontFamilyAttr} ${saltAttr}></x-neume>`;
     }
   }
 
   const glyphname$3q = 'psifiston';
+  const args$3q = {};
 
   class Psifiston extends BaseMark {
     constructor() {
-      super(glyphname$3q);
+      super(glyphname$3q, args$3q);
     }
   }
 
   const glyphname$3p = 'antikenoma';
+  const args$3p = {};
 
   class Antikenoma extends BaseMark {
     constructor() {
-      super(glyphname$3p);
+      super(glyphname$3p, args$3p);
     }
   }
 
   const glyphname$3o = 'omalon';
+  const args$3o = {};
 
   class Omalon extends BaseMark {
     constructor() {
-      super(glyphname$3o);
+      super(glyphname$3o, args$3o);
     }
   }
 
   const glyphname$3n = 'omalonConnecting';
+  const args$3n = {};
 
   class OmalonConnecting extends BaseMark {
     constructor() {
-      super(glyphname$3n);
+      super(glyphname$3n, args$3n);
     }
   }
 
   const glyphname$3m = 'heteron';
+  const args$3m = { color: CssVars.ColorHeteron };
 
   class Heteron extends BaseMark {
     constructor() {
-      super(glyphname$3m);
+      super(glyphname$3m, args$3m);
     }
   }
 
   const glyphname$3l = 'heteronConnecting';
+  const args$3l = { color: CssVars.ColorHeteron };
 
   class HeteronConnecting extends BaseMark {
     constructor() {
-      super(glyphname$3l);
+      super(glyphname$3l, args$3l);
     }
   }
 
   const glyphname$3k = 'endofonon';
+  const args$3k = { color: CssVars.ColorHeteron };
 
   class Endofonon extends BaseMark {
     constructor() {
-      super(glyphname$3k);
+      super(glyphname$3k, args$3k);
     }
   }
 
   const glyphname$3j = 'yfenAbove';
+  const args$3j = {};
 
   class YfenAbove extends BaseMark {
     constructor() {
-      super(glyphname$3j);
+      super(glyphname$3j, args$3j);
     }
   }
 
   const glyphname$3i = 'yfenBelow';
+  const args$3i = {};
 
   class YfenBelow extends BaseMark {
     constructor() {
-      super(glyphname$3i);
+      super(glyphname$3i, args$3i);
     }
   }
 
   const glyphname$3h = 'stavros';
+  const args$3h = {};
 
   class Stavros extends BaseBody {
     constructor() {
-      super(glyphname$3h);
+      super(glyphname$3h, args$3h);
     }
   }
 
   const glyphname$3g = 'breath';
+  const args$3g = {};
 
   class Breath extends BaseBody {
     constructor() {
-      super(glyphname$3g);
+      super(glyphname$3g, args$3g);
     }
   }
 
   const glyphname$3f = 'klasmaAbove';
+  const args$3f = {};
 
   class KlasmaAbove extends BaseMark {
     constructor() {
-      super(glyphname$3f);
+      super(glyphname$3f, args$3f);
     }
   }
 
   const glyphname$3e = 'klasmaBelow';
+  const args$3e = {};
 
   class KlasmaBelow extends BaseMark {
     constructor() {
-      super(glyphname$3e);
+      super(glyphname$3e, args$3e);
     }
   }
 
   const glyphname$3d = 'apli';
+  const args$3d = {};
 
   class Apli extends BaseMark {
     constructor() {
-      super(glyphname$3d);
+      super(glyphname$3d, args$3d);
     }
   }
 
   const glyphname$3c = 'dipli';
+  const args$3c = {};
 
   class Dipli extends BaseMark {
     constructor() {
-      super(glyphname$3c);
+      super(glyphname$3c, args$3c);
     }
   }
 
   const glyphname$3b = 'tripli';
+  const args$3b = {};
 
   class Tripli extends BaseMark {
     constructor() {
-      super(glyphname$3b);
+      super(glyphname$3b, args$3b);
     }
   }
 
   const glyphname$3a = 'tetrapli';
+  const args$3a = {};
 
   class Tetrapli extends BaseMark {
     constructor() {
-      super(glyphname$3a);
+      super(glyphname$3a, args$3a);
     }
   }
 
   const glyphname$39 = 'koronis';
+  const args$39 = { color: CssVars.ColorKoronis };
 
   class Koronis extends BaseMark {
     constructor() {
-      super(glyphname$39);
+      super(glyphname$39, args$39);
     }
   }
 
   const glyphname$38 = 'leimma1';
+  const args$38 = {};
 
   class Leimma1 extends BaseBody {
     constructor() {
-      super(glyphname$38);
+      super(glyphname$38, args$38);
     }
   }
 
   const glyphname$37 = 'leimma2';
+  const args$37 = {};
 
   class Leimma2 extends BaseBody {
     constructor() {
-      super(glyphname$37);
+      super(glyphname$37, args$37);
     }
   }
 
   const glyphname$36 = 'leimma3';
+  const args$36 = {};
 
   class Leimma3 extends BaseBody {
     constructor() {
-      super(glyphname$36);
+      super(glyphname$36, args$36);
     }
   }
 
   const glyphname$35 = 'leimma4';
+  const args$35 = {};
 
   class Leimma4 extends BaseBody {
     constructor() {
-      super(glyphname$35);
+      super(glyphname$35, args$35);
     }
   }
 
   const glyphname$34 = 'leimmaDot';
+  const args$34 = {};
 
   class LeimmaDot extends BaseMark {
     constructor() {
-      super(glyphname$34);
+      super(glyphname$34, args$34);
     }
   }
 
   const glyphname$33 = 'gorgonAbove';
+  const args$33 = { color: CssVars.ColorGorgon };
 
   class GorgonAbove extends BaseMark {
     constructor() {
-      super(glyphname$33);
+      super(glyphname$33, args$33);
     }
   }
 
   const glyphname$32 = 'gorgonBelow';
+  const args$32 = { color: CssVars.ColorGorgon };
 
   class GorgonBelow extends BaseMark {
     constructor() {
-      super(glyphname$32);
+      super(glyphname$32, args$32);
     }
   }
 
   const glyphname$31 = 'gorgonDottedLeft';
+  const args$31 = { color: CssVars.ColorGorgon };
 
   class GorgonDottedLeft extends BaseMark {
     constructor() {
-      super(glyphname$31);
+      super(glyphname$31, args$31);
     }
   }
 
   const glyphname$30 = 'gorgonDottedRight';
+  const args$30 = { color: CssVars.ColorGorgon };
 
   class GorgonDottedRight extends BaseMark {
     constructor() {
-      super(glyphname$30);
+      super(glyphname$30, args$30);
     }
   }
 
   const glyphname$2$ = 'digorgon';
+  const args$2$ = { color: CssVars.ColorGorgon };
 
   class Digorgon extends BaseMark {
     constructor() {
-      super(glyphname$2$);
+      super(glyphname$2$, args$2$);
     }
   }
 
   const glyphname$2_ = 'digorgonDottedLeftBelow';
+  const args$2_ = { color: CssVars.ColorGorgon };
 
   class DigorgonDottedLeftBelow extends BaseMark {
     constructor() {
-      super(glyphname$2_);
+      super(glyphname$2_, args$2_);
     }
   }
 
   const glyphname$2Z = 'digorgonDottedLeftAbove';
+  const args$2Z = { color: CssVars.ColorGorgon };
 
   class DigorgonDottedLeftAbove extends BaseMark {
     constructor() {
-      super(glyphname$2Z);
+      super(glyphname$2Z, args$2Z);
     }
   }
 
   const glyphname$2Y = 'digorgonDottedRight';
+  const args$2Y = { color: CssVars.ColorGorgon };
 
   class DigorgonDottedRight extends BaseMark {
     constructor() {
-      super(glyphname$2Y);
+      super(glyphname$2Y, args$2Y);
     }
   }
 
   const glyphname$2X = 'trigorgon';
+  const args$2X = { color: CssVars.ColorGorgon };
 
   class Trigorgon extends BaseMark {
     constructor() {
-      super(glyphname$2X);
+      super(glyphname$2X, args$2X);
     }
   }
 
   const glyphname$2W = 'trigorgonDottedLeftBelow';
+  const args$2W = { color: CssVars.ColorGorgon };
 
   class TrigorgonDottedLeftBelow extends BaseMark {
     constructor() {
-      super(glyphname$2W);
+      super(glyphname$2W, args$2W);
     }
   }
 
   const glyphname$2V = 'trigorgonDottedLeftAbove';
+  const args$2V = { color: CssVars.ColorGorgon };
 
   class TrigorgonDottedLeftAbove extends BaseMark {
     constructor() {
-      super(glyphname$2V);
+      super(glyphname$2V, args$2V);
     }
   }
 
   const glyphname$2U = 'trigorgonDottedRight';
+  const args$2U = { color: CssVars.ColorGorgon };
 
   class TrigorgonDottedRight extends BaseMark {
     constructor() {
-      super(glyphname$2U);
+      super(glyphname$2U, args$2U);
     }
   }
 
   const glyphname$2T = 'argon';
+  const args$2T = { color: CssVars.ColorGorgon };
 
   class Argon extends BaseMark {
     constructor() {
-      super(glyphname$2T);
+      super(glyphname$2T, args$2T);
     }
   }
 
   const glyphname$2S = 'diargon';
+  const args$2S = { color: CssVars.ColorGorgon };
 
   class Diargon extends BaseMark {
     constructor() {
-      super(glyphname$2S);
+      super(glyphname$2S, args$2S);
     }
   }
 
   const glyphname$2R = 'triargon';
+  const args$2R = { color: CssVars.ColorGorgon };
 
   class Triargon extends BaseMark {
     constructor() {
-      super(glyphname$2R);
+      super(glyphname$2R, args$2R);
     }
   }
 
   const glyphname$2Q = 'gorgonSecondary';
+  const args$2Q = { color: CssVars.ColorGorgon };
 
   class GorgonSecondary extends BaseMark {
     constructor() {
-      super(glyphname$2Q);
+      super(glyphname$2Q, args$2Q);
     }
   }
 
   const glyphname$2P = 'gorgonDottedLeftSecondary';
+  const args$2P = { color: CssVars.ColorGorgon };
 
   class GorgonDottedLeftSecondary extends BaseMark {
     constructor() {
-      super(glyphname$2P);
+      super(glyphname$2P, args$2P);
     }
   }
 
   const glyphname$2O = 'gorgonDottedRightSecondary';
+  const args$2O = { color: CssVars.ColorGorgon };
 
   class GorgonDottedRightSecondary extends BaseMark {
     constructor() {
-      super(glyphname$2O);
+      super(glyphname$2O, args$2O);
     }
   }
 
   const glyphname$2N = 'digorgonSecondary';
+  const args$2N = { color: CssVars.ColorGorgon };
 
   class DigorgonSecondary extends BaseMark {
     constructor() {
-      super(glyphname$2N);
+      super(glyphname$2N, args$2N);
     }
   }
 
   const glyphname$2M = 'digorgonDottedLeftBelowSecondary';
+  const args$2M = { color: CssVars.ColorGorgon };
 
   class DigorgonDottedLeftBelowSecondary extends BaseMark {
     constructor() {
-      super(glyphname$2M);
+      super(glyphname$2M, args$2M);
     }
   }
 
   const glyphname$2L = 'digorgonDottedRightSecondary';
+  const args$2L = { color: CssVars.ColorGorgon };
 
   class DigorgonDottedRightSecondary extends BaseMark {
     constructor() {
-      super(glyphname$2L);
+      super(glyphname$2L, args$2L);
     }
   }
 
   const glyphname$2K = 'trigorgonSecondary';
+  const args$2K = { color: CssVars.ColorGorgon };
 
   class TrigorgonSecondary extends BaseMark {
     constructor() {
-      super(glyphname$2K);
+      super(glyphname$2K, args$2K);
     }
   }
 
   const glyphname$2J = 'trigorgonDottedLeftBelowSecondary';
+  const args$2J = { color: CssVars.ColorGorgon };
 
   class TrigorgonDottedLeftBelowSecondary extends BaseMark {
     constructor() {
-      super(glyphname$2J);
+      super(glyphname$2J, args$2J);
     }
   }
 
   const glyphname$2I = 'trigorgonDottedRightSecondary';
+  const args$2I = { color: CssVars.ColorGorgon };
 
   class TrigorgonDottedRightSecondary extends BaseMark {
     constructor() {
-      super(glyphname$2I);
+      super(glyphname$2I, args$2I);
     }
   }
 
   const glyphname$2H = 'agogiPoliArgi';
+  const args$2H = { color: CssVars.ColorAgogi };
 
   class AgogiPoliArgi extends BaseBody {
     constructor() {
-      super(glyphname$2H);
+      super(glyphname$2H, args$2H);
     }
   }
 
   const glyphname$2G = 'agogiArgoteri';
+  const args$2G = { color: CssVars.ColorAgogi };
 
   class AgogiArgoteri extends BaseBody {
     constructor() {
-      super(glyphname$2G);
+      super(glyphname$2G, args$2G);
     }
   }
 
   const glyphname$2F = 'agogiArgi';
+  const args$2F = { color: CssVars.ColorAgogi };
 
   class AgogiArgi extends BaseBody {
     constructor() {
-      super(glyphname$2F);
+      super(glyphname$2F, args$2F);
     }
   }
 
   const glyphname$2E = 'agogiMetria';
+  const args$2E = { color: CssVars.ColorAgogi };
 
   class AgogiMetria extends BaseBody {
     constructor() {
-      super(glyphname$2E);
+      super(glyphname$2E, args$2E);
     }
   }
 
   const glyphname$2D = 'agogiMesi';
+  const args$2D = { color: CssVars.ColorAgogi };
 
   class AgogiMesi extends BaseBody {
     constructor() {
-      super(glyphname$2D);
+      super(glyphname$2D, args$2D);
     }
   }
 
   const glyphname$2C = 'agogiGorgi';
+  const args$2C = { color: CssVars.ColorAgogi };
 
   class AgogiGorgi extends BaseBody {
     constructor() {
-      super(glyphname$2C);
+      super(glyphname$2C, args$2C);
     }
   }
 
   const glyphname$2B = 'agogiGorgoteri';
+  const args$2B = { color: CssVars.ColorAgogi };
 
   class AgogiGorgoteri extends BaseBody {
     constructor() {
-      super(glyphname$2B);
+      super(glyphname$2B, args$2B);
     }
   }
 
   const glyphname$2A = 'agogiPoliGorgi';
+  const args$2A = { color: CssVars.ColorAgogi };
 
   class AgogiPoliGorgi extends BaseBody {
     constructor() {
-      super(glyphname$2A);
+      super(glyphname$2A, args$2A);
     }
   }
 
   const glyphname$2z = 'agogiPoliArgiAbove';
+  const args$2z = { color: CssVars.ColorAgogi };
 
   class AgogiPoliArgiAbove extends BaseMark {
     constructor() {
-      super(glyphname$2z);
+      super(glyphname$2z, args$2z);
     }
   }
 
   const glyphname$2y = 'agogiArgoteriAbove';
+  const args$2y = { color: CssVars.ColorAgogi };
 
   class AgogiArgoteriAbove extends BaseMark {
     constructor() {
-      super(glyphname$2y);
+      super(glyphname$2y, args$2y);
     }
   }
 
   const glyphname$2x = 'agogiArgiAbove';
+  const args$2x = { color: CssVars.ColorAgogi };
 
   class AgogiArgiAbove extends BaseMark {
     constructor() {
-      super(glyphname$2x);
+      super(glyphname$2x, args$2x);
     }
   }
 
   const glyphname$2w = 'agogiMetriaAbove';
+  const args$2w = { color: CssVars.ColorAgogi };
 
   class AgogiMetriaAbove extends BaseMark {
     constructor() {
-      super(glyphname$2w);
+      super(glyphname$2w, args$2w);
     }
   }
 
   const glyphname$2v = 'agogiMesiAbove';
+  const args$2v = { color: CssVars.ColorAgogi };
 
   class AgogiMesiAbove extends BaseMark {
     constructor() {
-      super(glyphname$2v);
+      super(glyphname$2v, args$2v);
     }
   }
 
   const glyphname$2u = 'agogiGorgiAbove';
+  const args$2u = { color: CssVars.ColorAgogi };
 
   class AgogiGorgiAbove extends BaseMark {
     constructor() {
-      super(glyphname$2u);
+      super(glyphname$2u, args$2u);
     }
   }
 
   const glyphname$2t = 'agogiGorgoteriAbove';
+  const args$2t = { color: CssVars.ColorAgogi };
 
   class AgogiGorgoteriAbove extends BaseMark {
     constructor() {
-      super(glyphname$2t);
+      super(glyphname$2t, args$2t);
     }
   }
 
   const glyphname$2s = 'agogiPoliGorgiAbove';
+  const args$2s = { color: CssVars.ColorAgogi };
 
   class AgogiPoliGorgiAbove extends BaseMark {
     constructor() {
-      super(glyphname$2s);
+      super(glyphname$2s, args$2s);
     }
   }
 
   const glyphname$2r = 'martyriaNoteZoLow';
+  const args$2r = { color: CssVars.ColorMartyria };
 
   class MartyriaNoteZoLow extends BaseBody {
     constructor() {
-      super(glyphname$2r);
+      super(glyphname$2r, args$2r);
     }
   }
 
   const glyphname$2q = 'martyriaNoteNiLow';
+  const args$2q = { color: CssVars.ColorMartyria };
 
   class MartyriaNoteNiLow extends BaseBody {
     constructor() {
-      super(glyphname$2q);
+      super(glyphname$2q, args$2q);
     }
   }
 
   const glyphname$2p = 'martyriaNotePaLow';
+  const args$2p = { color: CssVars.ColorMartyria };
 
   class MartyriaNotePaLow extends BaseBody {
     constructor() {
-      super(glyphname$2p);
+      super(glyphname$2p, args$2p);
     }
   }
 
   const glyphname$2o = 'martyriaNoteVouLow';
+  const args$2o = { color: CssVars.ColorMartyria };
 
   class MartyriaNoteVouLow extends BaseBody {
     constructor() {
-      super(glyphname$2o);
+      super(glyphname$2o, args$2o);
     }
   }
 
   const glyphname$2n = 'martyriaNoteGaLow';
+  const args$2n = { color: CssVars.ColorMartyria };
 
   class MartyriaNoteGaLow extends BaseBody {
     constructor() {
-      super(glyphname$2n);
+      super(glyphname$2n, args$2n);
     }
   }
 
   const glyphname$2m = 'martyriaNoteDiLow';
+  const args$2m = { color: CssVars.ColorMartyria };
 
   class MartyriaNoteDiLow extends BaseBody {
     constructor() {
-      super(glyphname$2m);
+      super(glyphname$2m, args$2m);
     }
   }
 
   const glyphname$2l = 'martyriaNoteKeLow';
+  const args$2l = { color: CssVars.ColorMartyria };
 
   class MartyriaNoteKeLow extends BaseBody {
     constructor() {
-      super(glyphname$2l);
+      super(glyphname$2l, args$2l);
     }
   }
 
   const glyphname$2k = 'martyriaNoteZo';
+  const args$2k = { color: CssVars.ColorMartyria };
 
   class MartyriaNoteZo extends BaseBody {
     constructor() {
-      super(glyphname$2k);
+      super(glyphname$2k, args$2k);
     }
   }
 
   const glyphname$2j = 'martyriaNoteNi';
+  const args$2j = { color: CssVars.ColorMartyria };
 
   class MartyriaNoteNi extends BaseBody {
     constructor() {
-      super(glyphname$2j);
+      super(glyphname$2j, args$2j);
     }
   }
 
   const glyphname$2i = 'martyriaNotePa';
+  const args$2i = { color: CssVars.ColorMartyria };
 
   class MartyriaNotePa extends BaseBody {
     constructor() {
-      super(glyphname$2i);
+      super(glyphname$2i, args$2i);
     }
   }
 
   const glyphname$2h = 'martyriaNoteVou';
+  const args$2h = { color: CssVars.ColorMartyria };
 
   class MartyriaNoteVou extends BaseBody {
     constructor() {
-      super(glyphname$2h);
+      super(glyphname$2h, args$2h);
     }
   }
 
   const glyphname$2g = 'martyriaNoteGa';
+  const args$2g = { color: CssVars.ColorMartyria };
 
   class MartyriaNoteGa extends BaseBody {
     constructor() {
-      super(glyphname$2g);
+      super(glyphname$2g, args$2g);
     }
   }
 
   const glyphname$2f = 'martyriaNoteDi';
+  const args$2f = { color: CssVars.ColorMartyria };
 
   class MartyriaNoteDi extends BaseBody {
     constructor() {
-      super(glyphname$2f);
+      super(glyphname$2f, args$2f);
     }
   }
 
   const glyphname$2e = 'martyriaNoteKe';
+  const args$2e = { color: CssVars.ColorMartyria };
 
   class MartyriaNoteKe extends BaseBody {
     constructor() {
-      super(glyphname$2e);
+      super(glyphname$2e, args$2e);
     }
   }
 
   const glyphname$2d = 'martyriaNoteZoHigh';
+  const args$2d = { color: CssVars.ColorMartyria };
 
   class MartyriaNoteZoHigh extends BaseBody {
     constructor() {
-      super(glyphname$2d);
+      super(glyphname$2d, args$2d);
     }
   }
 
   const glyphname$2c = 'martyriaNoteNiHigh';
+  const args$2c = { color: CssVars.ColorMartyria };
 
   class MartyriaNoteNiHigh extends BaseBody {
     constructor() {
-      super(glyphname$2c);
+      super(glyphname$2c, args$2c);
     }
   }
 
   const glyphname$2b = 'martyriaNotePaHigh';
+  const args$2b = { color: CssVars.ColorMartyria };
 
   class MartyriaNotePaHigh extends BaseBody {
     constructor() {
-      super(glyphname$2b);
+      super(glyphname$2b, args$2b);
     }
   }
 
   const glyphname$2a = 'martyriaNoteVouHigh';
+  const args$2a = { color: CssVars.ColorMartyria };
 
   class MartyriaNoteVouHigh extends BaseBody {
     constructor() {
-      super(glyphname$2a);
+      super(glyphname$2a, args$2a);
     }
   }
 
   const glyphname$29 = 'martyriaNoteGaHigh';
+  const args$29 = { color: CssVars.ColorMartyria };
 
   class MartyriaNoteGaHigh extends BaseBody {
     constructor() {
-      super(glyphname$29);
+      super(glyphname$29, args$29);
     }
   }
 
   const glyphname$28 = 'martyriaNoteDiHigh';
+  const args$28 = { color: CssVars.ColorMartyria };
 
   class MartyriaNoteDiHigh extends BaseBody {
     constructor() {
-      super(glyphname$28);
+      super(glyphname$28, args$28);
     }
   }
 
   const glyphname$27 = 'martyriaNoteKeHigh';
+  const args$27 = { color: CssVars.ColorMartyria };
 
   class MartyriaNoteKeHigh extends BaseBody {
     constructor() {
-      super(glyphname$27);
+      super(glyphname$27, args$27);
     }
   }
 
   const glyphname$26 = 'martyriaTick';
+  const args$26 = { color: CssVars.ColorMartyria };
 
   class MartyriaTick extends BaseMark {
     constructor() {
-      super(glyphname$26);
+      super(glyphname$26, args$26);
     }
   }
 
   const glyphname$25 = 'martyriaZoBelow';
+  const args$25 = { color: CssVars.ColorMartyria };
 
   class MartyriaZoBelow extends BaseMark {
     constructor() {
-      super(glyphname$25);
+      super(glyphname$25, args$25);
     }
   }
 
   const glyphname$24 = 'martyriaDeltaBelow';
+  const args$24 = { color: CssVars.ColorMartyria };
 
   class MartyriaDeltaBelow extends BaseMark {
     constructor() {
-      super(glyphname$24);
+      super(glyphname$24, args$24);
     }
   }
 
   const glyphname$23 = 'martyriaAlphaBelow';
+  const args$23 = { color: CssVars.ColorMartyria };
 
   class MartyriaAlphaBelow extends BaseMark {
     constructor() {
-      super(glyphname$23);
+      super(glyphname$23, args$23);
     }
   }
 
   const glyphname$22 = 'martyriaLegetosBelow';
+  const args$22 = { color: CssVars.ColorMartyria };
 
   class MartyriaLegetosBelow extends BaseMark {
     constructor() {
-      super(glyphname$22);
+      super(glyphname$22, args$22);
     }
   }
 
   const glyphname$21 = 'martyriaNanaBelow';
+  const args$21 = { color: CssVars.ColorMartyria };
 
   class MartyriaNanaBelow extends BaseMark {
     constructor() {
-      super(glyphname$21);
+      super(glyphname$21, args$21);
     }
   }
 
   const glyphname$20 = 'martyriaDeltaDottedBelow';
+  const args$20 = { color: CssVars.ColorMartyria };
 
   class MartyriaDeltaDottedBelow extends BaseMark {
     constructor() {
-      super(glyphname$20);
+      super(glyphname$20, args$20);
     }
   }
 
   const glyphname$1$ = 'martyriaAlphaDottedBelow';
+  const args$1$ = { color: CssVars.ColorMartyria };
 
   class MartyriaAlphaDottedBelow extends BaseMark {
     constructor() {
-      super(glyphname$1$);
+      super(glyphname$1$, args$1$);
     }
   }
 
   const glyphname$1_ = 'martyriaHardChromaticPaBelow';
+  const args$1_ = { color: CssVars.ColorMartyria };
 
   class MartyriaHardChromaticPaBelow extends BaseMark {
     constructor() {
-      super(glyphname$1_);
+      super(glyphname$1_, args$1_);
     }
   }
 
   const glyphname$1Z = 'martyriaHardChromaticDiBelow';
+  const args$1Z = { color: CssVars.ColorMartyria };
 
   class MartyriaHardChromaticDiBelow extends BaseMark {
     constructor() {
-      super(glyphname$1Z);
+      super(glyphname$1Z, args$1Z);
     }
   }
 
   const glyphname$1Y = 'martyriaSoftChromaticDiBelow';
+  const args$1Y = { color: CssVars.ColorMartyria };
 
   class MartyriaSoftChromaticDiBelow extends BaseMark {
     constructor() {
-      super(glyphname$1Y);
+      super(glyphname$1Y, args$1Y);
     }
   }
 
   const glyphname$1X = 'martyriaSoftChromaticKeBelow';
+  const args$1X = { color: CssVars.ColorMartyria };
 
   class MartyriaSoftChromaticKeBelow extends BaseMark {
     constructor() {
-      super(glyphname$1X);
+      super(glyphname$1X, args$1X);
     }
   }
 
   const glyphname$1W = 'martyriaZygosBelow';
+  const args$1W = { color: CssVars.ColorMartyria };
 
   class MartyriaZygosBelow extends BaseMark {
     constructor() {
-      super(glyphname$1W);
+      super(glyphname$1W, args$1W);
     }
   }
 
   const glyphname$1V = 'martyriaZoAbove';
+  const args$1V = { color: CssVars.ColorMartyria };
 
   class MartyriaZoAbove extends BaseMark {
     constructor() {
-      super(glyphname$1V);
+      super(glyphname$1V, args$1V);
     }
   }
 
   const glyphname$1U = 'martyriaDeltaAbove';
+  const args$1U = { color: CssVars.ColorMartyria };
 
   class MartyriaDeltaAbove extends BaseMark {
     constructor() {
-      super(glyphname$1U);
+      super(glyphname$1U, args$1U);
     }
   }
 
   const glyphname$1T = 'martyriaAlphaAbove';
+  const args$1T = { color: CssVars.ColorMartyria };
 
   class MartyriaAlphaAbove extends BaseMark {
     constructor() {
-      super(glyphname$1T);
+      super(glyphname$1T, args$1T);
     }
   }
 
   const glyphname$1S = 'martyriaLegetosAbove';
+  const args$1S = { color: CssVars.ColorMartyria };
 
   class MartyriaLegetosAbove extends BaseMark {
     constructor() {
-      super(glyphname$1S);
+      super(glyphname$1S, args$1S);
     }
   }
 
   const glyphname$1R = 'martyriaNanaAbove';
+  const args$1R = { color: CssVars.ColorMartyria };
 
   class MartyriaNanaAbove extends BaseMark {
     constructor() {
-      super(glyphname$1R);
+      super(glyphname$1R, args$1R);
     }
   }
 
   const glyphname$1Q = 'martyriaDeltaDottedAbove';
+  const args$1Q = { color: CssVars.ColorMartyria };
 
   class MartyriaDeltaDottedAbove extends BaseMark {
     constructor() {
-      super(glyphname$1Q);
+      super(glyphname$1Q, args$1Q);
     }
   }
 
   const glyphname$1P = 'martyriaAlphaDottedAbove';
+  const args$1P = { color: CssVars.ColorMartyria };
 
   class MartyriaAlphaDottedAbove extends BaseMark {
     constructor() {
-      super(glyphname$1P);
+      super(glyphname$1P, args$1P);
     }
   }
 
   const glyphname$1O = 'martyriaHardChromaticPaAbove';
+  const args$1O = { color: CssVars.ColorMartyria };
 
   class MartyriaHardChromaticPaAbove extends BaseMark {
     constructor() {
-      super(glyphname$1O);
+      super(glyphname$1O, args$1O);
     }
   }
 
   const glyphname$1N = 'martyriaHardChromaticDiAbove';
+  const args$1N = { color: CssVars.ColorMartyria };
 
   class MartyriaHardChromaticDiAbove extends BaseMark {
     constructor() {
-      super(glyphname$1N);
+      super(glyphname$1N, args$1N);
     }
   }
 
   const glyphname$1M = 'martyriaSoftChromaticDiAbove';
+  const args$1M = { color: CssVars.ColorMartyria };
 
   class MartyriaSoftChromaticDiAbove extends BaseMark {
     constructor() {
-      super(glyphname$1M);
+      super(glyphname$1M, args$1M);
     }
   }
 
   const glyphname$1L = 'martyriaSoftChromaticKeAbove';
+  const args$1L = { color: CssVars.ColorMartyria };
 
   class MartyriaSoftChromaticKeAbove extends BaseMark {
     constructor() {
-      super(glyphname$1L);
+      super(glyphname$1L, args$1L);
     }
   }
 
   const glyphname$1K = 'martyriaZygosAbove';
+  const args$1K = { color: CssVars.ColorMartyria };
 
   class MartyriaZygosAbove extends BaseMark {
     constructor() {
-      super(glyphname$1K);
+      super(glyphname$1K, args$1K);
     }
   }
 
   const glyphname$1J = 'fthoraDiatonicNiLowAbove';
+  const args$1J = { color: CssVars.ColorFthora };
 
   class FthoraDiatonicNiLowAbove extends BaseMark {
     constructor() {
-      super(glyphname$1J);
+      super(glyphname$1J, args$1J);
     }
   }
 
   const glyphname$1I = 'fthoraDiatonicPaAbove';
+  const args$1I = { color: CssVars.ColorFthora };
 
   class FthoraDiatonicPaAbove extends BaseMark {
     constructor() {
-      super(glyphname$1I);
+      super(glyphname$1I, args$1I);
     }
   }
 
   const glyphname$1H = 'fthoraDiatonicVouAbove';
+  const args$1H = { color: CssVars.ColorFthora };
 
   class FthoraDiatonicVouAbove extends BaseMark {
     constructor() {
-      super(glyphname$1H);
+      super(glyphname$1H, args$1H);
     }
   }
 
   const glyphname$1G = 'fthoraDiatonicGaAbove';
+  const args$1G = { color: CssVars.ColorFthora };
 
   class FthoraDiatonicGaAbove extends BaseMark {
     constructor() {
-      super(glyphname$1G);
+      super(glyphname$1G, args$1G);
     }
   }
 
   const glyphname$1F = 'fthoraDiatonicDiAbove';
+  const args$1F = { color: CssVars.ColorFthora };
 
   class FthoraDiatonicDiAbove extends BaseMark {
     constructor() {
-      super(glyphname$1F);
+      super(glyphname$1F, args$1F);
     }
   }
 
   const glyphname$1E = 'fthoraDiatonicKeAbove';
+  const args$1E = { color: CssVars.ColorFthora };
 
   class FthoraDiatonicKeAbove extends BaseMark {
     constructor() {
-      super(glyphname$1E);
+      super(glyphname$1E, args$1E);
     }
   }
 
   const glyphname$1D = 'fthoraDiatonicZoAbove';
+  const args$1D = { color: CssVars.ColorFthora };
 
   class FthoraDiatonicZoAbove extends BaseMark {
     constructor() {
-      super(glyphname$1D);
+      super(glyphname$1D, args$1D);
     }
   }
 
   const glyphname$1C = 'fthoraDiatonicNiHighAbove';
+  const args$1C = { color: CssVars.ColorFthora };
 
   class FthoraDiatonicNiHighAbove extends BaseMark {
     constructor() {
-      super(glyphname$1C);
+      super(glyphname$1C, args$1C);
     }
   }
 
   const glyphname$1B = 'fthoraHardChromaticPaAbove';
+  const args$1B = { color: CssVars.ColorFthora };
 
   class FthoraHardChromaticPaAbove extends BaseMark {
     constructor() {
-      super(glyphname$1B);
+      super(glyphname$1B, args$1B);
     }
   }
 
   const glyphname$1A = 'fthoraHardChromaticDiAbove';
+  const args$1A = { color: CssVars.ColorFthora };
 
   class FthoraHardChromaticDiAbove extends BaseMark {
     constructor() {
-      super(glyphname$1A);
+      super(glyphname$1A, args$1A);
     }
   }
 
   const glyphname$1z = 'fthoraSoftChromaticDiAbove';
+  const args$1z = { color: CssVars.ColorFthora };
 
   class FthoraSoftChromaticDiAbove extends BaseMark {
     constructor() {
-      super(glyphname$1z);
+      super(glyphname$1z, args$1z);
     }
   }
 
   const glyphname$1y = 'fthoraSoftChromaticKeAbove';
+  const args$1y = { color: CssVars.ColorFthora };
 
   class FthoraSoftChromaticKeAbove extends BaseMark {
     constructor() {
-      super(glyphname$1y);
+      super(glyphname$1y, args$1y);
     }
   }
 
   const glyphname$1x = 'fthoraEnharmonicAbove';
+  const args$1x = { color: CssVars.ColorFthora };
 
   class FthoraEnharmonicAbove extends BaseMark {
     constructor() {
-      super(glyphname$1x);
+      super(glyphname$1x, args$1x);
     }
   }
 
   const glyphname$1w = 'chroaZygosAbove';
+  const args$1w = {};
 
   class ChroaZygosAbove extends BaseMark {
     constructor() {
-      super(glyphname$1w);
+      super(glyphname$1w, args$1w);
     }
   }
 
   const glyphname$1v = 'chroaKlitonAbove';
+  const args$1v = {};
 
   class ChroaKlitonAbove extends BaseMark {
     constructor() {
-      super(glyphname$1v);
+      super(glyphname$1v, args$1v);
     }
   }
 
   const glyphname$1u = 'chroaSpathiAbove';
+  const args$1u = {};
 
   class ChroaSpathiAbove extends BaseMark {
     constructor() {
-      super(glyphname$1u);
+      super(glyphname$1u, args$1u);
     }
   }
 
   const glyphname$1t = 'fthoraDiatonicNiLowBelow';
+  const args$1t = { color: CssVars.ColorFthora };
 
   class FthoraDiatonicNiLowBelow extends BaseMark {
     constructor() {
-      super(glyphname$1t);
+      super(glyphname$1t, args$1t);
     }
   }
 
   const glyphname$1s = 'fthoraDiatonicPaBelow';
+  const args$1s = { color: CssVars.ColorFthora };
 
   class FthoraDiatonicPaBelow extends BaseMark {
     constructor() {
-      super(glyphname$1s);
+      super(glyphname$1s, args$1s);
     }
   }
 
   const glyphname$1r = 'fthoraDiatonicVouBelow';
+  const args$1r = { color: CssVars.ColorFthora };
 
   class FthoraDiatonicVouBelow extends BaseMark {
     constructor() {
-      super(glyphname$1r);
+      super(glyphname$1r, args$1r);
     }
   }
 
   const glyphname$1q = 'fthoraDiatonicGaBelow';
+  const args$1q = { color: CssVars.ColorFthora };
 
   class FthoraDiatonicGaBelow extends BaseMark {
     constructor() {
-      super(glyphname$1q);
+      super(glyphname$1q, args$1q);
     }
   }
 
   const glyphname$1p = 'fthoraDiatonicDiBelow';
+  const args$1p = { color: CssVars.ColorFthora };
 
   class FthoraDiatonicDiBelow extends BaseMark {
     constructor() {
-      super(glyphname$1p);
+      super(glyphname$1p, args$1p);
     }
   }
 
   const glyphname$1o = 'fthoraDiatonicKeBelow';
+  const args$1o = { color: CssVars.ColorFthora };
 
   class FthoraDiatonicKeBelow extends BaseMark {
     constructor() {
-      super(glyphname$1o);
+      super(glyphname$1o, args$1o);
     }
   }
 
   const glyphname$1n = 'fthoraDiatonicZoBelow';
+  const args$1n = { color: CssVars.ColorFthora };
 
   class FthoraDiatonicZoBelow extends BaseMark {
     constructor() {
-      super(glyphname$1n);
+      super(glyphname$1n, args$1n);
     }
   }
 
   const glyphname$1m = 'fthoraDiatonicNiHighBelow';
+  const args$1m = { color: CssVars.ColorFthora };
 
   class FthoraDiatonicNiHighBelow extends BaseMark {
     constructor() {
-      super(glyphname$1m);
+      super(glyphname$1m, args$1m);
     }
   }
 
   const glyphname$1l = 'fthoraHardChromaticPaBelow';
+  const args$1l = { color: CssVars.ColorFthora };
 
   class FthoraHardChromaticPaBelow extends BaseMark {
     constructor() {
-      super(glyphname$1l);
+      super(glyphname$1l, args$1l);
     }
   }
 
   const glyphname$1k = 'fthoraHardChromaticDiBelow';
+  const args$1k = { color: CssVars.ColorFthora };
 
   class FthoraHardChromaticDiBelow extends BaseMark {
     constructor() {
-      super(glyphname$1k);
+      super(glyphname$1k, args$1k);
     }
   }
 
   const glyphname$1j = 'fthoraSoftChromaticDiBelow';
+  const args$1j = { color: CssVars.ColorFthora };
 
   class FthoraSoftChromaticDiBelow extends BaseMark {
     constructor() {
-      super(glyphname$1j);
+      super(glyphname$1j, args$1j);
     }
   }
 
   const glyphname$1i = 'fthoraSoftChromaticKeBelow';
+  const args$1i = { color: CssVars.ColorFthora };
 
   class FthoraSoftChromaticKeBelow extends BaseMark {
     constructor() {
-      super(glyphname$1i);
+      super(glyphname$1i, args$1i);
     }
   }
 
   const glyphname$1h = 'fthoraEnharmonicBelow';
+  const args$1h = { color: CssVars.ColorFthora };
 
   class FthoraEnharmonicBelow extends BaseMark {
     constructor() {
-      super(glyphname$1h);
+      super(glyphname$1h, args$1h);
     }
   }
 
   const glyphname$1g = 'chroaZygosBelow';
+  const args$1g = {};
 
   class ChroaZygosBelow extends BaseMark {
     constructor() {
-      super(glyphname$1g);
+      super(glyphname$1g, args$1g);
     }
   }
 
   const glyphname$1f = 'chroaKlitonBelow';
+  const args$1f = {};
 
   class ChroaKlitonBelow extends BaseMark {
     constructor() {
-      super(glyphname$1f);
+      super(glyphname$1f, args$1f);
     }
   }
 
   const glyphname$1e = 'chroaSpathiBelow';
+  const args$1e = {};
 
   class ChroaSpathiBelow extends BaseMark {
     constructor() {
-      super(glyphname$1e);
+      super(glyphname$1e, args$1e);
     }
   }
 
   const glyphname$1d = 'diesis2';
+  const args$1d = { color: CssVars.ColorAccidental };
 
   class Diesis2 extends BaseMark {
     constructor() {
-      super(glyphname$1d);
+      super(glyphname$1d, args$1d);
     }
   }
 
   const glyphname$1c = 'diesis4';
+  const args$1c = { color: CssVars.ColorAccidental };
 
   class Diesis4 extends BaseMark {
     constructor() {
-      super(glyphname$1c);
+      super(glyphname$1c, args$1c);
     }
   }
 
   const glyphname$1b = 'diesis6';
+  const args$1b = { color: CssVars.ColorAccidental };
 
   class Diesis6 extends BaseMark {
     constructor() {
-      super(glyphname$1b);
+      super(glyphname$1b, args$1b);
     }
   }
 
   const glyphname$1a = 'diesis8';
+  const args$1a = { color: CssVars.ColorAccidental };
 
   class Diesis8 extends BaseMark {
     constructor() {
-      super(glyphname$1a);
+      super(glyphname$1a, args$1a);
     }
   }
 
   const glyphname$19 = 'diesisGenikiAbove';
+  const args$19 = { color: CssVars.ColorAccidental };
 
   class DiesisGenikiAbove extends BaseMark {
     constructor() {
-      super(glyphname$19);
+      super(glyphname$19, args$19);
     }
   }
 
   const glyphname$18 = 'diesisGenikiBelow';
+  const args$18 = { color: CssVars.ColorAccidental };
 
   class DiesisGenikiBelow extends BaseMark {
     constructor() {
-      super(glyphname$18);
+      super(glyphname$18, args$18);
     }
   }
 
   const glyphname$17 = 'yfesis2';
+  const args$17 = { color: CssVars.ColorAccidental };
 
   class Yfesis2 extends BaseMark {
     constructor() {
-      super(glyphname$17);
+      super(glyphname$17, args$17);
     }
   }
 
   const glyphname$16 = 'yfesis4';
+  const args$16 = { color: CssVars.ColorAccidental };
 
   class Yfesis4 extends BaseMark {
     constructor() {
-      super(glyphname$16);
+      super(glyphname$16, args$16);
     }
   }
 
   const glyphname$15 = 'yfesis6';
+  const args$15 = { color: CssVars.ColorAccidental };
 
   class Yfesis6 extends BaseMark {
     constructor() {
-      super(glyphname$15);
+      super(glyphname$15, args$15);
     }
   }
 
   const glyphname$14 = 'yfesis8';
+  const args$14 = { color: CssVars.ColorAccidental };
 
   class Yfesis8 extends BaseMark {
     constructor() {
-      super(glyphname$14);
+      super(glyphname$14, args$14);
     }
   }
 
   const glyphname$13 = 'yfesisGenikiAbove';
+  const args$13 = { color: CssVars.ColorAccidental };
 
   class YfesisGenikiAbove extends BaseMark {
     constructor() {
-      super(glyphname$13);
+      super(glyphname$13, args$13);
     }
   }
 
   const glyphname$12 = 'yfesisGenikiBelow';
+  const args$12 = { color: CssVars.ColorAccidental };
 
   class YfesisGenikiBelow extends BaseMark {
     constructor() {
-      super(glyphname$12);
+      super(glyphname$12, args$12);
     }
   }
 
   const glyphname$11 = 'barlineSingle';
+  const args$11 = { color: CssVars.ColorBarline };
 
   class BarlineSingle extends BaseBody {
     constructor() {
-      super(glyphname$11);
+      super(glyphname$11, args$11);
     }
   }
 
   const glyphname$10 = 'barlineDouble';
+  const args$10 = { color: CssVars.ColorBarline };
 
   class BarlineDouble extends BaseBody {
     constructor() {
-      super(glyphname$10);
+      super(glyphname$10, args$10);
     }
   }
 
   const glyphname$$ = 'barlineTheseos';
+  const args$$ = { color: CssVars.ColorBarline };
 
   class BarlineTheseos extends BaseBody {
     constructor() {
-      super(glyphname$$);
+      super(glyphname$$, args$$);
     }
   }
 
   const glyphname$_ = 'barlineShortSingle';
+  const args$_ = { color: CssVars.ColorBarline };
 
   class BarlineShortSingle extends BaseBody {
     constructor() {
-      super(glyphname$_);
+      super(glyphname$_, args$_);
     }
   }
 
   const glyphname$Z = 'barlineShortDouble';
+  const args$Z = { color: CssVars.ColorBarline };
 
   class BarlineShortDouble extends BaseBody {
     constructor() {
-      super(glyphname$Z);
+      super(glyphname$Z, args$Z);
     }
   }
 
   const glyphname$Y = 'barlineShortTheseos';
+  const args$Y = { color: CssVars.ColorBarline };
 
   class BarlineShortTheseos extends BaseBody {
     constructor() {
-      super(glyphname$Y);
+      super(glyphname$Y, args$Y);
     }
   }
 
   const glyphname$X = 'measureNumber2';
+  const args$X = { color: CssVars.ColorMeasureNumber };
 
   class MeasureNumber2 extends BaseMark {
     constructor() {
-      super(glyphname$X);
+      super(glyphname$X, args$X);
     }
   }
 
   const glyphname$W = 'measureNumber3';
+  const args$W = { color: CssVars.ColorMeasureNumber };
 
   class MeasureNumber3 extends BaseMark {
     constructor() {
-      super(glyphname$W);
+      super(glyphname$W, args$W);
     }
   }
 
   const glyphname$V = 'measureNumber4';
+  const args$V = { color: CssVars.ColorMeasureNumber };
 
   class MeasureNumber4 extends BaseMark {
     constructor() {
-      super(glyphname$V);
+      super(glyphname$V, args$V);
     }
   }
 
   const glyphname$U = 'measureNumber5';
+  const args$U = { color: CssVars.ColorMeasureNumber };
 
   class MeasureNumber5 extends BaseMark {
     constructor() {
-      super(glyphname$U);
+      super(glyphname$U, args$U);
     }
   }
 
   const glyphname$T = 'measureNumber6';
+  const args$T = { color: CssVars.ColorMeasureNumber };
 
   class MeasureNumber6 extends BaseMark {
     constructor() {
-      super(glyphname$T);
+      super(glyphname$T, args$T);
     }
   }
 
   const glyphname$S = 'measureNumber7';
+  const args$S = { color: CssVars.ColorMeasureNumber };
 
   class MeasureNumber7 extends BaseMark {
     constructor() {
-      super(glyphname$S);
+      super(glyphname$S, args$S);
     }
   }
 
   const glyphname$R = 'measureNumber8';
+  const args$R = { color: CssVars.ColorMeasureNumber };
 
   class MeasureNumber8 extends BaseMark {
     constructor() {
-      super(glyphname$R);
+      super(glyphname$R, args$R);
     }
   }
 
   const glyphname$Q = 'noteIndicatorNi';
+  const args$Q = { color: CssVars.ColorNoteIndicator };
 
   class NoteIndicatorNi extends BaseMark {
     constructor() {
-      super(glyphname$Q);
+      super(glyphname$Q, args$Q);
     }
   }
 
   const glyphname$P = 'noteIndicatorPa';
+  const args$P = { color: CssVars.ColorNoteIndicator };
 
   class NoteIndicatorPa extends BaseMark {
     constructor() {
-      super(glyphname$P);
+      super(glyphname$P, args$P);
     }
   }
 
   const glyphname$O = 'noteIndicatorVou';
+  const args$O = { color: CssVars.ColorNoteIndicator };
 
   class NoteIndicatorVou extends BaseMark {
     constructor() {
-      super(glyphname$O);
+      super(glyphname$O, args$O);
     }
   }
 
   const glyphname$N = 'noteIndicatorGa';
+  const args$N = { color: CssVars.ColorNoteIndicator };
 
   class NoteIndicatorGa extends BaseMark {
     constructor() {
-      super(glyphname$N);
+      super(glyphname$N, args$N);
     }
   }
 
   const glyphname$M = 'noteIndicatorDi';
+  const args$M = { color: CssVars.ColorNoteIndicator };
 
   class NoteIndicatorDi extends BaseMark {
     constructor() {
-      super(glyphname$M);
+      super(glyphname$M, args$M);
     }
   }
 
   const glyphname$L = 'noteIndicatorKe';
+  const args$L = { color: CssVars.ColorNoteIndicator };
 
   class NoteIndicatorKe extends BaseMark {
     constructor() {
-      super(glyphname$L);
+      super(glyphname$L, args$L);
     }
   }
 
   const glyphname$K = 'noteIndicatorZo';
+  const args$K = { color: CssVars.ColorNoteIndicator };
 
   class NoteIndicatorZo extends BaseMark {
     constructor() {
-      super(glyphname$K);
+      super(glyphname$K, args$K);
     }
   }
 
   const glyphname$J = 'isonIndicatorUnison';
+  const args$J = { color: CssVars.ColorIsonIndicator };
 
   class IsonIndicatorUnison extends BaseMark {
     constructor() {
-      super(glyphname$J);
+      super(glyphname$J, args$J);
     }
   }
 
   const glyphname$I = 'isonIndicatorDiLow';
+  const args$I = { color: CssVars.ColorIsonIndicator };
 
   class IsonIndicatorDiLow extends BaseMark {
     constructor() {
-      super(glyphname$I);
+      super(glyphname$I, args$I);
     }
   }
 
   const glyphname$H = 'isonIndicatorKeLow';
+  const args$H = { color: CssVars.ColorIsonIndicator };
 
   class IsonIndicatorKeLow extends BaseMark {
     constructor() {
-      super(glyphname$H);
+      super(glyphname$H, args$H);
     }
   }
 
   const glyphname$G = 'isonIndicatorZo';
+  const args$G = { color: CssVars.ColorIsonIndicator };
 
   class IsonIndicatorZo extends BaseMark {
     constructor() {
-      super(glyphname$G);
+      super(glyphname$G, args$G);
     }
   }
 
   const glyphname$F = 'isonIndicatorNi';
+  const args$F = { color: CssVars.ColorIsonIndicator };
 
   class IsonIndicatorNi extends BaseMark {
     constructor() {
-      super(glyphname$F);
+      super(glyphname$F, args$F);
     }
   }
 
   const glyphname$E = 'isonIndicatorPa';
+  const args$E = { color: CssVars.ColorIsonIndicator };
 
   class IsonIndicatorPa extends BaseMark {
     constructor() {
-      super(glyphname$E);
+      super(glyphname$E, args$E);
     }
   }
 
   const glyphname$D = 'isonIndicatorVou';
+  const args$D = { color: CssVars.ColorIsonIndicator };
 
   class IsonIndicatorVou extends BaseMark {
     constructor() {
-      super(glyphname$D);
+      super(glyphname$D, args$D);
     }
   }
 
   const glyphname$C = 'isonIndicatorGa';
+  const args$C = { color: CssVars.ColorIsonIndicator };
 
   class IsonIndicatorGa extends BaseMark {
     constructor() {
-      super(glyphname$C);
+      super(glyphname$C, args$C);
     }
   }
 
   const glyphname$B = 'isonIndicatorDi';
+  const args$B = { color: CssVars.ColorIsonIndicator };
 
   class IsonIndicatorDi extends BaseMark {
     constructor() {
-      super(glyphname$B);
+      super(glyphname$B, args$B);
     }
   }
 
   const glyphname$A = 'isonIndicatorKe';
+  const args$A = { color: CssVars.ColorIsonIndicator };
 
   class IsonIndicatorKe extends BaseMark {
     constructor() {
-      super(glyphname$A);
+      super(glyphname$A, args$A);
     }
   }
 
   const glyphname$z = 'isonIndicatorZoHigh';
+  const args$z = { color: CssVars.ColorIsonIndicator };
 
   class IsonIndicatorZoHigh extends BaseMark {
     constructor() {
-      super(glyphname$z);
+      super(glyphname$z, args$z);
     }
   }
 
   const glyphname$y = 'gorthmikon';
+  const args$y = {};
 
   class Gorthmikon extends BaseMark {
     constructor() {
-      super(glyphname$y);
+      super(glyphname$y, args$y);
     }
   }
 
   const glyphname$x = 'pelastikon';
+  const args$x = {};
 
   class Pelastikon extends BaseMark {
     constructor() {
-      super(glyphname$x);
+      super(glyphname$x, args$x);
     }
   }
 
   const glyphname$w = 'modeFirst';
+  const args$w = {};
 
   class ModeFirst extends BaseMark {
     constructor() {
-      super(glyphname$w);
+      super(glyphname$w, args$w);
     }
   }
 
   const glyphname$v = 'modeSecond';
+  const args$v = {};
 
   class ModeSecond extends BaseMark {
     constructor() {
-      super(glyphname$v);
+      super(glyphname$v, args$v);
     }
   }
 
   const glyphname$u = 'modeThird';
+  const args$u = {};
 
   class ModeThird extends BaseMark {
     constructor() {
-      super(glyphname$u);
+      super(glyphname$u, args$u);
     }
   }
 
   const glyphname$t = 'modeThirdNana';
+  const args$t = {};
 
   class ModeThirdNana extends BaseMark {
     constructor() {
-      super(glyphname$t);
+      super(glyphname$t, args$t);
     }
   }
 
   const glyphname$s = 'modeFourth';
+  const args$s = {};
 
   class ModeFourth extends BaseMark {
     constructor() {
-      super(glyphname$s);
+      super(glyphname$s, args$s);
     }
   }
 
   const glyphname$r = 'modeLegetos';
+  const args$r = {};
 
   class ModeLegetos extends BaseMark {
     constructor() {
-      super(glyphname$r);
+      super(glyphname$r, args$r);
     }
   }
 
   const glyphname$q = 'modePlagalFirst';
+  const args$q = {};
 
   class ModePlagalFirst extends BaseMark {
     constructor() {
-      super(glyphname$q);
+      super(glyphname$q, args$q);
     }
   }
 
   const glyphname$p = 'modePlagalSecond';
+  const args$p = {};
 
   class ModePlagalSecond extends BaseMark {
     constructor() {
-      super(glyphname$p);
+      super(glyphname$p, args$p);
     }
   }
 
   const glyphname$o = 'modeVarys';
+  const args$o = {};
 
   class ModeVarys extends BaseMark {
     constructor() {
-      super(glyphname$o);
+      super(glyphname$o, args$o);
     }
   }
 
   const glyphname$n = 'modeVarys2';
+  const args$n = {};
 
   class ModeVarys2 extends BaseMark {
     constructor() {
-      super(glyphname$n);
+      super(glyphname$n, args$n);
     }
   }
 
   const glyphname$m = 'modePlagalFourth';
+  const args$m = {};
 
   class ModePlagalFourth extends BaseMark {
     constructor() {
-      super(glyphname$m);
+      super(glyphname$m, args$m);
     }
   }
 
   const glyphname$l = 'modeNi';
+  const args$l = {};
 
   class ModeNi extends BaseMark {
     constructor() {
-      super(glyphname$l);
+      super(glyphname$l, args$l);
     }
   }
 
   const glyphname$k = 'modePa';
+  const args$k = {};
 
   class ModePa extends BaseMark {
     constructor() {
-      super(glyphname$k);
+      super(glyphname$k, args$k);
     }
   }
 
   const glyphname$j = 'modeVou';
+  const args$j = {};
 
   class ModeVou extends BaseMark {
     constructor() {
-      super(glyphname$j);
+      super(glyphname$j, args$j);
     }
   }
 
   const glyphname$i = 'modeGa';
+  const args$i = {};
 
   class ModeGa extends BaseMark {
     constructor() {
-      super(glyphname$i);
+      super(glyphname$i, args$i);
     }
   }
 
   const glyphname$h = 'modeDi';
+  const args$h = {};
 
   class ModeDi extends BaseMark {
     constructor() {
-      super(glyphname$h);
+      super(glyphname$h, args$h);
     }
   }
 
   const glyphname$g = 'modeKe';
+  const args$g = {};
 
   class ModeKe extends BaseMark {
     constructor() {
-      super(glyphname$g);
+      super(glyphname$g, args$g);
     }
   }
 
   const glyphname$f = 'modeZo';
+  const args$f = {};
 
   class ModeZo extends BaseMark {
     constructor() {
-      super(glyphname$f);
+      super(glyphname$f, args$f);
     }
   }
 
   const glyphname$e = 'modeOligonKentimaAbove';
+  const args$e = {};
 
   class ModeOligonKentimaAbove extends BaseMark {
     constructor() {
-      super(glyphname$e);
+      super(glyphname$e, args$e);
     }
   }
 
   const glyphname$d = 'modeOligonYpsili';
+  const args$d = {};
 
   class ModeOligonYpsili extends BaseMark {
     constructor() {
-      super(glyphname$d);
+      super(glyphname$d, args$d);
     }
   }
 
   const glyphname$c = 'modeElafron';
+  const args$c = {};
 
   class ModeElafron extends BaseMark {
     constructor() {
-      super(glyphname$c);
+      super(glyphname$c, args$c);
     }
   }
 
   const glyphname$b = 'modeRunningElafron';
+  const args$b = {};
 
   class ModeRunningElafron extends BaseMark {
     constructor() {
-      super(glyphname$b);
+      super(glyphname$b, args$b);
     }
   }
 
   const glyphname$a = 'modePlagal';
+  const args$a = {};
 
   class ModePlagal extends BaseMark {
     constructor() {
-      super(glyphname$a);
+      super(glyphname$a, args$a);
     }
   }
 
   const glyphname$9 = 'modeWordEchos';
+  const args$9 = {};
 
   class ModeWordEchos extends BaseMark {
     constructor() {
-      super(glyphname$9);
+      super(glyphname$9, args$9);
     }
   }
 
   const glyphname$8 = 'modeWordVarys';
+  const args$8 = {};
 
   class ModeWordVarys extends BaseMark {
     constructor() {
-      super(glyphname$8);
+      super(glyphname$8, args$8);
     }
   }
 
   const glyphname$7 = 'modeAlpha';
+  const args$7 = {};
 
   class ModeAlpha extends BaseMark {
     constructor() {
-      super(glyphname$7);
+      super(glyphname$7, args$7);
     }
   }
 
   const glyphname$6 = 'modeBeta';
+  const args$6 = {};
 
   class ModeBeta extends BaseMark {
     constructor() {
-      super(glyphname$6);
+      super(glyphname$6, args$6);
     }
   }
 
   const glyphname$5 = 'modeGamma';
+  const args$5 = {};
 
   class ModeGamma extends BaseMark {
     constructor() {
-      super(glyphname$5);
+      super(glyphname$5, args$5);
     }
   }
 
   const glyphname$4 = 'modeDelta';
+  const args$4 = {};
 
   class ModeDelta extends BaseMark {
     constructor() {
-      super(glyphname$4);
+      super(glyphname$4, args$4);
     }
   }
 
   const glyphname$3 = 'modeAlphaCapital';
+  const args$3 = {};
 
   class ModeAlphaCapital extends BaseMark {
     constructor() {
-      super(glyphname$3);
+      super(glyphname$3, args$3);
     }
   }
 
   const glyphname$2 = 'modeBetaCapital';
+  const args$2 = {};
 
   class ModeBetaCapital extends BaseMark {
     constructor() {
-      super(glyphname$2);
+      super(glyphname$2, args$2);
     }
   }
 
   const glyphname$1 = 'modeGammaCapital';
+  const args$1 = {};
 
   class ModeGammaCapital extends BaseMark {
     constructor() {
-      super(glyphname$1);
+      super(glyphname$1, args$1);
     }
   }
 
   const glyphname = 'modeDeltaCapital';
+  const args = {};
 
   class ModeDeltaCapital extends BaseMark {
     constructor() {
-      super(glyphname);
+      super(glyphname, args);
     }
   }
 

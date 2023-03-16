@@ -733,21 +733,14 @@ Source:
   --byz-lyric-offset-v: -6pt;
 
   --byz-drop-cap-font-size: 60pt;
+  --byz-drop-cap-color: var(--red);
   --byz-drop-cap-offset-v: 24pt;
-}
 
-.accidental,
-.gorgon,
-.fthora,
-x-martyria,
-x-heteron,
-x-heteron-connecting,
-x-endofonon {
-  color: var(--red);
-}
-
-x-drop-cap {
-  color: var(--red);
+  --byz-color-accidental: var(--red);
+  --byz-color-fthora: var(--red);
+  --byz-color-gorgon: var(--red);
+  --byz-color-heteron: var(--red);
+  --byz-color-martyria: var(--red);
 }
 
 .page-container {

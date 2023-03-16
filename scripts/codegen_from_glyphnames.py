@@ -150,26 +150,83 @@ for name, data in glyphnames.items():
 
     with open(f'./codegen/characters/codegen/{classname}.js', 'w') as outfile:
         if name in body_neumes:
+            args = '{'
+
+            if name.startswith('agogi'):
+                args += "color: CssVars.ColorAgogi"
+
+            if name.startswith('barline'):
+                args += "color: CssVars.ColorBarline"
+
+            if name.startswith('fthora'):
+                args += "color: CssVars.ColorFthora"
+
+            if name.startswith('martyria'):
+                args += "color: CssVars.ColorMartyria"
+
+            args += '}'
+
             outfile.write(f'''
     import {{ BaseBody }} from '../BaseBody.js';
+    import {{ CssVars }} from '../../../util/CssVars.js';
 
     const glyphname = '{name}';
+    const args = {args};
 
     export class {classname} extends BaseBody {{
     constructor() {{
-        super(glyphname);
+        super(glyphname, args);
     }}
     }}
             ''')
         else:
+            args = '{'
+
+            if name.startswith('agogi'):
+                args += "color: CssVars.ColorAgogi"
+
+            if name.startswith('barline'):
+                args += "color: CssVars.ColorBarline"
+
+            if name.startswith('fthora'):
+                args += "color: CssVars.ColorFthora"
+
+            if 'gorgon' in name.lower() or 'argon' in name.lower():
+                args += "color: CssVars.ColorGorgon"
+
+            if name.startswith('heteron') or name.startswith('endofonon'):
+                args += "color: CssVars.ColorHeteron"
+
+            if name.startswith('isonIndicator'):
+                args += "color: CssVars.ColorIsonIndicator"
+
+            if name.startswith('measureNumber'):
+                args += "color: CssVars.ColorMeasureNumber"
+
+            if name.startswith('noteIndicator'):
+                args += "color: CssVars.ColorNoteIndicator"
+
+            if name.startswith('koronis'):
+                args += "color: CssVars.ColorKoronis"
+
+            if name.startswith('martyria'):
+                args += "color: CssVars.ColorMartyria"
+
+            if name.startswith('yfesis') or name.startswith('diesis'):
+                args += "color: CssVars.ColorAccidental"
+
+            args += '}'
+
             outfile.write(f'''
     import {{ BaseMark }} from '../BaseMark.js';
+    import {{ CssVars }} from '../../../util/CssVars.js';
 
     const glyphname = '{name}';
+    const args = {args};
 
     export class {classname} extends BaseMark {{
     constructor() {{
-        super(glyphname);
+        super(glyphname, args);
     }}
     }}
             ''')

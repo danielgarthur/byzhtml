@@ -2,14 +2,21 @@
   --red: #880000;
 
   --byz-neume-font-size: 20pt;
-  
+
   --byz-lyric-font-family: Arial, san-serif;
   --byz-lyric-font-size: 12pt;
   --byz-lyric-offset-h: 4pt;
   --byz-lyric-offset-v: -3pt;
-  
+
   --byz-drop-cap-font-size: 60pt;
+  --byz-drop-cap-color: var(--red);
   --byz-drop-cap-offset-v: 24pt;
+
+  --byz-color-accidental: var(--red);
+  --byz-color-fthora: var(--red);
+  --byz-color-gorgon: var(--red);
+  --byz-color-heteron: var(--red);
+  --byz-color-martyria: var(--red);
 }
 
 pre[data-lang='html'] {
@@ -18,20 +25,6 @@ pre[data-lang='html'] {
 
 pre[data-lang='css'] {
   height: 250px;
-}
-
-.accidental,
-.gorgon,
-.fthora,
-x-martyria,
-x-heteron,
-x-heteron-connecting,
-x-endofonon {
-  color: var(--red);
-}
-
-x-drop-cap {
-  color: var(--red);
 }
 
 .page-container {
