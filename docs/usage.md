@@ -269,19 +269,32 @@ Result:
 
 ## Configuration & Styling
 
-Any component may be styled with CSS, using the standard CSS properties. There are also several custom properties that may be used to apply styling.
+Any component may be styled with CSS using the standard CSS properties. There are also several custom properties that may be used to apply styling.
 
-| Custom Property               | Description                              |
-| ----------------------------- | ---------------------------------------- |
-| --byz-drop-cap-font-size      | Sets the font size for drop caps.        |
-| --byz-drop-cap-offset-v       | Sets the vertical offset for drop caps.  |
-| --byz-lyric-font-family       | Sets the font family for lyrics.         |
-| --byz-lyric-font-size         | Sets the font size for lyrics.           |
-| --byz-lyric-offset-h          | Sets the horizontal offset for lyrics.   |
-| --byz-lyric-offset-v          | Sets the vertical offset for lyrics.     |
-| --byz-neume-font-size         | Sets the font size for neumes.           |
-| --byz-spacer-width-apostrofos | Sets the width of the apostrofos spacer. |
-| --byz-spacer-width-vareia     | Sets the width of the vareia spacer.     |
+| Custom Property               | Description                                   |
+| ----------------------------- | --------------------------------------------- |
+| --byz-color-accidental        | Sets the color for the yfesis and the diesis. |
+| --byz-color-agogi             | Sets the color for agogi                      |
+| --byz-color-barline           | Sets the color for barlines                   |
+| --byz-color-fthora            | Sets the color for fthores.                   |
+| --byz-color-gorgon            | Sets the color for gorgons.                   |
+| --byz-color-heteron           | Sets the color for heterons.                  |
+| --byz-color-ison-indicator    | Sets the color for ison indicators.           |
+| --byz-color-koronis           | Sets the color for the koronis.               |
+| --byz-color-martyria          | Sets the color for martyria.                  |
+| --byz-color-measure-number    | Sets the color for measure numbers.           |
+| --byz-color-note-indicator    | Sets the color for note indicators.           |
+| --byz-drop-cap-color          | Sets the color for drop caps.                 |
+| --byz-drop-cap-font-family    | Sets the font family for drop caps.           |
+| --byz-drop-cap-font-size      | Sets the font size for drop caps.             |
+| --byz-drop-cap-offset-v       | Sets the vertical offset for drop caps.       |
+| --byz-lyric-font-family       | Sets the font family for lyrics.              |
+| --byz-lyric-font-size         | Sets the font size for lyrics.                |
+| --byz-lyric-offset-h          | Sets the horizontal offset for lyrics.        |
+| --byz-lyric-offset-v          | Sets the vertical offset for lyrics.          |
+| --byz-neume-font-size         | Sets the font size for neumes.                |
+| --byz-spacer-width-apostrofos | Sets the width of the apostrofos spacer.      |
+| --byz-spacer-width-vareia     | Sets the width of the vareia spacer.          |
 
 Defaults for these custom properties may be defined in `:root` or `html` and they may be overridden at any scope.
 
