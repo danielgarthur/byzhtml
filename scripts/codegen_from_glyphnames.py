@@ -158,9 +158,6 @@ for name, data in glyphnames.items():
             if name.startswith('barline'):
                 args += "color: CssVars.ColorBarline"
 
-            if name.startswith('fthora'):
-                args += "color: CssVars.ColorFthora"
-
             if name.startswith('martyria'):
                 args += "color: CssVars.ColorMartyria"
 
@@ -188,7 +185,7 @@ for name, data in glyphnames.items():
             if name.startswith('barline'):
                 args += "color: CssVars.ColorBarline"
 
-            if name.startswith('fthora'):
+            if name.startswith('fthora') or name.startswith('chroa'):
                 args += "color: CssVars.ColorFthora"
 
             if 'gorgon' in name.lower() or 'argon' in name.lower():

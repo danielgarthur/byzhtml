@@ -4035,31 +4035,31 @@ var byzhtml = (function () {
   }
 
   const glyphname$1w = 'chroaZygosAbove';
-  const args$1w = {};
+      const args$1w = {color: CssVars.ColorFthora};
 
-  class ChroaZygosAbove extends BaseMark {
-    constructor() {
-      super(glyphname$1w, args$1w);
-    }
-  }
+      class ChroaZygosAbove extends BaseMark {
+      constructor() {
+          super(glyphname$1w, args$1w);
+      }
+      }
 
   const glyphname$1v = 'chroaKlitonAbove';
-  const args$1v = {};
+      const args$1v = {color: CssVars.ColorFthora};
 
-  class ChroaKlitonAbove extends BaseMark {
-    constructor() {
-      super(glyphname$1v, args$1v);
-    }
-  }
+      class ChroaKlitonAbove extends BaseMark {
+      constructor() {
+          super(glyphname$1v, args$1v);
+      }
+      }
 
   const glyphname$1u = 'chroaSpathiAbove';
-  const args$1u = {};
+      const args$1u = {color: CssVars.ColorFthora};
 
-  class ChroaSpathiAbove extends BaseMark {
-    constructor() {
-      super(glyphname$1u, args$1u);
-    }
-  }
+      class ChroaSpathiAbove extends BaseMark {
+      constructor() {
+          super(glyphname$1u, args$1u);
+      }
+      }
 
   const glyphname$1t = 'fthoraDiatonicNiLowBelow';
   const args$1t = { color: CssVars.ColorFthora };
@@ -4179,31 +4179,31 @@ var byzhtml = (function () {
   }
 
   const glyphname$1g = 'chroaZygosBelow';
-  const args$1g = {};
+      const args$1g = {color: CssVars.ColorFthora};
 
-  class ChroaZygosBelow extends BaseMark {
-    constructor() {
-      super(glyphname$1g, args$1g);
-    }
-  }
+      class ChroaZygosBelow extends BaseMark {
+      constructor() {
+          super(glyphname$1g, args$1g);
+      }
+      }
 
   const glyphname$1f = 'chroaKlitonBelow';
-  const args$1f = {};
+      const args$1f = {color: CssVars.ColorFthora};
 
-  class ChroaKlitonBelow extends BaseMark {
-    constructor() {
-      super(glyphname$1f, args$1f);
-    }
-  }
+      class ChroaKlitonBelow extends BaseMark {
+      constructor() {
+          super(glyphname$1f, args$1f);
+      }
+      }
 
   const glyphname$1e = 'chroaSpathiBelow';
-  const args$1e = {};
+      const args$1e = {color: CssVars.ColorFthora};
 
-  class ChroaSpathiBelow extends BaseMark {
-    constructor() {
-      super(glyphname$1e, args$1e);
-    }
-  }
+      class ChroaSpathiBelow extends BaseMark {
+      constructor() {
+          super(glyphname$1e, args$1e);
+      }
+      }
 
   const glyphname$1d = 'diesis2';
   const args$1d = { color: CssVars.ColorAccidental };
