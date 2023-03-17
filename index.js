@@ -6,7 +6,7 @@ if (isWebkit()) {
   console.log('byzhtml: webkit browser detected. Using legacy positioning.');
 
   fetch(
-    'https://cdn.jsdelivr.net/gh/danielgarthur/byzhtml@1.0.2/dist/neanes.metadata.json',
+    'https://cdn.jsdelivr.net/gh/danielgarthur/byzhtml@1.0.3/dist/neanes.metadata.json',
   )
     .then((response) => {
       response
