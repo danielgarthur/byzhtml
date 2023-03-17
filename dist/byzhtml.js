@@ -1,4 +1,4 @@
-// byzhtml v1.0.2
+// byzhtml v1.0.1
 var byzhtml = (function () {
   'use strict';
 
@@ -2519,7 +2519,7 @@ var byzhtml = (function () {
             base,
             this.glyphname,
           );
-          styleAttr = `style="position: absolute; left: ${offset.x}em; top: ${offset.y}em;"`;
+          styleAttr = `style="position: absolute; left: ${offset.x}em; top: ${offset.y}em; width: 100%"`;
         } else {
           console.warn('missing base for mark: ' + this.glyphname);
         }
