@@ -1307,10 +1307,14 @@ var byzhtml = (function () {
       return this.fontFamilyMetadataMap.get(fontFamily);
     }
 
-    // Not needed right now, but could be useful later
-    // getAdvanceWidth(fontFamily, glyph) {
-    //   return metadata.glyphAdvanceWidths[glyph];
-    // }
+    getAdvanceWidth(fontFamily, glyph) {
+      console.log(
+        fontFamily,
+        glyph,
+        this.getMetadata(fontFamily).glyphAdvanceWidths[glyph],
+      );
+      return this.getMetadata(fontFamily).glyphAdvanceWidths[glyph];
+    }
 
     getMarkOffset(fontFamily, base, mark) {
       const metadata = this.getMetadata(fontFamily);
@@ -1374,7 +1378,7 @@ var byzhtml = (function () {
   const fontService = new FontService();
   const options = {
     defaultFontFamily: 'Neanes',
-    useLegacyPositioning: false,
+    useWebkitPositioning: false,
   };
 
   var byzhtml = {
@@ -2484,7 +2488,7 @@ var byzhtml = (function () {
         saltAttr = `salt="${this.getAttribute('salt')}"`;
       }
 
-      if (byzhtml.options.useLegacyPositioning) {
+      if (byzhtml.options.useWebkitPositioning) {
         let fontFamily = byzhtml.options.defaultFontFamily;
 
         if (this.hasAttribute('font-family')) {
@@ -2519,6 +2523,10 @@ var byzhtml = (function () {
             base,
             this.glyphname,
           );
+
+          const baseWidth = byzhtml.fontService.getAdvanceWidth(fontFamily, base);
+          offset.x -= baseWidth / 2;
+
           styleAttr = `style="position: absolute; left: ${offset.x}em; top: ${offset.y}em; width: 100%"`;
         } else {
           console.warn('missing base for mark: ' + this.glyphname);
@@ -5029,7 +5037,7 @@ var byzhtml = (function () {
   }
 
   if (isWebkit()) {
-    console.log('byzhtml: webkit browser detected. Using legacy positioning.');
+    console.log('byzhtml: webkit browser detected. Using webkit positioning.');
 
     fetch(
       'https://cdn.jsdelivr.net/gh/danielgarthur/byzhtml@1.0.3/dist/neanes.metadata.json',
@@ -5039,7 +5047,7 @@ var byzhtml = (function () {
           .json()
           .then((data) => {
             byzhtml.fontService.loadMap(byzhtml.options.defaultFontFamily, data);
-            byzhtml.options.useLegacyPositioning = true;
+            byzhtml.options.useWebkitPositioning = true;
           })
           .catch((err) => {
             console.error('could not load font metadata: ' + err);

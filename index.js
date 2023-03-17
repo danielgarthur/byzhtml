@@ -3,7 +3,7 @@ import { defineCustomElements } from './lib/util/defineCustomElements.js';
 import { isWebkit } from './lib/util/isWebkit.js';
 
 if (isWebkit()) {
-  console.log('byzhtml: webkit browser detected. Using legacy positioning.');
+  console.log('byzhtml: webkit browser detected. Using webkit positioning.');
 
   fetch(
     'https://cdn.jsdelivr.net/gh/danielgarthur/byzhtml@1.0.3/dist/neanes.metadata.json',
@@ -13,7 +13,7 @@ if (isWebkit()) {
         .json()
         .then((data) => {
           byzhtml.fontService.loadMap(byzhtml.options.defaultFontFamily, data);
-          byzhtml.options.useLegacyPositioning = true;
+          byzhtml.options.useWebkitPositioning = true;
         })
         .catch((err) => {
           console.error('could not load font metadata: ' + err);
