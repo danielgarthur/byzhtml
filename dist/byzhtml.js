@@ -1,1277 +1,1277 @@
-// byzhtml v1.0.3
+// byzhtml v1.0.4
 var byzhtml = (function () {
   'use strict';
 
   var ison = {
-  	alternateCodepoint: "U+1D046",
-  	codepoint: "U+E000"
+    alternateCodepoint: 'U+1D046',
+    codepoint: 'U+E000',
   };
   var oligon = {
-  	alternateCodepoint: "U+1D047",
-  	codepoint: "U+E001"
+    alternateCodepoint: 'U+1D047',
+    codepoint: 'U+E001',
   };
   var oligonKentimaMiddle = {
-  	codepoint: "U+E002"
+    codepoint: 'U+E002',
   };
   var oligonKentimaBelow = {
-  	codepoint: "U+E003"
+    codepoint: 'U+E003',
   };
   var oligonKentimaAbove = {
-  	codepoint: "U+E004"
+    codepoint: 'U+E004',
   };
   var oligonYpsiliRight = {
-  	codepoint: "U+E005"
+    codepoint: 'U+E005',
   };
   var oligonYpsiliLeft = {
-  	codepoint: "U+E006"
+    codepoint: 'U+E006',
   };
   var oligonKentimaYpsiliRight = {
-  	codepoint: "U+E007"
+    codepoint: 'U+E007',
   };
   var oligonKentimaYpsiliMiddle = {
-  	codepoint: "U+E008"
+    codepoint: 'U+E008',
   };
   var oligonDoubleYpsili = {
-  	codepoint: "U+E009"
+    codepoint: 'U+E009',
   };
   var oligonKentimataDoubleYpsili = {
-  	codepoint: "U+E00A"
+    codepoint: 'U+E00A',
   };
   var oligonKentimaDoubleYpsiliRight = {
-  	codepoint: "U+E00B"
+    codepoint: 'U+E00B',
   };
   var oligonKentimaDoubleYpsiliLeft = {
-  	codepoint: "U+E00C"
+    codepoint: 'U+E00C',
   };
   var oligonTripleYpsili = {
-  	codepoint: "U+E00D"
+    codepoint: 'U+E00D',
   };
   var oligonKentimataTripleYpsili = {
-  	codepoint: "U+E00E"
+    codepoint: 'U+E00E',
   };
   var oligonKentimaTripleYpsili = {
-  	codepoint: "U+E00F"
+    codepoint: 'U+E00F',
   };
   var oligonIson = {
-  	codepoint: "U+E010"
+    codepoint: 'U+E010',
   };
   var oligonApostrofos = {
-  	codepoint: "U+E011"
+    codepoint: 'U+E011',
   };
   var oligonYporroi = {
-  	codepoint: "U+E012"
+    codepoint: 'U+E012',
   };
   var oligonElafron = {
-  	codepoint: "U+E013"
+    codepoint: 'U+E013',
   };
   var oligonElafronApostrofos = {
-  	codepoint: "U+E014"
+    codepoint: 'U+E014',
   };
   var oligonChamili = {
-  	codepoint: "U+E015"
+    codepoint: 'U+E015',
   };
   var isonApostrofos = {
-  	codepoint: "U+E020"
+    codepoint: 'U+E020',
   };
   var apostrofos = {
-  	alternateCodepoint: "U+1D051",
-  	codepoint: "U+E021"
+    alternateCodepoint: 'U+1D051',
+    codepoint: 'U+E021',
   };
   var apostrofosSyndesmos = {
-  	alternateCodepoint: "U+1D052",
-  	codepoint: "U+E022"
+    alternateCodepoint: 'U+1D052',
+    codepoint: 'U+E022',
   };
   var yporroi = {
-  	alternateCodepoint: "U+1D053",
-  	codepoint: "U+E023"
+    alternateCodepoint: 'U+1D053',
+    codepoint: 'U+E023',
   };
   var elafron = {
-  	alternateCodepoint: "U+1D055",
-  	codepoint: "U+E024"
+    alternateCodepoint: 'U+1D055',
+    codepoint: 'U+E024',
   };
   var runningElafron = {
-  	codepoint: "U+E025"
+    codepoint: 'U+E025',
   };
   var elafronApostrofos = {
-  	codepoint: "U+E026"
+    codepoint: 'U+E026',
   };
   var chamili = {
-  	alternateCodepoint: "U+1D056",
-  	codepoint: "U+E027"
+    alternateCodepoint: 'U+1D056',
+    codepoint: 'U+E027',
   };
   var chamiliApostrofos = {
-  	codepoint: "U+E028"
+    codepoint: 'U+E028',
   };
   var chamiliElafron = {
-  	codepoint: "U+E029"
+    codepoint: 'U+E029',
   };
   var chamiliElafronApostrofos = {
-  	codepoint: "U+E02A"
+    codepoint: 'U+E02A',
   };
   var doubleChamili = {
-  	codepoint: "U+E02B"
+    codepoint: 'U+E02B',
   };
   var doubleChamiliApostrofos = {
-  	codepoint: "U+E02C"
+    codepoint: 'U+E02C',
   };
   var doubleChamiliElafron = {
-  	codepoint: "U+E02D"
+    codepoint: 'U+E02D',
   };
   var doubleChamiliElafronApostrofos = {
-  	codepoint: "U+E02E"
+    codepoint: 'U+E02E',
   };
   var tripleChamili = {
-  	codepoint: "U+E02F"
+    codepoint: 'U+E02F',
   };
   var petastiIson = {
-  	codepoint: "U+E040"
+    codepoint: 'U+E040',
   };
   var petasti = {
-  	alternateCodepoint: "U+1D049",
-  	codepoint: "U+E041"
+    alternateCodepoint: 'U+1D049',
+    codepoint: 'U+E041',
   };
   var petastiOligon = {
-  	codepoint: "U+E042"
+    codepoint: 'U+E042',
   };
   var petastiKentima = {
-  	codepoint: "U+E043"
+    codepoint: 'U+E043',
   };
   var petastiYpsiliRight = {
-  	codepoint: "U+E044"
+    codepoint: 'U+E044',
   };
   var petastiYpsiliLeft = {
-  	codepoint: "U+E045"
+    codepoint: 'U+E045',
   };
   var petastiKentimaYpsiliRight = {
-  	codepoint: "U+E046"
+    codepoint: 'U+E046',
   };
   var petastiKentimaYpsiliMiddle = {
-  	codepoint: "U+E047"
+    codepoint: 'U+E047',
   };
   var petastiDoubleYpsili = {
-  	codepoint: "U+E048"
+    codepoint: 'U+E048',
   };
   var petastiKentimataDoubleYpsili = {
-  	codepoint: "U+E049"
+    codepoint: 'U+E049',
   };
   var petastiKentimaDoubleYpsiliRight = {
-  	codepoint: "U+E04A"
+    codepoint: 'U+E04A',
   };
   var petastiKentimaDoubleYpsiliLeft = {
-  	codepoint: "U+E04B"
+    codepoint: 'U+E04B',
   };
   var petastiTripleYpsili = {
-  	codepoint: "U+E04C"
+    codepoint: 'U+E04C',
   };
   var petastiKentimataTripleYpsili = {
-  	codepoint: "U+E04D"
+    codepoint: 'U+E04D',
   };
   var petastiKentimaTripleYpsili = {
-  	codepoint: "U+E04E"
+    codepoint: 'U+E04E',
   };
   var petastiApostrofos = {
-  	codepoint: "U+E060"
+    codepoint: 'U+E060',
   };
   var petastiYporroi = {
-  	codepoint: "U+E061"
+    codepoint: 'U+E061',
   };
   var petastiElafron = {
-  	codepoint: "U+E062"
+    codepoint: 'U+E062',
   };
   var petastiRunningElafron = {
-  	codepoint: "U+E063"
+    codepoint: 'U+E063',
   };
   var petastiElafronApostrofos = {
-  	codepoint: "U+E064"
+    codepoint: 'U+E064',
   };
   var petastiChamili = {
-  	codepoint: "U+E065"
+    codepoint: 'U+E065',
   };
   var petastiChamiliApostrofos = {
-  	codepoint: "U+E066"
+    codepoint: 'U+E066',
   };
   var petastiChamiliElafron = {
-  	codepoint: "U+E067"
+    codepoint: 'U+E067',
   };
   var petastiChamiliElafronApostrofos = {
-  	codepoint: "U+E068"
+    codepoint: 'U+E068',
   };
   var petastiDoubleChamili = {
-  	codepoint: "U+E069"
+    codepoint: 'U+E069',
   };
   var petastiDoubleChamiliApostrofos = {
-  	codepoint: "U+E06A"
+    codepoint: 'U+E06A',
   };
   var kentima = {
-  	alternateCodepoint: "U+1D04F",
-  	codepoint: "U+E080"
+    alternateCodepoint: 'U+1D04F',
+    codepoint: 'U+E080',
   };
   var kentimata = {
-  	alternateCodepoint: "U+1D04E",
-  	codepoint: "U+E081"
+    alternateCodepoint: 'U+1D04E',
+    codepoint: 'U+E081',
   };
   var oligonKentimataBelow = {
-  	codepoint: "U+E082"
+    codepoint: 'U+E082',
   };
   var oligonKentimataAbove = {
-  	codepoint: "U+E083"
+    codepoint: 'U+E083',
   };
   var oligonIsonKentimata = {
-  	codepoint: "U+E084"
+    codepoint: 'U+E084',
   };
   var oligonKentimaMiddleKentimata = {
-  	codepoint: "U+E085"
+    codepoint: 'U+E085',
   };
   var oligonYpsiliRightKentimata = {
-  	codepoint: "U+E086"
+    codepoint: 'U+E086',
   };
   var oligonYpsiliLeftKentimata = {
-  	codepoint: "U+E087"
+    codepoint: 'U+E087',
   };
   var oligonApostrofosKentimata = {
-  	codepoint: "U+E088"
+    codepoint: 'U+E088',
   };
   var oligonYporroiKentimata = {
-  	codepoint: "U+E089"
+    codepoint: 'U+E089',
   };
   var oligonElafronKentimata = {
-  	codepoint: "U+E08A"
+    codepoint: 'U+E08A',
   };
   var oligonRunningElafronKentimata = {
-  	codepoint: "U+E08B"
+    codepoint: 'U+E08B',
   };
   var oligonElafronApostrofosKentimata = {
-  	codepoint: "U+E08C"
+    codepoint: 'U+E08C',
   };
   var oligonChamiliKentimata = {
-  	codepoint: "U+E08D"
+    codepoint: 'U+E08D',
   };
   var vareia = {
-  	alternateCodepoint: "U+1D058",
-  	codepoint: "U+E0A0"
+    alternateCodepoint: 'U+1D058',
+    codepoint: 'U+E0A0',
   };
   var psifiston = {
-  	alternateCodepoint: "U+1D05A",
-  	codepoint: "U+E0A1"
+    alternateCodepoint: 'U+1D05A',
+    codepoint: 'U+E0A1',
   };
   var antikenoma = {
-  	alternateCodepoint: "U+1D05C",
-  	codepoint: "U+E0A2"
+    alternateCodepoint: 'U+1D05C',
+    codepoint: 'U+E0A2',
   };
   var omalon = {
-  	alternateCodepoint: "U+1D05B",
-  	codepoint: "U+E0A3"
+    alternateCodepoint: 'U+1D05B',
+    codepoint: 'U+E0A3',
   };
   var omalonConnecting = {
-  	codepoint: "U+E0A4"
+    codepoint: 'U+E0A4',
   };
   var heteron = {
-  	alternateCodepoint: "U+1D060",
-  	codepoint: "U+E0A5"
+    alternateCodepoint: 'U+1D060',
+    codepoint: 'U+E0A5',
   };
   var heteronConnecting = {
-  	codepoint: "U+E0A6"
+    codepoint: 'U+E0A6',
   };
   var endofonon = {
-  	alternateCodepoint: "U+1D07B",
-  	codepoint: "U+E0A7"
+    alternateCodepoint: 'U+1D07B',
+    codepoint: 'U+E0A7',
   };
   var yfenAbove = {
-  	alternateCodepoint: "U+1D07D",
-  	codepoint: "U+E0B0"
+    alternateCodepoint: 'U+1D07D',
+    codepoint: 'U+E0B0',
   };
   var yfenBelow = {
-  	alternateCodepoint: "U+1D07C",
-  	codepoint: "U+E0B1"
+    alternateCodepoint: 'U+1D07C',
+    codepoint: 'U+E0B1',
   };
   var stavros = {
-  	alternateCodepoint: "U+1D07E",
-  	codepoint: "U+E0C0"
+    alternateCodepoint: 'U+1D07E',
+    codepoint: 'U+E0C0',
   };
   var breath = {
-  	alternateCodepoint: "U+1D112",
-  	codepoint: "U+E0C1"
+    alternateCodepoint: 'U+1D112',
+    codepoint: 'U+E0C1',
   };
   var klasmaAbove = {
-  	alternateCodepoint: "U+1D07F",
-  	codepoint: "U+E0D0"
+    alternateCodepoint: 'U+1D07F',
+    codepoint: 'U+E0D0',
   };
   var klasmaBelow = {
-  	alternateCodepoint: "U+1D0F4",
-  	codepoint: "U+E0D1"
+    alternateCodepoint: 'U+1D0F4',
+    codepoint: 'U+E0D1',
   };
   var apli = {
-  	alternateCodepoint: "U+1D085",
-  	codepoint: "U+E0D2"
+    alternateCodepoint: 'U+1D085',
+    codepoint: 'U+E0D2',
   };
   var dipli = {
-  	alternateCodepoint: "U+1D086",
-  	codepoint: "U+E0D3"
+    alternateCodepoint: 'U+1D086',
+    codepoint: 'U+E0D3',
   };
   var tripli = {
-  	alternateCodepoint: "U+1D087",
-  	codepoint: "U+E0D4"
+    alternateCodepoint: 'U+1D087',
+    codepoint: 'U+E0D4',
   };
   var tetrapli = {
-  	alternateCodepoint: "U+1D088",
-  	codepoint: "U+E0D5"
+    alternateCodepoint: 'U+1D088',
+    codepoint: 'U+E0D5',
   };
   var koronis = {
-  	alternateCodepoint: "U+1D089",
-  	codepoint: "U+E0D6"
+    alternateCodepoint: 'U+1D089',
+    codepoint: 'U+E0D6',
   };
   var leimma1 = {
-  	alternateCodepoint: "U+1D08A",
-  	codepoint: "U+E0E0"
+    alternateCodepoint: 'U+1D08A',
+    codepoint: 'U+E0E0',
   };
   var leimma2 = {
-  	alternateCodepoint: "U+1D08B",
-  	codepoint: "U+E0E1"
+    alternateCodepoint: 'U+1D08B',
+    codepoint: 'U+E0E1',
   };
   var leimma3 = {
-  	alternateCodepoint: "U+1D08C",
-  	codepoint: "U+E0E2"
+    alternateCodepoint: 'U+1D08C',
+    codepoint: 'U+E0E2',
   };
   var leimma4 = {
-  	alternateCodepoint: "U+1D08D",
-  	codepoint: "U+E0E3"
+    alternateCodepoint: 'U+1D08D',
+    codepoint: 'U+E0E3',
   };
   var leimmaDot = {
-  	codepoint: "U+E0E4"
+    codepoint: 'U+E0E4',
   };
   var gorgonAbove = {
-  	alternateCodepoint: "U+1D08F",
-  	codepoint: "U+E0F0"
+    alternateCodepoint: 'U+1D08F',
+    codepoint: 'U+E0F0',
   };
   var gorgonBelow = {
-  	alternateCodepoint: "U+1D0F5",
-  	codepoint: "U+E0F1"
+    alternateCodepoint: 'U+1D0F5',
+    codepoint: 'U+E0F1',
   };
   var gorgonDottedLeft = {
-  	alternateCodepoint: "U+1D090",
-  	codepoint: "U+E0F2"
+    alternateCodepoint: 'U+1D090',
+    codepoint: 'U+E0F2',
   };
   var gorgonDottedRight = {
-  	alternateCodepoint: "U+1D091",
-  	codepoint: "U+E0F3"
+    alternateCodepoint: 'U+1D091',
+    codepoint: 'U+E0F3',
   };
   var digorgon = {
-  	alternateCodepoint: "U+1D092",
-  	codepoint: "U+E0F4"
+    alternateCodepoint: 'U+1D092',
+    codepoint: 'U+E0F4',
   };
   var digorgonDottedLeftBelow = {
-  	alternateCodepoint: "U+1D093",
-  	codepoint: "U+E0F5"
+    alternateCodepoint: 'U+1D093',
+    codepoint: 'U+E0F5',
   };
   var digorgonDottedLeftAbove = {
-  	alternateCodepoint: "U+1D094",
-  	codepoint: "U+E0F6"
+    alternateCodepoint: 'U+1D094',
+    codepoint: 'U+E0F6',
   };
   var digorgonDottedRight = {
-  	alternateCodepoint: "U+1D095",
-  	codepoint: "U+E0F7"
+    alternateCodepoint: 'U+1D095',
+    codepoint: 'U+E0F7',
   };
   var trigorgon = {
-  	alternateCodepoint: "U+1D096",
-  	codepoint: "U+E0F8"
+    alternateCodepoint: 'U+1D096',
+    codepoint: 'U+E0F8',
   };
   var trigorgonDottedLeftBelow = {
-  	codepoint: "U+E0F9"
+    codepoint: 'U+E0F9',
   };
   var trigorgonDottedLeftAbove = {
-  	codepoint: "U+E0FA"
+    codepoint: 'U+E0FA',
   };
   var trigorgonDottedRight = {
-  	codepoint: "U+E0FB"
+    codepoint: 'U+E0FB',
   };
   var argon = {
-  	alternateCodepoint: "U+1D097",
-  	codepoint: "U+E0FC"
+    alternateCodepoint: 'U+1D097',
+    codepoint: 'U+E0FC',
   };
   var diargon = {
-  	alternateCodepoint: "U+1D098",
-  	codepoint: "U+E0FD"
+    alternateCodepoint: 'U+1D098',
+    codepoint: 'U+E0FD',
   };
   var triargon = {
-  	alternateCodepoint: "U+1D099",
-  	codepoint: "U+E0FE"
+    alternateCodepoint: 'U+1D099',
+    codepoint: 'U+E0FE',
   };
   var gorgonSecondary = {
-  	codepoint: "U+E100"
+    codepoint: 'U+E100',
   };
   var gorgonDottedLeftSecondary = {
-  	codepoint: "U+E101"
+    codepoint: 'U+E101',
   };
   var gorgonDottedRightSecondary = {
-  	codepoint: "U+E102"
+    codepoint: 'U+E102',
   };
   var digorgonSecondary = {
-  	codepoint: "U+E103"
+    codepoint: 'U+E103',
   };
   var digorgonDottedLeftBelowSecondary = {
-  	codepoint: "U+E104"
+    codepoint: 'U+E104',
   };
   var digorgonDottedRightSecondary = {
-  	codepoint: "U+E105"
+    codepoint: 'U+E105',
   };
   var trigorgonSecondary = {
-  	codepoint: "U+E106"
+    codepoint: 'U+E106',
   };
   var trigorgonDottedLeftBelowSecondary = {
-  	codepoint: "U+E107"
+    codepoint: 'U+E107',
   };
   var trigorgonDottedRightSecondary = {
-  	codepoint: "U+E108"
+    codepoint: 'U+E108',
   };
   var agogiPoliArgi = {
-  	alternateCodepoint: "U+1D09A",
-  	codepoint: "U+E120"
+    alternateCodepoint: 'U+1D09A',
+    codepoint: 'U+E120',
   };
   var agogiArgoteri = {
-  	alternateCodepoint: "U+1D09B",
-  	codepoint: "U+E121"
+    alternateCodepoint: 'U+1D09B',
+    codepoint: 'U+E121',
   };
   var agogiArgi = {
-  	alternateCodepoint: "U+1D09C",
-  	codepoint: "U+E122"
+    alternateCodepoint: 'U+1D09C',
+    codepoint: 'U+E122',
   };
   var agogiMetria = {
-  	alternateCodepoint: "U+1D09D",
-  	codepoint: "U+E123"
+    alternateCodepoint: 'U+1D09D',
+    codepoint: 'U+E123',
   };
   var agogiMesi = {
-  	alternateCodepoint: "U+1D09E",
-  	codepoint: "U+E124"
+    alternateCodepoint: 'U+1D09E',
+    codepoint: 'U+E124',
   };
   var agogiGorgi = {
-  	alternateCodepoint: "U+1D09F",
-  	codepoint: "U+E125"
+    alternateCodepoint: 'U+1D09F',
+    codepoint: 'U+E125',
   };
   var agogiGorgoteri = {
-  	alternateCodepoint: "U+1D0A0",
-  	codepoint: "U+E126"
+    alternateCodepoint: 'U+1D0A0',
+    codepoint: 'U+E126',
   };
   var agogiPoliGorgi = {
-  	alternateCodepoint: "U+1D0A1",
-  	codepoint: "U+E127"
+    alternateCodepoint: 'U+1D0A1',
+    codepoint: 'U+E127',
   };
   var agogiPoliArgiAbove = {
-  	alternateCodepoint: "U+1D09A",
-  	codepoint: "U+E128"
+    alternateCodepoint: 'U+1D09A',
+    codepoint: 'U+E128',
   };
   var agogiArgoteriAbove = {
-  	alternateCodepoint: "U+1D09B",
-  	codepoint: "U+E129"
+    alternateCodepoint: 'U+1D09B',
+    codepoint: 'U+E129',
   };
   var agogiArgiAbove = {
-  	alternateCodepoint: "U+1D09C",
-  	codepoint: "U+E12A"
+    alternateCodepoint: 'U+1D09C',
+    codepoint: 'U+E12A',
   };
   var agogiMetriaAbove = {
-  	alternateCodepoint: "U+1D09D",
-  	codepoint: "U+E12B"
+    alternateCodepoint: 'U+1D09D',
+    codepoint: 'U+E12B',
   };
   var agogiMesiAbove = {
-  	alternateCodepoint: "U+1D09E",
-  	codepoint: "U+E12C"
+    alternateCodepoint: 'U+1D09E',
+    codepoint: 'U+E12C',
   };
   var agogiGorgiAbove = {
-  	alternateCodepoint: "U+1D09F",
-  	codepoint: "U+E12D"
+    alternateCodepoint: 'U+1D09F',
+    codepoint: 'U+E12D',
   };
   var agogiGorgoteriAbove = {
-  	alternateCodepoint: "U+1D0A0",
-  	codepoint: "U+E12E"
+    alternateCodepoint: 'U+1D0A0',
+    codepoint: 'U+E12E',
   };
   var agogiPoliGorgiAbove = {
-  	alternateCodepoint: "U+1D0A1",
-  	codepoint: "U+E12F"
+    alternateCodepoint: 'U+1D0A1',
+    codepoint: 'U+E12F',
   };
   var martyriaNoteZoLow = {
-  	codepoint: "U+E130"
+    codepoint: 'U+E130',
   };
   var martyriaNoteNiLow = {
-  	codepoint: "U+E131"
+    codepoint: 'U+E131',
   };
   var martyriaNotePaLow = {
-  	codepoint: "U+E132"
+    codepoint: 'U+E132',
   };
   var martyriaNoteVouLow = {
-  	codepoint: "U+E133"
+    codepoint: 'U+E133',
   };
   var martyriaNoteGaLow = {
-  	codepoint: "U+E134"
+    codepoint: 'U+E134',
   };
   var martyriaNoteDiLow = {
-  	codepoint: "U+E135"
+    codepoint: 'U+E135',
   };
   var martyriaNoteKeLow = {
-  	codepoint: "U+E136"
+    codepoint: 'U+E136',
   };
   var martyriaNoteZo = {
-  	codepoint: "U+E137"
+    codepoint: 'U+E137',
   };
   var martyriaNoteNi = {
-  	codepoint: "U+E138"
+    codepoint: 'U+E138',
   };
   var martyriaNotePa = {
-  	codepoint: "U+E139"
+    codepoint: 'U+E139',
   };
   var martyriaNoteVou = {
-  	codepoint: "U+E13A"
+    codepoint: 'U+E13A',
   };
   var martyriaNoteGa = {
-  	codepoint: "U+E13B"
+    codepoint: 'U+E13B',
   };
   var martyriaNoteDi = {
-  	codepoint: "U+E13C"
+    codepoint: 'U+E13C',
   };
   var martyriaNoteKe = {
-  	codepoint: "U+E13D"
+    codepoint: 'U+E13D',
   };
   var martyriaNoteZoHigh = {
-  	codepoint: "U+E13E"
+    codepoint: 'U+E13E',
   };
   var martyriaNoteNiHigh = {
-  	codepoint: "U+E13F"
+    codepoint: 'U+E13F',
   };
   var martyriaNotePaHigh = {
-  	codepoint: "U+E140"
+    codepoint: 'U+E140',
   };
   var martyriaNoteVouHigh = {
-  	codepoint: "U+E141"
+    codepoint: 'U+E141',
   };
   var martyriaNoteGaHigh = {
-  	codepoint: "U+E142"
+    codepoint: 'U+E142',
   };
   var martyriaNoteDiHigh = {
-  	codepoint: "U+E143"
+    codepoint: 'U+E143',
   };
   var martyriaNoteKeHigh = {
-  	codepoint: "U+E144"
+    codepoint: 'U+E144',
   };
   var martyriaTick = {
-  	codepoint: "U+E145"
+    codepoint: 'U+E145',
   };
   var martyriaZoBelow = {
-  	codepoint: "U+E150"
+    codepoint: 'U+E150',
   };
   var martyriaDeltaBelow = {
-  	codepoint: "U+E151"
+    codepoint: 'U+E151',
   };
   var martyriaAlphaBelow = {
-  	codepoint: "U+E152"
+    codepoint: 'U+E152',
   };
   var martyriaLegetosBelow = {
-  	codepoint: "U+E153"
+    codepoint: 'U+E153',
   };
   var martyriaNanaBelow = {
-  	codepoint: "U+E154"
+    codepoint: 'U+E154',
   };
   var martyriaDeltaDottedBelow = {
-  	codepoint: "U+E155"
+    codepoint: 'U+E155',
   };
   var martyriaAlphaDottedBelow = {
-  	codepoint: "U+E156"
+    codepoint: 'U+E156',
   };
   var martyriaHardChromaticPaBelow = {
-  	codepoint: "U+E157"
+    codepoint: 'U+E157',
   };
   var martyriaHardChromaticDiBelow = {
-  	codepoint: "U+E158"
+    codepoint: 'U+E158',
   };
   var martyriaSoftChromaticDiBelow = {
-  	codepoint: "U+E159"
+    codepoint: 'U+E159',
   };
   var martyriaSoftChromaticKeBelow = {
-  	codepoint: "U+E15A"
+    codepoint: 'U+E15A',
   };
   var martyriaZygosBelow = {
-  	codepoint: "U+E15B"
+    codepoint: 'U+E15B',
   };
   var martyriaZoAbove = {
-  	codepoint: "U+E170"
+    codepoint: 'U+E170',
   };
   var martyriaDeltaAbove = {
-  	codepoint: "U+E171"
+    codepoint: 'U+E171',
   };
   var martyriaAlphaAbove = {
-  	codepoint: "U+E172"
+    codepoint: 'U+E172',
   };
   var martyriaLegetosAbove = {
-  	codepoint: "U+E173"
+    codepoint: 'U+E173',
   };
   var martyriaNanaAbove = {
-  	codepoint: "U+E174"
+    codepoint: 'U+E174',
   };
   var martyriaDeltaDottedAbove = {
-  	codepoint: "U+E175"
+    codepoint: 'U+E175',
   };
   var martyriaAlphaDottedAbove = {
-  	codepoint: "U+E176"
+    codepoint: 'U+E176',
   };
   var martyriaHardChromaticPaAbove = {
-  	codepoint: "U+E177"
+    codepoint: 'U+E177',
   };
   var martyriaHardChromaticDiAbove = {
-  	codepoint: "U+E178"
+    codepoint: 'U+E178',
   };
   var martyriaSoftChromaticDiAbove = {
-  	codepoint: "U+E179"
+    codepoint: 'U+E179',
   };
   var martyriaSoftChromaticKeAbove = {
-  	codepoint: "U+E17A"
+    codepoint: 'U+E17A',
   };
   var martyriaZygosAbove = {
-  	codepoint: "U+E17B"
+    codepoint: 'U+E17B',
   };
   var fthoraDiatonicNiLowAbove = {
-  	codepoint: "U+E190"
+    codepoint: 'U+E190',
   };
   var fthoraDiatonicPaAbove = {
-  	codepoint: "U+E191"
+    codepoint: 'U+E191',
   };
   var fthoraDiatonicVouAbove = {
-  	codepoint: "U+E192"
+    codepoint: 'U+E192',
   };
   var fthoraDiatonicGaAbove = {
-  	codepoint: "U+E193"
+    codepoint: 'U+E193',
   };
   var fthoraDiatonicDiAbove = {
-  	codepoint: "U+E194"
+    codepoint: 'U+E194',
   };
   var fthoraDiatonicKeAbove = {
-  	codepoint: "U+E195"
+    codepoint: 'U+E195',
   };
   var fthoraDiatonicZoAbove = {
-  	codepoint: "U+E196"
+    codepoint: 'U+E196',
   };
   var fthoraDiatonicNiHighAbove = {
-  	codepoint: "U+E197"
+    codepoint: 'U+E197',
   };
   var fthoraHardChromaticPaAbove = {
-  	codepoint: "U+E198"
+    codepoint: 'U+E198',
   };
   var fthoraHardChromaticDiAbove = {
-  	codepoint: "U+E199"
+    codepoint: 'U+E199',
   };
   var fthoraSoftChromaticDiAbove = {
-  	codepoint: "U+E19A"
+    codepoint: 'U+E19A',
   };
   var fthoraSoftChromaticKeAbove = {
-  	codepoint: "U+E19B"
+    codepoint: 'U+E19B',
   };
   var fthoraEnharmonicAbove = {
-  	codepoint: "U+E19C"
+    codepoint: 'U+E19C',
   };
   var chroaZygosAbove = {
-  	codepoint: "U+E19D"
+    codepoint: 'U+E19D',
   };
   var chroaKlitonAbove = {
-  	codepoint: "U+E19E"
+    codepoint: 'U+E19E',
   };
   var chroaSpathiAbove = {
-  	codepoint: "U+E19F"
+    codepoint: 'U+E19F',
   };
   var fthoraDiatonicNiLowBelow = {
-  	codepoint: "U+E1C0"
+    codepoint: 'U+E1C0',
   };
   var fthoraDiatonicPaBelow = {
-  	codepoint: "U+E1C1"
+    codepoint: 'U+E1C1',
   };
   var fthoraDiatonicVouBelow = {
-  	codepoint: "U+E1C2"
+    codepoint: 'U+E1C2',
   };
   var fthoraDiatonicGaBelow = {
-  	codepoint: "U+E1C3"
+    codepoint: 'U+E1C3',
   };
   var fthoraDiatonicDiBelow = {
-  	codepoint: "U+E1C4"
+    codepoint: 'U+E1C4',
   };
   var fthoraDiatonicKeBelow = {
-  	codepoint: "U+E1C5"
+    codepoint: 'U+E1C5',
   };
   var fthoraDiatonicZoBelow = {
-  	codepoint: "U+E1C6"
+    codepoint: 'U+E1C6',
   };
   var fthoraDiatonicNiHighBelow = {
-  	codepoint: "U+E1C7"
+    codepoint: 'U+E1C7',
   };
   var fthoraHardChromaticPaBelow = {
-  	codepoint: "U+E1C8"
+    codepoint: 'U+E1C8',
   };
   var fthoraHardChromaticDiBelow = {
-  	codepoint: "U+E1C9"
+    codepoint: 'U+E1C9',
   };
   var fthoraSoftChromaticDiBelow = {
-  	codepoint: "U+E1CA"
+    codepoint: 'U+E1CA',
   };
   var fthoraSoftChromaticKeBelow = {
-  	codepoint: "U+E1CB"
+    codepoint: 'U+E1CB',
   };
   var fthoraEnharmonicBelow = {
-  	codepoint: "U+E1CC"
+    codepoint: 'U+E1CC',
   };
   var chroaZygosBelow = {
-  	codepoint: "U+E1CD"
+    codepoint: 'U+E1CD',
   };
   var chroaKlitonBelow = {
-  	codepoint: "U+E1CE"
+    codepoint: 'U+E1CE',
   };
   var chroaSpathiBelow = {
-  	codepoint: "U+E1CF"
+    codepoint: 'U+E1CF',
   };
   var diesis2 = {
-  	alternateCodepoint: "U+1D0D0",
-  	codepoint: "U+E1F0"
+    alternateCodepoint: 'U+1D0D0',
+    codepoint: 'U+E1F0',
   };
   var diesis4 = {
-  	alternateCodepoint: "U+1D0D1",
-  	codepoint: "U+E1F1"
+    alternateCodepoint: 'U+1D0D1',
+    codepoint: 'U+E1F1',
   };
   var diesis6 = {
-  	alternateCodepoint: "U+1D0D2",
-  	codepoint: "U+E1F2"
+    alternateCodepoint: 'U+1D0D2',
+    codepoint: 'U+E1F2',
   };
   var diesis8 = {
-  	alternateCodepoint: "U+1D0D3",
-  	codepoint: "U+E1F3"
+    alternateCodepoint: 'U+1D0D3',
+    codepoint: 'U+E1F3',
   };
   var diesisGenikiAbove = {
-  	codepoint: "U+E1F4"
+    codepoint: 'U+E1F4',
   };
   var diesisGenikiBelow = {
-  	codepoint: "U+E1F5"
+    codepoint: 'U+E1F5',
   };
   var yfesis2 = {
-  	alternateCodepoint: "U+1D0D4",
-  	codepoint: "U+E200"
+    alternateCodepoint: 'U+1D0D4',
+    codepoint: 'U+E200',
   };
   var yfesis4 = {
-  	alternateCodepoint: "U+1D0D5",
-  	codepoint: "U+E201"
+    alternateCodepoint: 'U+1D0D5',
+    codepoint: 'U+E201',
   };
   var yfesis6 = {
-  	alternateCodepoint: "U+1D0D6",
-  	codepoint: "U+E202"
+    alternateCodepoint: 'U+1D0D6',
+    codepoint: 'U+E202',
   };
   var yfesis8 = {
-  	alternateCodepoint: "U+1D0D7",
-  	codepoint: "U+E203"
+    alternateCodepoint: 'U+1D0D7',
+    codepoint: 'U+E203',
   };
   var yfesisGenikiAbove = {
-  	codepoint: "U+E204"
+    codepoint: 'U+E204',
   };
   var yfesisGenikiBelow = {
-  	codepoint: "U+E205"
+    codepoint: 'U+E205',
   };
   var barlineSingle = {
-  	alternateCodepoint: "U+1D0DB",
-  	codepoint: "U+E210"
+    alternateCodepoint: 'U+1D0DB',
+    codepoint: 'U+E210',
   };
   var barlineDouble = {
-  	codepoint: "U+E211"
+    codepoint: 'U+E211',
   };
   var barlineTheseos = {
-  	codepoint: "U+E212"
+    codepoint: 'U+E212',
   };
   var barlineShortSingle = {
-  	alternateCodepoint: "U+1D0DA",
-  	codepoint: "U+E213"
+    alternateCodepoint: 'U+1D0DA',
+    codepoint: 'U+E213',
   };
   var barlineShortDouble = {
-  	alternateCodepoint: "U+1D0DC",
-  	codepoint: "U+E214"
+    alternateCodepoint: 'U+1D0DC',
+    codepoint: 'U+E214',
   };
   var barlineShortTheseos = {
-  	alternateCodepoint: "U+1D0DD",
-  	codepoint: "U+E215"
+    alternateCodepoint: 'U+1D0DD',
+    codepoint: 'U+E215',
   };
   var measureNumber2 = {
-  	codepoint: "U+E220"
+    codepoint: 'U+E220',
   };
   var measureNumber3 = {
-  	codepoint: "U+E221"
+    codepoint: 'U+E221',
   };
   var measureNumber4 = {
-  	codepoint: "U+E222"
+    codepoint: 'U+E222',
   };
   var measureNumber5 = {
-  	codepoint: "U+E223"
+    codepoint: 'U+E223',
   };
   var measureNumber6 = {
-  	codepoint: "U+E224"
+    codepoint: 'U+E224',
   };
   var measureNumber7 = {
-  	codepoint: "U+E225"
+    codepoint: 'U+E225',
   };
   var measureNumber8 = {
-  	codepoint: "U+E226"
+    codepoint: 'U+E226',
   };
   var noteIndicatorNi = {
-  	codepoint: "U+E250"
+    codepoint: 'U+E250',
   };
   var noteIndicatorPa = {
-  	codepoint: "U+E251"
+    codepoint: 'U+E251',
   };
   var noteIndicatorVou = {
-  	codepoint: "U+E252"
+    codepoint: 'U+E252',
   };
   var noteIndicatorGa = {
-  	codepoint: "U+E253"
+    codepoint: 'U+E253',
   };
   var noteIndicatorDi = {
-  	codepoint: "U+E254"
+    codepoint: 'U+E254',
   };
   var noteIndicatorKe = {
-  	codepoint: "U+E255"
+    codepoint: 'U+E255',
   };
   var noteIndicatorZo = {
-  	codepoint: "U+E256"
+    codepoint: 'U+E256',
   };
   var isonIndicatorUnison = {
-  	codepoint: "U+E260"
+    codepoint: 'U+E260',
   };
   var isonIndicatorDiLow = {
-  	codepoint: "U+E261"
+    codepoint: 'U+E261',
   };
   var isonIndicatorKeLow = {
-  	codepoint: "U+E262"
+    codepoint: 'U+E262',
   };
   var isonIndicatorZo = {
-  	codepoint: "U+E263"
+    codepoint: 'U+E263',
   };
   var isonIndicatorNi = {
-  	codepoint: "U+E264"
+    codepoint: 'U+E264',
   };
   var isonIndicatorPa = {
-  	codepoint: "U+E265"
+    codepoint: 'U+E265',
   };
   var isonIndicatorVou = {
-  	codepoint: "U+E266"
+    codepoint: 'U+E266',
   };
   var isonIndicatorGa = {
-  	codepoint: "U+E267"
+    codepoint: 'U+E267',
   };
   var isonIndicatorDi = {
-  	codepoint: "U+E268"
+    codepoint: 'U+E268',
   };
   var isonIndicatorKe = {
-  	codepoint: "U+E269"
+    codepoint: 'U+E269',
   };
   var isonIndicatorZoHigh = {
-  	codepoint: "U+E26A"
+    codepoint: 'U+E26A',
   };
   var gorthmikon = {
-  	alternateCodepoint: "U+1D0B5",
-  	codepoint: "U+E280"
+    alternateCodepoint: 'U+1D0B5',
+    codepoint: 'U+E280',
   };
   var pelastikon = {
-  	alternateCodepoint: "U+1D0B4",
-  	codepoint: "U+E281"
+    alternateCodepoint: 'U+1D0B4',
+    codepoint: 'U+E281',
   };
   var modeFirst = {
-  	codepoint: "U+E2A0"
+    codepoint: 'U+E2A0',
   };
   var modeSecond = {
-  	codepoint: "U+E2A8"
+    codepoint: 'U+E2A8',
   };
   var modeThird = {
-  	codepoint: "U+E2B0"
+    codepoint: 'U+E2B0',
   };
   var modeThirdNana = {
-  	alternateCodepoint: "U+1D0A7",
-  	codepoint: "U+E2B1"
+    alternateCodepoint: 'U+1D0A7',
+    codepoint: 'U+E2B1',
   };
   var modeFourth = {
-  	codepoint: "U+E2B8"
+    codepoint: 'U+E2B8',
   };
   var modeLegetos = {
-  	alternateCodepoint: "U+1D0AA",
-  	codepoint: "U+E2BA"
+    alternateCodepoint: 'U+1D0AA',
+    codepoint: 'U+E2BA',
   };
   var modePlagalFirst = {
-  	codepoint: "U+E2C0"
+    codepoint: 'U+E2C0',
   };
   var modePlagalSecond = {
-  	codepoint: "U+E2C8"
+    codepoint: 'U+E2C8',
   };
   var modeVarys = {
-  	alternateCodepoint: "U+1D0B1",
-  	codepoint: "U+E2D0"
+    alternateCodepoint: 'U+1D0B1',
+    codepoint: 'U+E2D0',
   };
   var modeVarys2 = {
-  	codepoint: "U+E2D1"
+    codepoint: 'U+E2D1',
   };
   var modePlagalFourth = {
-  	codepoint: "U+E2D8"
+    codepoint: 'U+E2D8',
   };
   var modeNi = {
-  	codepoint: "U+E2E0"
+    codepoint: 'U+E2E0',
   };
   var modePa = {
-  	codepoint: "U+E2E1"
+    codepoint: 'U+E2E1',
   };
   var modeVou = {
-  	codepoint: "U+E2E2"
+    codepoint: 'U+E2E2',
   };
   var modeGa = {
-  	codepoint: "U+E2E3"
+    codepoint: 'U+E2E3',
   };
   var modeDi = {
-  	codepoint: "U+E2E4"
+    codepoint: 'U+E2E4',
   };
   var modeKe = {
-  	codepoint: "U+E2E5"
+    codepoint: 'U+E2E5',
   };
   var modeZo = {
-  	codepoint: "U+E2E6"
+    codepoint: 'U+E2E6',
   };
   var modeOligonKentimaAbove = {
-  	codepoint: "U+E2E7"
+    codepoint: 'U+E2E7',
   };
   var modeOligonYpsili = {
-  	codepoint: "U+E2E8"
+    codepoint: 'U+E2E8',
   };
   var modeElafron = {
-  	codepoint: "U+E2E9"
+    codepoint: 'U+E2E9',
   };
   var modeRunningElafron = {
-  	codepoint: "U+E2EA"
+    codepoint: 'U+E2EA',
   };
   var modePlagal = {
-  	alternateCodepoint: "U+1D0AB",
-  	codepoint: "U+E2F0"
+    alternateCodepoint: 'U+1D0AB',
+    codepoint: 'U+E2F0',
   };
   var modeWordEchos = {
-  	codepoint: "U+E2F1"
+    codepoint: 'U+E2F1',
   };
   var modeWordVarys = {
-  	codepoint: "U+E2F2"
+    codepoint: 'U+E2F2',
   };
   var modeAlpha = {
-  	codepoint: "U+E2F3"
+    codepoint: 'U+E2F3',
   };
   var modeBeta = {
-  	codepoint: "U+E2F4"
+    codepoint: 'U+E2F4',
   };
   var modeGamma = {
-  	codepoint: "U+E2F5"
+    codepoint: 'U+E2F5',
   };
   var modeDelta = {
-  	codepoint: "U+E2F6"
+    codepoint: 'U+E2F6',
   };
   var modeAlphaCapital = {
-  	codepoint: "U+E2F7"
+    codepoint: 'U+E2F7',
   };
   var modeBetaCapital = {
-  	codepoint: "U+E2F8"
+    codepoint: 'U+E2F8',
   };
   var modeGammaCapital = {
-  	codepoint: "U+E2F9"
+    codepoint: 'U+E2F9',
   };
   var modeDeltaCapital = {
-  	codepoint: "U+E2FA"
+    codepoint: 'U+E2FA',
   };
   var glyphnames = {
-  	ison: ison,
-  	oligon: oligon,
-  	oligonKentimaMiddle: oligonKentimaMiddle,
-  	oligonKentimaBelow: oligonKentimaBelow,
-  	oligonKentimaAbove: oligonKentimaAbove,
-  	oligonYpsiliRight: oligonYpsiliRight,
-  	oligonYpsiliLeft: oligonYpsiliLeft,
-  	oligonKentimaYpsiliRight: oligonKentimaYpsiliRight,
-  	oligonKentimaYpsiliMiddle: oligonKentimaYpsiliMiddle,
-  	oligonDoubleYpsili: oligonDoubleYpsili,
-  	oligonKentimataDoubleYpsili: oligonKentimataDoubleYpsili,
-  	oligonKentimaDoubleYpsiliRight: oligonKentimaDoubleYpsiliRight,
-  	oligonKentimaDoubleYpsiliLeft: oligonKentimaDoubleYpsiliLeft,
-  	oligonTripleYpsili: oligonTripleYpsili,
-  	oligonKentimataTripleYpsili: oligonKentimataTripleYpsili,
-  	oligonKentimaTripleYpsili: oligonKentimaTripleYpsili,
-  	oligonIson: oligonIson,
-  	oligonApostrofos: oligonApostrofos,
-  	oligonYporroi: oligonYporroi,
-  	oligonElafron: oligonElafron,
-  	oligonElafronApostrofos: oligonElafronApostrofos,
-  	oligonChamili: oligonChamili,
-  	isonApostrofos: isonApostrofos,
-  	apostrofos: apostrofos,
-  	apostrofosSyndesmos: apostrofosSyndesmos,
-  	yporroi: yporroi,
-  	elafron: elafron,
-  	runningElafron: runningElafron,
-  	elafronApostrofos: elafronApostrofos,
-  	chamili: chamili,
-  	chamiliApostrofos: chamiliApostrofos,
-  	chamiliElafron: chamiliElafron,
-  	chamiliElafronApostrofos: chamiliElafronApostrofos,
-  	doubleChamili: doubleChamili,
-  	doubleChamiliApostrofos: doubleChamiliApostrofos,
-  	doubleChamiliElafron: doubleChamiliElafron,
-  	doubleChamiliElafronApostrofos: doubleChamiliElafronApostrofos,
-  	tripleChamili: tripleChamili,
-  	petastiIson: petastiIson,
-  	petasti: petasti,
-  	petastiOligon: petastiOligon,
-  	petastiKentima: petastiKentima,
-  	petastiYpsiliRight: petastiYpsiliRight,
-  	petastiYpsiliLeft: petastiYpsiliLeft,
-  	petastiKentimaYpsiliRight: petastiKentimaYpsiliRight,
-  	petastiKentimaYpsiliMiddle: petastiKentimaYpsiliMiddle,
-  	petastiDoubleYpsili: petastiDoubleYpsili,
-  	petastiKentimataDoubleYpsili: petastiKentimataDoubleYpsili,
-  	petastiKentimaDoubleYpsiliRight: petastiKentimaDoubleYpsiliRight,
-  	petastiKentimaDoubleYpsiliLeft: petastiKentimaDoubleYpsiliLeft,
-  	petastiTripleYpsili: petastiTripleYpsili,
-  	petastiKentimataTripleYpsili: petastiKentimataTripleYpsili,
-  	petastiKentimaTripleYpsili: petastiKentimaTripleYpsili,
-  	petastiApostrofos: petastiApostrofos,
-  	petastiYporroi: petastiYporroi,
-  	petastiElafron: petastiElafron,
-  	petastiRunningElafron: petastiRunningElafron,
-  	petastiElafronApostrofos: petastiElafronApostrofos,
-  	petastiChamili: petastiChamili,
-  	petastiChamiliApostrofos: petastiChamiliApostrofos,
-  	petastiChamiliElafron: petastiChamiliElafron,
-  	petastiChamiliElafronApostrofos: petastiChamiliElafronApostrofos,
-  	petastiDoubleChamili: petastiDoubleChamili,
-  	petastiDoubleChamiliApostrofos: petastiDoubleChamiliApostrofos,
-  	kentima: kentima,
-  	kentimata: kentimata,
-  	oligonKentimataBelow: oligonKentimataBelow,
-  	oligonKentimataAbove: oligonKentimataAbove,
-  	oligonIsonKentimata: oligonIsonKentimata,
-  	oligonKentimaMiddleKentimata: oligonKentimaMiddleKentimata,
-  	oligonYpsiliRightKentimata: oligonYpsiliRightKentimata,
-  	oligonYpsiliLeftKentimata: oligonYpsiliLeftKentimata,
-  	oligonApostrofosKentimata: oligonApostrofosKentimata,
-  	oligonYporroiKentimata: oligonYporroiKentimata,
-  	oligonElafronKentimata: oligonElafronKentimata,
-  	oligonRunningElafronKentimata: oligonRunningElafronKentimata,
-  	oligonElafronApostrofosKentimata: oligonElafronApostrofosKentimata,
-  	oligonChamiliKentimata: oligonChamiliKentimata,
-  	vareia: vareia,
-  	psifiston: psifiston,
-  	antikenoma: antikenoma,
-  	omalon: omalon,
-  	omalonConnecting: omalonConnecting,
-  	heteron: heteron,
-  	heteronConnecting: heteronConnecting,
-  	endofonon: endofonon,
-  	yfenAbove: yfenAbove,
-  	yfenBelow: yfenBelow,
-  	stavros: stavros,
-  	breath: breath,
-  	klasmaAbove: klasmaAbove,
-  	klasmaBelow: klasmaBelow,
-  	apli: apli,
-  	dipli: dipli,
-  	tripli: tripli,
-  	tetrapli: tetrapli,
-  	koronis: koronis,
-  	leimma1: leimma1,
-  	leimma2: leimma2,
-  	leimma3: leimma3,
-  	leimma4: leimma4,
-  	leimmaDot: leimmaDot,
-  	gorgonAbove: gorgonAbove,
-  	gorgonBelow: gorgonBelow,
-  	gorgonDottedLeft: gorgonDottedLeft,
-  	gorgonDottedRight: gorgonDottedRight,
-  	digorgon: digorgon,
-  	digorgonDottedLeftBelow: digorgonDottedLeftBelow,
-  	digorgonDottedLeftAbove: digorgonDottedLeftAbove,
-  	digorgonDottedRight: digorgonDottedRight,
-  	trigorgon: trigorgon,
-  	trigorgonDottedLeftBelow: trigorgonDottedLeftBelow,
-  	trigorgonDottedLeftAbove: trigorgonDottedLeftAbove,
-  	trigorgonDottedRight: trigorgonDottedRight,
-  	argon: argon,
-  	diargon: diargon,
-  	triargon: triargon,
-  	gorgonSecondary: gorgonSecondary,
-  	gorgonDottedLeftSecondary: gorgonDottedLeftSecondary,
-  	gorgonDottedRightSecondary: gorgonDottedRightSecondary,
-  	digorgonSecondary: digorgonSecondary,
-  	digorgonDottedLeftBelowSecondary: digorgonDottedLeftBelowSecondary,
-  	digorgonDottedRightSecondary: digorgonDottedRightSecondary,
-  	trigorgonSecondary: trigorgonSecondary,
-  	trigorgonDottedLeftBelowSecondary: trigorgonDottedLeftBelowSecondary,
-  	trigorgonDottedRightSecondary: trigorgonDottedRightSecondary,
-  	agogiPoliArgi: agogiPoliArgi,
-  	agogiArgoteri: agogiArgoteri,
-  	agogiArgi: agogiArgi,
-  	agogiMetria: agogiMetria,
-  	agogiMesi: agogiMesi,
-  	agogiGorgi: agogiGorgi,
-  	agogiGorgoteri: agogiGorgoteri,
-  	agogiPoliGorgi: agogiPoliGorgi,
-  	agogiPoliArgiAbove: agogiPoliArgiAbove,
-  	agogiArgoteriAbove: agogiArgoteriAbove,
-  	agogiArgiAbove: agogiArgiAbove,
-  	agogiMetriaAbove: agogiMetriaAbove,
-  	agogiMesiAbove: agogiMesiAbove,
-  	agogiGorgiAbove: agogiGorgiAbove,
-  	agogiGorgoteriAbove: agogiGorgoteriAbove,
-  	agogiPoliGorgiAbove: agogiPoliGorgiAbove,
-  	martyriaNoteZoLow: martyriaNoteZoLow,
-  	martyriaNoteNiLow: martyriaNoteNiLow,
-  	martyriaNotePaLow: martyriaNotePaLow,
-  	martyriaNoteVouLow: martyriaNoteVouLow,
-  	martyriaNoteGaLow: martyriaNoteGaLow,
-  	martyriaNoteDiLow: martyriaNoteDiLow,
-  	martyriaNoteKeLow: martyriaNoteKeLow,
-  	martyriaNoteZo: martyriaNoteZo,
-  	martyriaNoteNi: martyriaNoteNi,
-  	martyriaNotePa: martyriaNotePa,
-  	martyriaNoteVou: martyriaNoteVou,
-  	martyriaNoteGa: martyriaNoteGa,
-  	martyriaNoteDi: martyriaNoteDi,
-  	martyriaNoteKe: martyriaNoteKe,
-  	martyriaNoteZoHigh: martyriaNoteZoHigh,
-  	martyriaNoteNiHigh: martyriaNoteNiHigh,
-  	martyriaNotePaHigh: martyriaNotePaHigh,
-  	martyriaNoteVouHigh: martyriaNoteVouHigh,
-  	martyriaNoteGaHigh: martyriaNoteGaHigh,
-  	martyriaNoteDiHigh: martyriaNoteDiHigh,
-  	martyriaNoteKeHigh: martyriaNoteKeHigh,
-  	martyriaTick: martyriaTick,
-  	martyriaZoBelow: martyriaZoBelow,
-  	martyriaDeltaBelow: martyriaDeltaBelow,
-  	martyriaAlphaBelow: martyriaAlphaBelow,
-  	martyriaLegetosBelow: martyriaLegetosBelow,
-  	martyriaNanaBelow: martyriaNanaBelow,
-  	martyriaDeltaDottedBelow: martyriaDeltaDottedBelow,
-  	martyriaAlphaDottedBelow: martyriaAlphaDottedBelow,
-  	martyriaHardChromaticPaBelow: martyriaHardChromaticPaBelow,
-  	martyriaHardChromaticDiBelow: martyriaHardChromaticDiBelow,
-  	martyriaSoftChromaticDiBelow: martyriaSoftChromaticDiBelow,
-  	martyriaSoftChromaticKeBelow: martyriaSoftChromaticKeBelow,
-  	martyriaZygosBelow: martyriaZygosBelow,
-  	martyriaZoAbove: martyriaZoAbove,
-  	martyriaDeltaAbove: martyriaDeltaAbove,
-  	martyriaAlphaAbove: martyriaAlphaAbove,
-  	martyriaLegetosAbove: martyriaLegetosAbove,
-  	martyriaNanaAbove: martyriaNanaAbove,
-  	martyriaDeltaDottedAbove: martyriaDeltaDottedAbove,
-  	martyriaAlphaDottedAbove: martyriaAlphaDottedAbove,
-  	martyriaHardChromaticPaAbove: martyriaHardChromaticPaAbove,
-  	martyriaHardChromaticDiAbove: martyriaHardChromaticDiAbove,
-  	martyriaSoftChromaticDiAbove: martyriaSoftChromaticDiAbove,
-  	martyriaSoftChromaticKeAbove: martyriaSoftChromaticKeAbove,
-  	martyriaZygosAbove: martyriaZygosAbove,
-  	fthoraDiatonicNiLowAbove: fthoraDiatonicNiLowAbove,
-  	fthoraDiatonicPaAbove: fthoraDiatonicPaAbove,
-  	fthoraDiatonicVouAbove: fthoraDiatonicVouAbove,
-  	fthoraDiatonicGaAbove: fthoraDiatonicGaAbove,
-  	fthoraDiatonicDiAbove: fthoraDiatonicDiAbove,
-  	fthoraDiatonicKeAbove: fthoraDiatonicKeAbove,
-  	fthoraDiatonicZoAbove: fthoraDiatonicZoAbove,
-  	fthoraDiatonicNiHighAbove: fthoraDiatonicNiHighAbove,
-  	fthoraHardChromaticPaAbove: fthoraHardChromaticPaAbove,
-  	fthoraHardChromaticDiAbove: fthoraHardChromaticDiAbove,
-  	fthoraSoftChromaticDiAbove: fthoraSoftChromaticDiAbove,
-  	fthoraSoftChromaticKeAbove: fthoraSoftChromaticKeAbove,
-  	fthoraEnharmonicAbove: fthoraEnharmonicAbove,
-  	chroaZygosAbove: chroaZygosAbove,
-  	chroaKlitonAbove: chroaKlitonAbove,
-  	chroaSpathiAbove: chroaSpathiAbove,
-  	fthoraDiatonicNiLowBelow: fthoraDiatonicNiLowBelow,
-  	fthoraDiatonicPaBelow: fthoraDiatonicPaBelow,
-  	fthoraDiatonicVouBelow: fthoraDiatonicVouBelow,
-  	fthoraDiatonicGaBelow: fthoraDiatonicGaBelow,
-  	fthoraDiatonicDiBelow: fthoraDiatonicDiBelow,
-  	fthoraDiatonicKeBelow: fthoraDiatonicKeBelow,
-  	fthoraDiatonicZoBelow: fthoraDiatonicZoBelow,
-  	fthoraDiatonicNiHighBelow: fthoraDiatonicNiHighBelow,
-  	fthoraHardChromaticPaBelow: fthoraHardChromaticPaBelow,
-  	fthoraHardChromaticDiBelow: fthoraHardChromaticDiBelow,
-  	fthoraSoftChromaticDiBelow: fthoraSoftChromaticDiBelow,
-  	fthoraSoftChromaticKeBelow: fthoraSoftChromaticKeBelow,
-  	fthoraEnharmonicBelow: fthoraEnharmonicBelow,
-  	chroaZygosBelow: chroaZygosBelow,
-  	chroaKlitonBelow: chroaKlitonBelow,
-  	chroaSpathiBelow: chroaSpathiBelow,
-  	diesis2: diesis2,
-  	diesis4: diesis4,
-  	diesis6: diesis6,
-  	diesis8: diesis8,
-  	diesisGenikiAbove: diesisGenikiAbove,
-  	diesisGenikiBelow: diesisGenikiBelow,
-  	yfesis2: yfesis2,
-  	yfesis4: yfesis4,
-  	yfesis6: yfesis6,
-  	yfesis8: yfesis8,
-  	yfesisGenikiAbove: yfesisGenikiAbove,
-  	yfesisGenikiBelow: yfesisGenikiBelow,
-  	barlineSingle: barlineSingle,
-  	barlineDouble: barlineDouble,
-  	barlineTheseos: barlineTheseos,
-  	barlineShortSingle: barlineShortSingle,
-  	barlineShortDouble: barlineShortDouble,
-  	barlineShortTheseos: barlineShortTheseos,
-  	measureNumber2: measureNumber2,
-  	measureNumber3: measureNumber3,
-  	measureNumber4: measureNumber4,
-  	measureNumber5: measureNumber5,
-  	measureNumber6: measureNumber6,
-  	measureNumber7: measureNumber7,
-  	measureNumber8: measureNumber8,
-  	noteIndicatorNi: noteIndicatorNi,
-  	noteIndicatorPa: noteIndicatorPa,
-  	noteIndicatorVou: noteIndicatorVou,
-  	noteIndicatorGa: noteIndicatorGa,
-  	noteIndicatorDi: noteIndicatorDi,
-  	noteIndicatorKe: noteIndicatorKe,
-  	noteIndicatorZo: noteIndicatorZo,
-  	isonIndicatorUnison: isonIndicatorUnison,
-  	isonIndicatorDiLow: isonIndicatorDiLow,
-  	isonIndicatorKeLow: isonIndicatorKeLow,
-  	isonIndicatorZo: isonIndicatorZo,
-  	isonIndicatorNi: isonIndicatorNi,
-  	isonIndicatorPa: isonIndicatorPa,
-  	isonIndicatorVou: isonIndicatorVou,
-  	isonIndicatorGa: isonIndicatorGa,
-  	isonIndicatorDi: isonIndicatorDi,
-  	isonIndicatorKe: isonIndicatorKe,
-  	isonIndicatorZoHigh: isonIndicatorZoHigh,
-  	gorthmikon: gorthmikon,
-  	pelastikon: pelastikon,
-  	modeFirst: modeFirst,
-  	modeSecond: modeSecond,
-  	modeThird: modeThird,
-  	modeThirdNana: modeThirdNana,
-  	modeFourth: modeFourth,
-  	modeLegetos: modeLegetos,
-  	modePlagalFirst: modePlagalFirst,
-  	modePlagalSecond: modePlagalSecond,
-  	modeVarys: modeVarys,
-  	modeVarys2: modeVarys2,
-  	modePlagalFourth: modePlagalFourth,
-  	modeNi: modeNi,
-  	modePa: modePa,
-  	modeVou: modeVou,
-  	modeGa: modeGa,
-  	modeDi: modeDi,
-  	modeKe: modeKe,
-  	modeZo: modeZo,
-  	modeOligonKentimaAbove: modeOligonKentimaAbove,
-  	modeOligonYpsili: modeOligonYpsili,
-  	modeElafron: modeElafron,
-  	modeRunningElafron: modeRunningElafron,
-  	modePlagal: modePlagal,
-  	modeWordEchos: modeWordEchos,
-  	modeWordVarys: modeWordVarys,
-  	modeAlpha: modeAlpha,
-  	modeBeta: modeBeta,
-  	modeGamma: modeGamma,
-  	modeDelta: modeDelta,
-  	modeAlphaCapital: modeAlphaCapital,
-  	modeBetaCapital: modeBetaCapital,
-  	modeGammaCapital: modeGammaCapital,
-  	modeDeltaCapital: modeDeltaCapital
+    ison: ison,
+    oligon: oligon,
+    oligonKentimaMiddle: oligonKentimaMiddle,
+    oligonKentimaBelow: oligonKentimaBelow,
+    oligonKentimaAbove: oligonKentimaAbove,
+    oligonYpsiliRight: oligonYpsiliRight,
+    oligonYpsiliLeft: oligonYpsiliLeft,
+    oligonKentimaYpsiliRight: oligonKentimaYpsiliRight,
+    oligonKentimaYpsiliMiddle: oligonKentimaYpsiliMiddle,
+    oligonDoubleYpsili: oligonDoubleYpsili,
+    oligonKentimataDoubleYpsili: oligonKentimataDoubleYpsili,
+    oligonKentimaDoubleYpsiliRight: oligonKentimaDoubleYpsiliRight,
+    oligonKentimaDoubleYpsiliLeft: oligonKentimaDoubleYpsiliLeft,
+    oligonTripleYpsili: oligonTripleYpsili,
+    oligonKentimataTripleYpsili: oligonKentimataTripleYpsili,
+    oligonKentimaTripleYpsili: oligonKentimaTripleYpsili,
+    oligonIson: oligonIson,
+    oligonApostrofos: oligonApostrofos,
+    oligonYporroi: oligonYporroi,
+    oligonElafron: oligonElafron,
+    oligonElafronApostrofos: oligonElafronApostrofos,
+    oligonChamili: oligonChamili,
+    isonApostrofos: isonApostrofos,
+    apostrofos: apostrofos,
+    apostrofosSyndesmos: apostrofosSyndesmos,
+    yporroi: yporroi,
+    elafron: elafron,
+    runningElafron: runningElafron,
+    elafronApostrofos: elafronApostrofos,
+    chamili: chamili,
+    chamiliApostrofos: chamiliApostrofos,
+    chamiliElafron: chamiliElafron,
+    chamiliElafronApostrofos: chamiliElafronApostrofos,
+    doubleChamili: doubleChamili,
+    doubleChamiliApostrofos: doubleChamiliApostrofos,
+    doubleChamiliElafron: doubleChamiliElafron,
+    doubleChamiliElafronApostrofos: doubleChamiliElafronApostrofos,
+    tripleChamili: tripleChamili,
+    petastiIson: petastiIson,
+    petasti: petasti,
+    petastiOligon: petastiOligon,
+    petastiKentima: petastiKentima,
+    petastiYpsiliRight: petastiYpsiliRight,
+    petastiYpsiliLeft: petastiYpsiliLeft,
+    petastiKentimaYpsiliRight: petastiKentimaYpsiliRight,
+    petastiKentimaYpsiliMiddle: petastiKentimaYpsiliMiddle,
+    petastiDoubleYpsili: petastiDoubleYpsili,
+    petastiKentimataDoubleYpsili: petastiKentimataDoubleYpsili,
+    petastiKentimaDoubleYpsiliRight: petastiKentimaDoubleYpsiliRight,
+    petastiKentimaDoubleYpsiliLeft: petastiKentimaDoubleYpsiliLeft,
+    petastiTripleYpsili: petastiTripleYpsili,
+    petastiKentimataTripleYpsili: petastiKentimataTripleYpsili,
+    petastiKentimaTripleYpsili: petastiKentimaTripleYpsili,
+    petastiApostrofos: petastiApostrofos,
+    petastiYporroi: petastiYporroi,
+    petastiElafron: petastiElafron,
+    petastiRunningElafron: petastiRunningElafron,
+    petastiElafronApostrofos: petastiElafronApostrofos,
+    petastiChamili: petastiChamili,
+    petastiChamiliApostrofos: petastiChamiliApostrofos,
+    petastiChamiliElafron: petastiChamiliElafron,
+    petastiChamiliElafronApostrofos: petastiChamiliElafronApostrofos,
+    petastiDoubleChamili: petastiDoubleChamili,
+    petastiDoubleChamiliApostrofos: petastiDoubleChamiliApostrofos,
+    kentima: kentima,
+    kentimata: kentimata,
+    oligonKentimataBelow: oligonKentimataBelow,
+    oligonKentimataAbove: oligonKentimataAbove,
+    oligonIsonKentimata: oligonIsonKentimata,
+    oligonKentimaMiddleKentimata: oligonKentimaMiddleKentimata,
+    oligonYpsiliRightKentimata: oligonYpsiliRightKentimata,
+    oligonYpsiliLeftKentimata: oligonYpsiliLeftKentimata,
+    oligonApostrofosKentimata: oligonApostrofosKentimata,
+    oligonYporroiKentimata: oligonYporroiKentimata,
+    oligonElafronKentimata: oligonElafronKentimata,
+    oligonRunningElafronKentimata: oligonRunningElafronKentimata,
+    oligonElafronApostrofosKentimata: oligonElafronApostrofosKentimata,
+    oligonChamiliKentimata: oligonChamiliKentimata,
+    vareia: vareia,
+    psifiston: psifiston,
+    antikenoma: antikenoma,
+    omalon: omalon,
+    omalonConnecting: omalonConnecting,
+    heteron: heteron,
+    heteronConnecting: heteronConnecting,
+    endofonon: endofonon,
+    yfenAbove: yfenAbove,
+    yfenBelow: yfenBelow,
+    stavros: stavros,
+    breath: breath,
+    klasmaAbove: klasmaAbove,
+    klasmaBelow: klasmaBelow,
+    apli: apli,
+    dipli: dipli,
+    tripli: tripli,
+    tetrapli: tetrapli,
+    koronis: koronis,
+    leimma1: leimma1,
+    leimma2: leimma2,
+    leimma3: leimma3,
+    leimma4: leimma4,
+    leimmaDot: leimmaDot,
+    gorgonAbove: gorgonAbove,
+    gorgonBelow: gorgonBelow,
+    gorgonDottedLeft: gorgonDottedLeft,
+    gorgonDottedRight: gorgonDottedRight,
+    digorgon: digorgon,
+    digorgonDottedLeftBelow: digorgonDottedLeftBelow,
+    digorgonDottedLeftAbove: digorgonDottedLeftAbove,
+    digorgonDottedRight: digorgonDottedRight,
+    trigorgon: trigorgon,
+    trigorgonDottedLeftBelow: trigorgonDottedLeftBelow,
+    trigorgonDottedLeftAbove: trigorgonDottedLeftAbove,
+    trigorgonDottedRight: trigorgonDottedRight,
+    argon: argon,
+    diargon: diargon,
+    triargon: triargon,
+    gorgonSecondary: gorgonSecondary,
+    gorgonDottedLeftSecondary: gorgonDottedLeftSecondary,
+    gorgonDottedRightSecondary: gorgonDottedRightSecondary,
+    digorgonSecondary: digorgonSecondary,
+    digorgonDottedLeftBelowSecondary: digorgonDottedLeftBelowSecondary,
+    digorgonDottedRightSecondary: digorgonDottedRightSecondary,
+    trigorgonSecondary: trigorgonSecondary,
+    trigorgonDottedLeftBelowSecondary: trigorgonDottedLeftBelowSecondary,
+    trigorgonDottedRightSecondary: trigorgonDottedRightSecondary,
+    agogiPoliArgi: agogiPoliArgi,
+    agogiArgoteri: agogiArgoteri,
+    agogiArgi: agogiArgi,
+    agogiMetria: agogiMetria,
+    agogiMesi: agogiMesi,
+    agogiGorgi: agogiGorgi,
+    agogiGorgoteri: agogiGorgoteri,
+    agogiPoliGorgi: agogiPoliGorgi,
+    agogiPoliArgiAbove: agogiPoliArgiAbove,
+    agogiArgoteriAbove: agogiArgoteriAbove,
+    agogiArgiAbove: agogiArgiAbove,
+    agogiMetriaAbove: agogiMetriaAbove,
+    agogiMesiAbove: agogiMesiAbove,
+    agogiGorgiAbove: agogiGorgiAbove,
+    agogiGorgoteriAbove: agogiGorgoteriAbove,
+    agogiPoliGorgiAbove: agogiPoliGorgiAbove,
+    martyriaNoteZoLow: martyriaNoteZoLow,
+    martyriaNoteNiLow: martyriaNoteNiLow,
+    martyriaNotePaLow: martyriaNotePaLow,
+    martyriaNoteVouLow: martyriaNoteVouLow,
+    martyriaNoteGaLow: martyriaNoteGaLow,
+    martyriaNoteDiLow: martyriaNoteDiLow,
+    martyriaNoteKeLow: martyriaNoteKeLow,
+    martyriaNoteZo: martyriaNoteZo,
+    martyriaNoteNi: martyriaNoteNi,
+    martyriaNotePa: martyriaNotePa,
+    martyriaNoteVou: martyriaNoteVou,
+    martyriaNoteGa: martyriaNoteGa,
+    martyriaNoteDi: martyriaNoteDi,
+    martyriaNoteKe: martyriaNoteKe,
+    martyriaNoteZoHigh: martyriaNoteZoHigh,
+    martyriaNoteNiHigh: martyriaNoteNiHigh,
+    martyriaNotePaHigh: martyriaNotePaHigh,
+    martyriaNoteVouHigh: martyriaNoteVouHigh,
+    martyriaNoteGaHigh: martyriaNoteGaHigh,
+    martyriaNoteDiHigh: martyriaNoteDiHigh,
+    martyriaNoteKeHigh: martyriaNoteKeHigh,
+    martyriaTick: martyriaTick,
+    martyriaZoBelow: martyriaZoBelow,
+    martyriaDeltaBelow: martyriaDeltaBelow,
+    martyriaAlphaBelow: martyriaAlphaBelow,
+    martyriaLegetosBelow: martyriaLegetosBelow,
+    martyriaNanaBelow: martyriaNanaBelow,
+    martyriaDeltaDottedBelow: martyriaDeltaDottedBelow,
+    martyriaAlphaDottedBelow: martyriaAlphaDottedBelow,
+    martyriaHardChromaticPaBelow: martyriaHardChromaticPaBelow,
+    martyriaHardChromaticDiBelow: martyriaHardChromaticDiBelow,
+    martyriaSoftChromaticDiBelow: martyriaSoftChromaticDiBelow,
+    martyriaSoftChromaticKeBelow: martyriaSoftChromaticKeBelow,
+    martyriaZygosBelow: martyriaZygosBelow,
+    martyriaZoAbove: martyriaZoAbove,
+    martyriaDeltaAbove: martyriaDeltaAbove,
+    martyriaAlphaAbove: martyriaAlphaAbove,
+    martyriaLegetosAbove: martyriaLegetosAbove,
+    martyriaNanaAbove: martyriaNanaAbove,
+    martyriaDeltaDottedAbove: martyriaDeltaDottedAbove,
+    martyriaAlphaDottedAbove: martyriaAlphaDottedAbove,
+    martyriaHardChromaticPaAbove: martyriaHardChromaticPaAbove,
+    martyriaHardChromaticDiAbove: martyriaHardChromaticDiAbove,
+    martyriaSoftChromaticDiAbove: martyriaSoftChromaticDiAbove,
+    martyriaSoftChromaticKeAbove: martyriaSoftChromaticKeAbove,
+    martyriaZygosAbove: martyriaZygosAbove,
+    fthoraDiatonicNiLowAbove: fthoraDiatonicNiLowAbove,
+    fthoraDiatonicPaAbove: fthoraDiatonicPaAbove,
+    fthoraDiatonicVouAbove: fthoraDiatonicVouAbove,
+    fthoraDiatonicGaAbove: fthoraDiatonicGaAbove,
+    fthoraDiatonicDiAbove: fthoraDiatonicDiAbove,
+    fthoraDiatonicKeAbove: fthoraDiatonicKeAbove,
+    fthoraDiatonicZoAbove: fthoraDiatonicZoAbove,
+    fthoraDiatonicNiHighAbove: fthoraDiatonicNiHighAbove,
+    fthoraHardChromaticPaAbove: fthoraHardChromaticPaAbove,
+    fthoraHardChromaticDiAbove: fthoraHardChromaticDiAbove,
+    fthoraSoftChromaticDiAbove: fthoraSoftChromaticDiAbove,
+    fthoraSoftChromaticKeAbove: fthoraSoftChromaticKeAbove,
+    fthoraEnharmonicAbove: fthoraEnharmonicAbove,
+    chroaZygosAbove: chroaZygosAbove,
+    chroaKlitonAbove: chroaKlitonAbove,
+    chroaSpathiAbove: chroaSpathiAbove,
+    fthoraDiatonicNiLowBelow: fthoraDiatonicNiLowBelow,
+    fthoraDiatonicPaBelow: fthoraDiatonicPaBelow,
+    fthoraDiatonicVouBelow: fthoraDiatonicVouBelow,
+    fthoraDiatonicGaBelow: fthoraDiatonicGaBelow,
+    fthoraDiatonicDiBelow: fthoraDiatonicDiBelow,
+    fthoraDiatonicKeBelow: fthoraDiatonicKeBelow,
+    fthoraDiatonicZoBelow: fthoraDiatonicZoBelow,
+    fthoraDiatonicNiHighBelow: fthoraDiatonicNiHighBelow,
+    fthoraHardChromaticPaBelow: fthoraHardChromaticPaBelow,
+    fthoraHardChromaticDiBelow: fthoraHardChromaticDiBelow,
+    fthoraSoftChromaticDiBelow: fthoraSoftChromaticDiBelow,
+    fthoraSoftChromaticKeBelow: fthoraSoftChromaticKeBelow,
+    fthoraEnharmonicBelow: fthoraEnharmonicBelow,
+    chroaZygosBelow: chroaZygosBelow,
+    chroaKlitonBelow: chroaKlitonBelow,
+    chroaSpathiBelow: chroaSpathiBelow,
+    diesis2: diesis2,
+    diesis4: diesis4,
+    diesis6: diesis6,
+    diesis8: diesis8,
+    diesisGenikiAbove: diesisGenikiAbove,
+    diesisGenikiBelow: diesisGenikiBelow,
+    yfesis2: yfesis2,
+    yfesis4: yfesis4,
+    yfesis6: yfesis6,
+    yfesis8: yfesis8,
+    yfesisGenikiAbove: yfesisGenikiAbove,
+    yfesisGenikiBelow: yfesisGenikiBelow,
+    barlineSingle: barlineSingle,
+    barlineDouble: barlineDouble,
+    barlineTheseos: barlineTheseos,
+    barlineShortSingle: barlineShortSingle,
+    barlineShortDouble: barlineShortDouble,
+    barlineShortTheseos: barlineShortTheseos,
+    measureNumber2: measureNumber2,
+    measureNumber3: measureNumber3,
+    measureNumber4: measureNumber4,
+    measureNumber5: measureNumber5,
+    measureNumber6: measureNumber6,
+    measureNumber7: measureNumber7,
+    measureNumber8: measureNumber8,
+    noteIndicatorNi: noteIndicatorNi,
+    noteIndicatorPa: noteIndicatorPa,
+    noteIndicatorVou: noteIndicatorVou,
+    noteIndicatorGa: noteIndicatorGa,
+    noteIndicatorDi: noteIndicatorDi,
+    noteIndicatorKe: noteIndicatorKe,
+    noteIndicatorZo: noteIndicatorZo,
+    isonIndicatorUnison: isonIndicatorUnison,
+    isonIndicatorDiLow: isonIndicatorDiLow,
+    isonIndicatorKeLow: isonIndicatorKeLow,
+    isonIndicatorZo: isonIndicatorZo,
+    isonIndicatorNi: isonIndicatorNi,
+    isonIndicatorPa: isonIndicatorPa,
+    isonIndicatorVou: isonIndicatorVou,
+    isonIndicatorGa: isonIndicatorGa,
+    isonIndicatorDi: isonIndicatorDi,
+    isonIndicatorKe: isonIndicatorKe,
+    isonIndicatorZoHigh: isonIndicatorZoHigh,
+    gorthmikon: gorthmikon,
+    pelastikon: pelastikon,
+    modeFirst: modeFirst,
+    modeSecond: modeSecond,
+    modeThird: modeThird,
+    modeThirdNana: modeThirdNana,
+    modeFourth: modeFourth,
+    modeLegetos: modeLegetos,
+    modePlagalFirst: modePlagalFirst,
+    modePlagalSecond: modePlagalSecond,
+    modeVarys: modeVarys,
+    modeVarys2: modeVarys2,
+    modePlagalFourth: modePlagalFourth,
+    modeNi: modeNi,
+    modePa: modePa,
+    modeVou: modeVou,
+    modeGa: modeGa,
+    modeDi: modeDi,
+    modeKe: modeKe,
+    modeZo: modeZo,
+    modeOligonKentimaAbove: modeOligonKentimaAbove,
+    modeOligonYpsili: modeOligonYpsili,
+    modeElafron: modeElafron,
+    modeRunningElafron: modeRunningElafron,
+    modePlagal: modePlagal,
+    modeWordEchos: modeWordEchos,
+    modeWordVarys: modeWordVarys,
+    modeAlpha: modeAlpha,
+    modeBeta: modeBeta,
+    modeGamma: modeGamma,
+    modeDelta: modeDelta,
+    modeAlphaCapital: modeAlphaCapital,
+    modeBetaCapital: modeBetaCapital,
+    modeGammaCapital: modeGammaCapital,
+    modeDeltaCapital: modeDeltaCapital,
   };
 
   class NeumeMappingService {
@@ -1289,7 +1289,10 @@ var byzhtml = (function () {
       for (let glyph in glyphnames) {
         const data = glyphnames[glyph];
         const codepoint = Number('0x' + data.codepoint.substring(2));
-        this.glyphNameToCodepointMap.set(glyph, String.fromCodePoint(codepoint));
+        this.glyphNameToCodepointMap.set(
+          glyph,
+          String.fromCodePoint(codepoint),
+        );
       }
     }
   }
@@ -1473,7 +1476,9 @@ var byzhtml = (function () {
       }
 
       if (this.hasAttribute('salt')) {
-        saltStyle = `font-feature-settings: 'salt' ${this.getAttribute('salt')};`;
+        saltStyle = `font-feature-settings: 'salt' ${this.getAttribute(
+          'salt',
+        )};`;
       }
 
       this.shadowRoot.innerHTML = `<span style="font-family: ${fontFamily}; font-size: var(${CssVars.NeumeFontSize}); ${saltStyle}">${content}</span>`;
@@ -2524,7 +2529,10 @@ var byzhtml = (function () {
             this.glyphname,
           );
 
-          const baseWidth = byzhtml.fontService.getAdvanceWidth(fontFamily, base);
+          const baseWidth = byzhtml.fontService.getAdvanceWidth(
+            fontFamily,
+            base,
+          );
           offset.x -= baseWidth / 2;
 
           styleAttr = `style="position: absolute; left: ${offset.x}em; top: ${offset.y}em; width: 100%"`;
@@ -3644,31 +3652,31 @@ var byzhtml = (function () {
   }
 
   const glyphname$1w = 'chroaZygosAbove';
-      const args$1w = {color: CssVars.ColorFthora};
+  const args$1w = { color: CssVars.ColorFthora };
 
-      class ChroaZygosAbove extends BaseMark {
-      constructor() {
-          super(glyphname$1w, args$1w);
-      }
-      }
+  class ChroaZygosAbove extends BaseMark {
+    constructor() {
+      super(glyphname$1w, args$1w);
+    }
+  }
 
   const glyphname$1v = 'chroaKlitonAbove';
-      const args$1v = {color: CssVars.ColorFthora};
+  const args$1v = { color: CssVars.ColorFthora };
 
-      class ChroaKlitonAbove extends BaseMark {
-      constructor() {
-          super(glyphname$1v, args$1v);
-      }
-      }
+  class ChroaKlitonAbove extends BaseMark {
+    constructor() {
+      super(glyphname$1v, args$1v);
+    }
+  }
 
   const glyphname$1u = 'chroaSpathiAbove';
-      const args$1u = {color: CssVars.ColorFthora};
+  const args$1u = { color: CssVars.ColorFthora };
 
-      class ChroaSpathiAbove extends BaseMark {
-      constructor() {
-          super(glyphname$1u, args$1u);
-      }
-      }
+  class ChroaSpathiAbove extends BaseMark {
+    constructor() {
+      super(glyphname$1u, args$1u);
+    }
+  }
 
   const glyphname$1t = 'fthoraDiatonicNiLowBelow';
   const args$1t = { color: CssVars.ColorFthora };
@@ -3788,31 +3796,31 @@ var byzhtml = (function () {
   }
 
   const glyphname$1g = 'chroaZygosBelow';
-      const args$1g = {color: CssVars.ColorFthora};
+  const args$1g = { color: CssVars.ColorFthora };
 
-      class ChroaZygosBelow extends BaseMark {
-      constructor() {
-          super(glyphname$1g, args$1g);
-      }
-      }
+  class ChroaZygosBelow extends BaseMark {
+    constructor() {
+      super(glyphname$1g, args$1g);
+    }
+  }
 
   const glyphname$1f = 'chroaKlitonBelow';
-      const args$1f = {color: CssVars.ColorFthora};
+  const args$1f = { color: CssVars.ColorFthora };
 
-      class ChroaKlitonBelow extends BaseMark {
-      constructor() {
-          super(glyphname$1f, args$1f);
-      }
-      }
+  class ChroaKlitonBelow extends BaseMark {
+    constructor() {
+      super(glyphname$1f, args$1f);
+    }
+  }
 
   const glyphname$1e = 'chroaSpathiBelow';
-      const args$1e = {color: CssVars.ColorFthora};
+  const args$1e = { color: CssVars.ColorFthora };
 
-      class ChroaSpathiBelow extends BaseMark {
-      constructor() {
-          super(glyphname$1e, args$1e);
-      }
-      }
+  class ChroaSpathiBelow extends BaseMark {
+    constructor() {
+      super(glyphname$1e, args$1e);
+    }
+  }
 
   const glyphname$1d = 'diesis2';
   const args$1d = { color: CssVars.ColorAccidental };
@@ -4558,7 +4566,10 @@ var byzhtml = (function () {
     customElements.define('x-oligon-apostrofos', OligonApostrofos);
     customElements.define('x-oligon-yporroi', OligonYporroi);
     customElements.define('x-oligon-elafron', OligonElafron);
-    customElements.define('x-oligon-elafron-apostrofos', OligonElafronApostrofos);
+    customElements.define(
+      'x-oligon-elafron-apostrofos',
+      OligonElafronApostrofos,
+    );
     customElements.define('x-oligon-chamili', OligonChamili);
     customElements.define('x-ison-apostrofos', IsonApostrofos);
     customElements.define('x-apostrofos', Apostrofos);
@@ -4575,7 +4586,10 @@ var byzhtml = (function () {
       ChamiliElafronApostrofos,
     );
     customElements.define('x-double-chamili', DoubleChamili);
-    customElements.define('x-double-chamili-apostrofos', DoubleChamiliApostrofos);
+    customElements.define(
+      'x-double-chamili-apostrofos',
+      DoubleChamiliApostrofos,
+    );
     customElements.define('x-double-chamili-elafron', DoubleChamiliElafron);
     customElements.define(
       'x-double-chamili-elafron-apostrofos',
@@ -4854,7 +4868,10 @@ var byzhtml = (function () {
       FthoraDiatonicNiLowAbove,
     );
     customElements.define('x-fthora-diatonic-pa-above', FthoraDiatonicPaAbove);
-    customElements.define('x-fthora-diatonic-vou-above', FthoraDiatonicVouAbove);
+    customElements.define(
+      'x-fthora-diatonic-vou-above',
+      FthoraDiatonicVouAbove,
+    );
     customElements.define('x-fthora-diatonic-ga-above', FthoraDiatonicGaAbove);
     customElements.define('x-fthora-diatonic-di-above', FthoraDiatonicDiAbove);
     customElements.define('x-fthora-diatonic-ke-above', FthoraDiatonicKeAbove);
@@ -4888,7 +4905,10 @@ var byzhtml = (function () {
       FthoraDiatonicNiLowBelow,
     );
     customElements.define('x-fthora-diatonic-pa-below', FthoraDiatonicPaBelow);
-    customElements.define('x-fthora-diatonic-vou-below', FthoraDiatonicVouBelow);
+    customElements.define(
+      'x-fthora-diatonic-vou-below',
+      FthoraDiatonicVouBelow,
+    );
     customElements.define('x-fthora-diatonic-ga-below', FthoraDiatonicGaBelow);
     customElements.define('x-fthora-diatonic-di-below', FthoraDiatonicDiBelow);
     customElements.define('x-fthora-diatonic-ke-below', FthoraDiatonicKeBelow);
@@ -4980,7 +5000,10 @@ var byzhtml = (function () {
     customElements.define('x-mode-di', ModeDi);
     customElements.define('x-mode-ke', ModeKe);
     customElements.define('x-mode-zo', ModeZo);
-    customElements.define('x-mode-oligon-kentima-above', ModeOligonKentimaAbove);
+    customElements.define(
+      'x-mode-oligon-kentima-above',
+      ModeOligonKentimaAbove,
+    );
     customElements.define('x-mode-oligon-ypsili', ModeOligonYpsili);
     customElements.define('x-mode-elafron', ModeElafron);
     customElements.define('x-mode-running-elafron', ModeRunningElafron);
@@ -5040,13 +5063,16 @@ var byzhtml = (function () {
     console.log('byzhtml: webkit browser detected. Using webkit positioning.');
 
     fetch(
-      'https://cdn.jsdelivr.net/gh/danielgarthur/byzhtml@1.0.3/dist/neanes.metadata.json',
+      'https://cdn.jsdelivr.net/gh/danielgarthur/byzhtml@1.0.4/dist/neanes.metadata.json',
     )
       .then((response) => {
         response
           .json()
           .then((data) => {
-            byzhtml.fontService.loadMap(byzhtml.options.defaultFontFamily, data);
+            byzhtml.fontService.loadMap(
+              byzhtml.options.defaultFontFamily,
+              data,
+            );
             byzhtml.options.useWebkitPositioning = true;
           })
           .catch((err) => {
@@ -5065,6 +5091,5 @@ var byzhtml = (function () {
   }
 
   return byzhtml;
-
 })();
 //# sourceMappingURL=byzhtml.js.map
