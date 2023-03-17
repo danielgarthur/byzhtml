@@ -1,4 +1,4 @@
-// byzhtml v1.0.0
+// byzhtml v1.0.1
 var byzhtml = (function () {
   'use strict';
 
