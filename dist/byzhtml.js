@@ -1,4 +1,4 @@
-// byzhtml v1.0.7
+// byzhtml v1.0.1
 var byzhtml = (function () {
   'use strict';
 
@@ -2452,7 +2452,7 @@ var byzhtml = (function () {
 
   class BaseMark extends HTMLElement {
     static get observedAttributes() {
-      return ['font-family'];
+      return ['font-family', 'left', 'top'];
     }
 
     constructor(glyphname, args) {
@@ -2521,9 +2521,33 @@ var byzhtml = (function () {
             this.glyphname,
           );
 
-          styleAttr = `style="position: absolute; left: ${offset.x}em; top: ${offset.y}em; width: 100%"`;
+          let left = `${offset.x}em`;
+
+          if (this.hasAttribute('left')) {
+            left = `calc(${left} + ${this.getAttribute('left')})`;
+          }
+
+          let top = `${offset.y}em`;
+
+          if (this.hasAttribute('top')) {
+            top = `calc(${top} + ${this.getAttribute('top')})`;
+          }
+
+          styleAttr = `position: absolute; left: ${left}; top: ${top}em; width: 100%`;
         } else {
           console.warn('missing base for mark: ' + this.glyphname);
+        }
+      } else {
+        if (this.hasAttribute('left') || this.hasAttribute('top')) {
+          styleAttr += 'position: relative;';
+        }
+
+        if (this.hasAttribute('left')) {
+          styleAttr += `left: ${this.getAttribute('left')};`;
+        }
+
+        if (this.hasAttribute('top')) {
+          styleAttr += `top: ${this.getAttribute('top')};`;
         }
       }
 
@@ -2535,7 +2559,9 @@ var byzhtml = (function () {
         }
       }
 
-      this.shadowRoot.innerHTML = `<style> :host { font-size: var(${CssVars.NeumeFontSize});${otherStyles} } </style><x-neume name="${this.glyphname}" ${styleAttr} ${fontFamilyAttr} ${saltAttr}></x-neume>`;
+      console.log('left', styleAttr);
+
+      this.shadowRoot.innerHTML = `<style> :host { font-size: var(${CssVars.NeumeFontSize});${otherStyles} } </style><x-neume name="${this.glyphname}" style="${styleAttr}" ${fontFamilyAttr} ${saltAttr}></x-neume>`;
     }
   }
 

@@ -248,24 +248,24 @@ After:
 
 ## Fixing collisions
 
-While SBMuFL fonts attempt to automatically align supporting neumes, sometimes collisions happen, especially if there are many supporting neumes on the same base neume. Or sometimes, you may simply want to reposition a supporting neume because you think it would look nicer somewhere else. To do this, we can use CSS styling.
+While SBMuFL fonts attempt to automatically align supporting neumes, sometimes collisions happen, especially if there are many supporting neumes on the same base neume. Or sometimes, you may simply want to reposition a supporting neume because you think it would look nicer somewhere else. To do this, we can use the `left` and `top` attributes on the supporting neume components.
 
 <!-- prettier-ignore -->
 Let's say that we think the following looks a little too crowded.
 <x-note><x-oligon></x-oligon><x-fthora-enharmonic-above class="fthora"></x-fthora-enharmonic-above><x-ison-indicator-pa class="ison-indicator"></x-ison-indicator-pa></x-note>
 
-Let's move the ison indicator a little to the left with the styling `position: relative; left: -1em;`.
+Let's move the ison indicator a little to the left with the attribute `left="-0.5em"`.
 
 <!-- prettier-ignore -->
 ```html
 <x-oligon></x-oligon
 ><x-fthora-enharmonic-above></x-fthora-enharmonic-above
-><x-ison-indicator-pa style="position: relative; left: -1em;"></x-ison-indicator-pa>
+><x-ison-indicator-pa left="-0.5em"></x-ison-indicator-pa>
 ```
 
 <!-- prettier-ignore -->
 Result:
-<x-note><x-oligon></x-oligon><x-fthora-enharmonic-above class="fthora"></x-fthora-enharmonic-above><x-ison-indicator-pa class="ison-indicator" style="position: relative; left: -0.5em"></x-ison-indicator-pa></x-note>
+<x-note><x-oligon></x-oligon><x-fthora-enharmonic-above class="fthora"></x-fthora-enharmonic-above><x-ison-indicator-pa class="ison-indicator" left="-0.5em"></x-ison-indicator-pa></x-note>
 
 ## Configuration & Styling
 
