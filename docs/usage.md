@@ -130,7 +130,45 @@ Result:
 
 ### Melismas
 
-Melismas can be displayed with the `x-melisma` component.
+Melismas can be displayed with the `x-melisma` component. Use the `auto` attribute to automatically calculate the melismas. If you do not like the automated result, then you can remove the `auto` attribute and type out the melisma as underscores.
+
+!> If you are using byzhtml as part of a single page application (SPA), and/or if you are adding neumes to the DOM after the initial page has loaded, then you will need to call `byzhtml.processAutoMelismas()` after the elements have been added to the DOM in order to process and display the automatic melismas.
+
+#### Automatic Melismas
+
+<!-- prettier-ignore -->
+```html
+<x-note>
+  <x-oligon-kentimata-above></x-oligon-kentimata-above
+  ><x-gorgon-above></x-gorgon-above>
+  <x-lyric slot="lyric">Lord,</x-lyric>
+  <x-melisma auto slot="melisma"></x-melisma>
+</x-note>
+<x-note>
+  <x-apostrofos></x-apostrofos>
+</x-note>
+<x-note>
+  <x-apostrofos></x-apostrofos>
+  <x-lyric slot="lyric">I</x-lyric>
+</x-note>
+```
+
+<!-- prettier-ignore -->
+Result:
+<x-note>
+  <x-oligon-kentimata-above></x-oligon-kentimata-above><x-gorgon-above class="gorgon"></x-gorgon-above>
+  <x-lyric slot="lyric">Lord,</x-lyric>
+  <x-melisma auto slot="melisma"></x-melisma>
+</x-note>
+<x-note>
+<x-apostrofos></x-apostrofos>
+</x-note>
+<x-note>
+  <x-apostrofos></x-apostrofos>
+  <x-lyric slot="lyric">I</x-lyric>
+</x-note>
+
+#### Custom Melismas
 
 <!-- prettier-ignore -->
 ```html
@@ -160,9 +198,40 @@ Result:
   <x-lyric slot="lyric">I</x-lyric>
 </x-note>
 
-#### Hyphenation
+### Hyphenation
 
-To display hyphenation, write out the desired number of spaces and hyphens inside the `x-melisma` component.
+Hyphenation also uses the `x-melisma` component. Hyphens may be automatically calculated using the `auto hyphen` attributes. If you do not like the automatically calculated result, then you may write out the desired number of spaces and hyphens inside the `x-melisma` component.
+
+!> If you are using byzhtml as part of a single page application (SPA), and/or if you are adding neumes to the DOM after the initial page has loaded, then you will need to call `byzhtml.processAutoMelismas()` after the elements have been added to the DOM in order to process and display the automatic hyphenation.
+
+#### Automatic Hyphenation
+
+<!-- prettier-ignore -->
+```html
+<x-note>
+  <x-ison></x-ison>
+  <x-lyric slot="lyric">Re</x-lyric>
+  <x-melisma auto hyphen slot="melisma"></x-melisma>
+</x-note>
+<x-note>
+  <x-ison></x-ison>
+  <x-lyric slot="lyric">joice</x-lyric>
+</x-note>
+```
+
+<!-- prettier-ignore -->
+Result: 
+<x-note>
+  <x-ison></x-ison>
+  <x-lyric slot="lyric">Re</x-lyric>
+  <x-melisma auto hyphen slot="melisma"></x-melisma>
+</x-note>
+<x-note>
+  <x-ison></x-ison>
+  <x-lyric slot="lyric">joice</x-lyric>
+</x-note>
+
+#### Custom Hyphenation
 
 <!-- prettier-ignore -->
 ```html
@@ -177,7 +246,7 @@ To display hyphenation, write out the desired number of spaces and hyphens insid
 </x-note>
 ```
 
-?> If your HTML editor automatically removes whitespace, then you may want to disable that feature, or use the `&nbsp;` character instead. E.g. `<x-melisma slot="melisma">&nbsp;-</x-melisma>`
+!> If your HTML editor automatically removes whitespace, then you may want to disable that feature, or use the `&nbsp;` character instead. E.g. `<x-melisma slot="melisma">&nbsp;-</x-melisma>`
 
 <!-- prettier-ignore -->
 Result: 
@@ -186,35 +255,6 @@ Result:
   <x-lyric slot="lyric">Re</x-lyric>
   <x-melisma slot="melisma"> -</x-melisma>
 </x-note>
-<x-note>
-  <x-ison></x-ison>
-  <x-lyric slot="lyric">joice</x-lyric>
-</x-note>
-
-Here's another example with more hyphens.
-
-<!-- prettier-ignore -->
-```html
-<x-note>
-  <x-ison></x-ison>
-  <x-lyric slot="lyric">Lord</x-lyric>
-  <x-melisma slot="melisma">        -        -         -       </x-melisma>
-</x-note>
-<x-ison></x-ison><x-ison></x-ison><x-ison></x-ison><x-ison></x-ison>
-<x-note>
-  <x-ison></x-ison>
-  <x-lyric slot="lyric">joice</x-lyric>
-</x-note>
-```
-
-<!-- prettier-ignore -->
-Result:
-<x-note>
-  <x-ison></x-ison>
-  <x-lyric slot="lyric">Re</x-lyric>
-  <x-melisma slot="melisma">        -        -         -       </x-melisma>
-</x-note>
-<x-ison></x-ison><x-ison></x-ison><x-ison></x-ison><x-ison></x-ison>
 <x-note>
   <x-ison></x-ison>
   <x-lyric slot="lyric">joice</x-lyric>

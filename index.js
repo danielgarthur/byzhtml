@@ -1,6 +1,7 @@
 import byzhtml from './lib/byzhtml.js';
 import { defineCustomElements } from './lib/util/defineCustomElements.js';
 import { isWebkit } from './lib/util/isWebkit.js';
+import { processAutoMelismas } from './lib/util/MelismaProcessor.js';
 
 if (isWebkit()) {
   console.log('byzhtml: webkit browser detected. Using webkit positioning.');
@@ -40,5 +41,13 @@ if (isWebkit()) {
 } else {
   defineCustomElements();
 }
+
+window.addEventListener('load', (event) => {
+  processAutoMelismas();
+});
+
+window.addEventListener('resize', () => {
+  processAutoMelismas();
+});
 
 export { byzhtml as default };

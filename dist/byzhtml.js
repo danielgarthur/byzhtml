@@ -1369,40 +1369,6 @@ var byzhtml = (function () {
     // }
   }
 
-  const neumeMappingService = new NeumeMappingService();
-  const fontService = new FontService();
-  const options = {
-    defaultFontFamily: 'Neanes',
-    useWebkitPositioning: false,
-  };
-
-  var byzhtml = {
-    neumeMappingService,
-    fontService,
-    options,
-  };
-
-  class Martyria extends HTMLElement {
-    constructor(glyphname) {
-      super();
-
-      this.attachShadow({ mode: 'open' });
-
-      this.shadowRoot.innerHTML = `
-      <style>        
-        :host {
-          position: relative;
-          display: inline-block;
-          text-align: left;
-        }
-      </style>
-      <span>
-          <slot></slot>
-      </span>
-    `;
-    }
-  }
-
   const CssVars = {
     LyricFontFamily: '--byz-lyric-font-family',
     LyricFontSize: '--byz-lyric-font-size',
@@ -1431,6 +1397,129 @@ var byzhtml = (function () {
     ColorMeasureNumber: '--byz-color-measure-number',
     ColorNoteIndicator: '--byz-color-note-indicator',
   };
+
+  class TextMetrics {
+    static canvas;
+    static cache = new Map();
+
+    static getTextWidth(text, font) {
+      let canvas = this.canvas || document.createElement('canvas');
+      let context = canvas.getContext('2d');
+      context.font = font;
+      let metrics = context.measureText(text);
+      return metrics.width;
+    }
+
+    static getTextWidthFromCache(text, font) {
+      const key = `${text} | ${font}`;
+
+      let width = TextMetrics.cache.get(key);
+
+      if (width == null) {
+        width = TextMetrics.getTextWidth(text, font);
+
+        TextMetrics.cache.set(key, width);
+      }
+
+      return width;
+    }
+  }
+
+  function processAutoMelismas() {
+    for (let melisma of document.querySelectorAll('x-melisma[auto]')) {
+      const parentNote = melisma.closest('x-note');
+      const siblingLyrics = parentNote.querySelector('x-lyric');
+
+      let nextNote = parentNote.nextElementSibling;
+      let nextLyrics;
+      let depth = 0;
+
+      while (nextNote.nodeName === 'X-NOTE' && depth < 100) {
+        nextLyrics = nextNote.querySelector('x-lyric');
+
+        if (nextLyrics) {
+          break;
+        }
+
+        nextNote = nextNote.nextElementSibling;
+
+        depth++;
+      }
+
+      if (nextLyrics) {
+        const siblingLyricsRect = siblingLyrics.getBoundingClientRect();
+        const nextLyricsRect = nextLyrics.getBoundingClientRect();
+
+        const melismaWidth = nextLyricsRect.left - siblingLyricsRect.right;
+
+        const melismaStyle = getComputedStyle(melisma);
+        const fontFamily = melismaStyle.getPropertyValue(CssVars.LyricFontFamily);
+        const fontSize = melismaStyle.getPropertyValue(CssVars.LyricFontSize);
+        const font = `${fontSize} ${fontFamily}`;
+
+        let text = '';
+
+        if (melisma.hasAttribute('hyphen')) {
+          const widthOfHyphen = TextMetrics.getTextWidthFromCache('-', font);
+
+          text = '-';
+          melisma.setAttribute(
+            'right',
+            `${melismaWidth / 2 + widthOfHyphen / 2}px`,
+          );
+        } else {
+          const widthOfUnderscore = TextMetrics.getTextWidthFromCache('_', font);
+
+          const numberOfUnderscoresNeeded = Math.ceil(
+            melismaWidth / widthOfUnderscore,
+          );
+
+          for (let i = 0; i < numberOfUnderscoresNeeded; i++) {
+            text += '_';
+          }
+
+          melisma.setAttribute('width', `${melismaWidth}px`);
+        }
+
+        melisma.textContent = text;
+      }
+    }
+  }
+
+  const neumeMappingService = new NeumeMappingService();
+  const fontService = new FontService();
+  const options = {
+    defaultFontFamily: 'Neanes',
+    useWebkitPositioning: false,
+  };
+
+  var byzhtml = {
+    neumeMappingService,
+    fontService,
+    options,
+    processAutoMelismas,
+  };
+
+  class Martyria extends HTMLElement {
+    constructor(glyphname) {
+      super();
+
+      this.attachShadow({ mode: 'open' });
+
+      this.shadowRoot.innerHTML = `
+      <style>        
+        :host {
+          position: relative;
+          display: inline-block;
+          text-align: left;
+        }
+      </style>
+      <span>
+          <slot></slot>
+      </span>
+    `;
+    }
+  }
 
   class Neume extends HTMLElement {
     static get observedAttributes() {
@@ -1671,10 +1760,36 @@ var byzhtml = (function () {
   }
 
   class Melisma extends HTMLElement {
+    static get observedAttributes() {
+      return ['width', 'right'];
+    }
+
     constructor() {
       super();
 
       this.attachShadow({ mode: 'open' });
+    }
+
+    connectedCallback() {
+      this.updateStyle();
+    }
+
+    attributeChangedCallback() {
+      this.updateStyle();
+    }
+
+    updateStyle() {
+      let width = '';
+      let paddingLeft = '';
+
+      if (this.hasAttribute('width')) {
+        width = `width: ${this.getAttribute('width')};`;
+      }
+
+      if (this.hasAttribute('right')) {
+        paddingLeft = `padding-left: ${this.getAttribute('right')};`;
+      }
+
       this.shadowRoot.innerHTML = `
     <style>
       .melisma {
@@ -1685,6 +1800,8 @@ var byzhtml = (function () {
         font-family: var(${CssVars.LyricFontFamily});
         font-size: var(${CssVars.LyricFontSize});
         margin-left: calc(-1* var(${CssVars.LyricOffsetHorizontal})); 
+        ${width}
+        ${paddingLeft}
       }
     </style>
     <span class="melisma"><slot></slot></span>`;
@@ -5181,6 +5298,14 @@ var byzhtml = (function () {
   } else {
     defineCustomElements();
   }
+
+  window.addEventListener('load', (event) => {
+    processAutoMelismas();
+  });
+
+  window.addEventListener('resize', () => {
+    processAutoMelismas();
+  });
 
   return byzhtml;
 
