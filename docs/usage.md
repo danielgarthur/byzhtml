@@ -38,7 +38,7 @@ Multiple supporting neumes may combined.
 <x-apostrofos></x-apostrofos><x-antikenoma></x-antikenoma><x-apli></x-apli>
 ```
 
-Result: <x-apostrofos></x-apostrofos><x-antikenoma></x-antikenoma><x-apli></x-apli>
+Result: <x-note><x-apostrofos></x-apostrofos><x-antikenoma></x-antikenoma><x-apli></x-apli></x-note>
 
 ### Formatting the HTML for Supporting Neumes
 
