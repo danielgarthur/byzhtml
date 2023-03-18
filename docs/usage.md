@@ -252,7 +252,7 @@ While SBMuFL fonts attempt to automatically align supporting neumes, sometimes c
 
 <!-- prettier-ignore -->
 Let's say that we think the following looks a little too crowded.
-<x-oligon></x-oligon><x-fthora-enharmonic-above class="fthora"></x-fthora-enharmonic-above><x-ison-indicator-pa class="ison-indicator"></x-ison-indicator-pa>
+<x-note><x-oligon></x-oligon><x-fthora-enharmonic-above class="fthora"></x-fthora-enharmonic-above><x-ison-indicator-pa class="ison-indicator"></x-ison-indicator-pa></x-note>
 
 Let's move the ison indicator a little to the left with the styling `position: relative; left: -1em;`.
 
