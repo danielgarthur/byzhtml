@@ -32,6 +32,8 @@ Let's see what happens when this rule is not followed.
 
 Result: <x-note><x-ison></x-ison> <x-psifiston></x-psifiston></x-note>
 
+!> Note that if you are using an Apple Webkit browser, such as Safari, the above "bad example" may ironically be rendered correctly.
+
 Multiple supporting neumes may combined.
 
 ```html
