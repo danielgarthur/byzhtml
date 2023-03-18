@@ -2334,9 +2334,38 @@ var byzhtml = (function () {
   const glyphname$3D = 'oligonKentimataBelow';
   const args$3D = {};
 
+  const MAX_SEARCH_DEPTH$1 = 100;
+
   class OligonKentimataBelow extends BaseBody {
     constructor() {
       super(glyphname$3D, args$3D);
+
+      // If using webkit positioning, perform a
+      // contextual substition when combined with the psifiston
+      if (
+        byzhtml.options.useWebkitPositioning &&
+        byzhtml.options.defaultFontFamily === 'Neanes'
+      ) {
+        let nextSibling = this.nextElementSibling;
+        let depth = 0;
+
+        while (nextSibling && depth <= MAX_SEARCH_DEPTH$1) {
+          if (!nextSibling.nodeName.toLowerCase().startsWith('x-')) {
+            break;
+          }
+
+          if (nextSibling.nodeName === 'X-PSIFISTON') {
+            this.glyphname = 'oligonKentimataBelow.alt01';
+            console.log('performing sub');
+            break;
+          }
+
+          nextSibling = nextSibling.nextElementSibling;
+
+          // Paranoia. Don't want an infinite loop;
+          depth++;
+        }
+      }
     }
   }
 
@@ -5089,6 +5118,17 @@ var byzhtml = (function () {
           .json()
           .then((data) => {
             byzhtml.fontService.loadMap(byzhtml.options.defaultFontFamily, data);
+
+            byzhtml.neumeMappingService.glyphNameToCodepointMap.set(
+              'oligonKentimataBelow.alt01',
+              '\uF000',
+            );
+
+            byzhtml.neumeMappingService.glyphNameToCodepointMap.set(
+              'antikenoma.alt01',
+              '\uF002',
+            );
+
             byzhtml.options.useWebkitPositioning = true;
           })
           .catch((err) => {

@@ -13,6 +13,17 @@ if (isWebkit()) {
         .json()
         .then((data) => {
           byzhtml.fontService.loadMap(byzhtml.options.defaultFontFamily, data);
+
+          byzhtml.neumeMappingService.glyphNameToCodepointMap.set(
+            'oligonKentimataBelow.alt01',
+            '\uF000',
+          );
+
+          byzhtml.neumeMappingService.glyphNameToCodepointMap.set(
+            'antikenoma.alt01',
+            '\uF002',
+          );
+
           byzhtml.options.useWebkitPositioning = true;
         })
         .catch((err) => {
