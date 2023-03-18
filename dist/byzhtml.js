@@ -2533,7 +2533,7 @@ var byzhtml = (function () {
             top = `calc(${top} + ${this.getAttribute('top')})`;
           }
 
-          styleAttr = `position: absolute; left: ${left}; top: ${top}em; width: 100%`;
+          styleAttr = `position: absolute; left: ${left}; top: ${top}; width: 100%`;
         } else {
           console.warn('missing base for mark: ' + this.glyphname);
         }
@@ -2558,8 +2558,6 @@ var byzhtml = (function () {
           otherStyles += ` color: var(${this.args.color});`;
         }
       }
-
-      console.log('left', styleAttr);
 
       this.shadowRoot.innerHTML = `<style> :host { font-size: var(${CssVars.NeumeFontSize});${otherStyles} } </style><x-neume name="${this.glyphname}" style="${styleAttr}" ${fontFamilyAttr} ${saltAttr}></x-neume>`;
     }
