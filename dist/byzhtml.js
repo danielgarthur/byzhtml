@@ -1429,29 +1429,45 @@ var byzhtml = (function () {
     for (let melisma of document.querySelectorAll('x-melisma[auto]')) {
       const parentNote = melisma.closest('x-note');
       const siblingLyrics = parentNote.querySelector('x-lyric');
+      const siblingLyricsRect = siblingLyrics.getBoundingClientRect();
 
       let nextNote = parentNote.nextElementSibling;
       let nextLyrics;
       let depth = 0;
+      let melismaWidth;
+      let lastNoteRight;
 
       while (nextNote.nodeName === 'X-NOTE' && depth < 100) {
         nextLyrics = nextNote.querySelector('x-lyric');
 
-        if (nextLyrics) {
+        const nextNoteRect = nextNote.getBoundingClientRect();
+
+        if (
+          nextNoteRect.left < siblingLyricsRect.left &&
+          lastNoteRight !== undefined
+        ) {
+          // We have wrapped around. Extend the melisma to the end of the last note
+          // that was on the same line
+          melismaWidth = lastNoteRight - siblingLyricsRect.right;
+          console.log('hey');
           break;
         }
 
+        if (nextLyrics) {
+          // We've found lyrics. Extend the melisma to the start of the lyrics.
+          const nextLyricsRect = nextLyrics.getBoundingClientRect();
+
+          melismaWidth = nextLyricsRect.left - siblingLyricsRect.right;
+          break;
+        }
+
+        lastNoteRight = nextNoteRect.right;
         nextNote = nextNote.nextElementSibling;
 
         depth++;
       }
 
-      if (nextLyrics) {
-        const siblingLyricsRect = siblingLyrics.getBoundingClientRect();
-        const nextLyricsRect = nextLyrics.getBoundingClientRect();
-
-        const melismaWidth = nextLyricsRect.left - siblingLyricsRect.right;
-
+      if (melismaWidth) {
         const melismaStyle = getComputedStyle(melisma);
         const fontFamily = melismaStyle.getPropertyValue(CssVars.LyricFontFamily);
         const fontSize = melismaStyle.getPropertyValue(CssVars.LyricFontSize);
