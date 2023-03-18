@@ -22,7 +22,7 @@ Supporting neumes must be written without any space between tags.
 <x-ison></x-ison><x-psifiston></x-psifiston>
 ```
 
-Result: <x-ison></x-ison><x-psifiston></x-psifiston>
+Result: <x-note><x-ison></x-ison><x-psifiston></x-psifiston></x-note>
 
 Let's see what happens when this rule is not followed.
 
@@ -30,7 +30,7 @@ Let's see what happens when this rule is not followed.
 <x-ison></x-ison> <x-psifiston></x-psifiston>
 ```
 
-Result: <x-ison></x-ison> <x-psifiston></x-psifiston>
+Result: <x-note><x-ison></x-ison> <x-psifiston></x-psifiston></x-note>
 
 Multiple supporting neumes may combined.
 
@@ -265,7 +265,7 @@ Let's move the ison indicator a little to the left with the styling `position: r
 
 <!-- prettier-ignore -->
 Result:
-<x-oligon></x-oligon><x-fthora-enharmonic-above class="fthora"></x-fthora-enharmonic-above><x-ison-indicator-pa class="ison-indicator" style="position: relative; left: -1em"></x-ison-indicator-pa>
+<x-note><x-oligon></x-oligon><x-fthora-enharmonic-above class="fthora"></x-fthora-enharmonic-above><x-ison-indicator-pa class="ison-indicator" style="position: relative; left: -0.5em"></x-ison-indicator-pa></x-note>
 
 ## Configuration & Styling
 
