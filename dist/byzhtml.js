@@ -1,4 +1,4 @@
-// byzhtml v1.0.1
+// byzhtml v1.0.7
 var byzhtml = (function () {
   'use strict';
 
@@ -1307,9 +1307,9 @@ var byzhtml = (function () {
       return this.fontFamilyMetadataMap.get(fontFamily);
     }
 
-    // getAdvanceWidth(fontFamily, glyph) {
-    //   return this.getMetadata(fontFamily).glyphAdvanceWidths[glyph];
-    // }
+    getAdvanceWidth(fontFamily, glyph) {
+      return this.getMetadata(fontFamily).glyphAdvanceWidths[glyph];
+    }
 
     getMarkOffset(fontFamily, base, mark) {
       const metadata = this.getMetadata(fontFamily);
@@ -2494,7 +2494,7 @@ var byzhtml = (function () {
 
         let base = null;
 
-        var previousSibling = this.previousElementSibling;
+        let previousSibling = this.previousElementSibling;
 
         let depth = 0;
 
@@ -2520,6 +2520,30 @@ var byzhtml = (function () {
             base,
             this.glyphname,
           );
+
+          // Search for vareia
+          // If present, we need to shift the offset by the width of the vareia
+          let previousSibling = this.previousElementSibling;
+          let depth = 0;
+
+          while (previousSibling && depth <= MAX_SEARCH_DEPTH) {
+            if (!previousSibling.nodeName.toLowerCase().startsWith('x-')) {
+              break;
+            }
+
+            if (previousSibling instanceof Vareia) {
+              offset.x += byzhtml.fontService.getAdvanceWidth(
+                fontFamily,
+                previousSibling.glyphname,
+              );
+              break;
+            }
+
+            previousSibling = previousSibling.previousElementSibling;
+
+            // Paranoia. Don't want an infinite loop;
+            depth++;
+          }
 
           let left = `${offset.x}em`;
 
