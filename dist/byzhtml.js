@@ -1,4 +1,4 @@
-// byzhtml v1.0.6
+// byzhtml v1.0.7
 var byzhtml = (function () {
   'use strict';
 
@@ -5010,7 +5010,7 @@ var byzhtml = (function () {
 
     // This should detect whether the user is using the Safari desktop browser
     if (
-      userAgent.indexOf('safari') &&
+      userAgent.indexOf('safari') !== -1 &&
       userAgent.indexOf('chrome') === -1 &&
       userAgent.indexOf('chromium') === -1 &&
       userAgent.indexOf('android') === -1
@@ -5034,7 +5034,7 @@ var byzhtml = (function () {
     console.log('byzhtml: webkit browser detected. Using webkit positioning.');
 
     fetch(
-      'https://cdn.jsdelivr.net/gh/danielgarthur/byzhtml@1.0.6/dist/neanes.metadata.json',
+      'https://cdn.jsdelivr.net/gh/danielgarthur/byzhtml@1.0.7/dist/neanes.metadata.json',
     )
       .then((response) => {
         response
