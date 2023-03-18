@@ -2334,7 +2334,7 @@ var byzhtml = (function () {
   const glyphname$3D = 'oligonKentimataBelow';
   const args$3D = {};
 
-  const MAX_SEARCH_DEPTH$1 = 100;
+  const MAX_SEARCH_DEPTH$2 = 100;
 
   class OligonKentimataBelow extends BaseBody {
     constructor() {
@@ -2349,14 +2349,13 @@ var byzhtml = (function () {
         let nextSibling = this.nextElementSibling;
         let depth = 0;
 
-        while (nextSibling && depth <= MAX_SEARCH_DEPTH$1) {
-          if (!nextSibling.nodeName.toLowerCase().startsWith('x-')) {
+        while (nextSibling && depth <= MAX_SEARCH_DEPTH$2) {
+          if (!nextSibling.nodeName.startsWith('X-')) {
             break;
           }
 
           if (nextSibling.nodeName === 'X-PSIFISTON') {
             this.glyphname = 'oligonKentimataBelow.alt01';
-            console.log('performing sub');
             break;
           }
 
@@ -2477,7 +2476,7 @@ var byzhtml = (function () {
     }
   }
 
-  const MAX_SEARCH_DEPTH = 100;
+  const MAX_SEARCH_DEPTH$1 = 100;
 
   class BaseMark extends HTMLElement {
     static get observedAttributes() {
@@ -2527,8 +2526,8 @@ var byzhtml = (function () {
 
         let depth = 0;
 
-        while (previousSibling && depth <= MAX_SEARCH_DEPTH) {
-          if (!previousSibling.nodeName.toLowerCase().startsWith('x-')) {
+        while (previousSibling && depth <= MAX_SEARCH_DEPTH$1) {
+          if (!previousSibling.nodeName.startsWith('X-')) {
             break;
           }
 
@@ -2555,8 +2554,8 @@ var byzhtml = (function () {
           let previousSibling = this.previousElementSibling;
           let depth = 0;
 
-          while (previousSibling && depth <= MAX_SEARCH_DEPTH) {
-            if (!previousSibling.nodeName.toLowerCase().startsWith('x-')) {
+          while (previousSibling && depth <= MAX_SEARCH_DEPTH$1) {
+            if (!previousSibling.nodeName.startsWith('X-')) {
               break;
             }
 
@@ -2628,9 +2627,46 @@ var byzhtml = (function () {
   const glyphname$3p = 'antikenoma';
   const args$3p = {};
 
+  const MAX_SEARCH_DEPTH = 100;
+
   class Antikenoma extends BaseMark {
     constructor() {
       super(glyphname$3p, args$3p);
+
+      // If using webkit positioning, perform a
+      // contextual substition when combined with certain other characters
+      if (
+        byzhtml.options.useWebkitPositioning &&
+        byzhtml.options.defaultFontFamily === 'Neanes'
+      ) {
+        let previousSibling = this.previousElementSibling;
+        let depth = 0;
+        let base;
+
+        while (previousSibling && depth <= MAX_SEARCH_DEPTH) {
+          if (!previousSibling.nodeName.startsWith('X-')) {
+            break;
+          }
+
+          if (previousSibling instanceof BaseBody) {
+            base = previousSibling.glyphname;
+            break;
+          }
+
+          previousSibling = previousSibling.previousElementSibling;
+
+          // Paranoia. Don't want an infinite loop;
+          depth++;
+        }
+
+        if (
+          base === 'apostrofos' ||
+          base === 'yporroi' ||
+          base.startsWith('petasti')
+        ) {
+          this.glyphname = 'antikenoma.alt01';
+        }
+      }
     }
   }
 
