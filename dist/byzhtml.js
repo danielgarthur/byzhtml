@@ -3686,31 +3686,31 @@ var byzhtml = (function () {
   }
 
   const glyphname$1w = 'chroaZygosAbove';
-      const args$1w = {color: CssVars.ColorFthora};
+  const args$1w = { color: CssVars.ColorFthora };
 
-      class ChroaZygosAbove extends BaseMark {
-      constructor() {
-          super(glyphname$1w, args$1w);
-      }
-      }
+  class ChroaZygosAbove extends BaseMark {
+    constructor() {
+      super(glyphname$1w, args$1w);
+    }
+  }
 
   const glyphname$1v = 'chroaKlitonAbove';
-      const args$1v = {color: CssVars.ColorFthora};
+  const args$1v = { color: CssVars.ColorFthora };
 
-      class ChroaKlitonAbove extends BaseMark {
-      constructor() {
-          super(glyphname$1v, args$1v);
-      }
-      }
+  class ChroaKlitonAbove extends BaseMark {
+    constructor() {
+      super(glyphname$1v, args$1v);
+    }
+  }
 
   const glyphname$1u = 'chroaSpathiAbove';
-      const args$1u = {color: CssVars.ColorFthora};
+  const args$1u = { color: CssVars.ColorFthora };
 
-      class ChroaSpathiAbove extends BaseMark {
-      constructor() {
-          super(glyphname$1u, args$1u);
-      }
-      }
+  class ChroaSpathiAbove extends BaseMark {
+    constructor() {
+      super(glyphname$1u, args$1u);
+    }
+  }
 
   const glyphname$1t = 'fthoraDiatonicNiLowBelow';
   const args$1t = { color: CssVars.ColorFthora };
@@ -3830,31 +3830,31 @@ var byzhtml = (function () {
   }
 
   const glyphname$1g = 'chroaZygosBelow';
-      const args$1g = {color: CssVars.ColorFthora};
+  const args$1g = { color: CssVars.ColorFthora };
 
-      class ChroaZygosBelow extends BaseMark {
-      constructor() {
-          super(glyphname$1g, args$1g);
-      }
-      }
+  class ChroaZygosBelow extends BaseMark {
+    constructor() {
+      super(glyphname$1g, args$1g);
+    }
+  }
 
   const glyphname$1f = 'chroaKlitonBelow';
-      const args$1f = {color: CssVars.ColorFthora};
+  const args$1f = { color: CssVars.ColorFthora };
 
-      class ChroaKlitonBelow extends BaseMark {
-      constructor() {
-          super(glyphname$1f, args$1f);
-      }
-      }
+  class ChroaKlitonBelow extends BaseMark {
+    constructor() {
+      super(glyphname$1f, args$1f);
+    }
+  }
 
   const glyphname$1e = 'chroaSpathiBelow';
-      const args$1e = {color: CssVars.ColorFthora};
+  const args$1e = { color: CssVars.ColorFthora };
 
-      class ChroaSpathiBelow extends BaseMark {
-      constructor() {
-          super(glyphname$1e, args$1e);
-      }
-      }
+  class ChroaSpathiBelow extends BaseMark {
+    constructor() {
+      super(glyphname$1e, args$1e);
+    }
+  }
 
   const glyphname$1d = 'diesis2';
   const args$1d = { color: CssVars.ColorAccidental };
@@ -4246,7 +4246,7 @@ var byzhtml = (function () {
   const glyphname$y = 'gorthmikon';
   const args$y = {};
 
-  class Gorthmikon extends BaseMark {
+  class Gorthmikon extends BaseBody {
     constructor() {
       super(glyphname$y, args$y);
     }
@@ -4255,7 +4255,7 @@ var byzhtml = (function () {
   const glyphname$x = 'pelastikon';
   const args$x = {};
 
-  class Pelastikon extends BaseMark {
+  class Pelastikon extends BaseBody {
     constructor() {
       super(glyphname$x, args$x);
     }
@@ -4264,7 +4264,7 @@ var byzhtml = (function () {
   const glyphname$w = 'modeFirst';
   const args$w = {};
 
-  class ModeFirst extends BaseMark {
+  class ModeFirst extends BaseBody {
     constructor() {
       super(glyphname$w, args$w);
     }
@@ -4273,7 +4273,7 @@ var byzhtml = (function () {
   const glyphname$v = 'modeSecond';
   const args$v = {};
 
-  class ModeSecond extends BaseMark {
+  class ModeSecond extends BaseBody {
     constructor() {
       super(glyphname$v, args$v);
     }
@@ -4282,7 +4282,7 @@ var byzhtml = (function () {
   const glyphname$u = 'modeThird';
   const args$u = {};
 
-  class ModeThird extends BaseMark {
+  class ModeThird extends BaseBody {
     constructor() {
       super(glyphname$u, args$u);
     }
@@ -4291,7 +4291,7 @@ var byzhtml = (function () {
   const glyphname$t = 'modeThirdNana';
   const args$t = {};
 
-  class ModeThirdNana extends BaseMark {
+  class ModeThirdNana extends BaseBody {
     constructor() {
       super(glyphname$t, args$t);
     }
@@ -4300,7 +4300,7 @@ var byzhtml = (function () {
   const glyphname$s = 'modeFourth';
   const args$s = {};
 
-  class ModeFourth extends BaseMark {
+  class ModeFourth extends BaseBody {
     constructor() {
       super(glyphname$s, args$s);
     }
@@ -4309,7 +4309,7 @@ var byzhtml = (function () {
   const glyphname$r = 'modeLegetos';
   const args$r = {};
 
-  class ModeLegetos extends BaseMark {
+  class ModeLegetos extends BaseBody {
     constructor() {
       super(glyphname$r, args$r);
     }
@@ -4318,7 +4318,7 @@ var byzhtml = (function () {
   const glyphname$q = 'modePlagalFirst';
   const args$q = {};
 
-  class ModePlagalFirst extends BaseMark {
+  class ModePlagalFirst extends BaseBody {
     constructor() {
       super(glyphname$q, args$q);
     }
@@ -4327,7 +4327,7 @@ var byzhtml = (function () {
   const glyphname$p = 'modePlagalSecond';
   const args$p = {};
 
-  class ModePlagalSecond extends BaseMark {
+  class ModePlagalSecond extends BaseBody {
     constructor() {
       super(glyphname$p, args$p);
     }
@@ -4336,7 +4336,7 @@ var byzhtml = (function () {
   const glyphname$o = 'modeVarys';
   const args$o = {};
 
-  class ModeVarys extends BaseMark {
+  class ModeVarys extends BaseBody {
     constructor() {
       super(glyphname$o, args$o);
     }
@@ -4345,7 +4345,7 @@ var byzhtml = (function () {
   const glyphname$n = 'modeVarys2';
   const args$n = {};
 
-  class ModeVarys2 extends BaseMark {
+  class ModeVarys2 extends BaseBody {
     constructor() {
       super(glyphname$n, args$n);
     }
@@ -4354,7 +4354,7 @@ var byzhtml = (function () {
   const glyphname$m = 'modePlagalFourth';
   const args$m = {};
 
-  class ModePlagalFourth extends BaseMark {
+  class ModePlagalFourth extends BaseBody {
     constructor() {
       super(glyphname$m, args$m);
     }
@@ -4363,7 +4363,7 @@ var byzhtml = (function () {
   const glyphname$l = 'modeNi';
   const args$l = {};
 
-  class ModeNi extends BaseMark {
+  class ModeNi extends BaseBody {
     constructor() {
       super(glyphname$l, args$l);
     }
@@ -4372,7 +4372,7 @@ var byzhtml = (function () {
   const glyphname$k = 'modePa';
   const args$k = {};
 
-  class ModePa extends BaseMark {
+  class ModePa extends BaseBody {
     constructor() {
       super(glyphname$k, args$k);
     }
@@ -4381,7 +4381,7 @@ var byzhtml = (function () {
   const glyphname$j = 'modeVou';
   const args$j = {};
 
-  class ModeVou extends BaseMark {
+  class ModeVou extends BaseBody {
     constructor() {
       super(glyphname$j, args$j);
     }
@@ -4390,7 +4390,7 @@ var byzhtml = (function () {
   const glyphname$i = 'modeGa';
   const args$i = {};
 
-  class ModeGa extends BaseMark {
+  class ModeGa extends BaseBody {
     constructor() {
       super(glyphname$i, args$i);
     }
@@ -4399,7 +4399,7 @@ var byzhtml = (function () {
   const glyphname$h = 'modeDi';
   const args$h = {};
 
-  class ModeDi extends BaseMark {
+  class ModeDi extends BaseBody {
     constructor() {
       super(glyphname$h, args$h);
     }
@@ -4408,7 +4408,7 @@ var byzhtml = (function () {
   const glyphname$g = 'modeKe';
   const args$g = {};
 
-  class ModeKe extends BaseMark {
+  class ModeKe extends BaseBody {
     constructor() {
       super(glyphname$g, args$g);
     }
@@ -4417,7 +4417,7 @@ var byzhtml = (function () {
   const glyphname$f = 'modeZo';
   const args$f = {};
 
-  class ModeZo extends BaseMark {
+  class ModeZo extends BaseBody {
     constructor() {
       super(glyphname$f, args$f);
     }
@@ -4462,7 +4462,7 @@ var byzhtml = (function () {
   const glyphname$a = 'modePlagal';
   const args$a = {};
 
-  class ModePlagal extends BaseMark {
+  class ModePlagal extends BaseBody {
     constructor() {
       super(glyphname$a, args$a);
     }
@@ -4471,7 +4471,7 @@ var byzhtml = (function () {
   const glyphname$9 = 'modeWordEchos';
   const args$9 = {};
 
-  class ModeWordEchos extends BaseMark {
+  class ModeWordEchos extends BaseBody {
     constructor() {
       super(glyphname$9, args$9);
     }
@@ -4480,7 +4480,7 @@ var byzhtml = (function () {
   const glyphname$8 = 'modeWordVarys';
   const args$8 = {};
 
-  class ModeWordVarys extends BaseMark {
+  class ModeWordVarys extends BaseBody {
     constructor() {
       super(glyphname$8, args$8);
     }
@@ -4489,7 +4489,7 @@ var byzhtml = (function () {
   const glyphname$7 = 'modeAlpha';
   const args$7 = {};
 
-  class ModeAlpha extends BaseMark {
+  class ModeAlpha extends BaseBody {
     constructor() {
       super(glyphname$7, args$7);
     }
@@ -4498,7 +4498,7 @@ var byzhtml = (function () {
   const glyphname$6 = 'modeBeta';
   const args$6 = {};
 
-  class ModeBeta extends BaseMark {
+  class ModeBeta extends BaseBody {
     constructor() {
       super(glyphname$6, args$6);
     }
@@ -4507,7 +4507,7 @@ var byzhtml = (function () {
   const glyphname$5 = 'modeGamma';
   const args$5 = {};
 
-  class ModeGamma extends BaseMark {
+  class ModeGamma extends BaseBody {
     constructor() {
       super(glyphname$5, args$5);
     }
@@ -4516,7 +4516,7 @@ var byzhtml = (function () {
   const glyphname$4 = 'modeDelta';
   const args$4 = {};
 
-  class ModeDelta extends BaseMark {
+  class ModeDelta extends BaseBody {
     constructor() {
       super(glyphname$4, args$4);
     }
@@ -4525,7 +4525,7 @@ var byzhtml = (function () {
   const glyphname$3 = 'modeAlphaCapital';
   const args$3 = {};
 
-  class ModeAlphaCapital extends BaseMark {
+  class ModeAlphaCapital extends BaseBody {
     constructor() {
       super(glyphname$3, args$3);
     }
@@ -4534,7 +4534,7 @@ var byzhtml = (function () {
   const glyphname$2 = 'modeBetaCapital';
   const args$2 = {};
 
-  class ModeBetaCapital extends BaseMark {
+  class ModeBetaCapital extends BaseBody {
     constructor() {
       super(glyphname$2, args$2);
     }
@@ -4543,7 +4543,7 @@ var byzhtml = (function () {
   const glyphname$1 = 'modeGammaCapital';
   const args$1 = {};
 
-  class ModeGammaCapital extends BaseMark {
+  class ModeGammaCapital extends BaseBody {
     constructor() {
       super(glyphname$1, args$1);
     }
@@ -4552,7 +4552,7 @@ var byzhtml = (function () {
   const glyphname = 'modeDeltaCapital';
   const args = {};
 
-  class ModeDeltaCapital extends BaseMark {
+  class ModeDeltaCapital extends BaseBody {
     constructor() {
       super(glyphname, args);
     }
