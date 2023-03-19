@@ -2504,6 +2504,17 @@ var byzhtml = (function () {
     constructor() {
       super(glyphname$3N, args$3N);
     }
+
+    connectedCallback() {
+      super.connectedCallback();
+
+      if (
+        this.parentElement &&
+        this.parentElement.runningElafronConnectedCallback
+      ) {
+        this.parentElement.runningElafronConnectedCallback();
+      }
+    }
   }
 
   const glyphname$3M = 'petastiElafronApostrofos';
