@@ -46,6 +46,11 @@ if (isWebkit()) {
 window.addEventListener('load', (event) => {
   setTimeout(processAutoMelismas, 0);
 
+  // TODO figure out how to determine whether custom elements
+  // have loaded
+  setTimeout(processAutoMelismas, 100);
+  setTimeout(processAutoMelismas, 1000);
+
   window.addEventListener('resize', throttle(100, processAutoMelismas));
 
   window.addEventListener('scroll', throttle(100, processAutoMelismas));

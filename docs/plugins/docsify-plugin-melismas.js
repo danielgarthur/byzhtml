@@ -4,7 +4,12 @@
     hook.doneEach(function () {
       setTimeout(() => {
         byzhtml.processAutoMelismas();
-      }, 50);
+      }, 100);
+
+      // TODO figure out how to ensure that custom elements have loaded
+      setTimeout(() => {
+        byzhtml.processAutoMelismas();
+      }, 1000);
     });
   };
 
