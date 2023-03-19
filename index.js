@@ -2,6 +2,7 @@ import byzhtml from './lib/byzhtml.js';
 import { defineCustomElements } from './lib/util/defineCustomElements.js';
 import { isWebkit } from './lib/util/isWebkit.js';
 import { processAutoMelismas } from './lib/util/MelismaProcessor.js';
+import { throttle } from 'throttle-debounce';
 
 if (isWebkit()) {
   console.log('byzhtml: webkit browser detected. Using webkit positioning.');
@@ -43,11 +44,11 @@ if (isWebkit()) {
 }
 
 window.addEventListener('load', (event) => {
-  processAutoMelismas();
-});
+  setTimeout(processAutoMelismas, 0);
 
-window.addEventListener('resize', () => {
-  processAutoMelismas();
+  window.addEventListener('resize', throttle(100, processAutoMelismas));
+
+  window.addEventListener('scroll', throttle(100, processAutoMelismas));
 });
 
 export { byzhtml as default };

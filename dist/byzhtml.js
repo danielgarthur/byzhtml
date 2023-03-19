@@ -1425,80 +1425,169 @@ var byzhtml = (function () {
     }
   }
 
+  function isElementInOrNearViewport(el) {
+    const rect = el.getBoundingClientRect();
+
+    const viewportHeight =
+      window.innerHeight || document.documentElement.clientHeight;
+
+    const viewportWidth =
+      window.innerWidth || document.documentElement.clientWidth;
+
+    return (
+      rect.top >= -viewportHeight &&
+      rect.left >= -viewportWidth &&
+      rect.bottom <= viewportHeight * 2 &&
+      rect.right <= viewportWidth * 2
+    );
+  }
+
+  function binarySearch(melismas) {
+    let start = 0;
+    let end = melismas.length - 1;
+    let currentIndex;
+    const viewportHeight =
+      window.innerHeight || document.documentElement.clientHeight;
+
+    while (start <= end) {
+      currentIndex = Math.floor((start + end) / 2);
+      const rect = melismas[currentIndex].getBoundingClientRect();
+
+      if (rect.top < 0) {
+        start = currentIndex + 1;
+      } else if (rect.bottom > viewportHeight) {
+        end = currentIndex - 1;
+      } else {
+        return currentIndex;
+      }
+    }
+
+    return -1;
+  }
+
+  function processAutoMelisma(melisma) {
+    let change;
+    const parentNote = melisma.closest('x-note');
+    const siblingLyrics = parentNote.querySelector('x-lyric');
+    const siblingLyricsRect = siblingLyrics.getBoundingClientRect();
+
+    let nextNote = parentNote.nextElementSibling;
+    let nextLyrics;
+    let depth = 0;
+    let melismaWidth;
+    let lastNoteRight;
+
+    while (nextNote.nodeName === 'X-NOTE' && depth < 100) {
+      nextLyrics = nextNote.querySelector('x-lyric');
+
+      const nextNoteRect = nextNote.getBoundingClientRect();
+
+      if (
+        nextNoteRect.left < siblingLyricsRect.left &&
+        lastNoteRight !== undefined
+      ) {
+        // We have wrapped around. Extend the melisma to the end of the last note
+        // that was on the same line
+        melismaWidth = lastNoteRight - siblingLyricsRect.right;
+        break;
+      }
+
+      if (nextLyrics) {
+        // We've found lyrics. Extend the melisma to the start of the lyrics.
+        const nextLyricsRect = nextLyrics.getBoundingClientRect();
+
+        melismaWidth = nextLyricsRect.left - siblingLyricsRect.right;
+        break;
+      }
+
+      lastNoteRight = nextNoteRect.right;
+      nextNote = nextNote.nextElementSibling;
+
+      depth++;
+    }
+
+    if (melismaWidth) {
+      change = { melisma };
+
+      const melismaStyle = getComputedStyle(melisma);
+      const fontFamily = melismaStyle.getPropertyValue(CssVars.LyricFontFamily);
+      const fontSize = melismaStyle.getPropertyValue(CssVars.LyricFontSize);
+      const font = `${fontSize} ${fontFamily}`;
+
+      let text = '';
+
+      if (melisma.hasAttribute('hyphen')) {
+        const widthOfHyphen = TextMetrics.getTextWidthFromCache('-', font);
+
+        text = '-';
+
+        change.right = `${melismaWidth / 2 + widthOfHyphen / 2}px`;
+      } else {
+        const widthOfUnderscore = TextMetrics.getTextWidthFromCache('_', font);
+
+        const numberOfUnderscoresNeeded = Math.ceil(
+          melismaWidth / widthOfUnderscore,
+        );
+
+        for (let i = 0; i < numberOfUnderscoresNeeded; i++) {
+          text += '_';
+        }
+
+        change.width = `${melismaWidth}px`;
+      }
+
+      change.textContent = text;
+    }
+
+    return change;
+  }
+
   function processAutoMelismas() {
-    for (let melisma of document.querySelectorAll('x-melisma[auto]')) {
-      const parentNote = melisma.closest('x-note');
-      const siblingLyrics = parentNote.querySelector('x-lyric');
-      const siblingLyricsRect = siblingLyrics.getBoundingClientRect();
+    const melismas = document.querySelectorAll('x-melisma[auto]');
+    const melismasInViewPort = [];
 
-      let nextNote = parentNote.nextElementSibling;
-      let nextLyrics;
-      let depth = 0;
-      let melismaWidth;
-      let lastNoteRight;
+    const changes = [];
 
-      while (nextNote.nodeName === 'X-NOTE' && depth < 100) {
-        nextLyrics = nextNote.querySelector('x-lyric');
+    // Find all visible elements
 
-        const nextNoteRect = nextNote.getBoundingClientRect();
+    // Binary search to find an element in the viewport.
+    // Assume elements are arranged top to bottom
+    const currentIndex = binarySearch(melismas);
 
-        if (
-          nextNoteRect.left < siblingLyricsRect.left &&
-          lastNoteRight !== undefined
-        ) {
-          // We have wrapped around. Extend the melisma to the end of the last note
-          // that was on the same line
-          melismaWidth = lastNoteRight - siblingLyricsRect.right;
-          console.log('hey');
-          break;
-        }
-
-        if (nextLyrics) {
-          // We've found lyrics. Extend the melisma to the start of the lyrics.
-          const nextLyricsRect = nextLyrics.getBoundingClientRect();
-
-          melismaWidth = nextLyricsRect.left - siblingLyricsRect.right;
-          break;
-        }
-
-        lastNoteRight = nextNoteRect.right;
-        nextNote = nextNote.nextElementSibling;
-
-        depth++;
-      }
-
-      if (melismaWidth) {
-        const melismaStyle = getComputedStyle(melisma);
-        const fontFamily = melismaStyle.getPropertyValue(CssVars.LyricFontFamily);
-        const fontSize = melismaStyle.getPropertyValue(CssVars.LyricFontSize);
-        const font = `${fontSize} ${fontFamily}`;
-
-        let text = '';
-
-        if (melisma.hasAttribute('hyphen')) {
-          const widthOfHyphen = TextMetrics.getTextWidthFromCache('-', font);
-
-          text = '-';
-          melisma.setAttribute(
-            'right',
-            `${melismaWidth / 2 + widthOfHyphen / 2}px`,
-          );
+    // If an element was found, search before and after the element
+    // to find all elements in the viewport
+    if (currentIndex !== -1) {
+      for (let i = currentIndex; i < melismas.length; i++) {
+        if (isElementInOrNearViewport(melismas[i])) {
+          melismasInViewPort.push(melismas[i]);
         } else {
-          const widthOfUnderscore = TextMetrics.getTextWidthFromCache('_', font);
-
-          const numberOfUnderscoresNeeded = Math.ceil(
-            melismaWidth / widthOfUnderscore,
-          );
-
-          for (let i = 0; i < numberOfUnderscoresNeeded; i++) {
-            text += '_';
-          }
-
-          melisma.setAttribute('width', `${melismaWidth}px`);
+          break;
         }
-
-        melisma.textContent = text;
       }
+
+      for (let i = currentIndex; i >= 0; i--) {
+        if (isElementInOrNearViewport(melismas[i])) {
+          melismasInViewPort.push(melismas[i]);
+        } else {
+          break;
+        }
+      }
+    }
+
+    // Calculate the changes
+    for (let melisma of melismasInViewPort) {
+      let change = processAutoMelisma(melisma);
+
+      if (change) {
+        changes.push(change);
+      }
+    }
+
+    // Apply changes
+    for (let change of changes) {
+      change.melisma.textContent = change.textContent;
+      change.melisma.setAttribute('width', change.width);
+      change.melisma.setAttribute('right', change.right);
     }
   }
 
@@ -5276,6 +5365,149 @@ var byzhtml = (function () {
     return false;
   }
 
+  /* eslint-disable no-undefined,no-param-reassign,no-shadow */
+
+  /**
+   * Throttle execution of a function. Especially useful for rate limiting
+   * execution of handlers on events like resize and scroll.
+   *
+   * @param {number} delay -                  A zero-or-greater delay in milliseconds. For event callbacks, values around 100 or 250 (or even higher)
+   *                                            are most useful.
+   * @param {Function} callback -               A function to be executed after delay milliseconds. The `this` context and all arguments are passed through,
+   *                                            as-is, to `callback` when the throttled-function is executed.
+   * @param {object} [options] -              An object to configure options.
+   * @param {boolean} [options.noTrailing] -   Optional, defaults to false. If noTrailing is true, callback will only execute every `delay` milliseconds
+   *                                            while the throttled-function is being called. If noTrailing is false or unspecified, callback will be executed
+   *                                            one final time after the last throttled-function call. (After the throttled-function has not been called for
+   *                                            `delay` milliseconds, the internal counter is reset).
+   * @param {boolean} [options.noLeading] -   Optional, defaults to false. If noLeading is false, the first throttled-function call will execute callback
+   *                                            immediately. If noLeading is true, the first the callback execution will be skipped. It should be noted that
+   *                                            callback will never executed if both noLeading = true and noTrailing = true.
+   * @param {boolean} [options.debounceMode] - If `debounceMode` is true (at begin), schedule `clear` to execute after `delay` ms. If `debounceMode` is
+   *                                            false (at end), schedule `callback` to execute after `delay` ms.
+   *
+   * @returns {Function} A new, throttled, function.
+   */
+  function throttle (delay, callback, options) {
+    var _ref = options || {},
+        _ref$noTrailing = _ref.noTrailing,
+        noTrailing = _ref$noTrailing === void 0 ? false : _ref$noTrailing,
+        _ref$noLeading = _ref.noLeading,
+        noLeading = _ref$noLeading === void 0 ? false : _ref$noLeading,
+        _ref$debounceMode = _ref.debounceMode,
+        debounceMode = _ref$debounceMode === void 0 ? undefined : _ref$debounceMode;
+    /*
+     * After wrapper has stopped being called, this timeout ensures that
+     * `callback` is executed at the proper times in `throttle` and `end`
+     * debounce modes.
+     */
+
+
+    var timeoutID;
+    var cancelled = false; // Keep track of the last time `callback` was executed.
+
+    var lastExec = 0; // Function to clear existing timeout
+
+    function clearExistingTimeout() {
+      if (timeoutID) {
+        clearTimeout(timeoutID);
+      }
+    } // Function to cancel next exec
+
+
+    function cancel(options) {
+      var _ref2 = options || {},
+          _ref2$upcomingOnly = _ref2.upcomingOnly,
+          upcomingOnly = _ref2$upcomingOnly === void 0 ? false : _ref2$upcomingOnly;
+
+      clearExistingTimeout();
+      cancelled = !upcomingOnly;
+    }
+    /*
+     * The `wrapper` function encapsulates all of the throttling / debouncing
+     * functionality and when executed will limit the rate at which `callback`
+     * is executed.
+     */
+
+
+    function wrapper() {
+      for (var _len = arguments.length, arguments_ = new Array(_len), _key = 0; _key < _len; _key++) {
+        arguments_[_key] = arguments[_key];
+      }
+
+      var self = this;
+      var elapsed = Date.now() - lastExec;
+
+      if (cancelled) {
+        return;
+      } // Execute `callback` and update the `lastExec` timestamp.
+
+
+      function exec() {
+        lastExec = Date.now();
+        callback.apply(self, arguments_);
+      }
+      /*
+       * If `debounceMode` is true (at begin) this is used to clear the flag
+       * to allow future `callback` executions.
+       */
+
+
+      function clear() {
+        timeoutID = undefined;
+      }
+
+      if (!noLeading && debounceMode && !timeoutID) {
+        /*
+         * Since `wrapper` is being called for the first time and
+         * `debounceMode` is true (at begin), execute `callback`
+         * and noLeading != true.
+         */
+        exec();
+      }
+
+      clearExistingTimeout();
+
+      if (debounceMode === undefined && elapsed > delay) {
+        if (noLeading) {
+          /*
+           * In throttle mode with noLeading, if `delay` time has
+           * been exceeded, update `lastExec` and schedule `callback`
+           * to execute after `delay` ms.
+           */
+          lastExec = Date.now();
+
+          if (!noTrailing) {
+            timeoutID = setTimeout(debounceMode ? clear : exec, delay);
+          }
+        } else {
+          /*
+           * In throttle mode without noLeading, if `delay` time has been exceeded, execute
+           * `callback`.
+           */
+          exec();
+        }
+      } else if (noTrailing !== true) {
+        /*
+         * In trailing throttle mode, since `delay` time has not been
+         * exceeded, schedule `callback` to execute `delay` ms after most
+         * recent execution.
+         *
+         * If `debounceMode` is true (at begin), schedule `clear` to execute
+         * after `delay` ms.
+         *
+         * If `debounceMode` is false (at end), schedule `callback` to
+         * execute after `delay` ms.
+         */
+        timeoutID = setTimeout(debounceMode ? clear : exec, debounceMode === undefined ? delay - elapsed : delay);
+      }
+    }
+
+    wrapper.cancel = cancel; // Return the wrapper function.
+
+    return wrapper;
+  }
+
   if (isWebkit()) {
     console.log('byzhtml: webkit browser detected. Using webkit positioning.');
 
@@ -5316,11 +5548,11 @@ var byzhtml = (function () {
   }
 
   window.addEventListener('load', (event) => {
-    processAutoMelismas();
-  });
+    setTimeout(processAutoMelismas, 0);
 
-  window.addEventListener('resize', () => {
-    processAutoMelismas();
+    window.addEventListener('resize', throttle(100, processAutoMelismas));
+
+    window.addEventListener('scroll', throttle(100, processAutoMelismas));
   });
 
   return byzhtml;

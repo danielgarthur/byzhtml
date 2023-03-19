@@ -1,6 +1,7 @@
 import json from '@rollup/plugin-json';
 import terser from '@rollup/plugin-terser';
 import { createRequire } from 'node:module';
+import { nodeResolve } from '@rollup/plugin-node-resolve';
 
 const require = createRequire(import.meta.url);
 const lib = require('./package.json');
@@ -27,5 +28,5 @@ export default {
       banner,
     },
   ],
-  plugins: [json()],
+  plugins: [json(), nodeResolve()],
 };
