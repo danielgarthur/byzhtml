@@ -1,0 +1,84 @@
+:root {
+  --red: #880000;
+
+  --byz-neume-font-size: 20pt;
+
+  --byz-lyric-font-family: Arial, san-serif;
+  --byz-lyric-font-size: 12pt;
+  --byz-lyric-offset-h: 4pt;
+  --byz-lyric-offset-v: -3pt;
+
+  --byz-drop-cap-font-size: 60pt;
+  --byz-drop-cap-color: var(--red);
+  --byz-drop-cap-offset-v: 24pt;
+
+  --byz-color-accidental: var(--red);
+  --byz-color-fthora: var(--red);
+  --byz-color-gorgon: var(--red);
+  --byz-color-heteron: var(--red);
+  --byz-color-martyria: var(--red);
+
+  --byz-color-accidental: var(--red);
+  --byz-color-agogi: var(--red);
+  --byz-color-barline: var(--red);
+  --byz-color-fthora: var(--red);
+  --byz-color-gorgon: var(--red);
+  --byz-color-heteron: var(--red);
+  --byz-color-ison-indicator: var(--red);
+  --byz-color-koronis: var(--red);
+  --byz-color-martyria: var(--red);
+  --byz-color-measure-number: black;
+  --byz-color-note-indicator: var(--red);
+}
+
+pre[data-lang='html'] {
+  height: 250px;
+}
+
+pre[data-lang='css'] {
+  height: 250px;
+}
+
+.title {
+  font-size: 20pt;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 16pt;
+  text-align: center;
+  margin-bottom: 20pt;
+}
+
+.another {
+  font-size: 16pt;
+  text-align: center;
+  color: var(--red);
+}
+
+.automela {
+  font-size: 12pt;
+  text-align: right;
+  color: var(--red);
+}
+
+.byz--mode-key {
+  font-size: 20pt;
+  color: var(--red);
+  text-align: center;
+}
+
+x-martyria.byz--align-right {
+  margin-left: auto;
+}
+
+.byz--neume-paragraph {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20pt;
+}
+
+.byz--neume-paragraph:last-child {
+  margin-bottom: 0;
+}

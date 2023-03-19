@@ -8,6 +8,7 @@
 
   - [Sample 1 - Greek](sample1.md)
   - [Sample 2 - English](sample2.md)
+  - [Sample 3 - Funeral Idiomela](sample3.md)
 
 - Components
 
