@@ -14,7 +14,7 @@ os.makedirs(os.path.dirname('./codegen/util/codegen/'), exist_ok=True)
 
 glyphnames_filepath = '../assets/fonts/sbmufl/glyphnames.json'
 
-pattern = re.compile(r'(?<!^)(?=[A-Z])')
+pattern = re.compile(r'(?<!^)(?=[A-Z0-9])')
 
 infile = open(glyphnames_filepath)
 
