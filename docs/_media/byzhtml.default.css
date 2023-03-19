@@ -11,7 +11,7 @@
     Make sure to set the font-size of the x-spacer-vareia to be the same size as your notes in your
     main CSS file.
   */
-  --byz-spacer-width-vareia: 0.534em;
+  --byz-spacer-width-vareia: 0.534;
 
   /*
     Set the width of the apostrofos spacer for your font.
@@ -20,5 +20,5 @@
     Make sure to set the font-size of the x-spacer-apostrofos to be the same size as your notes in your
     main CSS file.
   */
-  --byz-spacer-width-apostrofos: 0.53em;
+  --byz-spacer-width-apostrofos: 0.4875;
 }

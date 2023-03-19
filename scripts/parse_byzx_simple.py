@@ -544,12 +544,6 @@ with open(outputfilepath, 'w', encoding='utf-8') as outfile:
 
                 spacer = ''
 
-                if element.get('vareia'):
-                    spacer = '<x-spacer-vareia></x-spacer-vareia>'
-
-                if quantitativeNeume == 'RunningElaphron':
-                    spacer = '<x-spacer-apostrofos></x-spacer-apostrofos>'
-
                 outfile.write(
                     f'\n    <x-lyric slot="lyric">{spacer}{lyrics}</x-lyric>')
 

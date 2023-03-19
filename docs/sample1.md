@@ -147,7 +147,7 @@
     ><x-note>
       <x-running-elafron></x-running-elafron>
       <x-lyric slot="lyric"
-        ><x-spacer-apostrofos></x-spacer-apostrofos>τω</x-lyric
+        >τω</x-lyric
       > </x-note
     ><x-note>
       <x-oligon-kentima-middle></x-oligon-kentima-middle>
@@ -239,7 +239,7 @@
       <x-vareia></x-vareia><x-oligon-ypsili-right></x-oligon-ypsili-right
       ><x-omalon-connecting></x-omalon-connecting>
       <x-lyric slot="lyric"
-        ><x-spacer-vareia></x-spacer-vareia>δο</x-lyric
+        >δο</x-lyric
       > </x-note
     ><x-note>
       <x-ison></x-ison>
@@ -344,7 +344,7 @@
     ><x-note>
       <x-vareia></x-vareia><x-apostrofos></x-apostrofos>
       <x-lyric slot="lyric"
-        ><x-spacer-vareia></x-spacer-vareia>θρω</x-lyric
+        >θρω</x-lyric
       > </x-note
     ><x-note>
       <x-apostrofos></x-apostrofos>
@@ -509,7 +509,7 @@ Source:
     ><x-note>
       <x-running-elafron></x-running-elafron>
       <x-lyric slot="lyric"
-        ><x-spacer-apostrofos></x-spacer-apostrofos>τω</x-lyric
+        >τω</x-lyric
       > </x-note
     ><x-note>
       <x-oligon-kentima-middle></x-oligon-kentima-middle>
@@ -601,7 +601,7 @@ Source:
       <x-vareia></x-vareia><x-oligon-ypsili-right></x-oligon-ypsili-right
       ><x-omalon-connecting></x-omalon-connecting>
       <x-lyric slot="lyric"
-        ><x-spacer-vareia></x-spacer-vareia>δο</x-lyric
+        >δο</x-lyric
       > </x-note
     ><x-note>
       <x-ison></x-ison>
@@ -706,7 +706,7 @@ Source:
     ><x-note>
       <x-vareia></x-vareia><x-apostrofos></x-apostrofos>
       <x-lyric slot="lyric"
-        ><x-spacer-vareia></x-spacer-vareia>θρω</x-lyric
+        >θρω</x-lyric
       > </x-note
     ><x-note>
       <x-apostrofos></x-apostrofos>

@@ -41,7 +41,7 @@ A library of custom web components for displaying Byzantine Chant neumes in HTML
     </x-note>
     <x-note>
       <x-vareia></x-vareia><x-ison></x-ison>
-      <x-lyric slot="lyric"><x-spacer-vareia></x-spacer-vareia>προ</x-lyric>
+      <x-lyric slot="lyric">προ</x-lyric>
     </x-note>
     <x-note>
       <x-apostrofos></x-apostrofos><x-gorgon-above class="gorgon"></x-gorgon-above>
@@ -103,7 +103,7 @@ Source:
 </x-note>
 <x-note>
   <x-vareia></x-vareia><x-ison></x-ison>
-  <x-lyric slot="lyric"><x-spacer-vareia></x-spacer-vareia>προ</x-lyric>
+  <x-lyric slot="lyric">προ</x-lyric>
 </x-note>
 <x-note>
   <x-apostrofos></x-apostrofos><x-gorgon-above class="gorgon"></x-gorgon-above>
