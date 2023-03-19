@@ -1,4 +1,4 @@
-// byzhtml v1.0.10
+// byzhtml v1.0.9
 var byzhtml = (function () {
   'use strict';
 
@@ -1587,7 +1587,10 @@ var byzhtml = (function () {
     for (let change of changes) {
       change.melisma.textContent = change.textContent;
       change.melisma.setAttribute('width', change.width);
-      change.melisma.setAttribute('right', change.right);
+
+      if (change.right != null) {
+        change.melisma.setAttribute('right', change.right);
+      }
     }
   }
 
