@@ -106,10 +106,10 @@ td:nth-child(3) {
 | x-tripli                                |                          | <x-tripli></x-tripli>                                                               |
 | x-tetrapli                              |                          | <x-tetrapli></x-tetrapli>                                                           |
 | x-koronis                               |                          | <x-koronis></x-koronis>                                                             |
-| x-leimma1                               |                          | <x-leimma1></x-leimma1>                                                             |
-| x-leimma2                               |                          | <x-leimma2></x-leimma2>                                                             |
-| x-leimma3                               |                          | <x-leimma3></x-leimma3>                                                             |
-| x-leimma4                               |                          | <x-leimma4></x-leimma4>                                                             |
+| x-leimma1                               | x-l1                     | <x-leimma1></x-leimma1>                                                             |
+| x-leimma2                               | x-l2                     | <x-leimma2></x-leimma2>                                                             |
+| x-leimma3                               | x-l3                     | <x-leimma3></x-leimma3>                                                             |
+| x-leimma4                               | x-l4                     | <x-leimma4></x-leimma4>                                                             |
 | x-leimma-dot                            |                          | <x-leimma-dot></x-leimma-dot>                                                       |
 | x-gorgon-above                          | x-g                      | <x-gorgon-above></x-gorgon-above>                                                   |
 | x-gorgon-below                          | x-g-b                    | <x-gorgon-below></x-gorgon-below>                                                   |

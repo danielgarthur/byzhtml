@@ -100,7 +100,7 @@
       <x-lyric slot="lyric">μα</x-lyric> </x-note
     ><x-martyria>
       <x-martyria-note-di></x-martyria-note-di
-      ><x-martyria-delta-dotted-below><x-martyria-delta-dotted-below></x-martyria
+      ><x-martyria-delta-dotted-below></x-martyria-delta-dotted-below></x-martyria
     ><x-note>
       <x-ison></x-ison>
       <x-lyric slot="lyric">α</x-lyric> </x-note
@@ -462,14 +462,13 @@ Source:
       <x-lyric slot="lyric">μα</x-lyric> </x-note
     ><x-martyria>
       <x-martyria-note-di></x-martyria-note-di
-      ><x-martyria-delta-dotted-below><x-martyria-delta-dotted-below></x-martyria
+      ><x-martyria-delta-dotted-below></x-martyria-delta-dotted-below></x-martyria
     ><x-note>
       <x-ison></x-ison>
       <x-lyric slot="lyric">α</x-lyric> </x-note
     ><x-note>
       <x-oligon-kentima-above></x-oligon-kentima-above
-      ><x-psifiston></x-psifiston>
-      <x-lyric slot="lyric">νε</x-lyric> </x-note
+      ><x-psifiston></x-psifiston> <x-lyric slot="lyric">νε</x-lyric> </x-note
     ><x-note>
       <x-apostrofos></x-apostrofos>
       <x-lyric slot="lyric">ε</x-lyric> </x-note
@@ -508,9 +507,7 @@ Source:
       <x-lyric slot="lyric">νος</x-lyric> </x-note
     ><x-note>
       <x-running-elafron></x-running-elafron>
-      <x-lyric slot="lyric"
-        >τω</x-lyric
-      > </x-note
+      <x-lyric slot="lyric">τω</x-lyric> </x-note
     ><x-note>
       <x-oligon-kentima-middle></x-oligon-kentima-middle>
       <x-lyric slot="lyric">κο</x-lyric> </x-note
@@ -600,9 +597,7 @@ Source:
     ><x-note>
       <x-vareia></x-vareia><x-oligon-ypsili-right></x-oligon-ypsili-right
       ><x-omalon-connecting></x-omalon-connecting>
-      <x-lyric slot="lyric"
-        >δο</x-lyric
-      > </x-note
+      <x-lyric slot="lyric">δο</x-lyric> </x-note
     ><x-note>
       <x-ison></x-ison>
       <x-lyric slot="lyric">ο</x-lyric> </x-note
@@ -698,16 +693,13 @@ Source:
       <x-lyric slot="lyric">φι</x-lyric> </x-note
     ><x-note>
       <x-oligon-kentima-below></x-oligon-kentima-below
-      ><x-psifiston></x-psifiston>
-      <x-lyric slot="lyric">λα</x-lyric> </x-note
+      ><x-psifiston></x-psifiston> <x-lyric slot="lyric">λα</x-lyric> </x-note
     ><x-note>
       <x-apostrofos></x-apostrofos>
       <x-lyric slot="lyric">αν</x-lyric> </x-note
     ><x-note>
       <x-vareia></x-vareia><x-apostrofos></x-apostrofos>
-      <x-lyric slot="lyric"
-        >θρω</x-lyric
-      > </x-note
+      <x-lyric slot="lyric">θρω</x-lyric> </x-note
     ><x-note>
       <x-apostrofos></x-apostrofos>
       <x-lyric slot="lyric">ω</x-lyric> </x-note

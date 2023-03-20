@@ -93,8 +93,8 @@ server = http.createServer(function (req, res) {
     pipeFileToResponse(res, '../dist/byzhtml.min.js', 'text/javascript');
     return;
   }
-  if (/byzhtml\.min\.map$/.test(url)) {
-    pipeFileToResponse(res, '../dist/byzhtml.min.map', 'text/javascript');
+  if (/byzhtml\.min\.js\.map$/.test(url)) {
+    pipeFileToResponse(res, '../dist/byzhtml.min.js.map', 'text/javascript');
     return;
   }
   if (/Neanes\.otf$/.test(url)) {

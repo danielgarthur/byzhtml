@@ -1467,8 +1467,8 @@ var byzhtml = (function () {
 
   function processAutoMelisma(melisma) {
     let change;
-    const parentNote = melisma.closest('x-note');
-    const siblingLyrics = parentNote.querySelector('x-lyric');
+    const parentNote = melisma.closest('x-note, x-n');
+    const siblingLyrics = parentNote.querySelector('x-lyric, x-ly');
     const siblingLyricsRect = siblingLyrics.getBoundingClientRect();
 
     let nextNote = parentNote.nextElementSibling;
@@ -1477,8 +1477,12 @@ var byzhtml = (function () {
     let melismaWidth;
     let lastNoteRight;
 
-    while (nextNote.nodeName === 'X-NOTE' && depth < 100) {
-      nextLyrics = nextNote.querySelector('x-lyric');
+    while (
+      nextNote &&
+      (nextNote.nodeName === 'X-NOTE' || nextNote.nodeName === 'X-N') &&
+      depth < 100
+    ) {
+      nextLyrics = nextNote.querySelector('x-lyric, x-ly');
 
       const nextNoteRect = nextNote.getBoundingClientRect();
 
@@ -1543,7 +1547,7 @@ var byzhtml = (function () {
   }
 
   function processAutoMelismas() {
-    const melismas = document.querySelectorAll('x-melisma[auto]');
+    const melismas = document.querySelectorAll('x-melisma[auto], x-mel[auto]');
     const melismasInViewPort = [];
 
     const changes = [];
@@ -2608,7 +2612,7 @@ var byzhtml = (function () {
       super(glyphname$3D, args$3D);
 
       // If using webkit positioning, perform a
-      // contextual substition when combined with the psifiston
+      // contextual substitution when combined with the psifiston
       if (
         byzhtml.options.useWebkitPositioning &&
         byzhtml.options.defaultFontFamily === 'Neanes'
@@ -2621,7 +2625,7 @@ var byzhtml = (function () {
             break;
           }
 
-          if (nextSibling.nodeName === 'X-PSIFISTON') {
+          if (nextSibling.nodeName.startsWith('X-PSI')) {
             this.glyphname = 'oligonKentimataBelow.alt01';
             break;
           }
@@ -2909,7 +2913,7 @@ var byzhtml = (function () {
       super(glyphname$3p, args$3p);
 
       // If using webkit positioning, perform a
-      // contextual substition when combined with certain other characters
+      // contextual substitution when combined with certain other characters
       if (
         byzhtml.options.useWebkitPositioning &&
         byzhtml.options.defaultFontFamily === 'Neanes'
@@ -2937,7 +2941,7 @@ var byzhtml = (function () {
         if (
           base === 'apostrofos' ||
           base === 'yporroi' ||
-          base.startsWith('petasti')
+          (base && base.startsWith('petasti'))
         ) {
           this.glyphname = 'antikenoma.alt01';
         }
@@ -3092,38 +3096,38 @@ var byzhtml = (function () {
   const glyphname$38 = 'leimma1';
   const args$38 = {};
 
-  class Leimma1 extends BaseBody {
+  let Leimma1$1 = class Leimma1 extends BaseBody {
     constructor() {
       super(glyphname$38, args$38);
     }
-  }
+  };
 
   const glyphname$37 = 'leimma2';
   const args$37 = {};
 
-  class Leimma2 extends BaseBody {
+  let Leimma2$1 = class Leimma2 extends BaseBody {
     constructor() {
       super(glyphname$37, args$37);
     }
-  }
+  };
 
   const glyphname$36 = 'leimma3';
   const args$36 = {};
 
-  class Leimma3 extends BaseBody {
+  let Leimma3$1 = class Leimma3 extends BaseBody {
     constructor() {
       super(glyphname$36, args$36);
     }
-  }
+  };
 
   const glyphname$35 = 'leimma4';
   const args$35 = {};
 
-  class Leimma4 extends BaseBody {
+  let Leimma4$1 = class Leimma4 extends BaseBody {
     constructor() {
       super(glyphname$35, args$35);
     }
-  }
+  };
 
   const glyphname$34 = 'leimmaDot';
   const args$34 = {};
@@ -4898,7 +4902,7 @@ var byzhtml = (function () {
     }
   }
 
-  function defineCustomElementsCharactersCodegen() {
+  function defineCustomElementsCharactersBodyCodegen() {
     customElements.define('x-ison', Ison);
     customElements.define('x-oligon', Oligon);
     customElements.define('x-oligon-kentima-middle', OligonKentimaMiddle);
@@ -5055,7 +5059,91 @@ var byzhtml = (function () {
       OligonElafronApostrofosKentimata,
     );
     customElements.define('x-oligon-chamili-kentimata', OligonChamiliKentimata);
+
     customElements.define('x-vareia', Vareia);
+
+    customElements.define('x-agogi-poli-argi', AgogiPoliArgi);
+    customElements.define('x-agogi-argoteri', AgogiArgoteri);
+    customElements.define('x-agogi-argi', AgogiArgi);
+    customElements.define('x-agogi-metria', AgogiMetria);
+    customElements.define('x-agogi-mesi', AgogiMesi);
+    customElements.define('x-agogi-gorgi', AgogiGorgi);
+    customElements.define('x-agogi-gorgoteri', AgogiGorgoteri);
+    customElements.define('x-agogi-poli-gorgi', AgogiPoliGorgi);
+
+    customElements.define('x-stavros', Stavros);
+    customElements.define('x-breath', Breath);
+
+    customElements.define('x-leimma1', Leimma1$1);
+    customElements.define('x-leimma2', Leimma2$1);
+    customElements.define('x-leimma3', Leimma3$1);
+    customElements.define('x-leimma4', Leimma4$1);
+
+    customElements.define('x-martyria-note-zo-low', MartyriaNoteZoLow);
+    customElements.define('x-martyria-note-ni-low', MartyriaNoteNiLow);
+    customElements.define('x-martyria-note-pa-low', MartyriaNotePaLow);
+    customElements.define('x-martyria-note-vou-low', MartyriaNoteVouLow);
+    customElements.define('x-martyria-note-ga-low', MartyriaNoteGaLow);
+    customElements.define('x-martyria-note-di-low', MartyriaNoteDiLow);
+    customElements.define('x-martyria-note-ke-low', MartyriaNoteKeLow);
+    customElements.define('x-martyria-note-zo', MartyriaNoteZo);
+    customElements.define('x-martyria-note-ni', MartyriaNoteNi);
+    customElements.define('x-martyria-note-pa', MartyriaNotePa);
+    customElements.define('x-martyria-note-vou', MartyriaNoteVou);
+    customElements.define('x-martyria-note-ga', MartyriaNoteGa);
+    customElements.define('x-martyria-note-di', MartyriaNoteDi);
+    customElements.define('x-martyria-note-ke', MartyriaNoteKe);
+    customElements.define('x-martyria-note-zo-high', MartyriaNoteZoHigh);
+    customElements.define('x-martyria-note-ni-high', MartyriaNoteNiHigh);
+    customElements.define('x-martyria-note-pa-high', MartyriaNotePaHigh);
+    customElements.define('x-martyria-note-vou-high', MartyriaNoteVouHigh);
+    customElements.define('x-martyria-note-ga-high', MartyriaNoteGaHigh);
+    customElements.define('x-martyria-note-di-high', MartyriaNoteDiHigh);
+    customElements.define('x-martyria-note-ke-high', MartyriaNoteKeHigh);
+    customElements.define('x-barline-single', BarlineSingle);
+    customElements.define('x-barline-double', BarlineDouble);
+    customElements.define('x-barline-theseos', BarlineTheseos);
+    customElements.define('x-barline-short-single', BarlineShortSingle);
+    customElements.define('x-barline-short-double', BarlineShortDouble);
+    customElements.define('x-barline-short-theseos', BarlineShortTheseos);
+    customElements.define('x-gorthmikon', Gorthmikon);
+    customElements.define('x-pelastikon', Pelastikon);
+    customElements.define('x-mode-first', ModeFirst);
+    customElements.define('x-mode-second', ModeSecond);
+    customElements.define('x-mode-third', ModeThird);
+    customElements.define('x-mode-third-nana', ModeThirdNana);
+    customElements.define('x-mode-fourth', ModeFourth);
+    customElements.define('x-mode-legetos', ModeLegetos);
+    customElements.define('x-mode-plagal-first', ModePlagalFirst);
+    customElements.define('x-mode-plagal-second', ModePlagalSecond);
+    customElements.define('x-mode-varys', ModeVarys);
+    customElements.define('x-mode-varys2', ModeVarys2);
+    customElements.define('x-mode-plagal-fourth', ModePlagalFourth);
+    customElements.define('x-mode-ni', ModeNi);
+    customElements.define('x-mode-pa', ModePa);
+    customElements.define('x-mode-vou', ModeVou);
+    customElements.define('x-mode-ga', ModeGa);
+    customElements.define('x-mode-di', ModeDi);
+    customElements.define('x-mode-ke', ModeKe);
+    customElements.define('x-mode-zo', ModeZo);
+    customElements.define('x-mode-oligon-kentima-above', ModeOligonKentimaAbove);
+    customElements.define('x-mode-oligon-ypsili', ModeOligonYpsili);
+    customElements.define('x-mode-elafron', ModeElafron);
+    customElements.define('x-mode-running-elafron', ModeRunningElafron);
+    customElements.define('x-mode-plagal', ModePlagal);
+    customElements.define('x-mode-word-echos', ModeWordEchos);
+    customElements.define('x-mode-word-varys', ModeWordVarys);
+    customElements.define('x-mode-alpha', ModeAlpha);
+    customElements.define('x-mode-beta', ModeBeta);
+    customElements.define('x-mode-gamma', ModeGamma);
+    customElements.define('x-mode-delta', ModeDelta);
+    customElements.define('x-mode-alpha-capital', ModeAlphaCapital);
+    customElements.define('x-mode-beta-capital', ModeBetaCapital);
+    customElements.define('x-mode-gamma-capital', ModeGammaCapital);
+    customElements.define('x-mode-delta-capital', ModeDeltaCapital);
+  }
+
+  function defineCustomElementsCharactersMarkCodegen() {
     customElements.define('x-psifiston', Psifiston);
     customElements.define('x-antikenoma', Antikenoma);
     customElements.define('x-omalon', Omalon);
@@ -5065,8 +5153,6 @@ var byzhtml = (function () {
     customElements.define('x-endofonon', Endofonon);
     customElements.define('x-yfen-above', YfenAbove);
     customElements.define('x-yfen-below', YfenBelow);
-    customElements.define('x-stavros', Stavros);
-    customElements.define('x-breath', Breath);
     customElements.define('x-klasma-above', KlasmaAbove);
     customElements.define('x-klasma-below', KlasmaBelow);
     customElements.define('x-apli', Apli);
@@ -5074,10 +5160,6 @@ var byzhtml = (function () {
     customElements.define('x-tripli', Tripli);
     customElements.define('x-tetrapli', Tetrapli);
     customElements.define('x-koronis', Koronis);
-    customElements.define('x-leimma1', Leimma1);
-    customElements.define('x-leimma2', Leimma2);
-    customElements.define('x-leimma3', Leimma3);
-    customElements.define('x-leimma4', Leimma4);
     customElements.define('x-leimma-dot', LeimmaDot);
     customElements.define('x-gorgon-above', GorgonAbove);
     customElements.define('x-gorgon-below', GorgonBelow);
@@ -5133,14 +5215,7 @@ var byzhtml = (function () {
       'x-trigorgon-dotted-right-secondary',
       TrigorgonDottedRightSecondary,
     );
-    customElements.define('x-agogi-poli-argi', AgogiPoliArgi);
-    customElements.define('x-agogi-argoteri', AgogiArgoteri);
-    customElements.define('x-agogi-argi', AgogiArgi);
-    customElements.define('x-agogi-metria', AgogiMetria);
-    customElements.define('x-agogi-mesi', AgogiMesi);
-    customElements.define('x-agogi-gorgi', AgogiGorgi);
-    customElements.define('x-agogi-gorgoteri', AgogiGorgoteri);
-    customElements.define('x-agogi-poli-gorgi', AgogiPoliGorgi);
+
     customElements.define('x-agogi-poli-argi-above', AgogiPoliArgiAbove);
     customElements.define('x-agogi-argoteri-above', AgogiArgoteriAbove);
     customElements.define('x-agogi-argi-above', AgogiArgiAbove);
@@ -5149,27 +5224,7 @@ var byzhtml = (function () {
     customElements.define('x-agogi-gorgi-above', AgogiGorgiAbove);
     customElements.define('x-agogi-gorgoteri-above', AgogiGorgoteriAbove);
     customElements.define('x-agogi-poli-gorgi-above', AgogiPoliGorgiAbove);
-    customElements.define('x-martyria-note-zo-low', MartyriaNoteZoLow);
-    customElements.define('x-martyria-note-ni-low', MartyriaNoteNiLow);
-    customElements.define('x-martyria-note-pa-low', MartyriaNotePaLow);
-    customElements.define('x-martyria-note-vou-low', MartyriaNoteVouLow);
-    customElements.define('x-martyria-note-ga-low', MartyriaNoteGaLow);
-    customElements.define('x-martyria-note-di-low', MartyriaNoteDiLow);
-    customElements.define('x-martyria-note-ke-low', MartyriaNoteKeLow);
-    customElements.define('x-martyria-note-zo', MartyriaNoteZo);
-    customElements.define('x-martyria-note-ni', MartyriaNoteNi);
-    customElements.define('x-martyria-note-pa', MartyriaNotePa);
-    customElements.define('x-martyria-note-vou', MartyriaNoteVou);
-    customElements.define('x-martyria-note-ga', MartyriaNoteGa);
-    customElements.define('x-martyria-note-di', MartyriaNoteDi);
-    customElements.define('x-martyria-note-ke', MartyriaNoteKe);
-    customElements.define('x-martyria-note-zo-high', MartyriaNoteZoHigh);
-    customElements.define('x-martyria-note-ni-high', MartyriaNoteNiHigh);
-    customElements.define('x-martyria-note-pa-high', MartyriaNotePaHigh);
-    customElements.define('x-martyria-note-vou-high', MartyriaNoteVouHigh);
-    customElements.define('x-martyria-note-ga-high', MartyriaNoteGaHigh);
-    customElements.define('x-martyria-note-di-high', MartyriaNoteDiHigh);
-    customElements.define('x-martyria-note-ke-high', MartyriaNoteKeHigh);
+
     customElements.define('x-martyria-tick', MartyriaTick);
     customElements.define('x-martyria-zo-below', MartyriaZoBelow);
     customElements.define('x-martyria-delta-below', MartyriaDeltaBelow);
@@ -5311,12 +5366,7 @@ var byzhtml = (function () {
     customElements.define('x-yfesis-8', Yfesis8);
     customElements.define('x-yfesis-geniki-above', YfesisGenikiAbove);
     customElements.define('x-yfesis-geniki-below', YfesisGenikiBelow);
-    customElements.define('x-barline-single', BarlineSingle);
-    customElements.define('x-barline-double', BarlineDouble);
-    customElements.define('x-barline-theseos', BarlineTheseos);
-    customElements.define('x-barline-short-single', BarlineShortSingle);
-    customElements.define('x-barline-short-double', BarlineShortDouble);
-    customElements.define('x-barline-short-theseos', BarlineShortTheseos);
+
     customElements.define('x-measure-number-2', MeasureNumber2);
     customElements.define('x-measure-number-3', MeasureNumber3);
     customElements.define('x-measure-number-4', MeasureNumber4);
@@ -5342,41 +5392,6 @@ var byzhtml = (function () {
     customElements.define('x-ison-indicator-di', IsonIndicatorDi);
     customElements.define('x-ison-indicator-ke', IsonIndicatorKe);
     customElements.define('x-ison-indicator-zo-high', IsonIndicatorZoHigh);
-    customElements.define('x-gorthmikon', Gorthmikon);
-    customElements.define('x-pelastikon', Pelastikon);
-    customElements.define('x-mode-first', ModeFirst);
-    customElements.define('x-mode-second', ModeSecond);
-    customElements.define('x-mode-third', ModeThird);
-    customElements.define('x-mode-third-nana', ModeThirdNana);
-    customElements.define('x-mode-fourth', ModeFourth);
-    customElements.define('x-mode-legetos', ModeLegetos);
-    customElements.define('x-mode-plagal-first', ModePlagalFirst);
-    customElements.define('x-mode-plagal-second', ModePlagalSecond);
-    customElements.define('x-mode-varys', ModeVarys);
-    customElements.define('x-mode-varys2', ModeVarys2);
-    customElements.define('x-mode-plagal-fourth', ModePlagalFourth);
-    customElements.define('x-mode-ni', ModeNi);
-    customElements.define('x-mode-pa', ModePa);
-    customElements.define('x-mode-vou', ModeVou);
-    customElements.define('x-mode-ga', ModeGa);
-    customElements.define('x-mode-di', ModeDi);
-    customElements.define('x-mode-ke', ModeKe);
-    customElements.define('x-mode-zo', ModeZo);
-    customElements.define('x-mode-oligon-kentima-above', ModeOligonKentimaAbove);
-    customElements.define('x-mode-oligon-ypsili', ModeOligonYpsili);
-    customElements.define('x-mode-elafron', ModeElafron);
-    customElements.define('x-mode-running-elafron', ModeRunningElafron);
-    customElements.define('x-mode-plagal', ModePlagal);
-    customElements.define('x-mode-word-echos', ModeWordEchos);
-    customElements.define('x-mode-word-varys', ModeWordVarys);
-    customElements.define('x-mode-alpha', ModeAlpha);
-    customElements.define('x-mode-beta', ModeBeta);
-    customElements.define('x-mode-gamma', ModeGamma);
-    customElements.define('x-mode-delta', ModeDelta);
-    customElements.define('x-mode-alpha-capital', ModeAlphaCapital);
-    customElements.define('x-mode-beta-capital', ModeBetaCapital);
-    customElements.define('x-mode-gamma-capital', ModeGammaCapital);
-    customElements.define('x-mode-delta-capital', ModeDeltaCapital);
   }
 
   // import { ModeFirst } from '../components/characters/codegen/ModeFirst.js';
@@ -5413,7 +5428,7 @@ var byzhtml = (function () {
   // import { ModeGammaCapital } from '../components/characters/codegen/ModeGammaCapital.js';
   // import { ModeDeltaCapital } from '../components/characters/codegen/ModeDeltaCapital.js';
 
-  function defineCustomElementsCharacterAliases() {
+  function defineCustomElementsCharactersBodyAliases() {
     customElements.define('x-i', class extends Ison {});
     customElements.define('x-o', class extends Oligon {});
     customElements.define('x-o1', class extends Oligon {});
@@ -5515,9 +5530,9 @@ var byzhtml = (function () {
     );
     customElements.define('x-o4-k', class extends OligonYpsiliRightKentimata {});
     customElements.define('x-o5-k', class extends OligonYpsiliLeftKentimata {});
-    customElements.define('x-oa-k', class extends OligonApostrofosKentimata {});
-    customElements.define('x-oy-k', class extends OligonYporroiKentimata {});
-    customElements.define('x-oe-k', class extends OligonElafronKentimata {});
+    customElements.define('x-o-a-k', class extends OligonApostrofosKentimata {});
+    customElements.define('x-o-y-k', class extends OligonYporroiKentimata {});
+    customElements.define('x-o-e-k', class extends OligonElafronKentimata {});
     customElements.define(
       'x-o-re-k',
       class extends OligonRunningElafronKentimata {},
@@ -5527,7 +5542,119 @@ var byzhtml = (function () {
       class extends OligonElafronApostrofosKentimata {},
     );
     customElements.define('x-o-ch-k', class extends OligonChamiliKentimata {});
+
     customElements.define('x-var', class extends Vareia {});
+
+    // customElements.define('x-stavros', class extends Stavros {});
+    // customElements.define('x-breath', class extends Breath {});
+    customElements.define('x-l1', class extends Leimma1 {});
+    customElements.define('x-l2', class extends Leimma2 {});
+    customElements.define('x-l3', class extends Leimma3 {});
+    customElements.define('x-l4', class extends Leimma4 {});
+
+    customElements.define('x-t1', class extends AgogiPoliArgi {});
+    customElements.define('x-t2', class extends AgogiArgoteri {});
+    customElements.define('x-t3', class extends AgogiArgi {});
+    customElements.define('x-t4', class extends AgogiMetria {});
+    customElements.define('x-t5', class extends AgogiMesi {});
+    customElements.define('x-t6', class extends AgogiGorgi {});
+    customElements.define('x-t7', class extends AgogiGorgoteri {});
+    customElements.define('x-t8', class extends AgogiPoliGorgi {});
+    customElements.define('x-m-zo-low', class extends MartyriaNoteZoLow {});
+    customElements.define('x-m-ni-low', class extends MartyriaNoteNiLow {});
+    customElements.define('x-m-pa-low', class extends MartyriaNotePaLow {});
+    customElements.define('x-m-vou-low', class extends MartyriaNoteVouLow {});
+    customElements.define('x-m-ga-low', class extends MartyriaNoteGaLow {});
+    customElements.define('x-m-di-low', class extends MartyriaNoteDiLow {});
+    customElements.define('x-m-ke-low', class extends MartyriaNoteKeLow {});
+    customElements.define('x-m-zo', class extends MartyriaNoteZo {});
+    customElements.define('x-m-ni', class extends MartyriaNoteNi {});
+    customElements.define('x-m-pa', class extends MartyriaNotePa {});
+    customElements.define('x-m-vou', class extends MartyriaNoteVou {});
+    customElements.define('x-m-ga', class extends MartyriaNoteGa {});
+    customElements.define('x-m-di', class extends MartyriaNoteDi {});
+    customElements.define('x-m-ke', class extends MartyriaNoteKe {});
+    customElements.define('x-m-zo-high', class extends MartyriaNoteZoHigh {});
+    customElements.define('x-m-ni-high', class extends MartyriaNoteNiHigh {});
+    customElements.define('x-m-pa-high', class extends MartyriaNotePaHigh {});
+    customElements.define('x-m-vou-high', class extends MartyriaNoteVouHigh {});
+    customElements.define('x-m-ga-high', class extends MartyriaNoteGaHigh {});
+    customElements.define('x-m-di-high', class extends MartyriaNoteDiHigh {});
+    customElements.define('x-m-ke-high', class extends MartyriaNoteKeHigh {});
+    customElements.define('x-bar', class extends BarlineSingle {});
+    customElements.define('x-bar2', class extends BarlineDouble {});
+    customElements.define('x-bar-th', class extends BarlineTheseos {});
+    customElements.define('x-bar-s', class extends BarlineShortSingle {});
+    customElements.define('x-bar2-s', class extends BarlineShortDouble {});
+    customElements.define('x-bar-th-s', class extends BarlineShortTheseos {});
+    customElements.define('x-gor', class extends Gorthmikon {});
+    customElements.define('x-pel', class extends Pelastikon {});
+    // customElements.define('x-mode-first', class extends ModeFirst {});
+    // customElements.define('x-mode-second', class extends ModeSecond {});
+    // customElements.define('x-mode-third', class extends ModeThird {});
+    // customElements.define('x-mode-third-nana', class extends ModeThirdNana {});
+    // customElements.define('x-mode-fourth', class extends ModeFourth {});
+    // customElements.define('x-mode-legetos', class extends ModeLegetos {});
+    // customElements.define(
+    //   'x-mode-plagal-first',
+    //   class extends ModePlagalFirst {},
+    // );
+    // customElements.define(
+    //   'x-mode-plagal-second',
+    //   class extends ModePlagalSecond {},
+    // );
+    // customElements.define('x-mode-varys', class extends ModeVarys {});
+    // customElements.define('x-mode-varys2', class extends ModeVarys2 {});
+    // customElements.define(
+    //   'x-mode-plagal-fourth',
+    //   class extends ModePlagalFourth {},
+    // );
+    // customElements.define('x-mode-ni', class extends ModeNi {});
+    // customElements.define('x-mode-pa', class extends ModePa {});
+    // customElements.define('x-mode-vou', class extends ModeVou {});
+    // customElements.define('x-mode-ga', class extends ModeGa {});
+    // customElements.define('x-mode-di', class extends ModeDi {});
+    // customElements.define('x-mode-ke', class extends ModeKe {});
+    // customElements.define('x-mode-zo', class extends ModeZo {});
+    // customElements.define(
+    //   'x-mode-oligon-kentima-t',
+    //   class extends ModeOligonKentimaAbove {},
+    // );
+    // customElements.define(
+    //   'x-mode-oligon-ypsili',
+    //   class extends ModeOligonYpsili {},
+    // );
+    // customElements.define('x-mode-elafron', class extends ModeElafron {});
+    // customElements.define(
+    //   'x-mode-running-elafron',
+    //   class extends ModeRunningElafron {},
+    // );
+    // customElements.define('x-mode-plagal', class extends ModePlagal {});
+    // customElements.define('x-mode-word-echos', class extends ModeWordEchos {});
+    // customElements.define('x-mode-word-varys', class extends ModeWordVarys {});
+    // customElements.define('x-mode-alpha', class extends ModeAlpha {});
+    // customElements.define('x-mode-beta', class extends ModeBeta {});
+    // customElements.define('x-mode-gamma', class extends ModeGamma {});
+    // customElements.define('x-mode-delta', class extends ModeDelta {});
+    // customElements.define(
+    //   'x-mode-alpha-capital',
+    //   class extends ModeAlphaCapital {},
+    // );
+    // customElements.define(
+    //   'x-mode-beta-capital',
+    //   class extends ModeBetaCapital {},
+    // );
+    // customElements.define(
+    //   'x-mode-gamma-capital',
+    //   class extends ModeGammaCapital {},
+    // );
+    // customElements.define(
+    //   'x-mode-delta-capital',
+    //   class extends ModeDeltaCapital {},
+    // );
+  }
+
+  function defineCustomElementsCharactersMarkAliases() {
     customElements.define('x-psi', class extends Psifiston {});
     customElements.define('x-anti', class extends Antikenoma {});
     customElements.define('x-om', class extends Omalon {});
@@ -5539,8 +5666,6 @@ var byzhtml = (function () {
     // customElements.define('x-endofonon', class extends Endofonon {});
     // customElements.define('x-yfen-t', class extends YfenAbove {});
     // customElements.define('x-yfen-b', class extends YfenBelow {});
-    // customElements.define('x-stavros', class extends Stavros {});
-    // customElements.define('x-breath', class extends Breath {});
     customElements.define('x-kl', class extends KlasmaAbove {});
     customElements.define('x-kl-b', class extends KlasmaBelow {});
     // customElements.define('x-apli', class extends Apli {});
@@ -5548,10 +5673,6 @@ var byzhtml = (function () {
     // customElements.define('x-tripli', class extends Tripli {});
     // customElements.define('x-tetrapli', class extends Tetrapli {});
     // customElements.define('x-koronis', class extends Koronis {});
-    // customElements.define('x-leimma1', class extends Leimma1 {});
-    // customElements.define('x-leimma2', class extends Leimma2 {});
-    // customElements.define('x-leimma3', class extends Leimma3 {});
-    // customElements.define('x-leimma4', class extends Leimma4 {});
     // customElements.define('x-leimma-dot', class extends LeimmaDot {});
 
     customElements.define('x-g', class extends GorgonAbove {});
@@ -5590,14 +5711,6 @@ var byzhtml = (function () {
       'x-gggd-2',
       class extends TrigorgonDottedRightSecondary {},
     );
-    customElements.define('x-t1', class extends AgogiPoliArgi {});
-    customElements.define('x-t2', class extends AgogiArgoteri {});
-    customElements.define('x-t3', class extends AgogiArgi {});
-    customElements.define('x-t4', class extends AgogiMetria {});
-    customElements.define('x-t5', class extends AgogiMesi {});
-    customElements.define('x-t6', class extends AgogiGorgi {});
-    customElements.define('x-t7', class extends AgogiGorgoteri {});
-    customElements.define('x-t8', class extends AgogiPoliGorgi {});
     customElements.define('x-t1-m', class extends AgogiPoliArgiAbove {});
     customElements.define('x-t2-m', class extends AgogiArgoteriAbove {});
     customElements.define('x-t3-m', class extends AgogiArgiAbove {});
@@ -5606,27 +5719,6 @@ var byzhtml = (function () {
     customElements.define('x-t6-m', class extends AgogiGorgiAbove {});
     customElements.define('x-t7-m', class extends AgogiGorgoteriAbove {});
     customElements.define('x-t8-m', class extends AgogiPoliGorgiAbove {});
-    customElements.define('x-m-zo-low', class extends MartyriaNoteZoLow {});
-    customElements.define('x-m-ni-low', class extends MartyriaNoteNiLow {});
-    customElements.define('x-m-pa-low', class extends MartyriaNotePaLow {});
-    customElements.define('x-m-vou-low', class extends MartyriaNoteVouLow {});
-    customElements.define('x-m-ga-low', class extends MartyriaNoteGaLow {});
-    customElements.define('x-m-di-low', class extends MartyriaNoteDiLow {});
-    customElements.define('x-m-ke-low', class extends MartyriaNoteKeLow {});
-    customElements.define('x-m-zo', class extends MartyriaNoteZo {});
-    customElements.define('x-m-ni', class extends MartyriaNoteNi {});
-    customElements.define('x-m-pa', class extends MartyriaNotePa {});
-    customElements.define('x-m-vou', class extends MartyriaNoteVou {});
-    customElements.define('x-m-ga', class extends MartyriaNoteGa {});
-    customElements.define('x-m-di', class extends MartyriaNoteDi {});
-    customElements.define('x-m-ke', class extends MartyriaNoteKe {});
-    customElements.define('x-m-zo-high', class extends MartyriaNoteZoHigh {});
-    customElements.define('x-m-ni-high', class extends MartyriaNoteNiHigh {});
-    customElements.define('x-m-pa-high', class extends MartyriaNotePaHigh {});
-    customElements.define('x-m-vou-high', class extends MartyriaNoteVouHigh {});
-    customElements.define('x-m-ga-high', class extends MartyriaNoteGaHigh {});
-    customElements.define('x-m-di-high', class extends MartyriaNoteDiHigh {});
-    customElements.define('x-m-ke-high', class extends MartyriaNoteKeHigh {});
     customElements.define('x-m-tick', class extends MartyriaTick {});
     customElements.define('x-m-varys', class extends MartyriaZoBelow {});
     customElements.define('x-m-delta', class extends MartyriaDeltaBelow {});
@@ -5782,12 +5874,6 @@ var byzhtml = (function () {
     customElements.define('x-flat-8', class extends Yfesis8 {});
     customElements.define('x-flat-g', class extends YfesisGenikiAbove {});
     customElements.define('x-flat-g-b', class extends YfesisGenikiBelow {});
-    customElements.define('x-bar', class extends BarlineSingle {});
-    customElements.define('x-bar2', class extends BarlineDouble {});
-    customElements.define('x-bar-th', class extends BarlineTheseos {});
-    customElements.define('x-bar-s', class extends BarlineShortSingle {});
-    customElements.define('x-bar2-s', class extends BarlineShortDouble {});
-    customElements.define('x-bar-th-s', class extends BarlineShortTheseos {});
     customElements.define('x-mn2', class extends MeasureNumber2 {});
     customElements.define('x-mn3', class extends MeasureNumber3 {});
     customElements.define('x-mn4', class extends MeasureNumber4 {});
@@ -5813,71 +5899,6 @@ var byzhtml = (function () {
     customElements.define('x-ii-di', class extends IsonIndicatorDi {});
     customElements.define('x-ii-ke', class extends IsonIndicatorKe {});
     customElements.define('x-ii-zo-high', class extends IsonIndicatorZoHigh {});
-    customElements.define('x-gor', class extends Gorthmikon {});
-    customElements.define('x-pel', class extends Pelastikon {});
-    // customElements.define('x-mode-first', class extends ModeFirst {});
-    // customElements.define('x-mode-second', class extends ModeSecond {});
-    // customElements.define('x-mode-third', class extends ModeThird {});
-    // customElements.define('x-mode-third-nana', class extends ModeThirdNana {});
-    // customElements.define('x-mode-fourth', class extends ModeFourth {});
-    // customElements.define('x-mode-legetos', class extends ModeLegetos {});
-    // customElements.define(
-    //   'x-mode-plagal-first',
-    //   class extends ModePlagalFirst {},
-    // );
-    // customElements.define(
-    //   'x-mode-plagal-second',
-    //   class extends ModePlagalSecond {},
-    // );
-    // customElements.define('x-mode-varys', class extends ModeVarys {});
-    // customElements.define('x-mode-varys2', class extends ModeVarys2 {});
-    // customElements.define(
-    //   'x-mode-plagal-fourth',
-    //   class extends ModePlagalFourth {},
-    // );
-    // customElements.define('x-mode-ni', class extends ModeNi {});
-    // customElements.define('x-mode-pa', class extends ModePa {});
-    // customElements.define('x-mode-vou', class extends ModeVou {});
-    // customElements.define('x-mode-ga', class extends ModeGa {});
-    // customElements.define('x-mode-di', class extends ModeDi {});
-    // customElements.define('x-mode-ke', class extends ModeKe {});
-    // customElements.define('x-mode-zo', class extends ModeZo {});
-    // customElements.define(
-    //   'x-mode-oligon-kentima-t',
-    //   class extends ModeOligonKentimaAbove {},
-    // );
-    // customElements.define(
-    //   'x-mode-oligon-ypsili',
-    //   class extends ModeOligonYpsili {},
-    // );
-    // customElements.define('x-mode-elafron', class extends ModeElafron {});
-    // customElements.define(
-    //   'x-mode-running-elafron',
-    //   class extends ModeRunningElafron {},
-    // );
-    // customElements.define('x-mode-plagal', class extends ModePlagal {});
-    // customElements.define('x-mode-word-echos', class extends ModeWordEchos {});
-    // customElements.define('x-mode-word-varys', class extends ModeWordVarys {});
-    // customElements.define('x-mode-alpha', class extends ModeAlpha {});
-    // customElements.define('x-mode-beta', class extends ModeBeta {});
-    // customElements.define('x-mode-gamma', class extends ModeGamma {});
-    // customElements.define('x-mode-delta', class extends ModeDelta {});
-    // customElements.define(
-    //   'x-mode-alpha-capital',
-    //   class extends ModeAlphaCapital {},
-    // );
-    // customElements.define(
-    //   'x-mode-beta-capital',
-    //   class extends ModeBetaCapital {},
-    // );
-    // customElements.define(
-    //   'x-mode-gamma-capital',
-    //   class extends ModeGammaCapital {},
-    // );
-    // customElements.define(
-    //   'x-mode-delta-capital',
-    //   class extends ModeDeltaCapital {},
-    // );
   }
 
   function defineCustomElements() {
@@ -5897,8 +5918,12 @@ var byzhtml = (function () {
     customElements.define('x-spacer-apostrofos', SpacerApostrofos);
     customElements.define('x-spacer-vareia', SpacerVareia);
 
-    defineCustomElementsCharactersCodegen();
-    defineCustomElementsCharacterAliases();
+    // IMPORTANT: MUST DEFINE BODY NEUMES FIRST
+    defineCustomElementsCharactersBodyCodegen();
+    defineCustomElementsCharactersBodyAliases();
+
+    defineCustomElementsCharactersMarkCodegen();
+    defineCustomElementsCharactersMarkAliases();
   }
 
   function isWebkit() {
