@@ -9,7 +9,7 @@
 <div class="byz--neume-paragraph">
   <x-dc>W</x-dc
   ><x-n
-    ><x-ok></x-ok
+    ><x-o3></x-o3
     ><x-ii-pa class="byz--ison"></x-ii-pa
     ><x-ly slot="lyric">hat</x-ly></x-n
   ><x-n
@@ -466,7 +466,7 @@
     ><x-m-pa></x-m-pa
     ><x-m-hc-pa></x-m-hc-pa></x-m
   ><x-n
-    ><x-ok></x-ok><x-psi></x-psi
+    ><x-o3></x-o3><x-psi></x-psi
     ><x-ly slot="lyric">Where</x-ly
     ><x-mel auto hyphen slot="melisma"></x-mel></x-n
   ><x-n
@@ -490,7 +490,7 @@
     ><x-a></x-a><x-kl></x-kl
     ><x-ly slot="lyric">ren,</x-ly></x-n
   ><x-n
-    ><x-ok></x-ok><x-psi></x-psi
+    ><x-o3></x-o3><x-psi></x-psi
     ><x-ly slot="lyric">med</x-ly
     ><x-mel auto hyphen slot="melisma"></x-mel></x-n
   ><x-n
@@ -631,7 +631,7 @@
     ><x-i></x-i><x-ly slot="lyric">a</x-ly
     ><x-mel auto hyphen slot="melisma"></x-mel></x-n
   ><x-n
-    ><x-ok></x-ok
+    ><x-o3></x-o3
     ><x-ly slot="lyric">gain,</x-ly></x-n
   ><x-n><x-i></x-i><x-ly slot="lyric">when</x-ly></x-n
   ><x-n><x-i></x-i><x-ly slot="lyric">the</x-ly></x-n
@@ -1400,7 +1400,7 @@
     ><x-m-legetos></x-m-legetos></x-m
   ><x-n><x-i></x-i><x-ly slot="lyric">from</x-ly></x-n
   ><x-n
-    ><x-ok></x-ok
+    ><x-o3></x-o3
     ><x-ly slot="lyric">bod</x-ly
     ><x-mel auto hyphen slot="melisma"></x-mel></x-n
   ><x-n><x-k></x-k></x-n
@@ -1538,7 +1538,7 @@
   ><x-n><x-i></x-i><x-ly slot="lyric">in</x-ly></x-n
   ><x-n><x-i></x-i><x-ly slot="lyric">the</x-ly></x-n
   ><x-n
-    ><x-ok></x-ok
+    ><x-o3></x-o3
     ><x-ly slot="lyric">tents</x-ly
     ><x-mel auto slot="melisma"></x-mel></x-n
   ><x-n><x-k></x-k></x-n
@@ -1706,7 +1706,7 @@
     ><x-ea></x-ea
     ><x-ly slot="lyric">the</x-ly></x-n
   ><x-n
-    ><x-ok></x-ok
+    ><x-o3></x-o3
     ><x-ly slot="lyric">right</x-ly
     ><x-mel auto hyphen slot="melisma"></x-mel></x-n
   ><x-n><x-i></x-i><x-ly slot="lyric">eous</x-ly></x-n
@@ -1843,7 +1843,7 @@
     ><x-m-vou></x-m-vou
     ><x-m-sc-di></x-m-sc-di></x-m
   ><x-n
-    ><x-ok></x-ok
+    ><x-o3></x-o3
     ><x-ly slot="lyric">for</x-ly></x-n
   ><x-n
     ><x-ok></x-ok
@@ -2171,7 +2171,7 @@
     ><x-a></x-a><x-ly slot="lyric">by</x-ly></x-n
   ><x-n><x-i></x-i><x-ly slot="lyric">the</x-ly></x-n
   ><x-n
-    ><x-ok></x-ok
+    ><x-o3></x-o3
     ><x-ly slot="lyric">en</x-ly
     ><x-mel auto hyphen slot="melisma"></x-mel></x-n
   ><x-n><x-i></x-i><x-ly slot="lyric">vy</x-ly></x-n

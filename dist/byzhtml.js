@@ -3096,38 +3096,38 @@ var byzhtml = (function () {
   const glyphname$38 = 'leimma1';
   const args$38 = {};
 
-  let Leimma1$1 = class Leimma1 extends BaseBody {
+  class Leimma1 extends BaseBody {
     constructor() {
       super(glyphname$38, args$38);
     }
-  };
+  }
 
   const glyphname$37 = 'leimma2';
   const args$37 = {};
 
-  let Leimma2$1 = class Leimma2 extends BaseBody {
+  class Leimma2 extends BaseBody {
     constructor() {
       super(glyphname$37, args$37);
     }
-  };
+  }
 
   const glyphname$36 = 'leimma3';
   const args$36 = {};
 
-  let Leimma3$1 = class Leimma3 extends BaseBody {
+  class Leimma3 extends BaseBody {
     constructor() {
       super(glyphname$36, args$36);
     }
-  };
+  }
 
   const glyphname$35 = 'leimma4';
   const args$35 = {};
 
-  let Leimma4$1 = class Leimma4 extends BaseBody {
+  class Leimma4 extends BaseBody {
     constructor() {
       super(glyphname$35, args$35);
     }
-  };
+  }
 
   const glyphname$34 = 'leimmaDot';
   const args$34 = {};
@@ -5074,10 +5074,10 @@ var byzhtml = (function () {
     customElements.define('x-stavros', Stavros);
     customElements.define('x-breath', Breath);
 
-    customElements.define('x-leimma1', Leimma1$1);
-    customElements.define('x-leimma2', Leimma2$1);
-    customElements.define('x-leimma3', Leimma3$1);
-    customElements.define('x-leimma4', Leimma4$1);
+    customElements.define('x-leimma1', Leimma1);
+    customElements.define('x-leimma2', Leimma2);
+    customElements.define('x-leimma3', Leimma3);
+    customElements.define('x-leimma4', Leimma4);
 
     customElements.define('x-martyria-note-zo-low', MartyriaNoteZoLow);
     customElements.define('x-martyria-note-ni-low', MartyriaNoteNiLow);
