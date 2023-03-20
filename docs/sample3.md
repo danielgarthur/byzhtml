@@ -10,7 +10,6 @@
   <x-dc>W</x-dc
   ><x-n
     ><x-o3></x-o3
-    ><x-ii-pa class="byz--ison"></x-ii-pa
     ><x-ly slot="lyric">hat</x-ly></x-n
   ><x-n
     ><x-i></x-i><x-ly slot="lyric">de</x-ly
@@ -267,7 +266,6 @@
   <x-dc>W</x-dc
   ><x-n
     ><x-o2></x-o2><x-psi></x-psi
-    ><x-ii-pa class="byz--ison"></x-ii-pa
     ><x-ly slot="lyric">oe</x-ly></x-n
   ><x-n
     ><x-a></x-a><x-ly slot="lyric">is</x-ly></x-n
@@ -580,7 +578,6 @@
   <x-dc>E</x-dc
   ><x-n
     ><x-o4></x-o4
-    ><x-ii-pa class="byz--ison"></x-ii-pa
     ><x-ly slot="lyric">v'</x-ly></x-n
   ><x-n><x-i></x-i><x-ly slot="lyric">ry</x-ly></x-n
   ><x-n
@@ -779,7 +776,6 @@
   <x-dc>A</x-dc
   ><x-n
     ><x-o></x-o
-    ><x-ii-ni class="byz--ison"></x-ii-ni
     ><x-ly slot="lyric">ll</x-ly></x-n
   ><x-n
     ><x-o2></x-o2><x-psi></x-psi
@@ -802,12 +798,11 @@
   ><x-n
     ><x-a></x-a><x-ly slot="lyric">ter</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-diesis-2></x-diesis-2
+    ><x-a></x-a><x-di2></x-di-2
     ><x-ly slot="lyric">death</x-ly></x-n
   ><x-n><x-o></x-o><x-ly slot="lyric">are</x-ly></x-n
   ><x-n
     ><x-o></x-o
-    ><x-ii-ga class="byz--ison"></x-ii-ga
     ><x-ly slot="lyric">van</x-ly
     ><x-mel auto hyphen slot="melisma"></x-mel></x-n
   ><x-n
@@ -821,7 +816,6 @@
     ><x-m-alpha-aa></x-m-alpha-aa></x-m
   ><x-n
     ><x-e></x-e
-    ><x-ii-pa class="byz--ison"></x-ii-pa
     ><x-ly slot="lyric">Rich</x-ly
     ><x-mel auto hyphen slot="melisma"></x-mel></x-n
   ><x-n><x-k></x-k></x-n
@@ -844,7 +838,6 @@
     ><x-m-alpha></x-m-alpha></x-m
   ><x-n
     ><x-p3></x-p3
-    ><x-ii-ga class="byz--ison"></x-ii-ga
     ><x-ly slot="lyric">nei</x-ly
     ><x-mel auto hyphen slot="melisma"></x-mel></x-n
   ><x-n><x-e></x-e><x-ly slot="lyric">ther</x-ly></x-n
@@ -928,7 +921,7 @@
     ><x-ly slot="lyric">let</x-ly
     ><x-mel auto slot="melisma"></x-mel></x-n
   ><x-n
-    ><x-re></x-re><x-diesis-2></x-diesis-2
+    ><x-re></x-re><x-di2></x-di2
     ><x-ly slot="lyric">us</x-ly></x-n
   ><x-n><x-o></x-o><x-ly slot="lyric">cry</x-ly></x-n
   ><x-n
@@ -1029,7 +1022,7 @@
     ><x-vareia></x-vareia><x-a></x-a
     ><x-ly slot="lyric">in</x-ly
     ><x-mel auto slot="melisma"></x-mel></x-n
-  ><x-n><x-a></x-a><x-diesis-2></x-diesis-2></x-n
+  ><x-n><x-a></x-a><x-di2></x-di2></x-n
   ><x-n
     ><x-o></x-o><x-kl></x-kl
     ><x-ly slot="lyric">Thee.</x-ly></x-n
@@ -1046,7 +1039,6 @@
   <x-dc>W</x-dc
   ><x-n
     ><x-p2></x-p2
-    ><x-ii-vou class="byz--ison"></x-ii-vou
     ><x-ly slot="lyric">here</x-ly></x-n
   ><x-n
     ><x-a></x-a><x-ly slot="lyric">is</x-ly></x-n
@@ -1246,7 +1238,6 @@
     ><x-ly slot="lyric">thy</x-ly></x-n
   ><x-n
     ><x-ea></x-ea
-    ><x-ii-pa class="byz--ison"></x-ii-pa
     ><x-ly slot="lyric">of</x-ly></x-n
   ><x-n><x-o></x-o><x-ly slot="lyric">Thine</x-ly></x-n
   ><x-n
@@ -1269,7 +1260,6 @@
     ><x-m-alpha></x-m-alpha></x-m
   ><x-n
     ><x-p3></x-p3
-    ><x-ii-vou class="byz--ison"></x-ii-vou
     ><x-ly slot="lyric">them</x-ly></x-n
   ><x-n
     ><x-a></x-a><x-ly slot="lyric">that</x-ly></x-n
@@ -1336,7 +1326,6 @@
   <x-dc>T</x-dc
   ><x-n
     ><x-p3></x-p3
-    ><x-ii-vou class="byz--ison"></x-ii-vou
     ><x-ly slot="lyric">ru</x-ly
     ><x-mel auto hyphen slot="melisma"></x-mel></x-n
   ><x-n
@@ -1591,7 +1580,7 @@
   <x-dc>I</x-dc
   ><x-n
     ><x-i></x-i
-    ><x-ii-ke class="byz--ison"></x-ii-ke></x-n
+    ></x-n
   ><x-n><x-p></x-p><x-ly slot="lyric">called</x-ly></x-n
   ><x-n><x-e></x-e><x-ly slot="lyric">to</x-ly></x-n
   ><x-n><x-o></x-o><x-ly slot="lyric">mind</x-ly></x-n
@@ -1763,12 +1752,10 @@
   ><x-n
     ><x-a></x-a><x-ly slot="lyric">Thou</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-diesis-4></x-diesis-4
-    ><x-ly slot="lyric">art</x-ly></x-n
+    ><x-a></x-a><x-ly slot="lyric">art</x-ly></x-n
   ><x-n><x-o></x-o><x-ly slot="lyric">the</x-ly></x-n
   ><x-n
-    ><x-ok></x-ok><x-yfesis-4></x-yfesis-4
-    ><x-ly slot="lyric">Friend</x-ly></x-n
+    ><x-ok></x-ok><x-ly slot="lyric">Friend</x-ly></x-n
   ><x-n
     ><x-vareia></x-vareia><x-i></x-i><x-ly slot="lyric">of</x-ly
     ><x-mel auto slot="melisma"></x-mel></x-n
@@ -1795,7 +1782,6 @@
   <x-dc>T</x-dc
   ><x-n
     ><x-p2></x-p2
-    ><x-ii-di class="byz--ison"></x-ii-di
     ><x-ly slot="lyric">hy</x-ly></x-n
   ><x-n
     ><x-a></x-a><x-ly slot="lyric">cre</x-ly
@@ -2040,7 +2026,6 @@
   <x-dc>W</x-dc
   ><x-n
     ><x-p></x-p
-    ><x-ii-ga class="byz--ison"></x-ii-ga
     ><x-ly slot="lyric">hen</x-ly></x-n
   ><x-n
     ><x-a></x-a><x-ly slot="lyric">in</x-ly></x-n
@@ -2304,7 +2289,7 @@
   ><x-n
     ><x-a></x-a><x-ly slot="lyric">for</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-diesis-2></x-diesis-2
+    ><x-a></x-a><x-di2></x-di2
     ><x-ly slot="lyric">re</x-ly
     ><x-mel auto hyphen slot="melisma"></x-mel></x-n
   ><x-n
@@ -2320,7 +2305,6 @@
   <x-dc>G</x-dc
   ><x-n
     ><x-i></x-i
-    ><x-ii-ga class="byz--ison"></x-ii-ga
     ><x-ly slot="lyric">rant</x-ly></x-n
   ><x-n><x-p></x-p><x-ly slot="lyric">rest,</x-ly></x-n
   ><x-n
@@ -2403,7 +2387,7 @@
     ><x-vareia></x-vareia><x-a></x-a
     ><x-ly slot="lyric">to</x-ly
     ><x-mel auto slot="melisma"></x-mel></x-n
-  ><x-n><x-a></x-a><x-diesis-2></x-diesis-2></x-n
+  ><x-n><x-a></x-a><x-di2></x-di2></x-n
   ><x-n
     ><x-o></x-o><x-kl></x-kl
     ><x-ly slot="lyric">Thee.</x-ly></x-n
@@ -2420,7 +2404,7 @@
   <x-dc>I</x-dc
   ><x-n
     ><x-i></x-i
-    ><x-ii-ni class="byz--ison"></x-ii-ni></x-n
+    ></x-n
   ><x-n
     ><x-p2></x-p2
     ><x-ly slot="lyric">weep</x-ly></x-n
@@ -2726,7 +2710,6 @@
   <x-dc>G</x-dc
   ><x-n
     ><x-p5></x-p5
-    ><x-ii-ni class="byz--ison"></x-ii-ni
     ><x-ly slot="lyric">lor</x-ly
     ><x-mel slot="melisma" auto hyphen></x-mel></x-n
   ><x-n
@@ -2772,7 +2755,6 @@
   <x-dc>T</x-dc
   ><x-n
     ><x-i></x-i
-    ><x-ii-ni class="byz--ison"></x-ii-ni
     ><x-ly slot="lyric">hy</x-ly></x-n
   ><x-n
     ><x-o2-m></x-o2-m
@@ -2970,7 +2952,7 @@
   <x-dc>O</x-dc
   ><x-n
     ><x-o2-m></x-o2-m
-    ><x-ii-ni class="byz--ison"></x-ii-ni></x-n
+    ></x-n
   ><x-n><x-o></x-o><x-ly slot="lyric">pure</x-ly></x-n
   ><x-n
     ><x-o></x-o><x-ly slot="lyric">Vir</x-ly
