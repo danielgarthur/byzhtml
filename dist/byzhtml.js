@@ -2834,7 +2834,7 @@ var byzhtml = (function () {
               break;
             }
 
-            if (previousSibling.nodeName === 'X-VAREIA') {
+            if (previousSibling.nodeName.startsWith('X-VAR')) {
               offset.x += byzhtml.fontService.getAdvanceWidth(
                 fontFamily,
                 previousSibling.glyphname,
@@ -5299,16 +5299,16 @@ var byzhtml = (function () {
     customElements.define('x-chroa-zygos-below', ChroaZygosBelow);
     customElements.define('x-chroa-kliton-below', ChroaKlitonBelow);
     customElements.define('x-chroa-spathi-below', ChroaSpathiBelow);
-    customElements.define('x-diesis2', Diesis2);
-    customElements.define('x-diesis4', Diesis4);
-    customElements.define('x-diesis6', Diesis6);
-    customElements.define('x-diesis8', Diesis8);
+    customElements.define('x-diesis-2', Diesis2);
+    customElements.define('x-diesis-4', Diesis4);
+    customElements.define('x-diesis-6', Diesis6);
+    customElements.define('x-diesis-8', Diesis8);
     customElements.define('x-diesis-geniki-above', DiesisGenikiAbove);
     customElements.define('x-diesis-geniki-below', DiesisGenikiBelow);
-    customElements.define('x-yfesis2', Yfesis2);
-    customElements.define('x-yfesis4', Yfesis4);
-    customElements.define('x-yfesis6', Yfesis6);
-    customElements.define('x-yfesis8', Yfesis8);
+    customElements.define('x-yfesis-2', Yfesis2);
+    customElements.define('x-yfesis-4', Yfesis4);
+    customElements.define('x-yfesis-6', Yfesis6);
+    customElements.define('x-yfesis-8', Yfesis8);
     customElements.define('x-yfesis-geniki-above', YfesisGenikiAbove);
     customElements.define('x-yfesis-geniki-below', YfesisGenikiBelow);
     customElements.define('x-barline-single', BarlineSingle);
@@ -5379,18 +5379,526 @@ var byzhtml = (function () {
     customElements.define('x-mode-delta-capital', ModeDeltaCapital);
   }
 
+  // import { ModeFirst } from '../components/characters/codegen/ModeFirst.js';
+  // import { ModeSecond } from '../components/characters/codegen/ModeSecond.js';
+  // import { ModeThird } from '../components/characters/codegen/ModeThird.js';
+  // import { ModeThirdNana } from '../components/characters/codegen/ModeThirdNana.js';
+  // import { ModeFourth } from '../components/characters/codegen/ModeFourth.js';
+  // import { ModeLegetos } from '../components/characters/codegen/ModeLegetos.js';
+  // import { ModePlagalFirst } from '../components/characters/codegen/ModePlagalFirst.js';
+  // import { ModePlagalSecond } from '../components/characters/codegen/ModePlagalSecond.js';
+  // import { ModeVarys } from '../components/characters/codegen/ModeVarys.js';
+  // import { ModeVarys2 } from '../components/characters/codegen/ModeVarys2.js';
+  // import { ModePlagalFourth } from '../components/characters/codegen/ModePlagalFourth.js';
+  // import { ModeNi } from '../components/characters/codegen/ModeNi.js';
+  // import { ModePa } from '../components/characters/codegen/ModePa.js';
+  // import { ModeVou } from '../components/characters/codegen/ModeVou.js';
+  // import { ModeGa } from '../components/characters/codegen/ModeGa.js';
+  // import { ModeDi } from '../components/characters/codegen/ModeDi.js';
+  // import { ModeKe } from '../components/characters/codegen/ModeKe.js';
+  // import { ModeZo } from '../components/characters/codegen/ModeZo.js';
+  // import { ModeOligonKentimaAbove } from '../components/characters/codegen/ModeOligonKentimaAbove.js';
+  // import { ModeOligonYpsili } from '../components/characters/codegen/ModeOligonYpsili.js';
+  // import { ModeElafron } from '../components/characters/codegen/ModeElafron.js';
+  // import { ModeRunningElafron } from '../components/characters/codegen/ModeRunningElafron.js';
+  // import { ModePlagal } from '../components/characters/codegen/ModePlagal.js';
+  // import { ModeWordEchos } from '../components/characters/codegen/ModeWordEchos.js';
+  // import { ModeWordVarys } from '../components/characters/codegen/ModeWordVarys.js';
+  // import { ModeAlpha } from '../components/characters/codegen/ModeAlpha.js';
+  // import { ModeBeta } from '../components/characters/codegen/ModeBeta.js';
+  // import { ModeGamma } from '../components/characters/codegen/ModeGamma.js';
+  // import { ModeDelta } from '../components/characters/codegen/ModeDelta.js';
+  // import { ModeAlphaCapital } from '../components/characters/codegen/ModeAlphaCapital.js';
+  // import { ModeBetaCapital } from '../components/characters/codegen/ModeBetaCapital.js';
+  // import { ModeGammaCapital } from '../components/characters/codegen/ModeGammaCapital.js';
+  // import { ModeDeltaCapital } from '../components/characters/codegen/ModeDeltaCapital.js';
+
+  function defineCustomElementsCharacterAliases() {
+    customElements.define('x-i', class extends Ison {});
+    customElements.define('x-o', class extends Oligon {});
+    customElements.define('x-o1', class extends Oligon {});
+    customElements.define('x-o2-m', class extends OligonKentimaMiddle {});
+    customElements.define('x-o2', class extends OligonKentimaBelow {});
+    customElements.define('x-o3', class extends OligonKentimaAbove {});
+    customElements.define('x-o4', class extends OligonYpsiliRight {});
+    customElements.define('x-o5', class extends OligonYpsiliLeft {});
+    customElements.define('x-o6', class extends OligonKentimaYpsiliRight {});
+    customElements.define('x-o7', class extends OligonKentimaYpsiliMiddle {});
+    customElements.define('x-o8', class extends OligonDoubleYpsili {});
+    customElements.define('x-o9', class extends OligonKentimataDoubleYpsili {});
+    customElements.define(
+      'x-o10',
+      class extends OligonKentimaDoubleYpsiliRight {},
+    );
+    customElements.define(
+      'x-o11',
+      class extends OligonKentimaDoubleYpsiliLeft {},
+    );
+    customElements.define('x-o12', class extends OligonTripleYpsili {});
+    customElements.define('x-o13', class extends OligonKentimataTripleYpsili {});
+    customElements.define('x-o14', class extends OligonKentimaTripleYpsili {});
+    customElements.define('x-o-i', class extends OligonIson {});
+    customElements.define('x-o-a', class extends OligonApostrofos {});
+    customElements.define('x-o-y', class extends OligonYporroi {});
+    customElements.define('x-o-e', class extends OligonElafron {});
+    customElements.define('x-o-ea', class extends OligonElafronApostrofos {});
+    customElements.define('x-o-ch', class extends OligonChamili {});
+    customElements.define('x-i-a', class extends IsonApostrofos {});
+    customElements.define('x-a', class extends Apostrofos {});
+    customElements.define('x-aa', class extends ApostrofosSyndesmos {});
+    customElements.define('x-y', class extends Yporroi {});
+    customElements.define('x-e', class extends Elafron {});
+    customElements.define('x-re', class extends RunningElafron {});
+    customElements.define('x-ea', class extends ElafronApostrofos {});
+    customElements.define('x-ch', class extends Chamili {});
+    customElements.define('x-ch4', class extends Chamili {});
+    customElements.define('x-ch5', class extends ChamiliApostrofos {});
+    customElements.define('x-ch6', class extends ChamiliElafron {});
+    customElements.define('x-ch7', class extends ChamiliElafronApostrofos {});
+    customElements.define('x-ch8', class extends DoubleChamili {});
+    customElements.define('x-ch9', class extends DoubleChamiliApostrofos {});
+    customElements.define('x-ch10', class extends DoubleChamiliElafron {});
+    customElements.define(
+      'x-ch11',
+      class extends DoubleChamiliElafronApostrofos {},
+    );
+    customElements.define('x-ch12', class extends TripleChamili {});
+    customElements.define('x-p0', class extends PetastiIson {});
+    customElements.define('x-p-i', class extends PetastiIson {});
+    customElements.define('x-p', class extends Petasti {});
+    customElements.define('x-p1', class extends Petasti {});
+    customElements.define('x-p2', class extends PetastiOligon {});
+    customElements.define('x-p3', class extends PetastiKentima {});
+    customElements.define('x-p4', class extends PetastiYpsiliRight {});
+    customElements.define('x-p5', class extends PetastiYpsiliLeft {});
+    customElements.define('x-p6', class extends PetastiKentimaYpsiliRight {});
+    customElements.define('x-p7', class extends PetastiKentimaYpsiliMiddle {});
+    customElements.define('x-p8', class extends PetastiDoubleYpsili {});
+    customElements.define('x-p9', class extends PetastiKentimataDoubleYpsili {});
+    customElements.define(
+      'x-p10',
+      class extends PetastiKentimaDoubleYpsiliRight {},
+    );
+    customElements.define(
+      'x-p11',
+      class extends PetastiKentimaDoubleYpsiliLeft {},
+    );
+    customElements.define('x-p12', class extends PetastiTripleYpsili {});
+    customElements.define('x-p13', class extends PetastiKentimataTripleYpsili {});
+    customElements.define('x-p14', class extends PetastiKentimaTripleYpsili {});
+    customElements.define('x-p-a', class extends PetastiApostrofos {});
+    customElements.define('x-p-y', class extends PetastiYporroi {});
+    customElements.define('x-p-e', class extends PetastiElafron {});
+    customElements.define('x-p-re', class extends PetastiRunningElafron {});
+    customElements.define('x-p-ea', class extends PetastiElafronApostrofos {});
+    customElements.define('x-p-ch', class extends PetastiChamili {});
+    customElements.define('x-p-ch4', class extends PetastiChamili {});
+    customElements.define('x-p-ch5', class extends PetastiChamiliApostrofos {});
+    customElements.define('x-p-ch6', class extends PetastiChamiliElafron {});
+    customElements.define(
+      'x-p-ch7',
+      class extends PetastiChamiliElafronApostrofos {},
+    );
+    customElements.define('x-p-ch8', class extends PetastiDoubleChamili {});
+    customElements.define(
+      'x-p-ch9',
+      class extends PetastiDoubleChamiliApostrofos {},
+    );
+    // customElements.define('x-kentima', class extends Kentima {});
+    customElements.define('x-k', class extends Kentimata {});
+    customElements.define('x-ko', class extends OligonKentimataBelow {});
+    customElements.define('x-ok', class extends OligonKentimataAbove {});
+    customElements.define('x-o-i-k', class extends OligonIsonKentimata {});
+    customElements.define(
+      'x-o2-m-k',
+      class extends OligonKentimaMiddleKentimata {},
+    );
+    customElements.define('x-o4-k', class extends OligonYpsiliRightKentimata {});
+    customElements.define('x-o5-k', class extends OligonYpsiliLeftKentimata {});
+    customElements.define('x-oa-k', class extends OligonApostrofosKentimata {});
+    customElements.define('x-oy-k', class extends OligonYporroiKentimata {});
+    customElements.define('x-oe-k', class extends OligonElafronKentimata {});
+    customElements.define(
+      'x-o-re-k',
+      class extends OligonRunningElafronKentimata {},
+    );
+    customElements.define(
+      'x-o-ea-k',
+      class extends OligonElafronApostrofosKentimata {},
+    );
+    customElements.define('x-o-ch-k', class extends OligonChamiliKentimata {});
+    customElements.define('x-var', class extends Vareia {});
+    customElements.define('x-psi', class extends Psifiston {});
+    customElements.define('x-anti', class extends Antikenoma {});
+    customElements.define('x-om', class extends Omalon {});
+    customElements.define('x-om-c', class extends OmalonConnecting {});
+    customElements.define('x-het', class extends Heteron {});
+    customElements.define('x-et', class extends Heteron {});
+    customElements.define('x-het-c', class extends HeteronConnecting {});
+    customElements.define('x-et-c', class extends HeteronConnecting {});
+    // customElements.define('x-endofonon', class extends Endofonon {});
+    // customElements.define('x-yfen-t', class extends YfenAbove {});
+    // customElements.define('x-yfen-b', class extends YfenBelow {});
+    // customElements.define('x-stavros', class extends Stavros {});
+    // customElements.define('x-breath', class extends Breath {});
+    customElements.define('x-kl', class extends KlasmaAbove {});
+    customElements.define('x-kl-b', class extends KlasmaBelow {});
+    // customElements.define('x-apli', class extends Apli {});
+    // customElements.define('x-dipli', class extends Dipli {});
+    // customElements.define('x-tripli', class extends Tripli {});
+    // customElements.define('x-tetrapli', class extends Tetrapli {});
+    // customElements.define('x-koronis', class extends Koronis {});
+    // customElements.define('x-leimma1', class extends Leimma1 {});
+    // customElements.define('x-leimma2', class extends Leimma2 {});
+    // customElements.define('x-leimma3', class extends Leimma3 {});
+    // customElements.define('x-leimma4', class extends Leimma4 {});
+    // customElements.define('x-leimma-dot', class extends LeimmaDot {});
+
+    customElements.define('x-g', class extends GorgonAbove {});
+    customElements.define('x-g-b', class extends GorgonBelow {});
+    customElements.define('x-dg', class extends GorgonDottedLeft {});
+    customElements.define('x-gd', class extends GorgonDottedRight {});
+    customElements.define('x-gg', class extends Digorgon {});
+    customElements.define('x-dgg', class extends DigorgonDottedLeftBelow {});
+    customElements.define('x-gdg', class extends DigorgonDottedLeftAbove {});
+    customElements.define('x-ggd', class extends DigorgonDottedRight {});
+    customElements.define('x-ggg', class extends Trigorgon {});
+    customElements.define('x-dggg', class extends TrigorgonDottedLeftBelow {});
+    customElements.define('x-ggdg', class extends TrigorgonDottedLeftAbove {});
+    customElements.define('x-gggd', class extends TrigorgonDottedRight {});
+    // customElements.define('x-argon', class extends Argon {});
+    // customElements.define('x-diargon', class extends Diargon {});
+    // customElements.define('x-triargon', class extends Triargon {});
+    customElements.define('x-g-2', class extends GorgonSecondary {});
+    customElements.define('x-dg-2', class extends GorgonDottedLeftSecondary {});
+    customElements.define('x-gd-2', class extends GorgonDottedRightSecondary {});
+    customElements.define('x-gg-2', class extends DigorgonSecondary {});
+    customElements.define(
+      'x-dgg-2',
+      class extends DigorgonDottedLeftBelowSecondary {},
+    );
+    customElements.define(
+      'x-ggd-2',
+      class extends DigorgonDottedRightSecondary {},
+    );
+    customElements.define('x-ggg-2', class extends TrigorgonSecondary {});
+    customElements.define(
+      'x-ggdg-2',
+      class extends TrigorgonDottedLeftBelowSecondary {},
+    );
+    customElements.define(
+      'x-gggd-2',
+      class extends TrigorgonDottedRightSecondary {},
+    );
+    customElements.define('x-t1', class extends AgogiPoliArgi {});
+    customElements.define('x-t2', class extends AgogiArgoteri {});
+    customElements.define('x-t3', class extends AgogiArgi {});
+    customElements.define('x-t4', class extends AgogiMetria {});
+    customElements.define('x-t5', class extends AgogiMesi {});
+    customElements.define('x-t6', class extends AgogiGorgi {});
+    customElements.define('x-t7', class extends AgogiGorgoteri {});
+    customElements.define('x-t8', class extends AgogiPoliGorgi {});
+    customElements.define('x-t1-m', class extends AgogiPoliArgiAbove {});
+    customElements.define('x-t2-m', class extends AgogiArgoteriAbove {});
+    customElements.define('x-t3-m', class extends AgogiArgiAbove {});
+    customElements.define('x-t4-m', class extends AgogiMetriaAbove {});
+    customElements.define('x-t5-m', class extends AgogiMesiAbove {});
+    customElements.define('x-t6-m', class extends AgogiGorgiAbove {});
+    customElements.define('x-t7-m', class extends AgogiGorgoteriAbove {});
+    customElements.define('x-t8-m', class extends AgogiPoliGorgiAbove {});
+    customElements.define('x-m-zo-low', class extends MartyriaNoteZoLow {});
+    customElements.define('x-m-ni-low', class extends MartyriaNoteNiLow {});
+    customElements.define('x-m-pa-low', class extends MartyriaNotePaLow {});
+    customElements.define('x-m-vou-low', class extends MartyriaNoteVouLow {});
+    customElements.define('x-m-ga-low', class extends MartyriaNoteGaLow {});
+    customElements.define('x-m-di-low', class extends MartyriaNoteDiLow {});
+    customElements.define('x-m-ke-low', class extends MartyriaNoteKeLow {});
+    customElements.define('x-m-zo', class extends MartyriaNoteZo {});
+    customElements.define('x-m-ni', class extends MartyriaNoteNi {});
+    customElements.define('x-m-pa', class extends MartyriaNotePa {});
+    customElements.define('x-m-vou', class extends MartyriaNoteVou {});
+    customElements.define('x-m-ga', class extends MartyriaNoteGa {});
+    customElements.define('x-m-di', class extends MartyriaNoteDi {});
+    customElements.define('x-m-ke', class extends MartyriaNoteKe {});
+    customElements.define('x-m-zo-high', class extends MartyriaNoteZoHigh {});
+    customElements.define('x-m-ni-high', class extends MartyriaNoteNiHigh {});
+    customElements.define('x-m-pa-high', class extends MartyriaNotePaHigh {});
+    customElements.define('x-m-vou-high', class extends MartyriaNoteVouHigh {});
+    customElements.define('x-m-ga-high', class extends MartyriaNoteGaHigh {});
+    customElements.define('x-m-di-high', class extends MartyriaNoteDiHigh {});
+    customElements.define('x-m-ke-high', class extends MartyriaNoteKeHigh {});
+    customElements.define('x-m-tick', class extends MartyriaTick {});
+    customElements.define('x-m-varys', class extends MartyriaZoBelow {});
+    customElements.define('x-m-delta', class extends MartyriaDeltaBelow {});
+    customElements.define('x-m-alpha', class extends MartyriaAlphaBelow {});
+    customElements.define('x-m-legetos', class extends MartyriaLegetosBelow {});
+    customElements.define('x-m-nana', class extends MartyriaNanaBelow {});
+    customElements.define(
+      'x-m-delta-aa',
+      class extends MartyriaDeltaDottedBelow {},
+    );
+    customElements.define(
+      'x-m-alpha-aa',
+      class extends MartyriaAlphaDottedBelow {},
+    );
+    customElements.define(
+      'x-m-hc-pa',
+      class extends MartyriaHardChromaticPaBelow {},
+    );
+    customElements.define(
+      'x-m-hc-di',
+      class extends MartyriaHardChromaticDiBelow {},
+    );
+    customElements.define(
+      'x-m-sc-di',
+      class extends MartyriaSoftChromaticDiBelow {},
+    );
+    customElements.define(
+      'x-m-sc-ke',
+      class extends MartyriaSoftChromaticKeBelow {},
+    );
+    customElements.define('x-m-zygos', class extends MartyriaZygosBelow {});
+    customElements.define('x-m-varys-a', class extends MartyriaZoAbove {});
+    customElements.define('x-m-delta-a', class extends MartyriaDeltaAbove {});
+    customElements.define('x-m-alpha-a', class extends MartyriaAlphaAbove {});
+    customElements.define('x-m-legetos-a', class extends MartyriaLegetosAbove {});
+    customElements.define('x-m-nana-a', class extends MartyriaNanaAbove {});
+    customElements.define(
+      'x-m-delta-aa-a',
+      class extends MartyriaDeltaDottedAbove {},
+    );
+    customElements.define(
+      'x-m-alpha-aa-a',
+      class extends MartyriaAlphaDottedAbove {},
+    );
+    customElements.define(
+      'x-m-hc-pa-a',
+      class extends MartyriaHardChromaticPaAbove {},
+    );
+    customElements.define(
+      'x-m-hc-di-a',
+      class extends MartyriaHardChromaticDiAbove {},
+    );
+    customElements.define(
+      'x-m-sc-di-a',
+      class extends MartyriaSoftChromaticDiAbove {},
+    );
+    customElements.define(
+      'x-m-sc-ke-a',
+      class extends MartyriaSoftChromaticKeAbove {},
+    );
+    customElements.define('x-m-zygos-a', class extends MartyriaZygosAbove {});
+    customElements.define(
+      'x-f-d-ni-low',
+      class extends FthoraDiatonicNiLowAbove {},
+    );
+    customElements.define('x-f-d-pa', class extends FthoraDiatonicPaAbove {});
+    customElements.define('x-f-d-vou', class extends FthoraDiatonicVouAbove {});
+    customElements.define('x-f-d-ga', class extends FthoraDiatonicGaAbove {});
+    customElements.define('x-f-d-di', class extends FthoraDiatonicDiAbove {});
+    customElements.define('x-f-d-ke', class extends FthoraDiatonicKeAbove {});
+    customElements.define('x-f-d-zo', class extends FthoraDiatonicZoAbove {});
+    customElements.define(
+      'x-f-d-ni-high',
+      class extends FthoraDiatonicNiHighAbove {},
+    );
+    customElements.define(
+      'x-f-hc-pa',
+      class extends FthoraHardChromaticPaAbove {},
+    );
+    customElements.define(
+      'x-f-hc-di',
+      class extends FthoraHardChromaticDiAbove {},
+    );
+    customElements.define(
+      'x-f-sc-di',
+      class extends FthoraSoftChromaticDiAbove {},
+    );
+    customElements.define(
+      'x-f-sc-ke',
+      class extends FthoraSoftChromaticKeAbove {},
+    );
+    customElements.define('x-f-agem', class extends FthoraEnharmonicAbove {});
+    customElements.define('x-f-en', class extends FthoraEnharmonicAbove {});
+    customElements.define('x-f-zygos', class extends ChroaZygosAbove {});
+    customElements.define('x-f-kliton', class extends ChroaKlitonAbove {});
+    customElements.define('x-f-spathi', class extends ChroaSpathiAbove {});
+    customElements.define(
+      'x-f-d-ni-low-b',
+      class extends FthoraDiatonicNiLowBelow {},
+    );
+    customElements.define('x-f-d-pa-b', class extends FthoraDiatonicPaBelow {});
+    customElements.define('x-f-d-vou-b', class extends FthoraDiatonicVouBelow {});
+    customElements.define('x-f-d-ga-b', class extends FthoraDiatonicGaBelow {});
+    customElements.define('x-f-d-di-b', class extends FthoraDiatonicDiBelow {});
+    customElements.define('x-f-d-ke-b', class extends FthoraDiatonicKeBelow {});
+    customElements.define('x-f-d-zo-b', class extends FthoraDiatonicZoBelow {});
+    customElements.define(
+      'x-f-d-ni-high-b',
+      class extends FthoraDiatonicNiHighBelow {},
+    );
+    customElements.define(
+      'x-f-hc-pa-b',
+      class extends FthoraHardChromaticPaBelow {},
+    );
+    customElements.define(
+      'x-f-hc-di-b',
+      class extends FthoraHardChromaticDiBelow {},
+    );
+    customElements.define(
+      'x-f-sc-di-b',
+      class extends FthoraSoftChromaticDiBelow {},
+    );
+    customElements.define(
+      'x-f-sc-ke-b',
+      class extends FthoraSoftChromaticKeBelow {},
+    );
+    customElements.define('x-f-en-b', class extends FthoraEnharmonicBelow {});
+    customElements.define('x-f-agem-b', class extends FthoraEnharmonicBelow {});
+    customElements.define('x-f-zygos-b', class extends ChroaZygosBelow {});
+    customElements.define('x-f-kliton-b', class extends ChroaKlitonBelow {});
+    customElements.define('x-f-spathi-b', class extends ChroaSpathiBelow {});
+    customElements.define('x-di2', class extends Diesis2 {});
+    customElements.define('x-di4', class extends Diesis4 {});
+    customElements.define('x-di6', class extends Diesis6 {});
+    customElements.define('x-di8', class extends Diesis8 {});
+    customElements.define('x-di-g', class extends DiesisGenikiAbove {});
+    customElements.define('x-di-g-b', class extends DiesisGenikiBelow {});
+    customElements.define('x-yf2', class extends Yfesis2 {});
+    customElements.define('x-yf4', class extends Yfesis4 {});
+    customElements.define('x-yf6', class extends Yfesis6 {});
+    customElements.define('x-yf8', class extends Yfesis8 {});
+    customElements.define('x-yf-g', class extends YfesisGenikiAbove {});
+    customElements.define('x-yf-g-b', class extends YfesisGenikiBelow {});
+    customElements.define('x-sharp-2', class extends Diesis2 {});
+    customElements.define('x-sharp-4', class extends Diesis4 {});
+    customElements.define('x-sharp-6', class extends Diesis6 {});
+    customElements.define('x-sharp-8', class extends Diesis8 {});
+    customElements.define('x-sharp-g', class extends DiesisGenikiAbove {});
+    customElements.define('x-sharp-g-b', class extends DiesisGenikiBelow {});
+    customElements.define('x-flat-2', class extends Yfesis2 {});
+    customElements.define('x-flat-4', class extends Yfesis4 {});
+    customElements.define('x-flat-6', class extends Yfesis6 {});
+    customElements.define('x-flat-8', class extends Yfesis8 {});
+    customElements.define('x-flat-g', class extends YfesisGenikiAbove {});
+    customElements.define('x-flat-g-b', class extends YfesisGenikiBelow {});
+    customElements.define('x-bar', class extends BarlineSingle {});
+    customElements.define('x-bar2', class extends BarlineDouble {});
+    customElements.define('x-bar-th', class extends BarlineTheseos {});
+    customElements.define('x-bar-s', class extends BarlineShortSingle {});
+    customElements.define('x-bar2-s', class extends BarlineShortDouble {});
+    customElements.define('x-bar-th-s', class extends BarlineShortTheseos {});
+    customElements.define('x-mn2', class extends MeasureNumber2 {});
+    customElements.define('x-mn3', class extends MeasureNumber3 {});
+    customElements.define('x-mn4', class extends MeasureNumber4 {});
+    customElements.define('x-mn5', class extends MeasureNumber5 {});
+    customElements.define('x-mn6', class extends MeasureNumber6 {});
+    customElements.define('x-mn7', class extends MeasureNumber7 {});
+    customElements.define('x-mn8', class extends MeasureNumber8 {});
+    customElements.define('x-ni-ni', class extends NoteIndicatorNi {});
+    customElements.define('x-ni-pa', class extends NoteIndicatorPa {});
+    customElements.define('x-ni-vou', class extends NoteIndicatorVou {});
+    customElements.define('x-ni-ga', class extends NoteIndicatorGa {});
+    customElements.define('x-ni-di', class extends NoteIndicatorDi {});
+    customElements.define('x-ni-ke', class extends NoteIndicatorKe {});
+    customElements.define('x-ni-zo', class extends NoteIndicatorZo {});
+    customElements.define('x-ii-uni', class extends IsonIndicatorUnison {});
+    customElements.define('x-ii-di-low', class extends IsonIndicatorDiLow {});
+    customElements.define('x-ii-ke-low', class extends IsonIndicatorKeLow {});
+    customElements.define('x-ii-zo', class extends IsonIndicatorZo {});
+    customElements.define('x-ii-ni', class extends IsonIndicatorNi {});
+    customElements.define('x-ii-pa', class extends IsonIndicatorPa {});
+    customElements.define('x-ii-vou', class extends IsonIndicatorVou {});
+    customElements.define('x-ii-ga', class extends IsonIndicatorGa {});
+    customElements.define('x-ii-di', class extends IsonIndicatorDi {});
+    customElements.define('x-ii-ke', class extends IsonIndicatorKe {});
+    customElements.define('x-ii-zo-high', class extends IsonIndicatorZoHigh {});
+    customElements.define('x-gor', class extends Gorthmikon {});
+    customElements.define('x-pel', class extends Pelastikon {});
+    // customElements.define('x-mode-first', class extends ModeFirst {});
+    // customElements.define('x-mode-second', class extends ModeSecond {});
+    // customElements.define('x-mode-third', class extends ModeThird {});
+    // customElements.define('x-mode-third-nana', class extends ModeThirdNana {});
+    // customElements.define('x-mode-fourth', class extends ModeFourth {});
+    // customElements.define('x-mode-legetos', class extends ModeLegetos {});
+    // customElements.define(
+    //   'x-mode-plagal-first',
+    //   class extends ModePlagalFirst {},
+    // );
+    // customElements.define(
+    //   'x-mode-plagal-second',
+    //   class extends ModePlagalSecond {},
+    // );
+    // customElements.define('x-mode-varys', class extends ModeVarys {});
+    // customElements.define('x-mode-varys2', class extends ModeVarys2 {});
+    // customElements.define(
+    //   'x-mode-plagal-fourth',
+    //   class extends ModePlagalFourth {},
+    // );
+    // customElements.define('x-mode-ni', class extends ModeNi {});
+    // customElements.define('x-mode-pa', class extends ModePa {});
+    // customElements.define('x-mode-vou', class extends ModeVou {});
+    // customElements.define('x-mode-ga', class extends ModeGa {});
+    // customElements.define('x-mode-di', class extends ModeDi {});
+    // customElements.define('x-mode-ke', class extends ModeKe {});
+    // customElements.define('x-mode-zo', class extends ModeZo {});
+    // customElements.define(
+    //   'x-mode-oligon-kentima-t',
+    //   class extends ModeOligonKentimaAbove {},
+    // );
+    // customElements.define(
+    //   'x-mode-oligon-ypsili',
+    //   class extends ModeOligonYpsili {},
+    // );
+    // customElements.define('x-mode-elafron', class extends ModeElafron {});
+    // customElements.define(
+    //   'x-mode-running-elafron',
+    //   class extends ModeRunningElafron {},
+    // );
+    // customElements.define('x-mode-plagal', class extends ModePlagal {});
+    // customElements.define('x-mode-word-echos', class extends ModeWordEchos {});
+    // customElements.define('x-mode-word-varys', class extends ModeWordVarys {});
+    // customElements.define('x-mode-alpha', class extends ModeAlpha {});
+    // customElements.define('x-mode-beta', class extends ModeBeta {});
+    // customElements.define('x-mode-gamma', class extends ModeGamma {});
+    // customElements.define('x-mode-delta', class extends ModeDelta {});
+    // customElements.define(
+    //   'x-mode-alpha-capital',
+    //   class extends ModeAlphaCapital {},
+    // );
+    // customElements.define(
+    //   'x-mode-beta-capital',
+    //   class extends ModeBetaCapital {},
+    // );
+    // customElements.define(
+    //   'x-mode-gamma-capital',
+    //   class extends ModeGammaCapital {},
+    // );
+    // customElements.define(
+    //   'x-mode-delta-capital',
+    //   class extends ModeDeltaCapital {},
+    // );
+  }
+
   function defineCustomElements() {
     customElements.define('x-drop-cap', DropCap);
+    customElements.define('x-dc', class extends DropCap {});
     customElements.define('x-lyric', Lyric);
+    customElements.define('x-ly', class extends Lyric {});
     customElements.define('x-martyria', Martyria);
+    customElements.define('x-m', class extends Martyria {});
     customElements.define('x-melisma', Melisma);
+    customElements.define('x-mel', class extends Melisma {});
     customElements.define('x-neume', Neume);
     customElements.define('x-note', Note);
+    customElements.define('x-n', class extends Note {});
     customElements.define('x-spacer', Spacer);
+    customElements.define('x-sp', class extends Spacer {});
     customElements.define('x-spacer-apostrofos', SpacerApostrofos);
     customElements.define('x-spacer-vareia', SpacerVareia);
 
     defineCustomElementsCharactersCodegen();
+    defineCustomElementsCharacterAliases();
   }
 
   function isWebkit() {

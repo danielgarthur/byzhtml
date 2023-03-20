@@ -802,7 +802,7 @@
   ><x-note
     ><x-apostrofos></x-apostrofos><x-lyric slot="lyric">ter</x-lyric></x-note
   ><x-note
-    ><x-apostrofos></x-apostrofos><x-diesis2></x-diesis2
+    ><x-apostrofos></x-apostrofos><x-diesis-2></x-diesis-2
     ><x-lyric slot="lyric">death</x-lyric></x-note
   ><x-note><x-oligon></x-oligon><x-lyric slot="lyric">are</x-lyric></x-note
   ><x-note
@@ -928,7 +928,7 @@
     ><x-lyric slot="lyric">let</x-lyric
     ><x-melisma auto slot="melisma"></x-melisma></x-note
   ><x-note
-    ><x-running-elafron></x-running-elafron><x-diesis2></x-diesis2
+    ><x-running-elafron></x-running-elafron><x-diesis-2></x-diesis-2
     ><x-lyric slot="lyric">us</x-lyric></x-note
   ><x-note><x-oligon></x-oligon><x-lyric slot="lyric">cry</x-lyric></x-note
   ><x-note
@@ -1029,7 +1029,7 @@
     ><x-vareia></x-vareia><x-apostrofos></x-apostrofos
     ><x-lyric slot="lyric">in</x-lyric
     ><x-melisma auto slot="melisma"></x-melisma></x-note
-  ><x-note><x-apostrofos></x-apostrofos><x-diesis2></x-diesis2></x-note
+  ><x-note><x-apostrofos></x-apostrofos><x-diesis-2></x-diesis-2></x-note
   ><x-note
     ><x-oligon></x-oligon><x-klasma-above></x-klasma-above
     ><x-lyric slot="lyric">Thee.</x-lyric></x-note
@@ -1763,11 +1763,11 @@
   ><x-note
     ><x-apostrofos></x-apostrofos><x-lyric slot="lyric">Thou</x-lyric></x-note
   ><x-note
-    ><x-apostrofos></x-apostrofos><x-diesis4></x-diesis4
+    ><x-apostrofos></x-apostrofos><x-diesis-4></x-diesis-4
     ><x-lyric slot="lyric">art</x-lyric></x-note
   ><x-note><x-oligon></x-oligon><x-lyric slot="lyric">the</x-lyric></x-note
   ><x-note
-    ><x-oligon-kentimata-above></x-oligon-kentimata-above><x-yfesis4></x-yfesis4
+    ><x-oligon-kentimata-above></x-oligon-kentimata-above><x-yfesis-4></x-yfesis-4
     ><x-lyric slot="lyric">Friend</x-lyric></x-note
   ><x-note
     ><x-vareia></x-vareia><x-ison></x-ison><x-lyric slot="lyric">of</x-lyric
@@ -2304,7 +2304,7 @@
   ><x-note
     ><x-apostrofos></x-apostrofos><x-lyric slot="lyric">for</x-lyric></x-note
   ><x-note
-    ><x-apostrofos></x-apostrofos><x-diesis2></x-diesis2
+    ><x-apostrofos></x-apostrofos><x-diesis-2></x-diesis-2
     ><x-lyric slot="lyric">re</x-lyric
     ><x-melisma auto hyphen slot="melisma"></x-melisma></x-note
   ><x-note
@@ -2403,7 +2403,7 @@
     ><x-vareia></x-vareia><x-apostrofos></x-apostrofos
     ><x-lyric slot="lyric">to</x-lyric
     ><x-melisma auto slot="melisma"></x-melisma></x-note
-  ><x-note><x-apostrofos></x-apostrofos><x-diesis2></x-diesis2></x-note
+  ><x-note><x-apostrofos></x-apostrofos><x-diesis-2></x-diesis-2></x-note
   ><x-note
     ><x-oligon></x-oligon><x-klasma-above></x-klasma-above
     ><x-lyric slot="lyric">Thee.</x-lyric></x-note

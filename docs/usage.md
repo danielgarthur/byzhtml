@@ -4,12 +4,18 @@
 
 ## Neumes
 
-To display a neume, use any of the [neume components](component-list-neumes.md).
+To display a neume, use any of the [neume components](component-list-neumes.md). Note that many components have shorter aliases, which can be used instead of the full name.
 
 Example:
 
 ```html
 <x-ison></x-ison>
+```
+
+or
+
+```html
+<x-i></x-i>
 ```
 
 Result: <x-ison></x-ison>
