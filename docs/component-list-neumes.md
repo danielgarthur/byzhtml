@@ -233,7 +233,7 @@ td:nth-child(3) {
 | x-diesis-4                              | x-di4<br/>x-sharp-4      | <x-diesis-4></x-diesis-4>                                                           |
 | x-diesis-6                              | x-di6<br/>x-sharp-6      | <x-diesis-6></x-diesis-6>                                                           |
 | x-diesis-8                              | x-di8<br/>x-sharp-8      | <x-diesis-8></x-diesis-8>                                                           |
-| x-diesis-geniki-above                   | x-di-g<br/>x-sharpt-g    | <x-diesis-geniki-above></x-diesis-geniki-above>                                     |
+| x-diesis-geniki-above                   | x-di-g<br/>x-sharp-g     | <x-diesis-geniki-above></x-diesis-geniki-above>                                     |
 | x-diesis-geniki-below                   | x-di-g-b<br/>x-sharp-g-b | <x-diesis-geniki-below></x-diesis-geniki-below>                                     |
 | x-yfesis-2                              | x-yf2<br/>x-flat-2       | <x-yfesis-2></x-yfesis-2>                                                           |
 | x-yfesis-4                              | x-yf4<br/>x-flat-4       | <x-yfesis-4></x-yfesis-4>                                                           |
