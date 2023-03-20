@@ -10,244 +10,244 @@
   <x-dc>W</x-dc
   ><x-n
     ><x-o3></x-o3
-    ><x-ly slot="lyric">hat</x-ly></x-n
+    ><x-ly>hat</x-ly></x-n
   ><x-n
-    ><x-i></x-i><x-ly slot="lyric">de</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-i></x-i><x-ly>de</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-i></x-i><x-psi></x-psi
-    ><x-ly slot="lyric">light</x-ly></x-n
+    ><x-ly>light</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">of</x-ly></x-n
+    ><x-a></x-a><x-ly>of</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">life</x-ly></x-n
+    ><x-a></x-a><x-ly>life</x-ly></x-n
   ><x-n
-    ><x-o></x-o><x-ly slot="lyric">re</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-o></x-o><x-ly>re</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-i></x-i><x-ly slot="lyric">main</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-i></x-i><x-ly>main</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n><x-k></x-k></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">eth</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>eth</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">no</x-ly></x-n
+    ><x-a></x-a><x-ly>no</x-ly></x-n
   ><x-n
     ><x-p></x-p><x-kl-b></x-kl-b
-    ><x-ly slot="lyric">par</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>par</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-re></x-re
-    ><x-ly slot="lyric">ty</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">to</x-ly></x-n
+    ><x-ly>ty</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>to</x-ly></x-n
   ><x-n
     ><x-o></x-o><x-kl></x-kl
-    ><x-ly slot="lyric">grief?</x-ly></x-n
+    ><x-ly>grief?</x-ly></x-n
   ><x-m
     ><x-m-di></x-m-di
     ><x-m-delta-aa></x-m-delta-aa></x-m
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">What</x-ly></x-n
+    ><x-a></x-a><x-ly>What</x-ly></x-n
   ><x-n
-    ><x-o></x-o><x-ly slot="lyric">glor</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">y</x-ly></x-n
+    ><x-o></x-o><x-ly>glor</x-ly
+    ><x-mel a h></x-mel></x-n
+  ><x-n><x-i></x-i><x-ly>y</x-ly></x-n
   ><x-n
     ><x-o></x-o><x-psi></x-psi
-    ><x-ly slot="lyric">stand</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>stand</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n><x-a></x-a></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">eth</x-ly></x-n
+    ><x-a></x-a><x-ly>eth</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">im</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-a></x-a><x-ly>im</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-o2-m></x-o2-m
-    ><x-ly slot="lyric">mu</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>mu</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-i></x-i><x-ly slot="lyric">ta</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-i></x-i><x-ly>ta</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">ble</x-ly></x-n
+    ><x-a></x-a><x-ly>ble</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">on</x-ly></x-n
+    ><x-a></x-a><x-ly>on</x-ly></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">earth?</x-ly></x-n
+    ><x-ly>earth?</x-ly></x-n
   ><x-m
     ><x-m-pa></x-m-pa
     ><x-m-alpha></x-m-alpha></x-m
   ><x-n
     ><x-o4></x-o4><x-psi></x-psi
-    ><x-ly slot="lyric">All</x-ly></x-n
+    ><x-ly>All</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">are</x-ly></x-n
+    ><x-a></x-a><x-ly>are</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">more</x-ly></x-n
+    ><x-a></x-a><x-ly>more</x-ly></x-n
   ><x-n
     ><x-o></x-o><x-psi></x-psi
-    ><x-ly slot="lyric">fee</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>fee</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">ble</x-ly></x-n
+    ><x-a></x-a><x-ly>ble</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">than</x-ly></x-n
+    ><x-a></x-a><x-ly>than</x-ly></x-n
   ><x-n
     ><x-ok></x-ok
-    ><x-ly slot="lyric">shad</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>shad</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-i></x-i><x-kl></x-kl
-    ><x-ly slot="lyric">ows;</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">all</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">more</x-ly></x-n
+    ><x-ly>ows;</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>all</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>more</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">de</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-a></x-a><x-ly>de</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-p></x-p><x-kl-b></x-kl-b
-    ><x-ly slot="lyric">lud</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>lud</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-re></x-re
-    ><x-ly slot="lyric">ing</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">than</x-ly></x-n
+    ><x-ly>ing</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>than</x-ly></x-n
   ><x-n
     ><x-o></x-o><x-kl></x-kl
-    ><x-ly slot="lyric">dreams.</x-ly></x-n
+    ><x-ly>dreams.</x-ly></x-n
   ><x-m
     ><x-m-di></x-m-di
     ><x-m-delta-aa></x-m-delta-aa></x-m
   ><x-n
     ><x-p-i></x-p-i
-    ><x-ly slot="lyric">Yet</x-ly></x-n
+    ><x-ly>Yet</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">one</x-ly></x-n
+    ><x-a></x-a><x-ly>one</x-ly></x-n
   ><x-n
-    ><x-p-i></x-p-i><x-ly slot="lyric">mo</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-p-i></x-p-i><x-ly>mo</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">ment</x-ly></x-n
+    ><x-a></x-a><x-ly>ment</x-ly></x-n
   ><x-n
     ><x-ok></x-ok
-    ><x-ly slot="lyric">on</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">ly</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">and</x-ly></x-n
+    ><x-ly>on</x-ly
+    ><x-mel a h></x-mel></x-n
+  ><x-n><x-i></x-i><x-ly>ly</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>and</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">death</x-ly
-    ><x-mel auto slot="melisma"></x-mel></x-n
+    ><x-a></x-a><x-ly>death</x-ly
+    ><x-mel a></x-mel></x-n
   ><x-n
     ><x-ko></x-ko
     ><x-g class="byz--gorgon"></x-g></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">shall</x-ly></x-n
+    ><x-a></x-a><x-ly>shall</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">sup</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-a></x-a><x-ly>sup</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-i></x-i><x-psi></x-psi
-    ><x-ly slot="lyric">plant</x-ly></x-n
+    ><x-ly>plant</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">them</x-ly></x-n
+    ><x-a></x-a><x-ly>them</x-ly></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">all.</x-ly></x-n
+    ><x-ly>all.</x-ly></x-n
   ><x-m
     ><x-m-pa></x-m-pa
     ><x-m-alpha></x-m-alpha></x-m
-  ><x-n><x-i></x-i><x-ly slot="lyric">But</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">in</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">the</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">light</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">of</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>But</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>in</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>the</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>light</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>of</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">Thy</x-ly></x-n
+    ><x-a></x-a><x-ly>Thy</x-ly></x-n
   ><x-n
     ><x-o></x-o><x-psi></x-psi
-    ><x-ly slot="lyric">coun</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>coun</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">ten</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-a></x-a><x-ly>ten</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">ance,</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">O</x-ly></x-n
+    ><x-a></x-a><x-ly>ance,</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>O</x-ly></x-n
   ><x-n
     ><x-o></x-o><x-kl></x-kl
-    ><x-ly slot="lyric">Christ,</x-ly></x-n
+    ><x-ly>Christ,</x-ly></x-n
   ><x-m
     ><x-m-di></x-m-di
     ><x-m-delta-aa></x-m-delta-aa></x-m
   ><x-n
-    ><x-p></x-p><x-ly slot="lyric">and</x-ly
-    ><x-mel auto slot="melisma"></x-mel></x-n
+    ><x-p></x-p><x-ly>and</x-ly
+    ><x-mel a></x-mel></x-n
   ><x-n><x-a></x-a></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">in</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">the</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>in</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>the</x-ly></x-n
   ><x-n
     ><x-o></x-o><x-psi></x-psi
-    ><x-ly slot="lyric">sweet</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>sweet</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">ness</x-ly></x-n
+    ><x-a></x-a><x-ly>ness</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">of</x-ly></x-n
+    ><x-a></x-a><x-ly>of</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">Thy</x-ly></x-n
+    ><x-a></x-a><x-ly>Thy</x-ly></x-n
   ><x-n
     ><x-p></x-p><x-kl-b></x-kl-b
-    ><x-ly slot="lyric">beau</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>beau</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-re></x-re
-    ><x-ly slot="lyric">ty,</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">grant</x-ly></x-n
+    ><x-ly>ty,</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>grant</x-ly></x-n
   ><x-n
     ><x-o></x-o><x-kl></x-kl
-    ><x-ly slot="lyric">rest</x-ly></x-n
+    ><x-ly>rest</x-ly></x-n
   ><x-n
     ><x-ea></x-ea
-    ><x-ly slot="lyric">un</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">to</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">those</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">whom</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">Thou</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">hast</x-ly></x-n
+    ><x-ly>un</x-ly
+    ><x-mel a h></x-mel></x-n
+  ><x-n><x-i></x-i><x-ly>to</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>those</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>whom</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>Thou</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>hast</x-ly></x-n
   ><x-n
     ><x-ok></x-ok
     ><x-g class="byz--gorgon"></x-g
-    ><x-ly slot="lyric">cho</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>cho</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n><x-a></x-a></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">sen,</x-ly></x-n
+    ><x-ly>sen,</x-ly></x-n
   ><x-n
     ><x-p-i></x-p-i
-    ><x-ly slot="lyric">since</x-ly></x-n
+    ><x-ly>since</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">Thou</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">art</x-ly></x-n
+    ><x-a></x-a><x-ly>Thou</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>art</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">the</x-ly></x-n
+    ><x-a></x-a><x-ly>the</x-ly></x-n
   ><x-n
     ><x-o2></x-o2><x-psi></x-psi
-    ><x-ly slot="lyric">Friend</x-ly
-    ><x-mel auto slot="melisma"></x-mel></x-n
+    ><x-ly>Friend</x-ly
+    ><x-mel a></x-mel></x-n
   ><x-n><x-a></x-a></x-n
   ><x-n
     ><x-a></x-a><x-antikenoma></x-antikenoma><x-apli></x-apli
-    ><x-ly slot="lyric">of</x-ly
-    ><x-mel auto slot="melisma"></x-mel></x-n
+    ><x-ly>of</x-ly
+    ><x-mel a></x-mel></x-n
   ><x-n
     ><x-a></x-a
     ><x-g class="byz--gorgon"></x-g></x-n
   ><x-n
     ><x-i></x-i><x-kl></x-kl
-    ><x-ly slot="lyric">man.</x-ly></x-n
+    ><x-ly>man.</x-ly></x-n
   ><x-m class="byz--align-right"
     ><x-m-pa></x-m-pa
     ><x-m-alpha></x-m-alpha
@@ -266,308 +266,308 @@
   <x-dc>W</x-dc
   ><x-n
     ><x-o2></x-o2><x-psi></x-psi
-    ><x-ly slot="lyric">oe</x-ly></x-n
+    ><x-ly>oe</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">is</x-ly></x-n
+    ><x-a></x-a><x-ly>is</x-ly></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">me!</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">What</x-ly></x-n
+    ><x-ly>me!</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>What</x-ly></x-n
   ><x-n
-    ><x-p></x-p><x-ly slot="lyric">man</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-p></x-p><x-ly>man</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">ner</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">of</x-ly></x-n
+    ><x-a></x-a><x-ly>ner</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>of</x-ly></x-n
   ><x-n
-    ><x-o></x-o><x-ly slot="lyric">or</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-o></x-o><x-ly>or</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-o></x-o><x-kl></x-kl
-    ><x-ly slot="lyric">deal</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">doth</x-ly></x-n
+    ><x-ly>deal</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>doth</x-ly></x-n
   ><x-n
     ><x-o></x-o
     ><x-f-d-ke
       class="byz--fthora"
     ></x-f-d-ke
-    ><x-ly slot="lyric">the</x-ly></x-n
+    ><x-ly>the</x-ly></x-n
   ><x-n
     ><x-o2></x-o2><x-psi></x-psi
-    ><x-ly slot="lyric">soul</x-ly
-    ><x-mel auto slot="melisma"></x-mel></x-n
+    ><x-ly>soul</x-ly
+    ><x-mel a></x-mel></x-n
   ><x-n><x-a></x-a></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">en</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-a></x-a><x-ly>en</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
     ><x-f-hc-di-b
       class="byz--fthora"
     ></x-f-hc-di-b
-    ><x-ly slot="lyric">dure</x-ly></x-n
+    ><x-ly>dure</x-ly></x-n
   ><x-n
     ><x-p></x-p><x-kl-b></x-kl-b
-    ><x-ly slot="lyric">when</x-ly></x-n
+    ><x-ly>when</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">it</x-ly
-    ><x-mel auto slot="melisma"></x-mel></x-n
+    ><x-a></x-a><x-ly>it</x-ly
+    ><x-mel a></x-mel></x-n
   ><x-n
     ><x-re></x-re
-    ><x-ly slot="lyric">is</x-ly></x-n
+    ><x-ly>is</x-ly></x-n
   ><x-n
     ><x-o2-m></x-o2-m
-    ><x-ly slot="lyric">part</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">ed</x-ly></x-n
+    ><x-ly>part</x-ly
+    ><x-mel a h></x-mel></x-n
+  ><x-n><x-i></x-i><x-ly>ed</x-ly></x-n
   ><x-n
     ><x-i></x-i><x-psi></x-psi
-    ><x-ly slot="lyric">from</x-ly></x-n
+    ><x-ly>from</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">the</x-ly></x-n
-  ><x-n
-    ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">bod</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-a></x-a><x-ly>the</x-ly></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">y!</x-ly></x-n
+    ><x-ly>bod</x-ly
+    ><x-mel a h></x-mel></x-n
+  ><x-n
+    ><x-a></x-a><x-kl></x-kl
+    ><x-ly>y!</x-ly></x-n
   ><x-m
     ><x-m-pa></x-m-pa
     ><x-m-hc-pa></x-m-hc-pa></x-m
-  ><x-n><x-o></x-o><x-ly slot="lyric">Woe</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">is</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">me!</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">How</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>Woe</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>is</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>me!</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>How</x-ly></x-n
   ><x-n
     ><x-o></x-o
     ><x-f-d-ke
       class="byz--fthora"
     ></x-f-d-ke
-    ><x-ly slot="lyric">man</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>man</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-ko></x-ko
     ><x-g class="byz--gorgon"></x-g></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">y</x-ly></x-n
+    ><x-a></x-a><x-ly>y</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">then</x-ly></x-n
+    ><x-a></x-a><x-ly>then</x-ly></x-n
   ><x-n
     ><x-a></x-a
     ><x-f-hc-di
       class="byz--fthora"
     ></x-f-hc-di
-    ><x-ly slot="lyric">are</x-ly></x-n
+    ><x-ly>are</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">its</x-ly></x-n
+    ><x-a></x-a><x-ly>its</x-ly></x-n
   ><x-n
     ><x-o></x-o><x-kl></x-kl
-    ><x-ly slot="lyric">tears;</x-ly></x-n
+    ><x-ly>tears;</x-ly></x-n
   ><x-n
-    ><x-i></x-i><x-ly slot="lyric">and</x-ly
-    ><x-mel auto slot="melisma"></x-mel></x-n
+    ><x-i></x-i><x-ly>and</x-ly
+    ><x-mel a></x-mel></x-n
   ><x-n
     ><x-re></x-re
-    ><x-ly slot="lyric">there</x-ly></x-n
+    ><x-ly>there</x-ly></x-n
   ><x-n
     ><x-o2-m></x-o2-m
-    ><x-ly slot="lyric">is</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">none</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">to</x-ly></x-n
+    ><x-ly>is</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>none</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>to</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">show</x-ly></x-n
-  ><x-n
-    ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">mer</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-a></x-a><x-ly>show</x-ly></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">cy!</x-ly></x-n
+    ><x-ly>mer</x-ly
+    ><x-mel a h></x-mel></x-n
+  ><x-n
+    ><x-a></x-a><x-kl></x-kl
+    ><x-ly>cy!</x-ly></x-n
   ><x-m
     ><x-m-pa></x-m-pa
     ><x-m-hc-pa></x-m-hc-pa></x-m
-  ><x-n><x-i></x-i><x-ly slot="lyric">It</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>It</x-ly></x-n
   ><x-n
     ><x-o5></x-o5><x-psi></x-psi
-    ><x-ly slot="lyric">turn</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>turn</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">eth</x-ly></x-n
+    ><x-a></x-a><x-ly>eth</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">its</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">eyes</x-ly></x-n
-  ><x-n><x-e></x-e><x-ly slot="lyric">to</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">the</x-ly></x-n
+    ><x-a></x-a><x-ly>its</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>eyes</x-ly></x-n
+  ><x-n><x-e></x-e><x-ly>to</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>the</x-ly></x-n
   ><x-n
-    ><x-i></x-i><x-ly slot="lyric">An</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-i></x-i><x-ly>An</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n><x-k></x-k></x-n
   ><x-n
     ><x-i></x-i><x-kl></x-kl
-    ><x-ly slot="lyric">gels;</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">all</x-ly></x-n
+    ><x-ly>gels;</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>all</x-ly></x-n
   ><x-n
-    ><x-i></x-i><x-ly slot="lyric">un</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-i></x-i><x-ly>un</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-e></x-e><x-ly slot="lyric">a</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-e></x-e><x-ly>a</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-o2-m></x-o2-m
-    ><x-ly slot="lyric">vail</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">ing</x-ly></x-n
+    ><x-ly>vail</x-ly
+    ><x-mel a h></x-mel></x-n
+  ><x-n><x-i></x-i><x-ly>ing</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">is</x-ly></x-n
+    ><x-a></x-a><x-ly>is</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">its</x-ly></x-n
+    ><x-a></x-a><x-ly>its</x-ly></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">prayer.</x-ly></x-n
+    ><x-ly>prayer.</x-ly></x-n
   ><x-m
     ><x-m-pa></x-m-pa
     ><x-m-hc-pa></x-m-hc-pa></x-m
-  ><x-n><x-i></x-i><x-ly slot="lyric">It</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>It</x-ly></x-n
   ><x-n
-    ><x-o></x-o><x-ly slot="lyric">stretch</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">eth</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">out</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">its</x-ly></x-n
-  ><x-n
-    ><x-o></x-o><x-psi></x-psi
-    ><x-ly slot="lyric">hands</x-ly></x-n
-  ><x-n
-    ><x-a></x-a><x-ly slot="lyric">to</x-ly></x-n
-  ><x-n
-    ><x-a></x-a><x-ly slot="lyric">men,</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">and</x-ly></x-n
+    ><x-o></x-o><x-ly>stretch</x-ly
+    ><x-mel a h></x-mel></x-n
+  ><x-n><x-o></x-o><x-ly>eth</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>out</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>its</x-ly></x-n
   ><x-n
     ><x-o></x-o><x-psi></x-psi
-    ><x-ly slot="lyric">find</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>hands</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">eth</x-ly></x-n
+    ><x-a></x-a><x-ly>to</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">none</x-ly></x-n
+    ><x-a></x-a><x-ly>men,</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>and</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">to</x-ly></x-n
+    ><x-o></x-o><x-psi></x-psi
+    ><x-ly>find</x-ly
+    ><x-mel a h></x-mel></x-n
+  ><x-n
+    ><x-a></x-a><x-ly>eth</x-ly></x-n
+  ><x-n
+    ><x-a></x-a><x-ly>none</x-ly></x-n
+  ><x-n
+    ><x-a></x-a><x-ly>to</x-ly></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">suc</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>suc</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">cour</x-ly></x-n
+    ><x-ly>cour</x-ly></x-n
   ><x-m
     ><x-m-pa></x-m-pa
     ><x-m-hc-pa></x-m-hc-pa></x-m
   ><x-n
     ><x-o3></x-o3><x-psi></x-psi
-    ><x-ly slot="lyric">Where</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>Where</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">fore,</x-ly></x-n
+    ><x-a></x-a><x-ly>fore,</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">my</x-ly></x-n
+    ><x-a></x-a><x-ly>my</x-ly></x-n
   ><x-n
-    ><x-i></x-i><x-ly slot="lyric">be</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-i></x-i><x-ly>be</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-p></x-p><x-ly slot="lyric">lov</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
-  ><x-n><x-e></x-e><x-ly slot="lyric">ed</x-ly></x-n
+    ><x-p></x-p><x-ly>lov</x-ly
+    ><x-mel a h></x-mel></x-n
+  ><x-n><x-e></x-e><x-ly>ed</x-ly></x-n
   ><x-n
     ><x-ok></x-ok
     ><x-g class="byz--gorgon"></x-g
-    ><x-ly slot="lyric">breth</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>breth</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n><x-a></x-a></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">ren,</x-ly></x-n
+    ><x-ly>ren,</x-ly></x-n
   ><x-n
     ><x-o3></x-o3><x-psi></x-psi
-    ><x-ly slot="lyric">med</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>med</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">i</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-a></x-a><x-ly>i</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">tat</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-a></x-a><x-ly>tat</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">ing</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">on</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">the</x-ly></x-n
+    ><x-a></x-a><x-ly>ing</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>on</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>the</x-ly></x-n
   ><x-n
-    ><x-o></x-o><x-ly slot="lyric">brev</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-o></x-o><x-ly>brev</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-i></x-i><x-ly slot="lyric">i</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">ty</x-ly></x-n
-  ><x-n><x-e></x-e><x-ly slot="lyric">of</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">our</x-ly></x-n
+    ><x-i></x-i><x-ly>i</x-ly
+    ><x-mel a h></x-mel></x-n
+  ><x-n><x-i></x-i><x-ly>ty</x-ly></x-n
+  ><x-n><x-e></x-e><x-ly>of</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>our</x-ly></x-n
   ><x-n
     ><x-o></x-o><x-kl></x-kl
-    ><x-ly slot="lyric">life,</x-ly></x-n
+    ><x-ly>life,</x-ly></x-n
   ><x-n
     ><x-i></x-i><x-psi></x-psi
-    ><x-ly slot="lyric">let</x-ly
-    ><x-mel auto slot="melisma"></x-mel></x-n
+    ><x-ly>let</x-ly
+    ><x-mel a></x-mel></x-n
   ><x-n><x-a></x-a></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">us</x-ly></x-n
+    ><x-a></x-a><x-ly>us</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">be</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-a></x-a><x-ly>be</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-o4></x-o4
-    ><x-ly slot="lyric">seech</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">of</x-ly></x-n
+    ><x-ly>seech</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>of</x-ly></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">Christ</x-ly></x-n
+    ><x-ly>Christ</x-ly></x-n
   ><x-m
     ><x-m-di></x-m-di
     ><x-m-hc-di></x-m-hc-di></x-m
-  ><x-n><x-p></x-p><x-ly slot="lyric">rest</x-ly></x-n
+  ><x-n><x-p></x-p><x-ly>rest</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">for</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">those</x-ly></x-n
+    ><x-a></x-a><x-ly>for</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>those</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">that</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">have</x-ly></x-n
+    ><x-a></x-a><x-ly>that</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>have</x-ly></x-n
   ><x-n
-    ><x-o></x-o><x-ly slot="lyric">de</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-o></x-o><x-ly>de</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-o></x-o><x-psi></x-psi
-    ><x-ly slot="lyric">par</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>par</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">ted</x-ly></x-n
+    ><x-a></x-a><x-ly>ted</x-ly></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">hence,</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">and</x-ly></x-n
-  ><x-n><x-p></x-p><x-ly slot="lyric">for</x-ly></x-n
+    ><x-ly>hence,</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>and</x-ly></x-n
+  ><x-n><x-p></x-p><x-ly>for</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">our</x-ly></x-n
+    ><x-a></x-a><x-ly>our</x-ly></x-n
   ><x-n
     ><x-i></x-i><x-psi></x-psi
-    ><x-ly slot="lyric">souls</x-ly></x-n
+    ><x-ly>souls</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">great</x-ly></x-n
-  ><x-n
-    ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">mer</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-a></x-a><x-ly>great</x-ly></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">cy.</x-ly></x-n
+    ><x-ly>mer</x-ly
+    ><x-mel a h></x-mel></x-n
+  ><x-n
+    ><x-a></x-a><x-kl></x-kl
+    ><x-ly>cy.</x-ly></x-n
   ><x-m class="byz--align-right"
     ><x-m-pa></x-m-pa
     ><x-m-hc-pa></x-m-hc-pa
@@ -578,191 +578,191 @@
   <x-dc>E</x-dc
   ><x-n
     ><x-o4></x-o4
-    ><x-ly slot="lyric">v'</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">ry</x-ly></x-n
+    ><x-ly>v'</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>ry</x-ly></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">man</x-ly></x-n
+    ><x-ly>man</x-ly></x-n
   ><x-n
-    ><x-i></x-i><x-ly slot="lyric">fad</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">eth</x-ly></x-n
-  ><x-n><x-e></x-e><x-ly slot="lyric">like</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">a</x-ly></x-n
+    ><x-i></x-i><x-ly>fad</x-ly
+    ><x-mel a h></x-mel></x-n
+  ><x-n><x-i></x-i><x-ly>eth</x-ly></x-n
+  ><x-n><x-e></x-e><x-ly>like</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>a</x-ly></x-n
   ><x-n
     ><x-o></x-o><x-kl></x-kl
-    ><x-ly slot="lyric">flower,</x-ly></x-n
+    ><x-ly>flower,</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">and</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">like</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">a</x-ly></x-n
+    ><x-a></x-a><x-ly>and</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>like</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>a</x-ly></x-n
   ><x-n
     ><x-o></x-o><x-psi></x-psi
-    ><x-ly slot="lyric">dream</x-ly></x-n
+    ><x-ly>dream</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">doth</x-ly></x-n
+    ><x-a></x-a><x-ly>doth</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">he</x-ly></x-n
+    ><x-a></x-a><x-ly>he</x-ly></x-n
   ><x-n
     ><x-p-i></x-p-i
-    ><x-ly slot="lyric">pass</x-ly></x-n
+    ><x-ly>pass</x-ly></x-n
   ><x-n
-    ><x-e></x-e><x-ly slot="lyric">a</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-e></x-e><x-ly>a</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-o2-m></x-o2-m
-    ><x-ly slot="lyric">way</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">and</x-ly></x-n
+    ><x-ly>way</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>and</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">is</x-ly></x-n
+    ><x-a></x-a><x-ly>is</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">dis</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-a></x-a><x-ly>dis</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">solved;</x-ly></x-n
+    ><x-ly>solved;</x-ly></x-n
   ><x-m
     ><x-m-pa></x-m-pa
     ><x-m-hc-pa></x-m-hc-pa></x-m
   ><x-n
-    ><x-i></x-i><x-ly slot="lyric">a</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-i></x-i><x-ly>a</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-o3></x-o3
-    ><x-ly slot="lyric">gain,</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">when</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">the</x-ly></x-n
+    ><x-ly>gain,</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>when</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>the</x-ly></x-n
   ><x-n
     ><x-i></x-i><x-psi></x-psi
-    ><x-ly slot="lyric">trum</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>trum</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n><x-a></x-a></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">pet</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">shall</x-ly></x-n
+    ><x-a></x-a><x-ly>pet</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>shall</x-ly></x-n
   ><x-n
     ><x-o></x-o><x-kl></x-kl
-    ><x-ly slot="lyric">sound,</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">all</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">the</x-ly></x-n
+    ><x-ly>sound,</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>all</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>the</x-ly></x-n
   ><x-n
     ><x-p-i></x-p-i><x-kl-b></x-kl-b
-    ><x-ly slot="lyric">dead</x-ly
-    ><x-mel auto slot="melisma"></x-mel></x-n
+    ><x-ly>dead</x-ly
+    ><x-mel a></x-mel></x-n
   ><x-n
     ><x-re></x-re
-    ><x-ly slot="lyric">shall</x-ly></x-n
+    ><x-ly>shall</x-ly></x-n
   ><x-n
-    ><x-o></x-o><x-ly slot="lyric">a</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-o></x-o><x-ly>a</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-o></x-o><x-kl></x-kl
-    ><x-ly slot="lyric">rise,</x-ly></x-n
+    ><x-ly>rise,</x-ly></x-n
   ><x-n
     ><x-ea></x-ea
-    ><x-ly slot="lyric">as</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">though</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">in</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">an</x-ly></x-n
+    ><x-ly>as</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>though</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>in</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>an</x-ly></x-n
   ><x-n
     ><x-ok></x-ok
-    ><x-ly slot="lyric">earth</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>earth</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">quake,</x-ly></x-n
-  ><x-n><x-e></x-e><x-ly slot="lyric">to</x-ly></x-n
+    ><x-a></x-a><x-ly>quake,</x-ly></x-n
+  ><x-n><x-e></x-e><x-ly>to</x-ly></x-n
   ><x-n
     ><x-o2-m></x-o2-m
-    ><x-ly slot="lyric">meet</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">Thee,</x-ly></x-n
+    ><x-ly>meet</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>Thee,</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">O</x-ly></x-n
+    ><x-a></x-a><x-ly>O</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">Christ</x-ly></x-n
+    ><x-a></x-a><x-ly>Christ</x-ly></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">God.</x-ly></x-n
+    ><x-ly>God.</x-ly></x-n
   ><x-m
     ><x-m-pa></x-m-pa
     ><x-m-hc-pa></x-m-hc-pa></x-m
-  ><x-n><x-o></x-o><x-ly slot="lyric">Then,</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">O</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>Then,</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>O</x-ly></x-n
   ><x-n
-    ><x-p></x-p><x-ly slot="lyric">Mas</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-p></x-p><x-ly>Mas</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">ter,</x-ly></x-n
+    ><x-a></x-a><x-ly>ter,</x-ly></x-n
   ><x-n
-    ><x-o></x-o><x-ly slot="lyric">es</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-o></x-o><x-ly>es</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-ok></x-ok
     ><x-g class="byz--gorgon"></x-g
-    ><x-ly slot="lyric">tab</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>tab</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n><x-a></x-a></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">lish</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">in</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">the</x-ly></x-n
+    ><x-ly>lish</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>in</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>the</x-ly></x-n
   ><x-n
     ><x-o></x-o><x-psi></x-psi
-    ><x-ly slot="lyric">dwell</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>dwell</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">ings</x-ly></x-n
+    ><x-a></x-a><x-ly>ings</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">of</x-ly></x-n
+    ><x-a></x-a><x-ly>of</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">Thy</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">Saints</x-ly></x-n
+    ><x-a></x-a><x-ly>Thy</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>Saints</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">the</x-ly></x-n
+    ><x-a></x-a><x-ly>the</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">spir</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-a></x-a><x-ly>spir</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">its</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">of</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">Thy</x-ly></x-n
+    ><x-a></x-a><x-ly>its</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>of</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>Thy</x-ly></x-n
   ><x-n
     ><x-ok></x-ok
-    ><x-ly slot="lyric">ser</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>ser</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">vants</x-ly></x-n
+    ><x-ly>vants</x-ly></x-n
   ><x-n
     ><x-o2-m></x-o2-m
-    ><x-ly slot="lyric">whom</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">Thou</x-ly></x-n
+    ><x-ly>whom</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>Thou</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">hast</x-ly></x-n
+    ><x-a></x-a><x-ly>hast</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">trans</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-a></x-a><x-ly>trans</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-o></x-o><x-psi></x-psi
-    ><x-ly slot="lyric">lat</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>lat</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">ed</x-ly></x-n
+    ><x-a></x-a><x-ly>ed</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">from</x-ly></x-n
+    ><x-a></x-a><x-ly>from</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">a</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-a></x-a><x-ly>a</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-p2></x-p2><x-kl-b></x-kl-b
-    ><x-ly slot="lyric">mong</x-ly></x-n
+    ><x-ly>mong</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">us,</x-ly></x-n
+    ><x-a></x-a><x-ly>us,</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">O</x-ly></x-n
+    ><x-a></x-a><x-ly>O</x-ly></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">Christ.</x-ly></x-n
+    ><x-ly>Christ.</x-ly></x-n
   ><x-m class="byz--align-right"
     ><x-m-pa></x-m-pa
     ><x-m-hc-pa></x-m-hc-pa
@@ -776,256 +776,256 @@
   <x-dc>A</x-dc
   ><x-n
     ><x-o></x-o
-    ><x-ly slot="lyric">ll</x-ly></x-n
+    ><x-ly>ll</x-ly></x-n
   ><x-n
     ><x-o2></x-o2><x-psi></x-psi
-    ><x-ly slot="lyric">mor</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>mor</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">tal</x-ly></x-n
+    ><x-a></x-a><x-ly>tal</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">things</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">that</x-ly></x-n
+    ><x-a></x-a><x-ly>things</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>that</x-ly></x-n
   ><x-n
-    ><x-i></x-i><x-ly slot="lyric">ex</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-i></x-i><x-ly>ex</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-o-i-k></x-o-i-k
-    ><x-psi></x-psi><x-ly slot="lyric">ist</x-ly></x-n
+    ><x-psi></x-psi><x-ly>ist</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">af</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-a></x-a><x-ly>af</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">ter</x-ly></x-n
+    ><x-a></x-a><x-ly>ter</x-ly></x-n
   ><x-n
     ><x-a></x-a><x-di2></x-di-2
-    ><x-ly slot="lyric">death</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">are</x-ly></x-n
+    ><x-ly>death</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>are</x-ly></x-n
   ><x-n
     ><x-o></x-o
-    ><x-ly slot="lyric">van</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>van</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-o></x-o><x-ly slot="lyric">i</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-o></x-o><x-ly>i</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-i></x-i><x-kl></x-kl
-    ><x-ly slot="lyric">ty.</x-ly></x-n
+    ><x-ly>ty.</x-ly></x-n
   ><x-m
     ><x-m-ke></x-m-ke
     ><x-m-alpha-aa></x-m-alpha-aa></x-m
   ><x-n
     ><x-e></x-e
-    ><x-ly slot="lyric">Rich</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>Rich</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n><x-k></x-k></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">es</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>es</x-ly></x-n
   ><x-n
-    ><x-i></x-i><x-ly slot="lyric">a</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-i></x-i><x-ly>a</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-o-a-k></x-o-a-k
     ><x-psi></x-psi
     ><x-g class="byz--gorgon"></x-g
-    ><x-ly slot="lyric">bide</x-ly
-    ><x-mel auto slot="melisma"></x-mel></x-n
+    ><x-ly>bide</x-ly
+    ><x-mel a></x-mel></x-n
   ><x-n><x-a></x-a></x-n
   ><x-n
     ><x-re></x-re><x-kl></x-kl
-    ><x-ly slot="lyric">not,</x-ly></x-n
+    ><x-ly>not,</x-ly></x-n
   ><x-m
     ><x-m-pa></x-m-pa
     ><x-m-alpha></x-m-alpha></x-m
   ><x-n
     ><x-p3></x-p3
-    ><x-ly slot="lyric">nei</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
-  ><x-n><x-e></x-e><x-ly slot="lyric">ther</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">doth</x-ly></x-n
+    ><x-ly>nei</x-ly
+    ><x-mel a h></x-mel></x-n
+  ><x-n><x-e></x-e><x-ly>ther</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>doth</x-ly></x-n
   ><x-n
     ><x-ok></x-ok
-    ><x-ly slot="lyric">glor</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">y</x-ly></x-n
+    ><x-ly>glor</x-ly
+    ><x-mel a h></x-mel></x-n
+  ><x-n><x-i></x-i><x-ly>y</x-ly></x-n
   ><x-n
     ><x-o></x-o
     ><x-f-en class="byz--fthora"></x-f-en
-    ><x-ly slot="lyric">ac</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>ac</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-o></x-o><x-ly slot="lyric">com</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-o></x-o><x-ly>com</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-i></x-i><x-ly slot="lyric">pan</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-i></x-i><x-ly>pan</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">y</x-ly></x-n
+    ><x-a></x-a><x-ly>y</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">us</x-ly></x-n
-  ><x-n><x-p></x-p><x-ly slot="lyric">on</x-ly></x-n
-  ><x-n><x-e></x-e><x-ly slot="lyric">the</x-ly></x-n
+    ><x-a></x-a><x-ly>us</x-ly></x-n
+  ><x-n><x-p></x-p><x-ly>on</x-ly></x-n
+  ><x-n><x-e></x-e><x-ly>the</x-ly></x-n
   ><x-n
     ><x-o></x-o><x-kl></x-kl
-    ><x-ly slot="lyric">way;</x-ly></x-n
+    ><x-ly>way;</x-ly></x-n
   ><x-m
     ><x-m-ke></x-m-ke
     ><x-m-alpha-aa></x-m-alpha-aa></x-m
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">for</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">when</x-ly></x-n
+    ><x-a></x-a><x-ly>for</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>when</x-ly></x-n
   ><x-n
     ><x-o></x-o
     ><x-f-en class="byz--fthora"></x-f-en
-    ><x-ly slot="lyric">death</x-ly></x-n
+    ><x-ly>death</x-ly></x-n
   ><x-n
     ><x-o></x-o><x-psi></x-psi
-    ><x-ly slot="lyric">com</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>com</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n><x-a></x-a></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">eth,</x-ly></x-n
+    ><x-a></x-a><x-ly>eth,</x-ly></x-n
   ><x-n
     ><x-o-i-k></x-o-i-k
-    ><x-psi></x-psi><x-ly slot="lyric">all</x-ly></x-n
+    ><x-psi></x-psi><x-ly>all</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">these</x-ly></x-n
+    ><x-a></x-a><x-ly>these</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">things</x-ly></x-n
+    ><x-a></x-a><x-ly>things</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">van</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-a></x-a><x-ly>van</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">ish</x-ly></x-n
+    ><x-a></x-a><x-ly>ish</x-ly></x-n
   ><x-n
     ><x-p2></x-p2><x-kl-b></x-kl-b
-    ><x-ly slot="lyric">ut</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>ut</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">ter</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-a></x-a><x-ly>ter</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n><x-a></x-a></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">ly.</x-ly></x-n
+    ><x-ly>ly.</x-ly></x-n
   ><x-m
     ><x-m-pa></x-m-pa
     ><x-m-alpha></x-m-alpha></x-m
   ><x-n
     ><x-p4></x-p4
-    ><x-ly slot="lyric">Where</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>Where</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">fore,</x-ly></x-n
+    ><x-a></x-a><x-ly>fore,</x-ly></x-n
   ><x-n
     ><x-p-i></x-p-i><x-kl-b></x-kl-b
-    ><x-ly slot="lyric">let</x-ly
-    ><x-mel auto slot="melisma"></x-mel></x-n
+    ><x-ly>let</x-ly
+    ><x-mel a></x-mel></x-n
   ><x-n
     ><x-re></x-re><x-di2></x-di2
-    ><x-ly slot="lyric">us</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">cry</x-ly></x-n
+    ><x-ly>us</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>cry</x-ly></x-n
   ><x-n
-    ><x-o></x-o><x-ly slot="lyric">un</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">to</x-ly></x-n
+    ><x-o></x-o><x-ly>un</x-ly
+    ><x-mel a h></x-mel></x-n
+  ><x-n><x-o></x-o><x-ly>to</x-ly></x-n
   ><x-n
     ><x-i></x-i><x-kl></x-kl
-    ><x-ly slot="lyric">Christ,</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">the</x-ly></x-n
+    ><x-ly>Christ,</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>the</x-ly></x-n
   ><x-n
-    ><x-i></x-i><x-ly slot="lyric">Im</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-i></x-i><x-ly>Im</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-p2></x-p2><x-kl-b></x-kl-b
-    ><x-ly slot="lyric">mor</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>mor</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">tal</x-ly
-    ><x-mel auto slot="melisma"></x-mel></x-n
+    ><x-a></x-a><x-ly>tal</x-ly
+    ><x-mel a></x-mel></x-n
   ><x-n
     ><x-yporroi></x-yporroi
     ><x-g class="byz--gorgon"></x-g></x-n
   ><x-n
     ><x-o></x-o><x-kl></x-kl
-    ><x-ly slot="lyric">King:</x-ly></x-n
+    ><x-ly>King:</x-ly></x-n
   ><x-m
     ><x-m-ke></x-m-ke
     ><x-m-alpha-aa></x-m-alpha-aa></x-m
   ><x-n
-    ><x-i></x-i><x-ly slot="lyric">Un</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">to</x-ly></x-n
+    ><x-i></x-i><x-ly>Un</x-ly
+    ><x-mel a h></x-mel></x-n
+  ><x-n><x-i></x-i><x-ly>to</x-ly></x-n
   ><x-n
     ><x-o2></x-o2><x-psi></x-psi
-    ><x-ly slot="lyric">them</x-ly></x-n
+    ><x-ly>them</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">that</x-ly></x-n
+    ><x-a></x-a><x-ly>that</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">have</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">been</x-ly></x-n
+    ><x-a></x-a><x-ly>have</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>been</x-ly></x-n
   ><x-n
     ><x-i></x-i><x-kl></x-kl
-    ><x-ly slot="lyric">trans</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>trans</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-e></x-e><x-ly slot="lyric">lat</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">ed</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">from</x-ly></x-n
+    ><x-e></x-e><x-ly>lat</x-ly
+    ><x-mel a h></x-mel></x-n
+  ><x-n><x-o></x-o><x-ly>ed</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>from</x-ly></x-n
   ><x-n
-    ><x-i></x-i><x-ly slot="lyric">a</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-i></x-i><x-ly>a</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-p-a></x-p-a
-    ><x-kl-b></x-kl-b><x-ly slot="lyric">mong</x-ly
-    ><x-mel auto slot="melisma"></x-mel></x-n
+    ><x-kl-b></x-kl-b><x-ly>mong</x-ly
+    ><x-mel a></x-mel></x-n
   ><x-n
     ><x-re></x-re><x-kl></x-kl
-    ><x-ly slot="lyric">us,</x-ly></x-n
+    ><x-ly>us,</x-ly></x-n
   ><x-m
     ><x-m-pa></x-m-pa
     ><x-m-alpha></x-m-alpha></x-m
   ><x-n
     ><x-o4></x-o4
-    ><x-ly slot="lyric">do</x-ly></x-n
+    ><x-ly>do</x-ly></x-n
   ><x-n
     ><x-o2></x-o2><x-psi></x-psi
-    ><x-ly slot="lyric">Thou</x-ly></x-n
+    ><x-ly>Thou</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">grant</x-ly></x-n
+    ><x-a></x-a><x-ly>grant</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">rest,</x-ly></x-n
-  ><x-n><x-e></x-e><x-ly slot="lyric">in</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">the</x-ly></x-n
+    ><x-a></x-a><x-ly>rest,</x-ly></x-n
+  ><x-n><x-e></x-e><x-ly>in</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>the</x-ly></x-n
   ><x-n
-    ><x-o></x-o><x-ly slot="lyric">a</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">bode</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">of</x-ly></x-n
+    ><x-o></x-o><x-ly>a</x-ly
+    ><x-mel a h></x-mel></x-n
+  ><x-n><x-o></x-o><x-ly>bode</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>of</x-ly></x-n
   ><x-n
     ><x-i></x-i><x-psi></x-psi
-    ><x-ly slot="lyric">all</x-ly
-    ><x-mel auto slot="melisma"></x-mel></x-n
+    ><x-ly>all</x-ly
+    ><x-mel a></x-mel></x-n
   ><x-n
     ><x-re></x-re
-    ><x-ly slot="lyric">them</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">that</x-ly></x-n
+    ><x-ly>them</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>that</x-ly></x-n
   ><x-n
-    ><x-i></x-i><x-ly slot="lyric">re</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-i></x-i><x-ly>re</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-o></x-o><x-psi></x-psi
-    ><x-ly slot="lyric">joice</x-ly
-    ><x-mel auto slot="melisma"></x-mel></x-n
+    ><x-ly>joice</x-ly
+    ><x-mel a></x-mel></x-n
   ><x-n><x-a></x-a></x-n
   ><x-n
     ><x-vareia></x-vareia><x-a></x-a
-    ><x-ly slot="lyric">in</x-ly
-    ><x-mel auto slot="melisma"></x-mel></x-n
+    ><x-ly>in</x-ly
+    ><x-mel a></x-mel></x-n
   ><x-n><x-a></x-a><x-di2></x-di2></x-n
   ><x-n
     ><x-o></x-o><x-kl></x-kl
-    ><x-ly slot="lyric">Thee.</x-ly></x-n
+    ><x-ly>Thee.</x-ly></x-n
   ><x-m class="byz--align-right"
     ><x-m-ga></x-m-ga
     ><x-m-nana></x-m-nana
@@ -1039,282 +1039,282 @@
   <x-dc>W</x-dc
   ><x-n
     ><x-p2></x-p2
-    ><x-ly slot="lyric">here</x-ly></x-n
+    ><x-ly>here</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">is</x-ly></x-n
+    ><x-a></x-a><x-ly>is</x-ly></x-n
   ><x-n
-    ><x-o></x-o><x-ly slot="lyric">at</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-o></x-o><x-ly>at</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-p></x-p><x-ly slot="lyric">tach</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-p></x-p><x-ly>tach</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">ment</x-ly></x-n
+    ><x-a></x-a><x-ly>ment</x-ly></x-n
   ><x-n
     ><x-o2></x-o2><x-psi></x-psi
-    ><x-ly slot="lyric">to</x-ly></x-n
+    ><x-ly>to</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">the</x-ly></x-n
+    ><x-a></x-a><x-ly>the</x-ly></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">world?</x-ly></x-n
+    ><x-ly>world?</x-ly></x-n
   ><x-m
     ><x-m-di></x-m-di
     ><x-m-delta-aa></x-m-delta-aa></x-m
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">Where</x-ly></x-n
+    ><x-a></x-a><x-ly>Where</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">is</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">the</x-ly></x-n
+    ><x-a></x-a><x-ly>is</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>the</x-ly></x-n
   ><x-n
-    ><x-o></x-o><x-ly slot="lyric">il</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-o></x-o><x-ly>il</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-ok></x-ok
     ><x-g class="byz--gorgon"></x-g
-    ><x-ly slot="lyric">lu</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>lu</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n><x-a></x-a></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">sion</x-ly></x-n
+    ><x-a></x-a><x-ly>sion</x-ly></x-n
   ><x-n
-    ><x-i></x-i><x-ly slot="lyric">of</x-ly
-    ><x-mel auto slot="melisma"></x-mel></x-n
+    ><x-i></x-i><x-ly>of</x-ly
+    ><x-mel a></x-mel></x-n
   ><x-n
     ><x-re></x-re
-    ><x-ly slot="lyric">things</x-ly></x-n
+    ><x-ly>things</x-ly></x-n
   ><x-n
     ><x-ok></x-ok
-    ><x-ly slot="lyric">fleet</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>fleet</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-e></x-e><x-kl></x-kl
-    ><x-ly slot="lyric">ing?</x-ly></x-n
+    ><x-ly>ing?</x-ly></x-n
   ><x-m
     ><x-m-vou></x-m-vou
     ><x-m-legetos></x-m-legetos></x-m
-  ><x-n><x-i></x-i><x-ly slot="lyric">Where</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">is</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">the</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">gold</x-ly></x-n
-  ><x-n><x-e></x-e><x-ly slot="lyric">and</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>Where</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>is</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>the</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>gold</x-ly></x-n
+  ><x-n><x-e></x-e><x-ly>and</x-ly></x-n
   ><x-n
     ><x-ok></x-ok
     ><x-g class="byz--gorgon"></x-g
-    ><x-ly slot="lyric">sil</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>sil</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n><x-a></x-a></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">ver?</x-ly></x-n
+    ><x-a></x-a><x-ly>ver?</x-ly></x-n
   ><x-m
     ><x-m-vou></x-m-vou
     ><x-m-legetos></x-m-legetos></x-m
   ><x-n
     ><x-o5></x-o5><x-psi></x-psi
-    ><x-ly slot="lyric">Where</x-ly></x-n
+    ><x-ly>Where</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">is</x-ly></x-n
+    ><x-a></x-a><x-ly>is</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">the</x-ly></x-n
+    ><x-a></x-a><x-ly>the</x-ly></x-n
   ><x-n
-    ><x-p-i></x-p-i><x-ly slot="lyric">mul</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-p-i></x-p-i><x-ly>mul</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">ti</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">tude</x-ly></x-n
-  ><x-n><x-e></x-e><x-ly slot="lyric">of</x-ly></x-n
+    ><x-a></x-a><x-ly>ti</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>tude</x-ly></x-n
+  ><x-n><x-e></x-e><x-ly>of</x-ly></x-n
   ><x-n
-    ><x-o></x-o><x-ly slot="lyric">house</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">hold</x-ly></x-n
+    ><x-o></x-o><x-ly>house</x-ly
+    ><x-mel a h></x-mel></x-n
+  ><x-n><x-o></x-o><x-ly>hold</x-ly></x-n
   ><x-n
     ><x-o></x-o><x-psi></x-psi
-    ><x-ly slot="lyric">ser</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>ser</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">vants</x-ly></x-n
+    ><x-a></x-a><x-ly>vants</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">and</x-ly></x-n
+    ><x-a></x-a><x-ly>and</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">their</x-ly></x-n
+    ><x-a></x-a><x-ly>their</x-ly></x-n
   ><x-n
     ><x-o2></x-o2><x-psi></x-psi
-    ><x-ly slot="lyric">clam</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>clam</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n><x-a></x-a></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">our?</x-ly></x-n
+    ><x-a></x-a><x-ly>our?</x-ly></x-n
   ><x-m
     ><x-m-vou></x-m-vou
     ><x-m-legetos></x-m-legetos></x-m
   ><x-n
     ><x-o2></x-o2><x-psi></x-psi
-    ><x-ly slot="lyric">All</x-ly></x-n
+    ><x-ly>All</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">is</x-ly></x-n
+    ><x-a></x-a><x-ly>is</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">dust,</x-ly></x-n
+    ><x-a></x-a><x-ly>dust,</x-ly></x-n
   ><x-n><x-stavros></x-stavros></x-n
   ><x-n
     ><x-p2></x-p2
-    ><x-ly slot="lyric">all</x-ly></x-n
+    ><x-ly>all</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">is</x-ly></x-n
+    ><x-a></x-a><x-ly>is</x-ly></x-n
   ><x-n
-    ><x-o></x-o><x-ly slot="lyric">ash</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
-  ><x-n><x-e></x-e><x-ly slot="lyric">es,</x-ly></x-n
+    ><x-o></x-o><x-ly>ash</x-ly
+    ><x-mel a h></x-mel></x-n
+  ><x-n><x-e></x-e><x-ly>es,</x-ly></x-n
   ><x-n><x-stavros></x-stavros></x-n
   ><x-n
-    ><x-p2></x-p2><x-ly slot="lyric">all</x-ly
-    ><x-mel auto slot="melisma"></x-mel></x-n
+    ><x-p2></x-p2><x-ly>all</x-ly
+    ><x-mel a></x-mel></x-n
   ><x-n
     ><x-re></x-re
-    ><x-ly slot="lyric">is</x-ly></x-n
+    ><x-ly>is</x-ly></x-n
   ><x-n
     ><x-o2></x-o2><x-psi></x-psi
     ><x-f-zygos class="byz--fthora"></x-f-zygos
-    ><x-ly slot="lyric">shad</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>shad</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n><x-a></x-a></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">ows.</x-ly></x-n
+    ><x-ly>ows.</x-ly></x-n
   ><x-m
     ><x-m-vou></x-m-vou
     ><x-m-zygos></x-m-zygos
     ><x-f-d-vou
       class="byz--fthora"
     ></x-f-d-vou></x-m
-  ><x-n><x-o></x-o><x-ly slot="lyric">But</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>But</x-ly></x-n
   ><x-n
     ><x-o></x-o><x-psi></x-psi
-    ><x-ly slot="lyric">come,</x-ly></x-n
+    ><x-ly>come,</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">let</x-ly
-    ><x-mel auto slot="melisma"></x-mel></x-n
+    ><x-a></x-a><x-ly>let</x-ly
+    ><x-mel a></x-mel></x-n
   ><x-n
     ><x-re></x-re
-    ><x-ly slot="lyric">us</x-ly></x-n
+    ><x-ly>us</x-ly></x-n
   ><x-n
-    ><x-o></x-o><x-ly slot="lyric">cry</x-ly
-    ><x-mel auto slot="melisma"></x-mel></x-n
+    ><x-o></x-o><x-ly>cry</x-ly
+    ><x-mel a></x-mel></x-n
   ><x-n
     ><x-ko></x-ko
     ><x-g class="byz--gorgon"></x-g></x-n
   ><x-n
     ><x-i></x-i><x-kl></x-kl
-    ><x-ly slot="lyric">out</x-ly></x-n
+    ><x-ly>out</x-ly></x-n
   ><x-n
     ><x-vareia></x-vareia><x-a></x-a
-    ><x-ly slot="lyric">to</x-ly
-    ><x-mel auto slot="melisma"></x-mel></x-n
+    ><x-ly>to</x-ly
+    ><x-mel a></x-mel></x-n
   ><x-n><x-a></x-a></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">the</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>the</x-ly></x-n
   ><x-n
-    ><x-o></x-o><x-ly slot="lyric">Im</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-o></x-o><x-ly>Im</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-i></x-i><x-psi></x-psi
-    ><x-ly slot="lyric">mor</x-ly></x-n
+    ><x-ly>mor</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">tal</x-ly></x-n
+    ><x-a></x-a><x-ly>tal</x-ly></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">King:</x-ly></x-n
+    ><x-ly>King:</x-ly></x-n
   ><x-m
     ><x-m-vou></x-m-vou
     ><x-m-legetos></x-m-legetos></x-m
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">O</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">Lord,</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">count</x-ly></x-n
+    ><x-a></x-a><x-ly>O</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>Lord,</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>count</x-ly></x-n
   ><x-n
     ><x-ok></x-ok
-    ><x-ly slot="lyric">wor</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>wor</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">thy</x-ly></x-n
+    ><x-ly>thy</x-ly></x-n
   ><x-n
     ><x-ea></x-ea
-    ><x-ly slot="lyric">of</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">Thine</x-ly></x-n
+    ><x-ly>of</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>Thine</x-ly></x-n
   ><x-n
-    ><x-o></x-o><x-ly slot="lyric">e</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-o></x-o><x-ly>e</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-i></x-i><x-ly slot="lyric">ter</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-i></x-i><x-ly>ter</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">nal</x-ly></x-n
+    ><x-a></x-a><x-ly>nal</x-ly></x-n
   ><x-n
     ><x-p2></x-p2
-    ><x-ly slot="lyric">good</x-ly></x-n
+    ><x-ly>good</x-ly></x-n
   ><x-n
     ><x-ea></x-ea
     ><x-kl></x-kl
-    ><x-ly slot="lyric">things</x-ly></x-n
+    ><x-ly>things</x-ly></x-n
   ><x-m
     ><x-m-pa></x-m-pa
     ><x-m-alpha></x-m-alpha></x-m
   ><x-n
     ><x-p3></x-p3
-    ><x-ly slot="lyric">them</x-ly></x-n
+    ><x-ly>them</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">that</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">have</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">been</x-ly></x-n
+    ><x-a></x-a><x-ly>that</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>have</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>been</x-ly></x-n
   ><x-n
     ><x-o></x-o><x-psi></x-psi
-    ><x-ly slot="lyric">trans</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>trans</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">lat</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-a></x-a><x-ly>lat</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">ed</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">from</x-ly></x-n
+    ><x-ly>ed</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>from</x-ly></x-n
   ><x-n
-    ><x-o></x-o><x-ly slot="lyric">a</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-o></x-o><x-ly>a</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-o2></x-o2><x-psi></x-psi
-    ><x-ly slot="lyric">mong</x-ly
-    ><x-mel auto slot="melisma"></x-mel></x-n
+    ><x-ly>mong</x-ly
+    ><x-mel a></x-mel></x-n
   ><x-n><x-a></x-a></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">us,</x-ly></x-n
+    ><x-a></x-a><x-ly>us,</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">and</x-ly></x-n
+    ><x-a></x-a><x-ly>and</x-ly></x-n
   ><x-n
     ><x-o2></x-o2><x-psi></x-psi
-    ><x-ly slot="lyric">grant</x-ly></x-n
+    ><x-ly>grant</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">them</x-ly></x-n
+    ><x-a></x-a><x-ly>them</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">rest</x-ly></x-n
+    ><x-a></x-a><x-ly>rest</x-ly></x-n
   ><x-n
     ><x-o></x-o><x-psi></x-psi
-    ><x-ly slot="lyric">in</x-ly></x-n
+    ><x-ly>in</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">Thine</x-ly></x-n
+    ><x-a></x-a><x-ly>Thine</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">age</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-a></x-a><x-ly>age</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">less</x-ly></x-n
+    ><x-a></x-a><x-ly>less</x-ly></x-n
   ><x-n
     ><x-o2></x-o2><x-psi></x-psi
-    ><x-ly slot="lyric">bless</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>bless</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">ed</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-a></x-a><x-ly>ed</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">ness.</x-ly></x-n
+    ><x-ly>ness.</x-ly></x-n
   ><x-m class="byz--align-right"
     ><x-m-vou></x-m-vou
     ><x-m-legetos></x-m-legetos
@@ -1326,244 +1326,244 @@
   <x-dc>T</x-dc
   ><x-n
     ><x-p3></x-p3
-    ><x-ly slot="lyric">ru</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>ru</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">ly</x-ly></x-n
+    ><x-a></x-a><x-ly>ly</x-ly></x-n
   ><x-n
-    ><x-i></x-i><x-ly slot="lyric">dread</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">ful</x-ly></x-n
+    ><x-i></x-i><x-ly>dread</x-ly
+    ><x-mel a h></x-mel></x-n
+  ><x-n><x-i></x-i><x-ly>ful</x-ly></x-n
   ><x-n
-    ><x-p-i></x-p-i><x-ly slot="lyric">is</x-ly></x-n
+    ><x-p-i></x-p-i><x-ly>is</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">the</x-ly
-    ><x-mel auto slot="melisma"></x-mel></x-n
+    ><x-a></x-a><x-ly>the</x-ly
+    ><x-mel a></x-mel></x-n
   ><x-n
-    ><x-re></x-re><x-ly slot="lyric">mys</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-re></x-re><x-ly>mys</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">ter</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">y</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">of</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">death!</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">For</x-ly></x-n
+    ><x-a></x-a><x-ly>ter</x-ly
+    ><x-mel a h></x-mel></x-n
+  ><x-n><x-o></x-o><x-ly>y</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>of</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>death!</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>For</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">how</x-ly></x-n
+    ><x-a></x-a><x-ly>how</x-ly></x-n
   ><x-n
     ><x-o2-m></x-o2-m
-    ><x-ly slot="lyric">is</x-ly></x-n
+    ><x-ly>is</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">the</x-ly></x-n
+    ><x-a></x-a><x-ly>the</x-ly></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">soul</x-ly></x-n
+    ><x-ly>soul</x-ly></x-n
   ><x-n
-    ><x-e></x-e><x-ly slot="lyric">sep</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-e></x-e><x-ly>sep</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-o></x-o><x-ly slot="lyric">a</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-o></x-o><x-ly>a</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-vareia></x-vareia><x-o></x-o
     ><x-omalon-connecting></x-omalon-connecting
-    ><x-ly slot="lyric">rat</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>rat</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n><x-i></x-i></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">ed</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">with</x-ly></x-n
+    ><x-a></x-a><x-ly>ed</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>with</x-ly></x-n
   ><x-n
     ><x-o2></x-o2
-    ><x-ly slot="lyric">vi</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>vi</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">o</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-a></x-a><x-ly>o</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">lence</x-ly></x-n
+    ><x-ly>lence</x-ly></x-n
   ><x-m
     ><x-m-vou></x-m-vou
     ><x-m-legetos></x-m-legetos></x-m
-  ><x-n><x-i></x-i><x-ly slot="lyric">from</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>from</x-ly></x-n
   ><x-n
     ><x-o3></x-o3
-    ><x-ly slot="lyric">bod</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>bod</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n><x-k></x-k></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">y</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>y</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">and</x-ly></x-n
+    ><x-a></x-a><x-ly>and</x-ly></x-n
   ><x-n
     ><x-p-i></x-p-i
-    ><x-ly slot="lyric">joints</x-ly></x-n
+    ><x-ly>joints</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">and</x-ly></x-n
+    ><x-a></x-a><x-ly>and</x-ly></x-n
   ><x-n
     ><x-i></x-i><x-kl></x-kl
-    ><x-ly slot="lyric">all,</x-ly></x-n
+    ><x-ly>all,</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">that</x-ly></x-n
+    ><x-a></x-a><x-ly>that</x-ly></x-n
   ><x-n
-    ><x-i></x-i><x-ly slot="lyric">nat</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-i></x-i><x-ly>nat</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-p></x-p><x-ly slot="lyric">u</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
-  ><x-n><x-e></x-e><x-ly slot="lyric">ral</x-ly></x-n
+    ><x-p></x-p><x-ly>u</x-ly
+    ><x-mel a h></x-mel></x-n
+  ><x-n><x-e></x-e><x-ly>ral</x-ly></x-n
   ><x-n
     ><x-o></x-o><x-omalon></x-omalon><x-kl></x-kl
-    ><x-ly slot="lyric">un</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>un</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">ion;</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">and</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">by</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">the</x-ly></x-n
+    ><x-ly>ion;</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>and</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>by</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>the</x-ly></x-n
   ><x-n
-    ><x-o></x-o><x-ly slot="lyric">di</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-o></x-o><x-ly>di</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-vareia></x-vareia><x-o></x-o
     ><x-omalon-connecting></x-omalon-connecting
-    ><x-ly slot="lyric">vine</x-ly
-    ><x-mel auto slot="melisma"></x-mel></x-n
+    ><x-ly>vine</x-ly
+    ><x-mel a></x-mel></x-n
   ><x-n><x-i></x-i></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">will,</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">that</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">bond</x-ly></x-n
+    ><x-a></x-a><x-ly>will,</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>that</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>bond</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">that</x-ly></x-n
+    ><x-a></x-a><x-ly>that</x-ly></x-n
   ><x-n
     ><x-o></x-o><x-psi></x-psi
-    ><x-ly slot="lyric">is</x-ly></x-n
+    ><x-ly>is</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">most</x-ly></x-n
+    ><x-a></x-a><x-ly>most</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">nat</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-a></x-a><x-ly>nat</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-o></x-o><x-ly slot="lyric">u</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-o></x-o><x-ly>u</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-o></x-o><x-kl></x-kl
-    ><x-ly slot="lyric">ral</x-ly></x-n
+    ><x-ly>ral</x-ly></x-n
   ><x-n
     ><x-ea></x-ea
-    ><x-ly slot="lyric">is</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">cut</x-ly></x-n
+    ><x-ly>is</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>cut</x-ly></x-n
   ><x-n
-    ><x-o></x-o><x-ly slot="lyric">a</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-o></x-o><x-ly>a</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-o></x-o><x-heteron-connecting></x-heteron-connecting
-    ><x-ly slot="lyric">sun</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>sun</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-o-i-k></x-o-i-k
     ><x-g class="byz--gorgon"></x-g></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">der</x-ly
-    ><x-mel auto slot="melisma"></x-mel></x-n
+    ><x-a></x-a><x-ly>der</x-ly
+    ><x-mel a></x-mel></x-n
   ><x-n
     ><x-re></x-re
-    ><x-ly slot="lyric">and</x-ly></x-n
+    ><x-ly>and</x-ly></x-n
   ><x-n
-    ><x-o></x-o><x-ly slot="lyric">whol</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">ly</x-ly></x-n
+    ><x-o></x-o><x-ly>whol</x-ly
+    ><x-mel a h></x-mel></x-n
+  ><x-n><x-o></x-o><x-ly>ly</x-ly></x-n
   ><x-n
     ><x-i></x-i><x-psi></x-psi
-    ><x-ly slot="lyric">rent</x-ly></x-n
+    ><x-ly>rent</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">a</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-a></x-a><x-ly>a</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">part?</x-ly></x-n
+    ><x-ly>part?</x-ly></x-n
   ><x-m
     ><x-m-vou></x-m-vou
     ><x-m-legetos></x-m-legetos></x-m
-  ><x-n><x-i></x-i><x-ly slot="lyric">We</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>We</x-ly></x-n
   ><x-n
-    ><x-p3></x-p3><x-ly slot="lyric">there</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-p3></x-p3><x-ly>there</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">fore</x-ly></x-n
+    ><x-a></x-a><x-ly>fore</x-ly></x-n
   ><x-n
-    ><x-i></x-i><x-ly slot="lyric">warm</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">ly</x-ly></x-n
+    ><x-i></x-i><x-ly>warm</x-ly
+    ><x-mel a h></x-mel></x-n
+  ><x-n><x-i></x-i><x-ly>ly</x-ly></x-n
   ><x-n
     ><x-p-i></x-p-i
-    ><x-ly slot="lyric">pray</x-ly></x-n
+    ><x-ly>pray</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">of</x-ly
-    ><x-mel auto slot="melisma"></x-mel></x-n
+    ><x-a></x-a><x-ly>of</x-ly
+    ><x-mel a></x-mel></x-n
   ><x-n
     ><x-re></x-re
-    ><x-ly slot="lyric">Thee:</x-ly></x-n
+    ><x-ly>Thee:</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">Do</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">Thou</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">grant</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">rest</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">to</x-ly></x-n
+    ><x-a></x-a><x-ly>Do</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>Thou</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>grant</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>rest</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>to</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">those</x-ly></x-n
+    ><x-a></x-a><x-ly>those</x-ly></x-n
   ><x-n
     ><x-o2></x-o2><x-psi></x-psi
-    ><x-ly slot="lyric">tak</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>tak</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">en</x-ly></x-n
+    ><x-a></x-a><x-ly>en</x-ly></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">hence</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">in</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">the</x-ly></x-n
+    ><x-ly>hence</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>in</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>the</x-ly></x-n
   ><x-n
     ><x-o3></x-o3
-    ><x-ly slot="lyric">tents</x-ly
-    ><x-mel auto slot="melisma"></x-mel></x-n
+    ><x-ly>tents</x-ly
+    ><x-mel a></x-mel></x-n
   ><x-n><x-k></x-k></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">of</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>of</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">Thy</x-ly></x-n
+    ><x-a></x-a><x-ly>Thy</x-ly></x-n
   ><x-n
     ><x-p-i></x-p-i
-    ><x-ly slot="lyric">just</x-ly></x-n
+    ><x-ly>just</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">on</x-ly></x-n
+    ><x-a></x-a><x-ly>on</x-ly></x-n
   ><x-n
     ><x-i></x-i><x-kl></x-kl
-    ><x-ly slot="lyric">high,</x-ly></x-n
+    ><x-ly>high,</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">O</x-ly></x-n
+    ><x-a></x-a><x-ly>O</x-ly></x-n
   ><x-n
-    ><x-o></x-o><x-ly slot="lyric">Life</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-o></x-o><x-ly>Life</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-o></x-o><x-psi></x-psi
-    ><x-ly slot="lyric">giv</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>giv</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n><x-a></x-a></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">er</x-ly></x-n
+    ><x-a></x-a><x-ly>er</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">and</x-ly></x-n
+    ><x-a></x-a><x-ly>and</x-ly></x-n
   ><x-n
     ><x-o2></x-o2><x-psi></x-psi
-    ><x-ly slot="lyric">Friend</x-ly></x-n
+    ><x-ly>Friend</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">of</x-ly></x-n
+    ><x-a></x-a><x-ly>of</x-ly></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">man.</x-ly></x-n
+    ><x-ly>man.</x-ly></x-n
   ><x-m class="byz--align-right"
     ><x-m-vou></x-m-vou
     ><x-m-legetos></x-m-legetos
@@ -1581,188 +1581,188 @@
   ><x-n
     ><x-i></x-i
     ></x-n
-  ><x-n><x-p></x-p><x-ly slot="lyric">called</x-ly></x-n
-  ><x-n><x-e></x-e><x-ly slot="lyric">to</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">mind</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">the</x-ly></x-n
+  ><x-n><x-p></x-p><x-ly>called</x-ly></x-n
+  ><x-n><x-e></x-e><x-ly>to</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>mind</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>the</x-ly></x-n
   ><x-n
     ><x-ok></x-ok
-    ><x-psi></x-psi><x-ly slot="lyric">Proph</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-psi></x-psi><x-ly>Proph</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">et</x-ly></x-n
+    ><x-a></x-a><x-ly>et</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">who</x-ly></x-n
+    ><x-a></x-a><x-ly>who</x-ly></x-n
   ><x-n
     ><x-o></x-o><x-kl></x-kl
-    ><x-ly slot="lyric">cried:</x-ly></x-n
+    ><x-ly>cried:</x-ly></x-n
   ><x-n
     ><x-ea></x-ea
-    ><x-ly slot="lyric">I</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">am</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">earth</x-ly></x-n
+    ><x-ly>I</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>am</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>earth</x-ly></x-n
   ><x-n
     ><x-o></x-o><x-antikenoma></x-antikenoma
-    ><x-ly slot="lyric">and</x-ly></x-n
+    ><x-ly>and</x-ly></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">ash</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>ash</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">es;</x-ly></x-n
+    ><x-ly>es;</x-ly></x-n
   ><x-m
     ><x-m-ke></x-m-ke
     ><x-m-alpha-aa></x-m-alpha-aa></x-m
   ><x-n
     ><x-p-i></x-p-i
-    ><x-ly slot="lyric">and</x-ly></x-n
+    ><x-ly>and</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">I</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">looked</x-ly></x-n
+    ><x-a></x-a><x-ly>I</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>looked</x-ly></x-n
   ><x-n
-    ><x-o></x-o><x-ly slot="lyric">a</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-o></x-o><x-ly>a</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-o></x-o><x-psi></x-psi
-    ><x-ly slot="lyric">gain</x-ly></x-n
+    ><x-ly>gain</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">in</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-a></x-a><x-ly>in</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">to</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">the</x-ly></x-n
+    ><x-a></x-a><x-ly>to</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>the</x-ly></x-n
   ><x-n
     ><x-o></x-o><x-kl></x-kl
-    ><x-ly slot="lyric">graves</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">and</x-ly></x-n
+    ><x-ly>graves</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>and</x-ly></x-n
   ><x-n
-    ><x-i></x-i><x-ly slot="lyric">be</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-i></x-i><x-ly>be</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-o></x-o><x-psi></x-psi
-    ><x-ly slot="lyric">held</x-ly></x-n
+    ><x-ly>held</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">the</x-ly></x-n
+    ><x-a></x-a><x-ly>the</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">bones</x-ly></x-n
+    ><x-a></x-a><x-ly>bones</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">laid</x-ly></x-n
+    ><x-a></x-a><x-ly>laid</x-ly></x-n
   ><x-n
     ><x-ok></x-ok
-    ><x-psi></x-psi><x-ly slot="lyric">bare,</x-ly></x-n
+    ><x-psi></x-psi><x-ly>bare,</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">and</x-ly></x-n
+    ><x-a></x-a><x-ly>and</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">I</x-ly></x-n
+    ><x-a></x-a><x-ly>I</x-ly></x-n
   ><x-n
     ><x-i></x-i><x-kl></x-kl
-    ><x-ly slot="lyric">said:</x-ly></x-n
+    ><x-ly>said:</x-ly></x-n
   ><x-m
     ><x-m-ke></x-m-ke
     ><x-m-alpha-aa></x-m-alpha-aa></x-m
   ><x-n
     ><x-p-i></x-p-i
-    ><x-ly slot="lyric">Who,</x-ly></x-n
+    ><x-ly>Who,</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">then,</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">is</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">the</x-ly></x-n
-  ><x-n><x-p></x-p><x-ly slot="lyric">king</x-ly></x-n
+    ><x-a></x-a><x-ly>then,</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>is</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>the</x-ly></x-n
+  ><x-n><x-p></x-p><x-ly>king</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">or</x-ly></x-n
+    ><x-a></x-a><x-ly>or</x-ly></x-n
   ><x-n
-    ><x-i></x-i><x-ly slot="lyric">war</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-i></x-i><x-ly>war</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n><x-k></x-k></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">rior,</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>rior,</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">the</x-ly></x-n
+    ><x-a></x-a><x-ly>the</x-ly></x-n
   ><x-n
     ><x-o></x-o><x-psi></x-psi
-    ><x-ly slot="lyric">rich</x-ly></x-n
+    ><x-ly>rich</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">man</x-ly></x-n
+    ><x-a></x-a><x-ly>man</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">or</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">the</x-ly></x-n
+    ><x-a></x-a><x-ly>or</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>the</x-ly></x-n
   ><x-n
-    ><x-i></x-i><x-ly slot="lyric">pau</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-i></x-i><x-ly>pau</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n><x-k></x-k></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">per,</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>per,</x-ly></x-n
   ><x-n
     ><x-ea></x-ea
-    ><x-ly slot="lyric">the</x-ly></x-n
+    ><x-ly>the</x-ly></x-n
   ><x-n
     ><x-o3></x-o3
-    ><x-ly slot="lyric">right</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">eous</x-ly></x-n
+    ><x-ly>right</x-ly
+    ><x-mel a h></x-mel></x-n
+  ><x-n><x-i></x-i><x-ly>eous</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">or</x-ly></x-n
+    ><x-a></x-a><x-ly>or</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">the</x-ly></x-n
+    ><x-a></x-a><x-ly>the</x-ly></x-n
   ><x-n
     ><x-ok></x-ok
     ><x-g class="byz--gorgon"></x-g
-    ><x-ly slot="lyric">sin</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>sin</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n><x-a></x-a></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">ner?</x-ly></x-n
+    ><x-ly>ner?</x-ly></x-n
   ><x-m
     ><x-m-ke></x-m-ke
     ><x-m-alpha-aa></x-m-alpha-aa></x-m
-  ><x-n><x-o></x-o><x-ly slot="lyric">Yet,</x-ly></x-n
-  ><x-n><x-p></x-p><x-ly slot="lyric">with</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>Yet,</x-ly></x-n
+  ><x-n><x-p></x-p><x-ly>with</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">the</x-ly></x-n
+    ><x-a></x-a><x-ly>the</x-ly></x-n
   ><x-n
     ><x-o></x-o><x-psi></x-psi
-    ><x-ly slot="lyric">right</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>right</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n><x-a></x-a></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">eous</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">grant</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">rest</x-ly></x-n
+    ><x-a></x-a><x-ly>eous</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>grant</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>rest</x-ly></x-n
   ><x-n
-    ><x-i></x-i><x-ly slot="lyric">un</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">to</x-ly></x-n
+    ><x-i></x-i><x-ly>un</x-ly
+    ><x-mel a h></x-mel></x-n
+  ><x-n><x-i></x-i><x-ly>to</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">Thy</x-ly></x-n
+    ><x-a></x-a><x-ly>Thy</x-ly></x-n
   ><x-n
-    ><x-i></x-i><x-ly slot="lyric">ser</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-i></x-i><x-ly>ser</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-ko></x-ko
     ><x-g class="byz--gorgon"></x-g></x-n
   ><x-n
     ><x-ea></x-ea
-    ><x-ly slot="lyric">vants,</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">O</x-ly></x-n
+    ><x-ly>vants,</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>O</x-ly></x-n
   ><x-n
     ><x-p></x-p><x-kl-b></x-kl-b
-    ><x-ly slot="lyric">Lord,</x-ly></x-n
+    ><x-ly>Lord,</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">since</x-ly></x-n
+    ><x-a></x-a><x-ly>since</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">Thou</x-ly></x-n
+    ><x-a></x-a><x-ly>Thou</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">art</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">the</x-ly></x-n
+    ><x-a></x-a><x-ly>art</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>the</x-ly></x-n
   ><x-n
-    ><x-ok></x-ok><x-ly slot="lyric">Friend</x-ly></x-n
+    ><x-ok></x-ok><x-ly>Friend</x-ly></x-n
   ><x-n
-    ><x-vareia></x-vareia><x-i></x-i><x-ly slot="lyric">of</x-ly
-    ><x-mel auto slot="melisma"></x-mel></x-n
+    ><x-vareia></x-vareia><x-i></x-i><x-ly>of</x-ly
+    ><x-mel a></x-mel></x-n
   ><x-n><x-a></x-a></x-n
   ><x-n
     ><x-i></x-i><x-kl></x-kl
-    ><x-ly slot="lyric">man.</x-ly></x-n
+    ><x-ly>man.</x-ly></x-n
   ><x-m class="byz--align-right"
     ><x-m-ke></x-m-ke
     ><x-m-alpha-aa></x-m-alpha-aa
@@ -1782,237 +1782,237 @@
   <x-dc>T</x-dc
   ><x-n
     ><x-p2></x-p2
-    ><x-ly slot="lyric">hy</x-ly></x-n
+    ><x-ly>hy</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">cre</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-a></x-a><x-ly>cre</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-p></x-p><x-ly slot="lyric">a</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
-  ><x-n><x-e></x-e><x-ly slot="lyric">tive</x-ly></x-n
+    ><x-p></x-p><x-ly>a</x-ly
+    ><x-mel a h></x-mel></x-n
+  ><x-n><x-e></x-e><x-ly>tive</x-ly></x-n
   ><x-n
-    ><x-o></x-o><x-ly slot="lyric">com</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-o></x-o><x-ly>com</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-o></x-o><x-kl></x-kl
-    ><x-ly slot="lyric">mand</x-ly></x-n
+    ><x-ly>mand</x-ly></x-n
   ><x-n
-    ><x-o></x-o><x-ly slot="lyric">be</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">came</x-ly></x-n
+    ><x-o></x-o><x-ly>be</x-ly
+    ><x-mel a h></x-mel></x-n
+  ><x-n><x-o></x-o><x-ly>came</x-ly></x-n
   ><x-n
-    ><x-i></x-i><x-ly slot="lyric">my</x-ly
-    ><x-mel auto slot="melisma"></x-mel></x-n
+    ><x-i></x-i><x-ly>my</x-ly
+    ><x-mel a></x-mel></x-n
   ><x-n
-    ><x-re></x-re><x-ly slot="lyric">be</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-re></x-re><x-ly>be</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-p></x-p><x-kl-b></x-kl-b
-    ><x-ly slot="lyric">gin</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>gin</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">ning</x-ly></x-n
+    ><x-a></x-a><x-ly>ning</x-ly></x-n
   ><x-n
-    ><x-i></x-i><x-ly slot="lyric">and</x-ly
-    ><x-mel auto slot="melisma"></x-mel></x-n
+    ><x-i></x-i><x-ly>and</x-ly
+    ><x-mel a></x-mel></x-n
   ><x-n><x-a></x-a></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">foun</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-a></x-a><x-ly>foun</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-p></x-p><x-ly slot="lyric">da</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-p></x-p><x-ly>da</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">tion;</x-ly></x-n
+    ><x-ly>tion;</x-ly></x-n
   ><x-m
     ><x-m-vou></x-m-vou
     ><x-m-sc-di></x-m-sc-di></x-m
   ><x-n
     ><x-o3></x-o3
-    ><x-ly slot="lyric">for</x-ly></x-n
+    ><x-ly>for</x-ly></x-n
   ><x-n
     ><x-ok></x-ok
-    ><x-psi></x-psi><x-ly slot="lyric">wish</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-psi></x-psi><x-ly>wish</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">ing</x-ly></x-n
+    ><x-a></x-a><x-ly>ing</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">to</x-ly></x-n
+    ><x-a></x-a><x-ly>to</x-ly></x-n
   ><x-n
     ><x-o></x-o><x-psi></x-psi
-    ><x-ly slot="lyric">fash</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>fash</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">ion</x-ly></x-n
+    ><x-a></x-a><x-ly>ion</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">me</x-ly></x-n
-  ><x-n><x-p></x-p><x-ly slot="lyric">as</x-ly></x-n
+    ><x-a></x-a><x-ly>me</x-ly></x-n
+  ><x-n><x-p></x-p><x-ly>as</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">a</x-ly></x-n
+    ><x-a></x-a><x-ly>a</x-ly></x-n
   ><x-n
     ><x-p-i></x-p-i><x-kl-b></x-kl-b
-    ><x-ly slot="lyric">liv</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>liv</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-re></x-re
-    ><x-ly slot="lyric">ing</x-ly></x-n
+    ><x-ly>ing</x-ly></x-n
   ><x-n
-    ><x-p3></x-p3><x-ly slot="lyric">crea</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-p3></x-p3><x-ly>crea</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">ture</x-ly></x-n
+    ><x-ly>ture</x-ly></x-n
   ><x-m
     ><x-m-di></x-m-di
     ><x-m-sc-di></x-m-sc-di></x-m
-  ><x-n><x-o></x-o><x-ly slot="lyric">out</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">of</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>out</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>of</x-ly></x-n
   ><x-n
-    ><x-i></x-i><x-ly slot="lyric">na</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-i></x-i><x-ly>na</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">ture</x-ly></x-n
+    ><x-a></x-a><x-ly>ture</x-ly></x-n
   ><x-n
     ><x-o2></x-o2><x-psi></x-psi
-    ><x-ly slot="lyric">vis</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>vis</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">i</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-a></x-a><x-ly>i</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">ble</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">and</x-ly></x-n
+    ><x-a></x-a><x-ly>ble</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>and</x-ly></x-n
   ><x-n
-    ><x-i></x-i><x-ly slot="lyric">in</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-i></x-i><x-ly>in</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">vis</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-a></x-a><x-ly>vis</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">i</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-a></x-a><x-ly>i</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">ble,</x-ly></x-n
+    ><x-ly>ble,</x-ly></x-n
   ><x-m
     ><x-m-vou></x-m-vou
     ><x-m-sc-di></x-m-sc-di></x-m
-  ><x-n><x-o></x-o><x-ly slot="lyric">Thou</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">didst</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>Thou</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>didst</x-ly></x-n
   ><x-n
-    ><x-p></x-p><x-ly slot="lyric">fash</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-p></x-p><x-ly>fash</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">ion</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">my</x-ly></x-n
+    ><x-a></x-a><x-ly>ion</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>my</x-ly></x-n
   ><x-n
     ><x-o2></x-o2><x-psi></x-psi
-    ><x-ly slot="lyric">bod</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>bod</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">y</x-ly></x-n
+    ><x-a></x-a><x-ly>y</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">from</x-ly
-    ><x-mel auto slot="melisma"></x-mel></x-n
+    ><x-a></x-a><x-ly>from</x-ly
+    ><x-mel a></x-mel></x-n
   ><x-n
     ><x-re></x-re
-    ><x-ly slot="lyric">the</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">earth</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">and</x-ly></x-n
+    ><x-ly>the</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>earth</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>and</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">didst</x-ly></x-n
-  ><x-n><x-p></x-p><x-ly slot="lyric">give</x-ly></x-n
-  ><x-n><x-e></x-e><x-ly slot="lyric">me</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">a</x-ly></x-n
+    ><x-a></x-a><x-ly>didst</x-ly></x-n
+  ><x-n><x-p></x-p><x-ly>give</x-ly></x-n
+  ><x-n><x-e></x-e><x-ly>me</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>a</x-ly></x-n
   ><x-n
     ><x-o></x-o><x-kl></x-kl
-    ><x-ly slot="lyric">soul</x-ly></x-n
+    ><x-ly>soul</x-ly></x-n
   ><x-n
     ><x-p></x-p><x-kl-b></x-kl-b
-    ><x-ly slot="lyric">by</x-ly></x-n
+    ><x-ly>by</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">Thy</x-ly></x-n
+    ><x-a></x-a><x-ly>Thy</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">di</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-a></x-a><x-ly>di</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-o2-m></x-o2-m
-    ><x-ly slot="lyric">vine</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">and</x-ly></x-n
+    ><x-ly>vine</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>and</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">quick</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-a></x-a><x-ly>quick</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">'ning</x-ly></x-n
+    ><x-a></x-a><x-ly>'ning</x-ly></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">breath.</x-ly></x-n
+    ><x-ly>breath.</x-ly></x-n
   ><x-m
     ><x-m-vou></x-m-vou
     ><x-m-sc-di></x-m-sc-di></x-m
   ><x-n
-    ><x-p3></x-p3><x-ly slot="lyric">Where</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-p3></x-p3><x-ly>Where</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">fore,</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">O</x-ly></x-n
+    ><x-a></x-a><x-ly>fore,</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>O</x-ly></x-n
   ><x-n
     ><x-ok></x-ok
-    ><x-psi></x-psi><x-ly slot="lyric">Sav</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-psi></x-psi><x-ly>Sav</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">iour,</x-ly></x-n
+    ><x-a></x-a><x-ly>iour,</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">grant</x-ly></x-n
+    ><x-a></x-a><x-ly>grant</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">rest</x-ly></x-n
+    ><x-a></x-a><x-ly>rest</x-ly></x-n
   ><x-n
-    ><x-i></x-i><x-ly slot="lyric">un</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">to</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">Thy</x-ly></x-n
+    ><x-i></x-i><x-ly>un</x-ly
+    ><x-mel a h></x-mel></x-n
+  ><x-n><x-i></x-i><x-ly>to</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>Thy</x-ly></x-n
   ><x-n
-    ><x-p></x-p><x-ly slot="lyric">ser</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
-  ><x-n><x-e></x-e><x-ly slot="lyric">vants</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">in</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">the</x-ly></x-n
+    ><x-p></x-p><x-ly>ser</x-ly
+    ><x-mel a h></x-mel></x-n
+  ><x-n><x-e></x-e><x-ly>vants</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>in</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>the</x-ly></x-n
   ><x-n
     ><x-o></x-o><x-psi></x-psi
-    ><x-ly slot="lyric">land</x-ly></x-n
+    ><x-ly>land</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">of</x-ly></x-n
+    ><x-a></x-a><x-ly>of</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">the</x-ly></x-n
+    ><x-a></x-a><x-ly>the</x-ly></x-n
   ><x-n
-    ><x-p></x-p><x-ly slot="lyric">liv</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-p></x-p><x-ly>liv</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">ing,</x-ly></x-n
+    ><x-ly>ing,</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">in</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">the</x-ly></x-n
+    ><x-a></x-a><x-ly>in</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>the</x-ly></x-n
   ><x-n
     ><x-o></x-o><x-psi></x-psi
-    ><x-ly slot="lyric">dwell</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>dwell</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">ings</x-ly></x-n
+    ><x-a></x-a><x-ly>ings</x-ly></x-n
   ><x-n
     ><x-p-a></x-p-a
-    ><x-kl-b></x-kl-b><x-ly slot="lyric">of</x-ly
-    ><x-mel auto slot="melisma"></x-mel></x-n
+    ><x-kl-b></x-kl-b><x-ly>of</x-ly
+    ><x-mel a></x-mel></x-n
   ><x-n
     ><x-re></x-re
-    ><x-ly slot="lyric">the</x-ly></x-n
+    ><x-ly>the</x-ly></x-n
   ><x-n
-    ><x-p2></x-p2><x-ly slot="lyric">right</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-p2></x-p2><x-ly>right</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">eous.</x-ly></x-n
+    ><x-ly>eous.</x-ly></x-n
   ><x-m class="byz--align-right"
     ><x-m-vou></x-m-vou
     ><x-m-sc-di></x-m-sc-di
@@ -2026,275 +2026,275 @@
   <x-dc>W</x-dc
   ><x-n
     ><x-p></x-p
-    ><x-ly slot="lyric">hen</x-ly></x-n
+    ><x-ly>hen</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">in</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">the</x-ly></x-n
+    ><x-a></x-a><x-ly>in</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>the</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">be</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-a></x-a><x-ly>be</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-i></x-i><x-ly slot="lyric">gin</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-i></x-i><x-ly>gin</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-ko></x-ko
     ><x-g class="byz--gorgon"></x-g></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">ning</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">Thou</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">hadst</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>ning</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>Thou</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>hadst</x-ly></x-n
   ><x-n
-    ><x-o></x-o><x-ly slot="lyric">cre</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-o></x-o><x-ly>cre</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-o></x-o
     ><x-f-en class="byz--fthora"></x-f-en
-    ><x-ly slot="lyric">at</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>at</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">ed</x-ly></x-n
+    ><x-a></x-a><x-ly>ed</x-ly></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">man</x-ly></x-n
+    ><x-ly>man</x-ly></x-n
   ><x-m
     ><x-m-di></x-m-di
     ><x-m-delta-aa></x-m-delta-aa></x-m
   ><x-n
     ><x-i></x-i><x-g-b class="byz--gorgon"></x-g-b
-    ><x-ly slot="lyric">ac</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>ac</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-o></x-o><x-psi></x-psi
-    ><x-ly slot="lyric">cor</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>cor</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">ding</x-ly></x-n
+    ><x-a></x-a><x-ly>ding</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">to</x-ly></x-n
+    ><x-a></x-a><x-ly>to</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">Thine</x-ly></x-n
+    ><x-a></x-a><x-ly>Thine</x-ly></x-n
   ><x-n
     ><x-o></x-o><x-psi></x-psi
-    ><x-ly slot="lyric">im</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>im</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n><x-a></x-a></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">age</x-ly></x-n
+    ><x-a></x-a><x-ly>age</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">and</x-ly></x-n
+    ><x-a></x-a><x-ly>and</x-ly></x-n
   ><x-n
-    ><x-o></x-o><x-ly slot="lyric">like</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-o></x-o><x-ly>like</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-ko></x-ko
     ><x-g class="byz--gorgon"></x-g></x-n
   ><x-n
     ><x-i></x-i><x-kl></x-kl
-    ><x-ly slot="lyric">ness,</x-ly></x-n
+    ><x-ly>ness,</x-ly></x-n
   ><x-m
     ><x-m-ga></x-m-ga
     ><x-m-nana></x-m-nana></x-m
-  ><x-n><x-o></x-o><x-ly slot="lyric">Thou</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">didst</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>Thou</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>didst</x-ly></x-n
   ><x-n
     ><x-o></x-o><x-psi></x-psi
-    ><x-ly slot="lyric">set</x-ly></x-n
+    ><x-ly>set</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">him</x-ly></x-n
+    ><x-a></x-a><x-ly>him</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">in</x-ly></x-n
+    ><x-a></x-a><x-ly>in</x-ly></x-n
   ><x-n
-    ><x-o></x-o><x-ly slot="lyric">Par</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-o></x-o><x-ly>Par</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-i></x-i><x-ly slot="lyric">a</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-i></x-i><x-ly>a</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">dise</x-ly></x-n
+    ><x-ly>dise</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">to</x-ly></x-n
+    ><x-a></x-a><x-ly>to</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">reign</x-ly></x-n
+    ><x-a></x-a><x-ly>reign</x-ly></x-n
   ><x-n
     ><x-ok></x-ok
     ><x-g class="byz--gorgon"></x-g
-    ><x-ly slot="lyric">ov</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>ov</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n><x-a></x-a></x-n
   ><x-n
     ><x-re></x-re
-    ><x-ly slot="lyric">er</x-ly></x-n
+    ><x-ly>er</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">Thy</x-ly></x-n
+    ><x-a></x-a><x-ly>Thy</x-ly></x-n
   ><x-n
-    ><x-o></x-o><x-ly slot="lyric">crea</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-o></x-o><x-ly>crea</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-ko></x-ko
     ><x-g class="byz--gorgon"></x-g></x-n
   ><x-n
     ><x-i></x-i><x-kl></x-kl
-    ><x-ly slot="lyric">tures.</x-ly></x-n
+    ><x-ly>tures.</x-ly></x-n
   ><x-m
     ><x-m-ga></x-m-ga
     ><x-m-nana></x-m-nana></x-m
-  ><x-n><x-i></x-i><x-ly slot="lyric">But</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>But</x-ly></x-n
   ><x-n
-    ><x-i></x-i><x-ly slot="lyric">when</x-ly
-    ><x-mel auto slot="melisma"></x-mel></x-n
+    ><x-i></x-i><x-ly>when</x-ly
+    ><x-mel a></x-mel></x-n
   ><x-n
     ><x-re></x-re
-    ><x-ly slot="lyric">he</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">was</x-ly></x-n
+    ><x-ly>he</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>was</x-ly></x-n
   ><x-n
-    ><x-o></x-o><x-ly slot="lyric">be</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-o></x-o><x-ly>be</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-o></x-o><x-kl></x-kl
-    ><x-ly slot="lyric">guiled</x-ly></x-n
+    ><x-ly>guiled</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">by</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">the</x-ly></x-n
+    ><x-a></x-a><x-ly>by</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>the</x-ly></x-n
   ><x-n
     ><x-o3></x-o3
-    ><x-ly slot="lyric">en</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">vy</x-ly></x-n
+    ><x-ly>en</x-ly
+    ><x-mel a h></x-mel></x-n
+  ><x-n><x-i></x-i><x-ly>vy</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">of</x-ly></x-n
+    ><x-a></x-a><x-ly>of</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">the</x-ly></x-n
+    ><x-a></x-a><x-ly>the</x-ly></x-n
   ><x-n
     ><x-ok></x-ok
     ><x-g class="byz--gorgon"></x-g
-    ><x-ly slot="lyric">dev</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>dev</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n><x-a></x-a></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">il</x-ly></x-n
+    ><x-ly>il</x-ly></x-n
   ><x-m
     ><x-m-di></x-m-di
     ><x-m-delta-aa></x-m-delta-aa></x-m
-  ><x-n><x-i></x-i><x-ly slot="lyric">and</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>and</x-ly></x-n
   ><x-n
-    ><x-i></x-i><x-ly slot="lyric">par</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-i></x-i><x-ly>par</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-i></x-i><x-ly slot="lyric">took</x-ly
-    ><x-mel auto slot="melisma"></x-mel></x-n
+    ><x-i></x-i><x-ly>took</x-ly
+    ><x-mel a></x-mel></x-n
   ><x-n><x-k></x-k></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">of</x-ly></x-n
-  ><x-n><x-e></x-e><x-ly slot="lyric">the</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>of</x-ly></x-n
+  ><x-n><x-e></x-e><x-ly>the</x-ly></x-n
   ><x-n
     ><x-o></x-o><x-kl></x-kl
-    ><x-ly slot="lyric">food,</x-ly></x-n
-  ><x-n><x-e></x-e><x-ly slot="lyric">he</x-ly></x-n
+    ><x-ly>food,</x-ly></x-n
+  ><x-n><x-e></x-e><x-ly>he</x-ly></x-n
   ><x-n
-    ><x-o></x-o><x-ly slot="lyric">be</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-o></x-o><x-ly>be</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-ok></x-ok
-    ><x-ly slot="lyric">came</x-ly></x-n
+    ><x-ly>came</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">a</x-ly></x-n
+    ><x-a></x-a><x-ly>a</x-ly></x-n
   ><x-n
-    ><x-i></x-i><x-ly slot="lyric">trans</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-i></x-i><x-ly>trans</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-p-a></x-p-a
-    ><x-kl-b></x-kl-b><x-ly slot="lyric">gres</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-kl-b></x-kl-b><x-ly>gres</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-re></x-re
-    ><x-ly slot="lyric">sor</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">of</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">Thy</x-ly></x-n
+    ><x-ly>sor</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>of</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>Thy</x-ly></x-n
   ><x-n
-    ><x-e></x-e><x-ly slot="lyric">com</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-e></x-e><x-ly>com</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-o></x-o><x-ly slot="lyric">mand</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-o></x-o><x-ly>mand</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-ko></x-ko
     ><x-g class="byz--gorgon"></x-g></x-n
   ><x-n
     ><x-i></x-i><x-kl></x-kl
-    ><x-ly slot="lyric">ments.</x-ly></x-n
+    ><x-ly>ments.</x-ly></x-n
   ><x-m
     ><x-m-ga></x-m-ga
     ><x-m-nana></x-m-nana></x-m
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">For</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">which</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">cause,</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">O</x-ly></x-n
+    ><x-a></x-a><x-ly>For</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>which</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>cause,</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>O</x-ly></x-n
   ><x-n
     ><x-o></x-o><x-psi></x-psi
-    ><x-ly slot="lyric">Lord,</x-ly></x-n
+    ><x-ly>Lord,</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">Thou</x-ly></x-n
+    ><x-a></x-a><x-ly>Thou</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">didst</x-ly></x-n
+    ><x-a></x-a><x-ly>didst</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">con</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-a></x-a><x-ly>con</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-ok></x-ok
     ><x-g class="byz--gorgon"></x-g
-    ><x-ly slot="lyric">demn</x-ly
-    ><x-mel auto slot="melisma"></x-mel></x-n
+    ><x-ly>demn</x-ly
+    ><x-mel a></x-mel></x-n
   ><x-n><x-a></x-a></x-n
   ><x-n
     ><x-re></x-re><x-kl></x-kl
-    ><x-ly slot="lyric">him</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">to</x-ly></x-n
+    ><x-ly>him</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>to</x-ly></x-n
   ><x-n
-    ><x-i></x-i><x-ly slot="lyric">re</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">turn</x-ly></x-n
+    ><x-i></x-i><x-ly>re</x-ly
+    ><x-mel a h></x-mel></x-n
+  ><x-n><x-o></x-o><x-ly>turn</x-ly></x-n
   ><x-n
-    ><x-o></x-o><x-ly slot="lyric">a</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">gain</x-ly></x-n
+    ><x-o></x-o><x-ly>a</x-ly
+    ><x-mel a h></x-mel></x-n
+  ><x-n><x-o></x-o><x-ly>gain</x-ly></x-n
   ><x-n
-    ><x-i></x-i><x-ly slot="lyric">un</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">to</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">the</x-ly></x-n
+    ><x-i></x-i><x-ly>un</x-ly
+    ><x-mel a h></x-mel></x-n
+  ><x-n><x-i></x-i><x-ly>to</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>the</x-ly></x-n
   ><x-n
     ><x-o2-m></x-o2-m
-    ><x-ly slot="lyric">earth</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">whence</x-ly></x-n
+    ><x-ly>earth</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>whence</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">he</x-ly></x-n
+    ><x-a></x-a><x-ly>he</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">was</x-ly></x-n
+    ><x-a></x-a><x-ly>was</x-ly></x-n
   ><x-n
     ><x-ok></x-ok
     ><x-g class="byz--gorgon"></x-g
-    ><x-ly slot="lyric">tak</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>tak</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n><x-a></x-a></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">en</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">and</x-ly></x-n
+    ><x-ly>en</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>and</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">to</x-ly></x-n
+    ><x-a></x-a><x-ly>to</x-ly></x-n
   ><x-n
     ><x-p></x-p><x-kl-b></x-kl-b
-    ><x-ly slot="lyric">ask</x-ly></x-n
+    ><x-ly>ask</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">for</x-ly></x-n
+    ><x-a></x-a><x-ly>for</x-ly></x-n
   ><x-n
     ><x-a></x-a><x-di2></x-di2
-    ><x-ly slot="lyric">re</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>re</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-o></x-o><x-kl></x-kl
-    ><x-ly slot="lyric">pose.</x-ly></x-n
+    ><x-ly>pose.</x-ly></x-n
   ><x-m class="byz--align-right"
     ><x-m-ga></x-m-ga
     ><x-m-nana></x-m-nana
@@ -2305,92 +2305,92 @@
   <x-dc>G</x-dc
   ><x-n
     ><x-i></x-i
-    ><x-ly slot="lyric">rant</x-ly></x-n
-  ><x-n><x-p></x-p><x-ly slot="lyric">rest,</x-ly></x-n
+    ><x-ly>rant</x-ly></x-n
+  ><x-n><x-p></x-p><x-ly>rest,</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">O</x-ly></x-n
+    ><x-a></x-a><x-ly>O</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">our</x-ly></x-n
+    ><x-a></x-a><x-ly>our</x-ly></x-n
   ><x-n
     ><x-o></x-o><x-psi></x-psi
-    ><x-ly slot="lyric">life</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>life</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n><x-a></x-a></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">giv</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-a></x-a><x-ly>giv</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">ing</x-ly></x-n
+    ><x-a></x-a><x-ly>ing</x-ly></x-n
   ><x-n
-    ><x-o></x-o><x-ly slot="lyric">sav</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-o></x-o><x-ly>sav</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-ko></x-ko
     ><x-g class="byz--gorgon"></x-g></x-n
   ><x-n
     ><x-i></x-i><x-kl></x-kl
-    ><x-ly slot="lyric">iour,</x-ly></x-n
+    ><x-ly>iour,</x-ly></x-n
   ><x-m
     ><x-m-ga></x-m-ga
     ><x-m-nana></x-m-nana></x-m
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">to</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">our</x-ly></x-n
+    ><x-a></x-a><x-ly>to</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>our</x-ly></x-n
   ><x-n
-    ><x-o></x-o><x-ly slot="lyric">breth</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">ren</x-ly></x-n
-  ><x-n><x-p></x-p><x-ly slot="lyric">whom</x-ly></x-n
+    ><x-o></x-o><x-ly>breth</x-ly
+    ><x-mel a h></x-mel></x-n
+  ><x-n><x-i></x-i><x-ly>ren</x-ly></x-n
+  ><x-n><x-p></x-p><x-ly>whom</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">Thou</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">hast</x-ly></x-n
+    ><x-a></x-a><x-ly>Thou</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>hast</x-ly></x-n
   ><x-n
-    ><x-o></x-o><x-ly slot="lyric">trans</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-o></x-o><x-ly>trans</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-o></x-o
     ><x-f-en class="byz--fthora"></x-f-en
-    ><x-ly slot="lyric">lat</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">ed</x-ly></x-n
+    ><x-ly>lat</x-ly
+    ><x-mel a h></x-mel></x-n
+  ><x-n><x-i></x-i><x-ly>ed</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">from</x-ly></x-n
+    ><x-a></x-a><x-ly>from</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">things</x-ly></x-n
+    ><x-a></x-a><x-ly>things</x-ly></x-n
   ><x-n
     ><x-o2></x-o2><x-psi></x-psi
-    ><x-ly slot="lyric">tem</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>tem</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">por</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-a></x-a><x-ly>por</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">al,</x-ly></x-n
-  ><x-n><x-p></x-p><x-ly slot="lyric">as</x-ly></x-n
-  ><x-n><x-e></x-e><x-ly slot="lyric">they</x-ly></x-n
+    ><x-ly>al,</x-ly></x-n
+  ><x-n><x-p></x-p><x-ly>as</x-ly></x-n
+  ><x-n><x-e></x-e><x-ly>they</x-ly></x-n
   ><x-n
     ><x-o></x-o><x-kl></x-kl
-    ><x-ly slot="lyric">cry:</x-ly></x-n
-  ><x-n><x-e></x-e><x-ly slot="lyric">O</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">Lord,</x-ly></x-n
+    ><x-ly>cry:</x-ly></x-n
+  ><x-n><x-e></x-e><x-ly>O</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>Lord,</x-ly></x-n
   ><x-n
-    ><x-o></x-o><x-ly slot="lyric">glo</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">ry</x-ly></x-n
+    ><x-o></x-o><x-ly>glo</x-ly
+    ><x-mel a h></x-mel></x-n
+  ><x-n><x-i></x-i><x-ly>ry</x-ly></x-n
   ><x-n
     ><x-o></x-o><x-psi></x-psi
-    ><x-ly slot="lyric">be</x-ly
-    ><x-mel auto slot="melisma"></x-mel></x-n
+    ><x-ly>be</x-ly
+    ><x-mel a></x-mel></x-n
   ><x-n><x-a></x-a></x-n
   ><x-n
     ><x-vareia></x-vareia><x-a></x-a
-    ><x-ly slot="lyric">to</x-ly
-    ><x-mel auto slot="melisma"></x-mel></x-n
+    ><x-ly>to</x-ly
+    ><x-mel a></x-mel></x-n
   ><x-n><x-a></x-a><x-di2></x-di2></x-n
   ><x-n
     ><x-o></x-o><x-kl></x-kl
-    ><x-ly slot="lyric">Thee.</x-ly></x-n
+    ><x-ly>Thee.</x-ly></x-n
   ><x-m class="byz--align-right"
     ><x-m-ga></x-m-ga
     ><x-m-nana></x-m-nana
@@ -2407,300 +2407,300 @@
     ></x-n
   ><x-n
     ><x-p2></x-p2
-    ><x-ly slot="lyric">weep</x-ly></x-n
+    ><x-ly>weep</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">and</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">I</x-ly></x-n
+    ><x-a></x-a><x-ly>and</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>I</x-ly></x-n
   ><x-n
-    ><x-o></x-o><x-ly slot="lyric">la</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">ment</x-ly></x-n
+    ><x-o></x-o><x-ly>la</x-ly
+    ><x-mel a h></x-mel></x-n
+  ><x-n><x-o></x-o><x-ly>ment</x-ly></x-n
   ><x-n
-    ><x-i></x-i><x-ly slot="lyric">when</x-ly
-    ><x-mel auto slot="melisma"></x-mel></x-n
+    ><x-i></x-i><x-ly>when</x-ly
+    ><x-mel a></x-mel></x-n
   ><x-n
     ><x-re></x-re
-    ><x-ly slot="lyric">I</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">think</x-ly></x-n
+    ><x-ly>I</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>think</x-ly></x-n
   ><x-n
-    ><x-o></x-o><x-ly slot="lyric">up</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-o></x-o><x-ly>up</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-ok></x-ok
-    ><x-ly slot="lyric">on</x-ly></x-n
+    ><x-ly>on</x-ly></x-n
   ><x-n
     ><x-e></x-e><x-kl></x-kl
-    ><x-ly slot="lyric">death,</x-ly></x-n
+    ><x-ly>death,</x-ly></x-n
   ><x-m
     ><x-m-di></x-m-di
     ><x-m-delta-aa></x-m-delta-aa></x-m
-  ><x-n><x-p></x-p><x-ly slot="lyric">and</x-ly></x-n
+  ><x-n><x-p></x-p><x-ly>and</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">be</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-a></x-a><x-ly>be</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-p-i></x-p-i
-    ><x-ly slot="lyric">hold</x-ly></x-n
+    ><x-ly>hold</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">our</x-ly></x-n
+    ><x-a></x-a><x-ly>our</x-ly></x-n
   ><x-n
-    ><x-p></x-p><x-ly slot="lyric">beau</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-p></x-p><x-ly>beau</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n><x-a></x-a></x-n
   ><x-n
     ><x-a></x-a
     ><x-g class="byz--gorgon"></x-g></x-n
   ><x-n
     ><x-i></x-i><x-kl></x-kl
-    ><x-ly slot="lyric">ty,</x-ly></x-n
+    ><x-ly>ty,</x-ly></x-n
   ><x-m
     ><x-m-vou></x-m-vou
     ><x-m-legetos></x-m-legetos></x-m
   ><x-n
     ><x-o2-m></x-o2-m
-    ><x-ly slot="lyric">which</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">was</x-ly></x-n
+    ><x-ly>which</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>was</x-ly></x-n
   ><x-n
     ><x-ok></x-ok
     ><x-g class="byz--gorgon"></x-g
-    ><x-ly slot="lyric">fash</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>fash</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n><x-a></x-a></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">ioned</x-ly></x-n
+    ><x-a></x-a><x-ly>ioned</x-ly></x-n
   ><x-n
-    ><x-i></x-i><x-ly slot="lyric">af</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">ter</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">the</x-ly></x-n
+    ><x-i></x-i><x-ly>af</x-ly
+    ><x-mel a h></x-mel></x-n
+  ><x-n><x-i></x-i><x-ly>ter</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>the</x-ly></x-n
   ><x-n
-    ><x-i></x-i><x-ly slot="lyric">im</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-i></x-i><x-ly>im</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n><x-k></x-k></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">age</x-ly></x-n
-  ><x-n><x-e></x-e><x-ly slot="lyric">of</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>age</x-ly></x-n
+  ><x-n><x-e></x-e><x-ly>of</x-ly></x-n
   ><x-n
     ><x-o></x-o><x-kl></x-kl
-    ><x-ly slot="lyric">God,</x-ly></x-n
+    ><x-ly>God,</x-ly></x-n
   ><x-n
     ><x-i></x-i><x-psi></x-psi
     ><x-f-hc-di
       class="byz--fthora"
     ></x-f-hc-di
-    ><x-ly slot="lyric">ly</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>ly</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">ing</x-ly></x-n
+    ><x-a></x-a><x-ly>ing</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">in</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">the</x-ly></x-n
+    ><x-a></x-a><x-ly>in</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>the</x-ly></x-n
   ><x-n
     ><x-o></x-o
     ><x-f-d-di
       class="byz--fthora"
     ></x-f-d-di
-    ><x-ly slot="lyric">tomb</x-ly></x-n
+    ><x-ly>tomb</x-ly></x-n
   ><x-n
-    ><x-i></x-i><x-ly slot="lyric">dis</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-i></x-i><x-ly>dis</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-ok></x-ok
-    ><x-ly slot="lyric">fig</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>fig</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-e></x-e><x-kl></x-kl
-    ><x-ly slot="lyric">ured,</x-ly></x-n
+    ><x-ly>ured,</x-ly></x-n
   ><x-m
     ><x-m-di></x-m-di
     ><x-m-delta-aa></x-m-delta-aa></x-m
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">dis</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-a></x-a><x-ly>dis</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-o></x-o><x-kl></x-kl
-    ><x-ly slot="lyric">hon</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
-  ><x-n><x-e></x-e><x-ly slot="lyric">oured,</x-ly></x-n
+    ><x-ly>hon</x-ly
+    ><x-mel a h></x-mel></x-n
+  ><x-n><x-e></x-e><x-ly>oured,</x-ly></x-n
   ><x-n
     ><x-o></x-o><x-psi></x-psi
-    ><x-ly slot="lyric">be</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>be</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">reft</x-ly></x-n
+    ><x-a></x-a><x-ly>reft</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">of</x-ly></x-n
+    ><x-a></x-a><x-ly>of</x-ly></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">form.</x-ly></x-n
+    ><x-ly>form.</x-ly></x-n
   ><x-m
     ><x-m-ni></x-m-ni
     ><x-m-delta></x-m-delta></x-m
   ><x-n
     ><x-o4></x-o4
-    ><x-ly slot="lyric">O</x-ly></x-n
+    ><x-ly>O</x-ly></x-n
   ><x-n
     ><x-ok></x-ok
-    ><x-ly slot="lyric">won</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>won</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-e></x-e><x-kl></x-kl
-    ><x-ly slot="lyric">der!</x-ly></x-n
+    ><x-ly>der!</x-ly></x-n
   ><x-n
     ><x-o-i-k></x-o-i-k
-    ><x-psi></x-psi><x-ly slot="lyric">What</x-ly></x-n
+    ><x-psi></x-psi><x-ly>What</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">is</x-ly></x-n
+    ><x-a></x-a><x-ly>is</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">this</x-ly></x-n
+    ><x-a></x-a><x-ly>this</x-ly></x-n
   ><x-n
     ><x-o></x-o><x-psi></x-psi
-    ><x-ly slot="lyric">my</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>my</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">ster</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-a></x-a><x-ly>ster</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">y</x-ly></x-n
+    ><x-a></x-a><x-ly>y</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">that</x-ly></x-n
+    ><x-a></x-a><x-ly>that</x-ly></x-n
   ><x-n
     ><x-o2-m></x-o2-m
-    ><x-ly slot="lyric">hath</x-ly></x-n
+    ><x-ly>hath</x-ly></x-n
   ><x-n
-    ><x-i></x-i><x-ly slot="lyric">be</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-i></x-i><x-ly>be</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">fall</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-a></x-a><x-ly>fall</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">en</x-ly></x-n
+    ><x-a></x-a><x-ly>en</x-ly></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">us?</x-ly></x-n
+    ><x-ly>us?</x-ly></x-n
   ><x-m
     ><x-m-ni></x-m-ni
     ><x-m-delta></x-m-delta></x-m
-  ><x-n><x-i></x-i><x-ly slot="lyric">How</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">have</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>How</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>have</x-ly></x-n
   ><x-n
     ><x-o2-m></x-o2-m
-    ><x-ly slot="lyric">we</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">been</x-ly></x-n
+    ><x-ly>we</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>been</x-ly></x-n
   ><x-n
     ><x-ok></x-ok
-    ><x-ly slot="lyric">giv</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>giv</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">en</x-ly></x-n
+    ><x-a></x-a><x-ly>en</x-ly></x-n
   ><x-n
     ><x-i></x-i><x-psi></x-psi
-    ><x-ly slot="lyric">o'er</x-ly
-    ><x-mel auto slot="melisma"></x-mel></x-n
+    ><x-ly>o'er</x-ly
+    ><x-mel a></x-mel></x-n
   ><x-n
-    ><x-re></x-re><x-ly slot="lyric">un</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">to</x-ly></x-n
+    ><x-re></x-re><x-ly>un</x-ly
+    ><x-mel a h></x-mel></x-n
+  ><x-n><x-o></x-o><x-ly>to</x-ly></x-n
   ><x-n
-    ><x-o></x-o><x-ly slot="lyric">cor</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-o></x-o><x-ly>cor</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-ok></x-ok
     ><x-g class="byz--gorgon"></x-g
-    ><x-ly slot="lyric">rup</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>rup</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n><x-a></x-a></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">tion?</x-ly></x-n
+    ><x-ly>tion?</x-ly></x-n
   ><x-m
     ><x-m-di></x-m-di
     ><x-m-delta-aa></x-m-delta-aa></x-m
-  ><x-n><x-i></x-i><x-ly slot="lyric">How</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">have</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>How</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>have</x-ly></x-n
   ><x-n
     ><x-i></x-i><x-psi></x-psi
-    ><x-ly slot="lyric">we</x-ly></x-n
+    ><x-ly>we</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">been</x-ly></x-n
+    ><x-a></x-a><x-ly>been</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">yoked</x-ly></x-n
+    ><x-a></x-a><x-ly>yoked</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">to</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-a></x-a><x-ly>to</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-ok></x-ok
-    ><x-psi></x-psi><x-ly slot="lyric">geth</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-psi></x-psi><x-ly>geth</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">er</x-ly></x-n
+    ><x-a></x-a><x-ly>er</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">with</x-ly></x-n
+    ><x-a></x-a><x-ly>with</x-ly></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">death?</x-ly></x-n
+    ><x-ly>death?</x-ly></x-n
   ><x-m
     ><x-m-ni></x-m-ni
     ><x-m-delta></x-m-delta></x-m
   ><x-n
     ><x-o6></x-o6
-    ><x-psi></x-psi><x-ly slot="lyric">Of</x-ly></x-n
+    ><x-psi></x-psi><x-ly>Of</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">a</x-ly></x-n
+    ><x-a></x-a><x-ly>a</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">truth,</x-ly></x-n
-  ><x-n><x-e></x-e><x-ly slot="lyric">as</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">it</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">is</x-ly></x-n
+    ><x-a></x-a><x-ly>truth,</x-ly></x-n
+  ><x-n><x-e></x-e><x-ly>as</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>it</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>is</x-ly></x-n
   ><x-n
     ><x-ok></x-ok
     ><x-g class="byz--gorgon"></x-g
-    ><x-ly slot="lyric">writ</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>writ</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n><x-a></x-a></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">ten,</x-ly></x-n
-  ><x-n><x-p></x-p><x-ly slot="lyric">it</x-ly></x-n
-  ><x-n><x-e></x-e><x-ly slot="lyric">is</x-ly></x-n
+    ><x-ly>ten,</x-ly></x-n
+  ><x-n><x-p></x-p><x-ly>it</x-ly></x-n
+  ><x-n><x-e></x-e><x-ly>is</x-ly></x-n
   ><x-n
     ><x-o></x-o><x-kl></x-kl
-    ><x-ly slot="lyric">by</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">the</x-ly></x-n
+    ><x-ly>by</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>the</x-ly></x-n
   ><x-n
-    ><x-o></x-o><x-ly slot="lyric">com</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-o></x-o><x-ly>com</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-ok></x-ok
-    ><x-psi></x-psi><x-ly slot="lyric">mand</x-ly></x-n
+    ><x-psi></x-psi><x-ly>mand</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">of</x-ly
-    ><x-mel auto slot="melisma"></x-mel></x-n
+    ><x-a></x-a><x-ly>of</x-ly
+    ><x-mel a></x-mel></x-n
   ><x-n><x-a></x-a></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">God,</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">Who</x-ly></x-n
+    ><x-ly>God,</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>Who</x-ly></x-n
   ><x-n
-    ><x-i></x-i><x-ly slot="lyric">grant</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">eth</x-ly></x-n
+    ><x-i></x-i><x-ly>grant</x-ly
+    ><x-mel a h></x-mel></x-n
+  ><x-n><x-i></x-i><x-ly>eth</x-ly></x-n
   ><x-n
     ><x-o-a></x-o-a><x-psi></x-psi
-    ><x-ly slot="lyric">rest</x-ly></x-n
+    ><x-ly>rest</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">to</x-ly></x-n
+    ><x-a></x-a><x-ly>to</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">the</x-ly></x-n
+    ><x-a></x-a><x-ly>the</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">de</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-a></x-a><x-ly>de</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-ok></x-ok
-    ><x-ly slot="lyric">part</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>part</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-e></x-e><x-kl></x-kl
-    ><x-ly slot="lyric">ed.</x-ly></x-n
+    ><x-ly>ed.</x-ly></x-n
   ><x-m class="byz--align-right"
     ><x-m-ni></x-m-ni
     ><x-m-delta></x-m-delta
@@ -2710,42 +2710,42 @@
   <x-dc>G</x-dc
   ><x-n
     ><x-p5></x-p5
-    ><x-ly slot="lyric">lor</x-ly
-    ><x-mel slot="melisma" auto hyphen></x-mel></x-n
+    ><x-ly>lor</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">y</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">to</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">the</x-ly></x-n
+    ><x-a></x-a><x-ly>y</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>to</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>the</x-ly></x-n
   ><x-n
     ><x-p></x-p><x-kl-b></x-kl-b
-    ><x-ly slot="lyric">Fa</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>Fa</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">ther,</x-ly></x-n
+    ><x-a></x-a><x-ly>ther,</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">and</x-ly></x-n
+    ><x-a></x-a><x-ly>and</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">to</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">the</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">Son,</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">and</x-ly></x-n
+    ><x-a></x-a><x-ly>to</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>the</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>Son,</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>and</x-ly></x-n
   ><x-n
     ><x-ea></x-ea
-    ><x-ly slot="lyric">to</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">the</x-ly></x-n
+    ><x-ly>to</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>the</x-ly></x-n
   ><x-n
     ><x-o></x-o><x-psi></x-psi
-    ><x-ly slot="lyric">Ho</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>Ho</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">ly</x-ly></x-n
+    ><x-a></x-a><x-ly>ly</x-ly></x-n
   ><x-n
     ><x-o-a-k></x-o-a-k
-    ><x-ly slot="lyric">Spir</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>Spir</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-e></x-e><x-kl></x-kl
-    ><x-ly slot="lyric">it.</x-ly></x-n
+    ><x-ly>it.</x-ly></x-n
   ><x-m class="byz--align-right"
     ><x-m-ni></x-m-ni
     ><x-m-delta></x-m-delta
@@ -2755,148 +2755,148 @@
   <x-dc>T</x-dc
   ><x-n
     ><x-i></x-i
-    ><x-ly slot="lyric">hy</x-ly></x-n
+    ><x-ly>hy</x-ly></x-n
   ><x-n
     ><x-o2-m></x-o2-m
-    ><x-ly slot="lyric">death,</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">O</x-ly></x-n
+    ><x-ly>death,</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>O</x-ly></x-n
   ><x-n
     ><x-o></x-o><x-kl></x-kl
-    ><x-ly slot="lyric">Lord,</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">is</x-ly></x-n
+    ><x-ly>Lord,</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>is</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">be</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">come</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">the</x-ly></x-n
+    ><x-a></x-a><x-ly>be</x-ly
+    ><x-mel a h></x-mel></x-n
+  ><x-n><x-o></x-o><x-ly>come</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>the</x-ly></x-n
   ><x-n
     ><x-i></x-i><x-psi></x-psi
-    ><x-ly slot="lyric">cause</x-ly></x-n
+    ><x-ly>cause</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">of</x-ly
-    ><x-mel auto slot="melisma"></x-mel></x-n
+    ><x-a></x-a><x-ly>of</x-ly
+    ><x-mel a></x-mel></x-n
   ><x-n
-    ><x-re></x-re><x-ly slot="lyric">im</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-re></x-re><x-ly>im</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-k></x-k
     ><x-g class="byz--gorgon"></x-g></x-n
   ><x-n
     ><x-o></x-o><x-psi></x-psi
-    ><x-ly slot="lyric">mor</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>mor</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">tal</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-a></x-a><x-ly>tal</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">i</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-a></x-a><x-ly>i</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">ty.</x-ly></x-n
+    ><x-ly>ty.</x-ly></x-n
   ><x-m
     ><x-m-ni></x-m-ni
     ><x-m-delta></x-m-delta></x-m
   ><x-n
     ><x-p2></x-p2
-    ><x-ly slot="lyric">For</x-ly></x-n
+    ><x-ly>For</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">if</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">Thou</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">hadst</x-ly></x-n
+    ><x-a></x-a><x-ly>if</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>Thou</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>hadst</x-ly></x-n
   ><x-n
     ><x-ok></x-ok
-    ><x-psi></x-psi><x-ly slot="lyric">not</x-ly></x-n
+    ><x-psi></x-psi><x-ly>not</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">been</x-ly></x-n
+    ><x-a></x-a><x-ly>been</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">laid</x-ly></x-n
+    ><x-a></x-a><x-ly>laid</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">in</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">a</x-ly></x-n
+    ><x-a></x-a><x-ly>in</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>a</x-ly></x-n
   ><x-n
     ><x-o></x-o><x-kl></x-kl
-    ><x-ly slot="lyric">grave,</x-ly></x-n
+    ><x-ly>grave,</x-ly></x-n
   ><x-n
     ><x-i></x-i><x-psi></x-psi
-    ><x-ly slot="lyric">Par</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>Par</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">a</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-a></x-a><x-ly>a</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">dise</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">would</x-ly></x-n
+    ><x-a></x-a><x-ly>dise</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>would</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">not</x-ly
-    ><x-mel auto slot="melisma"></x-mel></x-n
+    ><x-a></x-a><x-ly>not</x-ly
+    ><x-mel a></x-mel></x-n
   ><x-n><x-k></x-k></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">have</x-ly></x-n
-  ><x-n><x-e></x-e><x-ly slot="lyric">been</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>have</x-ly></x-n
+  ><x-n><x-e></x-e><x-ly>been</x-ly></x-n
   ><x-n
     ><x-ok></x-ok
-    ><x-ly slot="lyric">o</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>o</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-e></x-e><x-kl></x-kl
-    ><x-ly slot="lyric">pened.</x-ly></x-n
+    ><x-ly>pened.</x-ly></x-n
   ><x-m
     ><x-m-ni></x-m-ni
     ><x-m-delta></x-m-delta></x-m
   ><x-n
     ><x-p5></x-p5
-    ><x-kl-b></x-kl-b><x-ly slot="lyric">Where</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-kl-b></x-kl-b><x-ly>Where</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">fore,</x-ly></x-n
+    ><x-a></x-a><x-ly>fore,</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">do</x-ly></x-n
+    ><x-a></x-a><x-ly>do</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">Thou</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">grant</x-ly></x-n
+    ><x-a></x-a><x-ly>Thou</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>grant</x-ly></x-n
   ><x-n
     ><x-o></x-o><x-kl></x-kl
-    ><x-ly slot="lyric">rest</x-ly></x-n
-  ><x-n><x-p></x-p><x-ly slot="lyric">unto</x-ly></x-n
-  ><x-n><x-e></x-e><x-ly slot="lyric">them</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">that</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">have</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">been</x-ly></x-n
+    ><x-ly>rest</x-ly></x-n
+  ><x-n><x-p></x-p><x-ly>unto</x-ly></x-n
+  ><x-n><x-e></x-e><x-ly>them</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>that</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>have</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>been</x-ly></x-n
   ><x-n
-    ><x-i></x-i><x-ly slot="lyric">trans</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-i></x-i><x-ly>trans</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n><x-k></x-k></x-n
   ><x-n
-    ><x-i></x-i><x-ly slot="lyric">lat</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
-  ><x-n><x-e></x-e><x-ly slot="lyric">ed</x-ly></x-n
+    ><x-i></x-i><x-ly>lat</x-ly
+    ><x-mel a h></x-mel></x-n
+  ><x-n><x-e></x-e><x-ly>ed</x-ly></x-n
   ><x-n
     ><x-o></x-o><x-kl></x-kl
-    ><x-ly slot="lyric">hence,</x-ly></x-n
+    ><x-ly>hence,</x-ly></x-n
   ><x-n
     ><x-i></x-i><x-psi></x-psi
-    ><x-ly slot="lyric">since</x-ly></x-n
+    ><x-ly>since</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">Thou</x-ly></x-n
+    ><x-a></x-a><x-ly>Thou</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">art</x-ly></x-n
+    ><x-a></x-a><x-ly>art</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">the</x-ly></x-n
+    ><x-a></x-a><x-ly>the</x-ly></x-n
   ><x-n
     ><x-o2></x-o2><x-psi></x-psi
-    ><x-ly slot="lyric">Friend</x-ly
-    ><x-mel auto slot="melisma"></x-mel></x-n
+    ><x-ly>Friend</x-ly
+    ><x-mel a></x-mel></x-n
   ><x-n><x-a></x-a></x-n
   ><x-n
     ><x-a></x-a><x-antikenoma></x-antikenoma><x-apli></x-apli
-    ><x-ly slot="lyric">of</x-ly
-    ><x-mel auto slot="melisma"></x-mel></x-n
+    ><x-ly>of</x-ly
+    ><x-mel a></x-mel></x-n
   ><x-n
     ><x-a></x-a
     ><x-g class="byz--gorgon"></x-g></x-n
   ><x-n
     ><x-i></x-i><x-kl></x-kl
-    ><x-ly slot="lyric">man.</x-ly></x-n
+    ><x-ly>man.</x-ly></x-n
   ><x-m class="byz--align-right"
     ><x-m-ni></x-m-ni
     ><x-m-delta></x-m-delta
@@ -2904,45 +2904,45 @@
 </div>
 <div class="byz--neume-paragraph">
   <x-dc>B</x-dc
-  ><x-n><x-i></x-i><x-ly slot="lyric">oth</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>oth</x-ly></x-n
   ><x-n
     ><x-o2-m></x-o2-m
-    ><x-ly slot="lyric">now</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">and</x-ly></x-n
+    ><x-ly>now</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>and</x-ly></x-n
   ><x-n
     ><x-ok></x-ok
-    ><x-ly slot="lyric">ev</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>ev</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">er</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">and</x-ly></x-n
+    ><x-ly>er</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>and</x-ly></x-n
   ><x-n
-    ><x-i></x-i><x-ly slot="lyric">un</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">to</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">the</x-ly></x-n
+    ><x-i></x-i><x-ly>un</x-ly
+    ><x-mel a h></x-mel></x-n
+  ><x-n><x-i></x-i><x-ly>to</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>the</x-ly></x-n
   ><x-n
     ><x-i></x-i><x-psi></x-psi
-    ><x-ly slot="lyric">a</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-ly>a</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n><x-a></x-a></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">ges</x-ly></x-n
+    ><x-a></x-a><x-ly>ges</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">of</x-ly></x-n
+    ><x-a></x-a><x-ly>of</x-ly></x-n
   ><x-n
     ><x-ok></x-ok
-    ><x-psi></x-psi><x-ly slot="lyric">a</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-psi></x-psi><x-ly>a</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">ges.</x-ly></x-n
+    ><x-a></x-a><x-ly>ges.</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">A</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-a></x-a><x-ly>A</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">men.</x-ly></x-n
+    ><x-ly>men.</x-ly></x-n
   ><x-m class="byz--align-right"
     ><x-m-ni></x-m-ni
     ><x-m-delta></x-m-delta
@@ -2953,46 +2953,46 @@
   ><x-n
     ><x-o2-m></x-o2-m
     ></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">pure</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>pure</x-ly></x-n
   ><x-n
-    ><x-o></x-o><x-ly slot="lyric">Vir</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">gin,</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">the</x-ly></x-n
+    ><x-o></x-o><x-ly>Vir</x-ly
+    ><x-mel a h></x-mel></x-n
+  ><x-n><x-i></x-i><x-ly>gin,</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>the</x-ly></x-n
   ><x-n
-    ><x-i></x-i><x-ly slot="lyric">gate</x-ly
-    ><x-mel auto slot="melisma"></x-mel></x-n
+    ><x-i></x-i><x-ly>gate</x-ly
+    ><x-mel a></x-mel></x-n
   ><x-n><x-k></x-k></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">of</x-ly></x-n
-  ><x-n><x-e></x-e><x-ly slot="lyric">the</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>of</x-ly></x-n
+  ><x-n><x-e></x-e><x-ly>the</x-ly></x-n
   ><x-n
     ><x-o></x-o><x-kl></x-kl
-    ><x-ly slot="lyric">Word</x-ly></x-n
+    ><x-ly>Word</x-ly></x-n
   ><x-n
     ><x-i></x-i><x-g class="byz--gorgon"></x-g
-    ><x-ly slot="lyric">and</x-ly></x-n
+    ><x-ly>and</x-ly></x-n
   ><x-n
-    ><x-p-i></x-p-i><x-ly slot="lyric">Moth</x-ly
-    ><x-mel auto hyphen slot="melisma"></x-mel></x-n
+    ><x-p-i></x-p-i><x-ly>Moth</x-ly
+    ><x-mel a h></x-mel></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">er</x-ly></x-n
+    ><x-a></x-a><x-ly>er</x-ly></x-n
   ><x-n
     ><x-o></x-o><x-psi></x-psi
-    ><x-ly slot="lyric">of</x-ly></x-n
+    ><x-ly>of</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">our</x-ly></x-n
+    ><x-a></x-a><x-ly>our</x-ly></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
-    ><x-ly slot="lyric">God:</x-ly></x-n
-  ><x-n><x-o></x-o><x-ly slot="lyric">Pray</x-ly></x-n
-  ><x-n><x-i></x-i><x-ly slot="lyric">that</x-ly></x-n
+    ><x-ly>God:</x-ly></x-n
+  ><x-n><x-o></x-o><x-ly>Pray</x-ly></x-n
+  ><x-n><x-i></x-i><x-ly>that</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">we</x-ly></x-n
+    ><x-a></x-a><x-ly>we</x-ly></x-n
   ><x-n
-    ><x-a></x-a><x-ly slot="lyric">be</x-ly></x-n
+    ><x-a></x-a><x-ly>be</x-ly></x-n
   ><x-n
-    ><x-i></x-i><x-dipli></x-dipli><x-ly slot="lyric">saved.</x-ly
-    ><x-mel auto slot="melisma"></x-mel></x-n
+    ><x-i></x-i><x-dipli></x-dipli><x-ly>saved.</x-ly
+    ><x-mel a></x-mel></x-n
   ><x-n
     ><x-yporroi></x-yporroi
     ><x-g class="byz--gorgon"></x-g></x-n

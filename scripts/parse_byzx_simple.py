@@ -545,7 +545,7 @@ with open(outputfilepath, 'w', encoding='utf-8') as outfile:
                 spacer = ''
 
                 outfile.write(
-                    f'\n    <x-lyric slot="lyric">{spacer}{lyrics}</x-lyric>')
+                    f'\n    <x-lyric>{spacer}{lyrics}</x-lyric>')
 
             if need_newline:
                 outfile.write('\n')

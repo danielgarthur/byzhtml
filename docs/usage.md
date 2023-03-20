@@ -97,48 +97,52 @@ Result:
 
 ## Lyrics
 
-The `x-note` component groups neumes and lyrics together.
+The `x-note` component groups neumes and lyrics together. Lyrics should be placed in an `x-lyric` component.
+
+?> Lyrics may be abbreviated with the following alias: `<x-ly></x-ly>`.
 
 ```html
 <x-note>
   <x-ison></x-ison>
-  <x-lyric slot="lyric">To</x-lyric>
+  <x-lyric>To</x-lyric>
 </x-note>
 <x-note>
   <x-oligon></x-oligon>
-  <x-lyric slot="lyric">thee,</x-lyric>
+  <x-lyric>thee,</x-lyric>
 </x-note>
 <x-note>
   <x-ison></x-ison>
-  <x-lyric slot="lyric">O</x-lyric>
+  <x-lyric>O</x-lyric>
 </x-note>
 <x-note>
   <x-apostrofos></x-apostrofos>
-  <x-lyric slot="lyric">Lord.</x-lyric>
+  <x-lyric>Lord.</x-lyric>
 </x-note>
 ```
 
 Result:
 <x-note>
 <x-ison></x-ison>
-<x-lyric slot="lyric">To</x-lyric>
+<x-lyric>To</x-lyric>
 </x-note>
 <x-note>
 <x-oligon></x-oligon>
-<x-lyric slot="lyric">Thee,</x-lyric>
+<x-lyric>Thee,</x-lyric>
 </x-note>
 <x-note>
 <x-ison></x-ison>
-<x-lyric slot="lyric">O</x-lyric>
+<x-lyric>O</x-lyric>
 </x-note>
 <x-note>
 <x-apostrofos></x-apostrofos>
-<x-lyric slot="lyric">Lord.</x-lyric>
+<x-lyric>Lord.</x-lyric>
 </x-note>
 
 ### Melismas
 
-Melismas can be displayed with the `x-melisma` component. Use the `auto` attribute to automatically calculate the melismas. If you do not like the automated result, then you can remove the `auto` attribute and type out the melisma as underscores.
+Melismas can be displayed with the `x-melisma` component. Use the `auto` attribute to automatically calculate the melismas. If you do not like the automated result, then you may omit the `auto` attribute and type out the melisma as underscores.
+
+?> Automatic melismas may be abbreviated with the following alias: `<x-mel a></x-mel>`.
 
 !> If you are using byzhtml as part of a single page application (SPA), and/or if you are adding neumes to the DOM after the initial page has loaded, then you will need to call `byzhtml.processAutoMelismas()` after the elements have been added to the DOM in order to process and display the automatic melismas.
 
@@ -149,15 +153,15 @@ Melismas can be displayed with the `x-melisma` component. Use the `auto` attribu
 <x-note>
   <x-oligon-kentimata-above></x-oligon-kentimata-above
   ><x-gorgon-above></x-gorgon-above>
-  <x-lyric slot="lyric">Lord,</x-lyric>
-  <x-melisma auto slot="melisma"></x-melisma>
+  <x-lyric>Lord,</x-lyric>
+  <x-melisma auto></x-melisma>
 </x-note>
 <x-note>
   <x-apostrofos></x-apostrofos>
 </x-note>
 <x-note>
   <x-apostrofos></x-apostrofos>
-  <x-lyric slot="lyric">I</x-lyric>
+  <x-lyric>I</x-lyric>
 </x-note>
 ```
 
@@ -165,15 +169,15 @@ Melismas can be displayed with the `x-melisma` component. Use the `auto` attribu
 Result:
 <x-note>
   <x-oligon-kentimata-above></x-oligon-kentimata-above><x-gorgon-above class="gorgon"></x-gorgon-above>
-  <x-lyric slot="lyric">Lord,</x-lyric>
-  <x-melisma auto slot="melisma"></x-melisma>
+  <x-lyric>Lord,</x-lyric>
+  <x-melisma auto></x-melisma>
 </x-note>
 <x-note>
 <x-apostrofos></x-apostrofos>
 </x-note>
 <x-note>
   <x-apostrofos></x-apostrofos>
-  <x-lyric slot="lyric">I</x-lyric>
+  <x-lyric>I</x-lyric>
 </x-note>
 
 #### Custom Melismas
@@ -183,13 +187,13 @@ Result:
 <x-note>
   <x-oligon-kentimata-above></x-oligon-kentimata-above
   ><x-gorgon-above></x-gorgon-above>
-  <x-lyric slot="lyric">Lord,</x-lyric>
-  <x-melisma slot="melisma">____</x-melisma>
+  <x-lyric>Lord,</x-lyric>
+  <x-melisma>____</x-melisma>
 </x-note>
 <x-apostrofos></x-apostrofos>
 <x-note>
   <x-apostrofos></x-apostrofos>
-  <x-lyric slot="lyric">I</x-lyric>
+  <x-lyric>I</x-lyric>
 </x-note>
 ```
 
@@ -197,18 +201,20 @@ Result:
 Result:
 <x-note>
   <x-oligon-kentimata-above></x-oligon-kentimata-above><x-gorgon-above class="gorgon"></x-gorgon-above>
-  <x-lyric slot="lyric">Lord,</x-lyric>
-  <x-melisma slot="melisma">___</x-melisma>
+  <x-lyric>Lord,</x-lyric>
+  <x-melisma>___</x-melisma>
 </x-note>
 <x-apostrofos></x-apostrofos>
 <x-note>
   <x-apostrofos></x-apostrofos>
-  <x-lyric slot="lyric">I</x-lyric>
+  <x-lyric>I</x-lyric>
 </x-note>
 
 ### Hyphenation
 
-Hyphenation also uses the `x-melisma` component. Hyphens may be automatically calculated using the `auto hyphen` attributes. If you do not like the automatically calculated result, then you may write out the desired number of spaces and hyphens inside the `x-melisma` component.
+Hyphenation also uses the `x-melisma` component. Hyphens may be automatically calculated using the `auto hyphen` attributes. If you do not like the automatically calculated result, then you may omit the attributes and write out the desired number of spaces and hyphens inside the `x-melisma` component.
+
+?> Automatic hyphenation may be abbreviated with the following alias: `<x-mel a h></x-mel>`.
 
 !> If you are using byzhtml as part of a single page application (SPA), and/or if you are adding neumes to the DOM after the initial page has loaded, then you will need to call `byzhtml.processAutoMelismas()` after the elements have been added to the DOM in order to process and display the automatic hyphenation.
 
@@ -218,12 +224,12 @@ Hyphenation also uses the `x-melisma` component. Hyphens may be automatically ca
 ```html
 <x-note>
   <x-ison></x-ison>
-  <x-lyric slot="lyric">Re</x-lyric>
-  <x-melisma auto hyphen slot="melisma"></x-melisma>
+  <x-lyric>Re</x-lyric>
+  <x-melisma auto hyphen></x-melisma>
 </x-note>
 <x-note>
   <x-ison></x-ison>
-  <x-lyric slot="lyric">joice</x-lyric>
+  <x-lyric>joice</x-lyric>
 </x-note>
 ```
 
@@ -231,12 +237,12 @@ Hyphenation also uses the `x-melisma` component. Hyphens may be automatically ca
 Result: 
 <x-note>
   <x-ison></x-ison>
-  <x-lyric slot="lyric">Re</x-lyric>
-  <x-melisma auto hyphen slot="melisma"></x-melisma>
+  <x-lyric>Re</x-lyric>
+  <x-melisma auto hyphen></x-melisma>
 </x-note>
 <x-note>
   <x-ison></x-ison>
-  <x-lyric slot="lyric">joice</x-lyric>
+  <x-lyric>joice</x-lyric>
 </x-note>
 
 #### Custom Hyphenation
@@ -245,27 +251,27 @@ Result:
 ```html
 <x-note>
   <x-ison></x-ison>
-  <x-lyric slot="lyric">Re</x-lyric>
-  <x-melisma slot="melisma"> -</x-melisma>
+  <x-lyric>Re</x-lyric>
+  <x-melisma> -</x-melisma>
 </x-note>
 <x-note>
   <x-ison></x-ison>
-  <x-lyric slot="lyric">joice</x-lyric>
+  <x-lyric>joice</x-lyric>
 </x-note>
 ```
 
-!> If your HTML editor automatically removes whitespace, then you may want to disable that feature, or use the `&nbsp;` character instead. E.g. `<x-melisma slot="melisma">&nbsp;-</x-melisma>`
+!> If your HTML editor automatically removes whitespace, then you may want to disable that feature, or use the `&nbsp;` character instead. E.g. `<x-melisma>&nbsp;-</x-melisma>`
 
 <!-- prettier-ignore -->
 Result: 
 <x-note>
   <x-ison></x-ison>
-  <x-lyric slot="lyric">Re</x-lyric>
-  <x-melisma slot="melisma"> -</x-melisma>
+  <x-lyric>Re</x-lyric>
+  <x-melisma> -</x-melisma>
 </x-note>
 <x-note>
   <x-ison></x-ison>
-  <x-lyric slot="lyric">joice</x-lyric>
+  <x-lyric>joice</x-lyric>
 </x-note>
 
 ## Fixing collisions

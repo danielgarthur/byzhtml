@@ -1520,7 +1520,7 @@ var byzhtml = (function () {
 
       let text = '';
 
-      if (melisma.hasAttribute('hyphen')) {
+      if (melisma.hasAttribute('hyphen') || melisma.hasAttribute('h')) {
         const widthOfHyphen = TextMetrics.getTextWidthFromCache('-', font);
 
         text = '-';
@@ -1547,7 +1547,9 @@ var byzhtml = (function () {
   }
 
   function processAutoMelismas() {
-    const melismas = document.querySelectorAll('x-melisma[auto], x-mel[auto]');
+    const melismas = document.querySelectorAll(
+      'x-melisma[auto], x-mel[auto], x-melisma[a], x-mel[a]',
+    );
     const melismasInViewPort = [];
 
     const changes = [];
@@ -1889,6 +1891,14 @@ var byzhtml = (function () {
       this.attachShadow({ mode: 'open' });
       this.shadowRoot.innerHTML = `<span style="font-family: var(${CssVars.LyricFontFamily}); font-size: var(${CssVars.LyricFontSize}); margin: 0 var(${CssVars.LyricOffsetHorizontal});"><slot></slot></span>`;
     }
+
+    connectedCallback() {
+      const parentNote = this.closest('x-note, x-n');
+
+      if (parentNote) {
+        this.slot = 'lyric';
+      }
+    }
   }
 
   class Melisma extends HTMLElement {
@@ -1903,6 +1913,12 @@ var byzhtml = (function () {
     }
 
     connectedCallback() {
+      const parentNote = this.closest('x-note, x-n');
+
+      if (parentNote) {
+        this.slot = 'melisma';
+      }
+
       this.updateStyle();
     }
 
