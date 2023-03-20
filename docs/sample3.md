@@ -140,7 +140,7 @@
     ><x-mel a></x-mel></x-n
   ><x-n
     ><x-ko></x-ko
-    ><x-g class="byz--gorgon"></x-g></x-n
+    ><x-g></x-g></x-n
   ><x-n
     ><x-a></x-a><x-ly>shall</x-ly></x-n
   ><x-n
@@ -218,7 +218,7 @@
   ><x-n><x-i></x-i><x-ly>hast</x-ly></x-n
   ><x-n
     ><x-ok></x-ok
-    ><x-g class="byz--gorgon"></x-g
+    ><x-g></x-g
     ><x-ly>cho</x-ly
     ><x-mel a h></x-mel></x-n
   ><x-n><x-a></x-a></x-n
@@ -244,7 +244,7 @@
     ><x-mel a></x-mel></x-n
   ><x-n
     ><x-a></x-a
-    ><x-g class="byz--gorgon"></x-g></x-n
+    ><x-g></x-g></x-n
   ><x-n
     ><x-i></x-i><x-kl></x-kl
     ><x-ly>man.</x-ly></x-n
@@ -257,9 +257,7 @@
   <x-mode-word-echos></x-mode-word-echos><x-mode-second></x-mode-second
   ><x-n
     ><x-mode-pa></x-mode-pa
-    ><x-f-hc-pa
-      class="byz--fthora"
-    ></x-f-hc-pa
+    ><x-f-hc-pa></x-f-hc-pa
   ></x-n>
 </div>
 <div class="byz--neume-paragraph">
@@ -288,9 +286,7 @@
   ><x-n><x-i></x-i><x-ly>doth</x-ly></x-n
   ><x-n
     ><x-o></x-o
-    ><x-f-d-ke
-      class="byz--fthora"
-    ></x-f-d-ke
+    ><x-f-d-ke></x-f-d-ke
     ><x-ly>the</x-ly></x-n
   ><x-n
     ><x-o2></x-o2><x-psi></x-psi
@@ -302,9 +298,7 @@
     ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-a></x-a><x-kl></x-kl
-    ><x-f-hc-di-b
-      class="byz--fthora"
-    ></x-f-hc-di-b
+    ><x-f-hc-di-b></x-f-hc-di-b
     ><x-ly>dure</x-ly></x-n
   ><x-n
     ><x-p></x-p><x-kl-b></x-kl-b
@@ -341,23 +335,19 @@
   ><x-n><x-i></x-i><x-ly>How</x-ly></x-n
   ><x-n
     ><x-o></x-o
-    ><x-f-d-ke
-      class="byz--fthora"
-    ></x-f-d-ke
+    ><x-f-d-ke></x-f-d-ke
     ><x-ly>man</x-ly
     ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-ko></x-ko
-    ><x-g class="byz--gorgon"></x-g></x-n
+    ><x-g></x-g></x-n
   ><x-n
     ><x-a></x-a><x-ly>y</x-ly></x-n
   ><x-n
     ><x-a></x-a><x-ly>then</x-ly></x-n
   ><x-n
     ><x-a></x-a
-    ><x-f-hc-di
-      class="byz--fthora"
-    ></x-f-hc-di
+    ><x-f-hc-di></x-f-hc-di
     ><x-ly>are</x-ly></x-n
   ><x-n
     ><x-a></x-a><x-ly>its</x-ly></x-n
@@ -480,7 +470,7 @@
   ><x-n><x-e></x-e><x-ly>ed</x-ly></x-n
   ><x-n
     ><x-ok></x-ok
-    ><x-g class="byz--gorgon"></x-g
+    ><x-g></x-g
     ><x-ly>breth</x-ly
     ><x-mel a h></x-mel></x-n
   ><x-n><x-a></x-a></x-n
@@ -697,7 +687,7 @@
     ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-ok></x-ok
-    ><x-g class="byz--gorgon"></x-g
+    ><x-g></x-g
     ><x-ly>tab</x-ly
     ><x-mel a h></x-mel></x-n
   ><x-n><x-a></x-a></x-n
@@ -826,7 +816,7 @@
   ><x-n
     ><x-o-a-k></x-o-a-k
     ><x-psi></x-psi
-    ><x-g class="byz--gorgon"></x-g
+    ><x-g></x-g
     ><x-ly>bide</x-ly
     ><x-mel a></x-mel></x-n
   ><x-n><x-a></x-a></x-n
@@ -849,7 +839,7 @@
   ><x-n><x-i></x-i><x-ly>y</x-ly></x-n
   ><x-n
     ><x-o></x-o
-    ><x-f-en class="byz--fthora"></x-f-en
+    ><x-f-en></x-f-en
     ><x-ly>ac</x-ly
     ><x-mel a h></x-mel></x-n
   ><x-n
@@ -875,7 +865,7 @@
   ><x-n><x-o></x-o><x-ly>when</x-ly></x-n
   ><x-n
     ><x-o></x-o
-    ><x-f-en class="byz--fthora"></x-f-en
+    ><x-f-en></x-f-en
     ><x-ly>death</x-ly></x-n
   ><x-n
     ><x-o></x-o><x-psi></x-psi
@@ -944,7 +934,7 @@
     ><x-mel a></x-mel></x-n
   ><x-n
     ><x-yporroi></x-yporroi
-    ><x-g class="byz--gorgon"></x-g></x-n
+    ><x-g></x-g></x-n
   ><x-n
     ><x-o></x-o><x-kl></x-kl
     ><x-ly>King:</x-ly></x-n
@@ -1071,7 +1061,7 @@
     ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-ok></x-ok
-    ><x-g class="byz--gorgon"></x-g
+    ><x-g></x-g
     ><x-ly>lu</x-ly
     ><x-mel a h></x-mel></x-n
   ><x-n><x-a></x-a></x-n
@@ -1100,7 +1090,7 @@
   ><x-n><x-e></x-e><x-ly>and</x-ly></x-n
   ><x-n
     ><x-ok></x-ok
-    ><x-g class="byz--gorgon"></x-g
+    ><x-g></x-g
     ><x-ly>sil</x-ly
     ><x-mel a h></x-mel></x-n
   ><x-n><x-a></x-a></x-n
@@ -1173,7 +1163,7 @@
     ><x-ly>is</x-ly></x-n
   ><x-n
     ><x-o2></x-o2><x-psi></x-psi
-    ><x-f-zygos class="byz--fthora"></x-f-zygos
+    ><x-f-zygos></x-f-zygos
     ><x-ly>shad</x-ly
     ><x-mel a h></x-mel></x-n
   ><x-n><x-a></x-a></x-n
@@ -1183,9 +1173,7 @@
   ><x-m
     ><x-m-vou></x-m-vou
     ><x-m-zygos></x-m-zygos
-    ><x-f-d-vou
-      class="byz--fthora"
-    ></x-f-d-vou></x-m
+    ><x-f-d-vou></x-f-d-vou></x-m
   ><x-n><x-o></x-o><x-ly>But</x-ly></x-n
   ><x-n
     ><x-o></x-o><x-psi></x-psi
@@ -1201,7 +1189,7 @@
     ><x-mel a></x-mel></x-n
   ><x-n
     ><x-ko></x-ko
-    ><x-g class="byz--gorgon"></x-g></x-n
+    ><x-g></x-g></x-n
   ><x-n
     ><x-i></x-i><x-kl></x-kl
     ><x-ly>out</x-ly></x-n
@@ -1465,7 +1453,7 @@
     ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-o-i-k></x-o-i-k
-    ><x-g class="byz--gorgon"></x-g></x-n
+    ><x-g></x-g></x-n
   ><x-n
     ><x-a></x-a><x-ly>der</x-ly
     ><x-mel a></x-mel></x-n
@@ -1705,7 +1693,7 @@
     ><x-a></x-a><x-ly>the</x-ly></x-n
   ><x-n
     ><x-ok></x-ok
-    ><x-g class="byz--gorgon"></x-g
+    ><x-g></x-g
     ><x-ly>sin</x-ly
     ><x-mel a h></x-mel></x-n
   ><x-n><x-a></x-a></x-n
@@ -1739,7 +1727,7 @@
     ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-ko></x-ko
-    ><x-g class="byz--gorgon"></x-g></x-n
+    ><x-g></x-g></x-n
   ><x-n
     ><x-ea></x-ea
     ><x-ly>vants,</x-ly></x-n
@@ -1773,9 +1761,7 @@
   ><x-mode-plagal-second></x-mode-plagal-second
   ><x-n
     ><x-mode-vou></x-mode-vou
-    ><x-f-sc-di
-      class="byz--fthora"
-    ></x-f-sc-di
+    ><x-f-sc-di></x-f-sc-di
   ></x-n>
 </div>
 <div class="byz--neume-paragraph">
@@ -2038,7 +2024,7 @@
     ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-ko></x-ko
-    ><x-g class="byz--gorgon"></x-g></x-n
+    ><x-g></x-g></x-n
   ><x-n><x-i></x-i><x-ly>ning</x-ly></x-n
   ><x-n><x-i></x-i><x-ly>Thou</x-ly></x-n
   ><x-n><x-i></x-i><x-ly>hadst</x-ly></x-n
@@ -2047,7 +2033,7 @@
     ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-o></x-o
-    ><x-f-en class="byz--fthora"></x-f-en
+    ><x-f-en></x-f-en
     ><x-ly>at</x-ly
     ><x-mel a h></x-mel></x-n
   ><x-n
@@ -2059,7 +2045,7 @@
     ><x-m-di></x-m-di
     ><x-m-delta-aa></x-m-delta-aa></x-m
   ><x-n
-    ><x-i></x-i><x-g-b class="byz--gorgon"></x-g-b
+    ><x-i></x-i><x-g-b></x-g-b
     ><x-ly>ac</x-ly
     ><x-mel a h></x-mel></x-n
   ><x-n
@@ -2086,7 +2072,7 @@
     ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-ko></x-ko
-    ><x-g class="byz--gorgon"></x-g></x-n
+    ><x-g></x-g></x-n
   ><x-n
     ><x-i></x-i><x-kl></x-kl
     ><x-ly>ness,</x-ly></x-n
@@ -2117,7 +2103,7 @@
     ><x-a></x-a><x-ly>reign</x-ly></x-n
   ><x-n
     ><x-ok></x-ok
-    ><x-g class="byz--gorgon"></x-g
+    ><x-g></x-g
     ><x-ly>ov</x-ly
     ><x-mel a h></x-mel></x-n
   ><x-n><x-a></x-a></x-n
@@ -2131,7 +2117,7 @@
     ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-ko></x-ko
-    ><x-g class="byz--gorgon"></x-g></x-n
+    ><x-g></x-g></x-n
   ><x-n
     ><x-i></x-i><x-kl></x-kl
     ><x-ly>tures.</x-ly></x-n
@@ -2166,7 +2152,7 @@
     ><x-a></x-a><x-ly>the</x-ly></x-n
   ><x-n
     ><x-ok></x-ok
-    ><x-g class="byz--gorgon"></x-g
+    ><x-g></x-g
     ><x-ly>dev</x-ly
     ><x-mel a h></x-mel></x-n
   ><x-n><x-a></x-a></x-n
@@ -2218,7 +2204,7 @@
     ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-ko></x-ko
-    ><x-g class="byz--gorgon"></x-g></x-n
+    ><x-g></x-g></x-n
   ><x-n
     ><x-i></x-i><x-kl></x-kl
     ><x-ly>ments.</x-ly></x-n
@@ -2242,7 +2228,7 @@
     ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-ok></x-ok
-    ><x-g class="byz--gorgon"></x-g
+    ><x-g></x-g
     ><x-ly>demn</x-ly
     ><x-mel a></x-mel></x-n
   ><x-n><x-a></x-a></x-n
@@ -2273,7 +2259,7 @@
     ><x-a></x-a><x-ly>was</x-ly></x-n
   ><x-n
     ><x-ok></x-ok
-    ><x-g class="byz--gorgon"></x-g
+    ><x-g></x-g
     ><x-ly>tak</x-ly
     ><x-mel a h></x-mel></x-n
   ><x-n><x-a></x-a></x-n
@@ -2326,7 +2312,7 @@
     ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-ko></x-ko
-    ><x-g class="byz--gorgon"></x-g></x-n
+    ><x-g></x-g></x-n
   ><x-n
     ><x-i></x-i><x-kl></x-kl
     ><x-ly>iour,</x-ly></x-n
@@ -2349,7 +2335,7 @@
     ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-o></x-o
-    ><x-f-en class="byz--fthora"></x-f-en
+    ><x-f-en></x-f-en
     ><x-ly>lat</x-ly
     ><x-mel a h></x-mel></x-n
   ><x-n><x-i></x-i><x-ly>ed</x-ly></x-n
@@ -2449,7 +2435,7 @@
   ><x-n><x-a></x-a></x-n
   ><x-n
     ><x-a></x-a
-    ><x-g class="byz--gorgon"></x-g></x-n
+    ><x-g></x-g></x-n
   ><x-n
     ><x-i></x-i><x-kl></x-kl
     ><x-ly>ty,</x-ly></x-n
@@ -2462,7 +2448,7 @@
   ><x-n><x-i></x-i><x-ly>was</x-ly></x-n
   ><x-n
     ><x-ok></x-ok
-    ><x-g class="byz--gorgon"></x-g
+    ><x-g></x-g
     ><x-ly>fash</x-ly
     ><x-mel a h></x-mel></x-n
   ><x-n><x-a></x-a></x-n
@@ -2484,9 +2470,7 @@
     ><x-ly>God,</x-ly></x-n
   ><x-n
     ><x-i></x-i><x-psi></x-psi
-    ><x-f-hc-di
-      class="byz--fthora"
-    ></x-f-hc-di
+    ><x-f-hc-di></x-f-hc-di
     ><x-ly>ly</x-ly
     ><x-mel a h></x-mel></x-n
   ><x-n
@@ -2496,9 +2480,7 @@
   ><x-n><x-o></x-o><x-ly>the</x-ly></x-n
   ><x-n
     ><x-o></x-o
-    ><x-f-d-di
-      class="byz--fthora"
-    ></x-f-d-di
+    ><x-f-d-di></x-f-d-di
     ><x-ly>tomb</x-ly></x-n
   ><x-n
     ><x-i></x-i><x-ly>dis</x-ly
@@ -2605,7 +2587,7 @@
     ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-ok></x-ok
-    ><x-g class="byz--gorgon"></x-g
+    ><x-g></x-g
     ><x-ly>rup</x-ly
     ><x-mel a h></x-mel></x-n
   ><x-n><x-a></x-a></x-n
@@ -2653,7 +2635,7 @@
   ><x-n><x-o></x-o><x-ly>is</x-ly></x-n
   ><x-n
     ><x-ok></x-ok
-    ><x-g class="byz--gorgon"></x-g
+    ><x-g></x-g
     ><x-ly>writ</x-ly
     ><x-mel a h></x-mel></x-n
   ><x-n><x-a></x-a></x-n
@@ -2780,7 +2762,7 @@
     ><x-mel a h></x-mel></x-n
   ><x-n
     ><x-k></x-k
-    ><x-g class="byz--gorgon"></x-g></x-n
+    ><x-g></x-g></x-n
   ><x-n
     ><x-o></x-o><x-psi></x-psi
     ><x-ly>mor</x-ly
@@ -2893,7 +2875,7 @@
     ><x-mel a></x-mel></x-n
   ><x-n
     ><x-a></x-a
-    ><x-g class="byz--gorgon"></x-g></x-n
+    ><x-g></x-g></x-n
   ><x-n
     ><x-i></x-i><x-kl></x-kl
     ><x-ly>man.</x-ly></x-n
@@ -2969,7 +2951,7 @@
     ><x-o></x-o><x-kl></x-kl
     ><x-ly>Word</x-ly></x-n
   ><x-n
-    ><x-i></x-i><x-g class="byz--gorgon"></x-g
+    ><x-i></x-i><x-g></x-g
     ><x-ly>and</x-ly></x-n
   ><x-n
     ><x-p-i></x-p-i><x-ly>Moth</x-ly
@@ -2995,11 +2977,11 @@
     ><x-mel a></x-mel></x-n
   ><x-n
     ><x-yporroi></x-yporroi
-    ><x-g class="byz--gorgon"></x-g></x-n
+    ><x-g></x-g></x-n
   ><x-n><x-a></x-a></x-n
   ><x-n
     ><x-ko></x-ko
-    ><x-diargon class="byz--gorgon"></x-diargon></x-n
+    ><x-diargon></x-diargon></x-n
   ><x-m class="byz--align-right"
     ><x-m-ni></x-m-ni
     ><x-m-delta></x-m-delta
