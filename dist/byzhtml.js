@@ -423,6 +423,12 @@ var byzhtml = (function () {
   var trigorgonDottedRightSecondary = {
   	codepoint: "U+E108"
   };
+  var digorgonDottedLeftSecondary = {
+  	codepoint: "U+E109"
+  };
+  var trigorgonDottedLeftSecondary = {
+  	codepoint: "U+E10A"
+  };
   var agogiPoliArgi = {
   	alternateCodepoint: "U+1D09A",
   	codepoint: "U+E120"
@@ -673,6 +679,102 @@ var byzhtml = (function () {
   var chroaSpathiAbove = {
   	codepoint: "U+E19F"
   };
+  var fthoraDiatonicNiLowSecondary = {
+  	codepoint: "U+E1A0"
+  };
+  var fthoraDiatonicPaSecondary = {
+  	codepoint: "U+E1A1"
+  };
+  var fthoraDiatonicVouSecondary = {
+  	codepoint: "U+E1A2"
+  };
+  var fthoraDiatonicGaSecondary = {
+  	codepoint: "U+E1A3"
+  };
+  var fthoraDiatonicDiSecondary = {
+  	codepoint: "U+E1A4"
+  };
+  var fthoraDiatonicKeSecondary = {
+  	codepoint: "U+E1A5"
+  };
+  var fthoraDiatonicZoSecondary = {
+  	codepoint: "U+E1A6"
+  };
+  var fthoraDiatonicNiHighSecondary = {
+  	codepoint: "U+E1A7"
+  };
+  var fthoraHardChromaticPaSecondary = {
+  	codepoint: "U+E1A8"
+  };
+  var fthoraHardChromaticDiSecondary = {
+  	codepoint: "U+E1A9"
+  };
+  var fthoraSoftChromaticDiSecondary = {
+  	codepoint: "U+E1AA"
+  };
+  var fthoraSoftChromaticKeSecondary = {
+  	codepoint: "U+E1AB"
+  };
+  var fthoraEnharmonicSecondary = {
+  	codepoint: "U+E1AC"
+  };
+  var chroaZygosSecondary = {
+  	codepoint: "U+E1AD"
+  };
+  var chroaKlitonSecondary = {
+  	codepoint: "U+E1AE"
+  };
+  var chroaSpathiSecondary = {
+  	codepoint: "U+E1AF"
+  };
+  var fthoraDiatonicNiLowTertiary = {
+  	codepoint: "U+E1B0"
+  };
+  var fthoraDiatonicPaTertiary = {
+  	codepoint: "U+E1B1"
+  };
+  var fthoraDiatonicVouTertiary = {
+  	codepoint: "U+E1B2"
+  };
+  var fthoraDiatonicGaTertiary = {
+  	codepoint: "U+E1B3"
+  };
+  var fthoraDiatonicDiTertiary = {
+  	codepoint: "U+E1B4"
+  };
+  var fthoraDiatonicKeTertiary = {
+  	codepoint: "U+E1B5"
+  };
+  var fthoraDiatonicZoTertiary = {
+  	codepoint: "U+E1B6"
+  };
+  var fthoraDiatonicNiHighTertiary = {
+  	codepoint: "U+E1B7"
+  };
+  var fthoraHardChromaticPaTertiary = {
+  	codepoint: "U+E1B8"
+  };
+  var fthoraHardChromaticDiTertiary = {
+  	codepoint: "U+E1B9"
+  };
+  var fthoraSoftChromaticDiTertiary = {
+  	codepoint: "U+E1BA"
+  };
+  var fthoraSoftChromaticKeTertiary = {
+  	codepoint: "U+E1BB"
+  };
+  var fthoraEnharmonicTertiary = {
+  	codepoint: "U+E1BC"
+  };
+  var chroaZygosTertiary = {
+  	codepoint: "U+E1BD"
+  };
+  var chroaKlitonTertiary = {
+  	codepoint: "U+E1BE"
+  };
+  var chroaSpathiTertiary = {
+  	codepoint: "U+E1BF"
+  };
   var fthoraDiatonicNiLowBelow = {
   	codepoint: "U+E1C0"
   };
@@ -743,6 +845,12 @@ var byzhtml = (function () {
   var diesisGenikiBelow = {
   	codepoint: "U+E1F5"
   };
+  var diesisGenikiSecondary = {
+  	codepoint: "U+E1FE"
+  };
+  var diesisGenikiTertiary = {
+  	codepoint: "U+E1FF"
+  };
   var yfesis2 = {
   	alternateCodepoint: "U+1D0D4",
   	codepoint: "U+E200"
@@ -764,6 +872,36 @@ var byzhtml = (function () {
   };
   var yfesisGenikiBelow = {
   	codepoint: "U+E205"
+  };
+  var yfesis2Secondary = {
+  	codepoint: "U+E206"
+  };
+  var yfesis4Secondary = {
+  	codepoint: "U+E207"
+  };
+  var yfesis6Secondary = {
+  	codepoint: "U+E208"
+  };
+  var yfesis8Secondary = {
+  	codepoint: "U+E209"
+  };
+  var yfesis2Tertiary = {
+  	codepoint: "U+E20A"
+  };
+  var yfesis4Tertiary = {
+  	codepoint: "U+E20B"
+  };
+  var yfesis6Tertiary = {
+  	codepoint: "U+E20C"
+  };
+  var yfesis8Tertiary = {
+  	codepoint: "U+E20D"
+  };
+  var yfesisGenikiSecondary = {
+  	codepoint: "U+E20E"
+  };
+  var yfesisGenikiTertiary = {
+  	codepoint: "U+E20F"
   };
   var barlineSingle = {
   	alternateCodepoint: "U+1D0DB",
@@ -1100,6 +1238,8 @@ var byzhtml = (function () {
   	trigorgonSecondary: trigorgonSecondary,
   	trigorgonDottedLeftBelowSecondary: trigorgonDottedLeftBelowSecondary,
   	trigorgonDottedRightSecondary: trigorgonDottedRightSecondary,
+  	digorgonDottedLeftSecondary: digorgonDottedLeftSecondary,
+  	trigorgonDottedLeftSecondary: trigorgonDottedLeftSecondary,
   	agogiPoliArgi: agogiPoliArgi,
   	agogiArgoteri: agogiArgoteri,
   	agogiArgi: agogiArgi,
@@ -1178,6 +1318,38 @@ var byzhtml = (function () {
   	chroaZygosAbove: chroaZygosAbove,
   	chroaKlitonAbove: chroaKlitonAbove,
   	chroaSpathiAbove: chroaSpathiAbove,
+  	fthoraDiatonicNiLowSecondary: fthoraDiatonicNiLowSecondary,
+  	fthoraDiatonicPaSecondary: fthoraDiatonicPaSecondary,
+  	fthoraDiatonicVouSecondary: fthoraDiatonicVouSecondary,
+  	fthoraDiatonicGaSecondary: fthoraDiatonicGaSecondary,
+  	fthoraDiatonicDiSecondary: fthoraDiatonicDiSecondary,
+  	fthoraDiatonicKeSecondary: fthoraDiatonicKeSecondary,
+  	fthoraDiatonicZoSecondary: fthoraDiatonicZoSecondary,
+  	fthoraDiatonicNiHighSecondary: fthoraDiatonicNiHighSecondary,
+  	fthoraHardChromaticPaSecondary: fthoraHardChromaticPaSecondary,
+  	fthoraHardChromaticDiSecondary: fthoraHardChromaticDiSecondary,
+  	fthoraSoftChromaticDiSecondary: fthoraSoftChromaticDiSecondary,
+  	fthoraSoftChromaticKeSecondary: fthoraSoftChromaticKeSecondary,
+  	fthoraEnharmonicSecondary: fthoraEnharmonicSecondary,
+  	chroaZygosSecondary: chroaZygosSecondary,
+  	chroaKlitonSecondary: chroaKlitonSecondary,
+  	chroaSpathiSecondary: chroaSpathiSecondary,
+  	fthoraDiatonicNiLowTertiary: fthoraDiatonicNiLowTertiary,
+  	fthoraDiatonicPaTertiary: fthoraDiatonicPaTertiary,
+  	fthoraDiatonicVouTertiary: fthoraDiatonicVouTertiary,
+  	fthoraDiatonicGaTertiary: fthoraDiatonicGaTertiary,
+  	fthoraDiatonicDiTertiary: fthoraDiatonicDiTertiary,
+  	fthoraDiatonicKeTertiary: fthoraDiatonicKeTertiary,
+  	fthoraDiatonicZoTertiary: fthoraDiatonicZoTertiary,
+  	fthoraDiatonicNiHighTertiary: fthoraDiatonicNiHighTertiary,
+  	fthoraHardChromaticPaTertiary: fthoraHardChromaticPaTertiary,
+  	fthoraHardChromaticDiTertiary: fthoraHardChromaticDiTertiary,
+  	fthoraSoftChromaticDiTertiary: fthoraSoftChromaticDiTertiary,
+  	fthoraSoftChromaticKeTertiary: fthoraSoftChromaticKeTertiary,
+  	fthoraEnharmonicTertiary: fthoraEnharmonicTertiary,
+  	chroaZygosTertiary: chroaZygosTertiary,
+  	chroaKlitonTertiary: chroaKlitonTertiary,
+  	chroaSpathiTertiary: chroaSpathiTertiary,
   	fthoraDiatonicNiLowBelow: fthoraDiatonicNiLowBelow,
   	fthoraDiatonicPaBelow: fthoraDiatonicPaBelow,
   	fthoraDiatonicVouBelow: fthoraDiatonicVouBelow,
@@ -1200,12 +1372,24 @@ var byzhtml = (function () {
   	diesis8: diesis8,
   	diesisGenikiAbove: diesisGenikiAbove,
   	diesisGenikiBelow: diesisGenikiBelow,
+  	diesisGenikiSecondary: diesisGenikiSecondary,
+  	diesisGenikiTertiary: diesisGenikiTertiary,
   	yfesis2: yfesis2,
   	yfesis4: yfesis4,
   	yfesis6: yfesis6,
   	yfesis8: yfesis8,
   	yfesisGenikiAbove: yfesisGenikiAbove,
   	yfesisGenikiBelow: yfesisGenikiBelow,
+  	yfesis2Secondary: yfesis2Secondary,
+  	yfesis4Secondary: yfesis4Secondary,
+  	yfesis6Secondary: yfesis6Secondary,
+  	yfesis8Secondary: yfesis8Secondary,
+  	yfesis2Tertiary: yfesis2Tertiary,
+  	yfesis4Tertiary: yfesis4Tertiary,
+  	yfesis6Tertiary: yfesis6Tertiary,
+  	yfesis8Tertiary: yfesis8Tertiary,
+  	yfesisGenikiSecondary: yfesisGenikiSecondary,
+  	yfesisGenikiTertiary: yfesisGenikiTertiary,
   	barlineSingle: barlineSingle,
   	barlineDouble: barlineDouble,
   	barlineTheseos: barlineTheseos,
@@ -2045,630 +2229,630 @@ var byzhtml = (function () {
     }
   }
 
-  const glyphname$4F = 'ison';
-  const args$4F = {};
+  const glyphname$5n = 'ison';
+  const args$5n = {};
 
   class Ison extends BaseBody {
+    constructor() {
+      super(glyphname$5n, args$5n);
+    }
+  }
+
+  const glyphname$5m = 'oligon';
+  const args$5m = {};
+
+  class Oligon extends BaseBody {
+    constructor() {
+      super(glyphname$5m, args$5m);
+    }
+  }
+
+  const glyphname$5l = 'oligonKentimaMiddle';
+  const args$5l = {};
+
+  class OligonKentimaMiddle extends BaseBody {
+    constructor() {
+      super(glyphname$5l, args$5l);
+    }
+  }
+
+  const glyphname$5k = 'oligonKentimaBelow';
+  const args$5k = {};
+
+  class OligonKentimaBelow extends BaseBody {
+    constructor() {
+      super(glyphname$5k, args$5k);
+    }
+  }
+
+  const glyphname$5j = 'oligonKentimaAbove';
+  const args$5j = {};
+
+  class OligonKentimaAbove extends BaseBody {
+    constructor() {
+      super(glyphname$5j, args$5j);
+    }
+  }
+
+  const glyphname$5i = 'oligonYpsiliRight';
+  const args$5i = {};
+
+  class OligonYpsiliRight extends BaseBody {
+    constructor() {
+      super(glyphname$5i, args$5i);
+    }
+  }
+
+  const glyphname$5h = 'oligonYpsiliLeft';
+  const args$5h = {};
+
+  class OligonYpsiliLeft extends BaseBody {
+    constructor() {
+      super(glyphname$5h, args$5h);
+    }
+  }
+
+  const glyphname$5g = 'oligonKentimaYpsiliRight';
+  const args$5g = {};
+
+  class OligonKentimaYpsiliRight extends BaseBody {
+    constructor() {
+      super(glyphname$5g, args$5g);
+    }
+  }
+
+  const glyphname$5f = 'oligonKentimaYpsiliMiddle';
+  const args$5f = {};
+
+  class OligonKentimaYpsiliMiddle extends BaseBody {
+    constructor() {
+      super(glyphname$5f, args$5f);
+    }
+  }
+
+  const glyphname$5e = 'oligonDoubleYpsili';
+  const args$5e = {};
+
+  class OligonDoubleYpsili extends BaseBody {
+    constructor() {
+      super(glyphname$5e, args$5e);
+    }
+  }
+
+  const glyphname$5d = 'oligonKentimataDoubleYpsili';
+  const args$5d = {};
+
+  class OligonKentimataDoubleYpsili extends BaseBody {
+    constructor() {
+      super(glyphname$5d, args$5d);
+    }
+  }
+
+  const glyphname$5c = 'oligonKentimaDoubleYpsiliRight';
+  const args$5c = {};
+
+  class OligonKentimaDoubleYpsiliRight extends BaseBody {
+    constructor() {
+      super(glyphname$5c, args$5c);
+    }
+  }
+
+  const glyphname$5b = 'oligonKentimaDoubleYpsiliLeft';
+  const args$5b = {};
+
+  class OligonKentimaDoubleYpsiliLeft extends BaseBody {
+    constructor() {
+      super(glyphname$5b, args$5b);
+    }
+  }
+
+  const glyphname$5a = 'oligonTripleYpsili';
+  const args$5a = {};
+
+  class OligonTripleYpsili extends BaseBody {
+    constructor() {
+      super(glyphname$5a, args$5a);
+    }
+  }
+
+  const glyphname$59 = 'oligonKentimataTripleYpsili';
+  const args$59 = {};
+
+  class OligonKentimataTripleYpsili extends BaseBody {
+    constructor() {
+      super(glyphname$59, args$59);
+    }
+  }
+
+  const glyphname$58 = 'oligonKentimaTripleYpsili';
+  const args$58 = {};
+
+  class OligonKentimaTripleYpsili extends BaseBody {
+    constructor() {
+      super(glyphname$58, args$58);
+    }
+  }
+
+  const glyphname$57 = 'oligonIson';
+  const args$57 = {};
+
+  class OligonIson extends BaseBody {
+    constructor() {
+      super(glyphname$57, args$57);
+    }
+  }
+
+  const glyphname$56 = 'oligonApostrofos';
+  const args$56 = {};
+
+  class OligonApostrofos extends BaseBody {
+    constructor() {
+      super(glyphname$56, args$56);
+    }
+  }
+
+  const glyphname$55 = 'oligonYporroi';
+  const args$55 = {};
+
+  class OligonYporroi extends BaseBody {
+    constructor() {
+      super(glyphname$55, args$55);
+    }
+  }
+
+  const glyphname$54 = 'oligonElafron';
+  const args$54 = {};
+
+  class OligonElafron extends BaseBody {
+    constructor() {
+      super(glyphname$54, args$54);
+    }
+  }
+
+  const glyphname$53 = 'oligonElafronApostrofos';
+  const args$53 = {};
+
+  class OligonElafronApostrofos extends BaseBody {
+    constructor() {
+      super(glyphname$53, args$53);
+    }
+  }
+
+  const glyphname$52 = 'oligonChamili';
+  const args$52 = {};
+
+  class OligonChamili extends BaseBody {
+    constructor() {
+      super(glyphname$52, args$52);
+    }
+  }
+
+  const glyphname$51 = 'isonApostrofos';
+  const args$51 = {};
+
+  class IsonApostrofos extends BaseBody {
+    constructor() {
+      super(glyphname$51, args$51);
+    }
+  }
+
+  const glyphname$50 = 'apostrofos';
+  const args$50 = {};
+
+  class Apostrofos extends BaseBody {
+    constructor() {
+      super(glyphname$50, args$50);
+    }
+  }
+
+  const glyphname$4$ = 'apostrofosSyndesmos';
+  const args$4$ = {};
+
+  class ApostrofosSyndesmos extends BaseBody {
+    constructor() {
+      super(glyphname$4$, args$4$);
+    }
+  }
+
+  const glyphname$4_ = 'yporroi';
+  const args$4_ = {};
+
+  class Yporroi extends BaseBody {
+    constructor() {
+      super(glyphname$4_, args$4_);
+    }
+  }
+
+  const glyphname$4Z = 'elafron';
+  const args$4Z = {};
+
+  class Elafron extends BaseBody {
+    constructor() {
+      super(glyphname$4Z, args$4Z);
+    }
+  }
+
+  const glyphname$4Y = 'runningElafron';
+  const args$4Y = {};
+
+  class RunningElafron extends BaseBody {
+    constructor() {
+      super(glyphname$4Y, args$4Y);
+    }
+
+    connectedCallback() {
+      super.connectedCallback();
+
+      if (
+        this.parentElement &&
+        this.parentElement.runningElafronConnectedCallback
+      ) {
+        this.parentElement.runningElafronConnectedCallback();
+      }
+    }
+  }
+
+  const glyphname$4X = 'elafronApostrofos';
+  const args$4X = {};
+
+  class ElafronApostrofos extends BaseBody {
+    constructor() {
+      super(glyphname$4X, args$4X);
+    }
+  }
+
+  const glyphname$4W = 'chamili';
+  const args$4W = {};
+
+  class Chamili extends BaseBody {
+    constructor() {
+      super(glyphname$4W, args$4W);
+    }
+  }
+
+  const glyphname$4V = 'chamiliApostrofos';
+  const args$4V = {};
+
+  class ChamiliApostrofos extends BaseBody {
+    constructor() {
+      super(glyphname$4V, args$4V);
+    }
+  }
+
+  const glyphname$4U = 'chamiliElafron';
+  const args$4U = {};
+
+  class ChamiliElafron extends BaseBody {
+    constructor() {
+      super(glyphname$4U, args$4U);
+    }
+  }
+
+  const glyphname$4T = 'chamiliElafronApostrofos';
+  const args$4T = {};
+
+  class ChamiliElafronApostrofos extends BaseBody {
+    constructor() {
+      super(glyphname$4T, args$4T);
+    }
+  }
+
+  const glyphname$4S = 'doubleChamili';
+  const args$4S = {};
+
+  class DoubleChamili extends BaseBody {
+    constructor() {
+      super(glyphname$4S, args$4S);
+    }
+  }
+
+  const glyphname$4R = 'doubleChamiliApostrofos';
+  const args$4R = {};
+
+  class DoubleChamiliApostrofos extends BaseBody {
+    constructor() {
+      super(glyphname$4R, args$4R);
+    }
+  }
+
+  const glyphname$4Q = 'doubleChamiliElafron';
+  const args$4Q = {};
+
+  class DoubleChamiliElafron extends BaseBody {
+    constructor() {
+      super(glyphname$4Q, args$4Q);
+    }
+  }
+
+  const glyphname$4P = 'doubleChamiliElafronApostrofos';
+  const args$4P = {};
+
+  class DoubleChamiliElafronApostrofos extends BaseBody {
+    constructor() {
+      super(glyphname$4P, args$4P);
+    }
+  }
+
+  const glyphname$4O = 'tripleChamili';
+  const args$4O = {};
+
+  class TripleChamili extends BaseBody {
+    constructor() {
+      super(glyphname$4O, args$4O);
+    }
+  }
+
+  const glyphname$4N = 'petastiIson';
+  const args$4N = {};
+
+  class PetastiIson extends BaseBody {
+    constructor() {
+      super(glyphname$4N, args$4N);
+    }
+  }
+
+  const glyphname$4M = 'petasti';
+  const args$4M = {};
+
+  class Petasti extends BaseBody {
+    constructor() {
+      super(glyphname$4M, args$4M);
+    }
+  }
+
+  const glyphname$4L = 'petastiOligon';
+  const args$4L = {};
+
+  class PetastiOligon extends BaseBody {
+    constructor() {
+      super(glyphname$4L, args$4L);
+    }
+  }
+
+  const glyphname$4K = 'petastiKentima';
+  const args$4K = {};
+
+  class PetastiKentima extends BaseBody {
+    constructor() {
+      super(glyphname$4K, args$4K);
+    }
+  }
+
+  const glyphname$4J = 'petastiYpsiliRight';
+  const args$4J = {};
+
+  class PetastiYpsiliRight extends BaseBody {
+    constructor() {
+      super(glyphname$4J, args$4J);
+    }
+  }
+
+  const glyphname$4I = 'petastiYpsiliLeft';
+  const args$4I = {};
+
+  class PetastiYpsiliLeft extends BaseBody {
+    constructor() {
+      super(glyphname$4I, args$4I);
+    }
+  }
+
+  const glyphname$4H = 'petastiKentimaYpsiliRight';
+  const args$4H = {};
+
+  class PetastiKentimaYpsiliRight extends BaseBody {
+    constructor() {
+      super(glyphname$4H, args$4H);
+    }
+  }
+
+  const glyphname$4G = 'petastiKentimaYpsiliMiddle';
+  const args$4G = {};
+
+  class PetastiKentimaYpsiliMiddle extends BaseBody {
+    constructor() {
+      super(glyphname$4G, args$4G);
+    }
+  }
+
+  const glyphname$4F = 'petastiDoubleYpsili';
+  const args$4F = {};
+
+  class PetastiDoubleYpsili extends BaseBody {
     constructor() {
       super(glyphname$4F, args$4F);
     }
   }
 
-  const glyphname$4E = 'oligon';
+  const glyphname$4E = 'petastiKentimataDoubleYpsili';
   const args$4E = {};
 
-  class Oligon extends BaseBody {
+  class PetastiKentimataDoubleYpsili extends BaseBody {
     constructor() {
       super(glyphname$4E, args$4E);
     }
   }
 
-  const glyphname$4D = 'oligonKentimaMiddle';
+  const glyphname$4D = 'petastiKentimaDoubleYpsiliRight';
   const args$4D = {};
 
-  class OligonKentimaMiddle extends BaseBody {
+  class PetastiKentimaDoubleYpsiliRight extends BaseBody {
     constructor() {
       super(glyphname$4D, args$4D);
     }
   }
 
-  const glyphname$4C = 'oligonKentimaBelow';
+  const glyphname$4C = 'petastiKentimaDoubleYpsiliLeft';
   const args$4C = {};
 
-  class OligonKentimaBelow extends BaseBody {
+  class PetastiKentimaDoubleYpsiliLeft extends BaseBody {
     constructor() {
       super(glyphname$4C, args$4C);
     }
   }
 
-  const glyphname$4B = 'oligonKentimaAbove';
+  const glyphname$4B = 'petastiTripleYpsili';
   const args$4B = {};
 
-  class OligonKentimaAbove extends BaseBody {
+  class PetastiTripleYpsili extends BaseBody {
     constructor() {
       super(glyphname$4B, args$4B);
     }
   }
 
-  const glyphname$4A = 'oligonYpsiliRight';
+  const glyphname$4A = 'petastiKentimataTripleYpsili';
   const args$4A = {};
 
-  class OligonYpsiliRight extends BaseBody {
+  class PetastiKentimataTripleYpsili extends BaseBody {
     constructor() {
       super(glyphname$4A, args$4A);
     }
   }
 
-  const glyphname$4z = 'oligonYpsiliLeft';
+  const glyphname$4z = 'petastiKentimaTripleYpsili';
   const args$4z = {};
 
-  class OligonYpsiliLeft extends BaseBody {
+  class PetastiKentimaTripleYpsili extends BaseBody {
     constructor() {
       super(glyphname$4z, args$4z);
     }
   }
 
-  const glyphname$4y = 'oligonKentimaYpsiliRight';
+  const glyphname$4y = 'petastiApostrofos';
   const args$4y = {};
 
-  class OligonKentimaYpsiliRight extends BaseBody {
+  class PetastiApostrofos extends BaseBody {
     constructor() {
       super(glyphname$4y, args$4y);
     }
   }
 
-  const glyphname$4x = 'oligonKentimaYpsiliMiddle';
+  const glyphname$4x = 'petastiYporroi';
   const args$4x = {};
 
-  class OligonKentimaYpsiliMiddle extends BaseBody {
+  class PetastiYporroi extends BaseBody {
     constructor() {
       super(glyphname$4x, args$4x);
     }
   }
 
-  const glyphname$4w = 'oligonDoubleYpsili';
+  const glyphname$4w = 'petastiElafron';
   const args$4w = {};
 
-  class OligonDoubleYpsili extends BaseBody {
+  class PetastiElafron extends BaseBody {
     constructor() {
       super(glyphname$4w, args$4w);
     }
   }
 
-  const glyphname$4v = 'oligonKentimataDoubleYpsili';
+  const glyphname$4v = 'petastiRunningElafron';
   const args$4v = {};
 
-  class OligonKentimataDoubleYpsili extends BaseBody {
+  class PetastiRunningElafron extends BaseBody {
     constructor() {
       super(glyphname$4v, args$4v);
     }
+
+    connectedCallback() {
+      super.connectedCallback();
+
+      if (
+        this.parentElement &&
+        this.parentElement.runningElafronConnectedCallback
+      ) {
+        this.parentElement.runningElafronConnectedCallback();
+      }
+    }
   }
 
-  const glyphname$4u = 'oligonKentimaDoubleYpsiliRight';
+  const glyphname$4u = 'petastiElafronApostrofos';
   const args$4u = {};
 
-  class OligonKentimaDoubleYpsiliRight extends BaseBody {
+  class PetastiElafronApostrofos extends BaseBody {
     constructor() {
       super(glyphname$4u, args$4u);
     }
   }
 
-  const glyphname$4t = 'oligonKentimaDoubleYpsiliLeft';
+  const glyphname$4t = 'petastiChamili';
   const args$4t = {};
 
-  class OligonKentimaDoubleYpsiliLeft extends BaseBody {
+  class PetastiChamili extends BaseBody {
     constructor() {
       super(glyphname$4t, args$4t);
     }
   }
 
-  const glyphname$4s = 'oligonTripleYpsili';
+  const glyphname$4s = 'petastiChamiliApostrofos';
   const args$4s = {};
 
-  class OligonTripleYpsili extends BaseBody {
+  class PetastiChamiliApostrofos extends BaseBody {
     constructor() {
       super(glyphname$4s, args$4s);
     }
   }
 
-  const glyphname$4r = 'oligonKentimataTripleYpsili';
+  const glyphname$4r = 'petastiChamiliElafron';
   const args$4r = {};
 
-  class OligonKentimataTripleYpsili extends BaseBody {
+  class PetastiChamiliElafron extends BaseBody {
     constructor() {
       super(glyphname$4r, args$4r);
     }
   }
 
-  const glyphname$4q = 'oligonKentimaTripleYpsili';
+  const glyphname$4q = 'petastiChamiliElafronApostrofos';
   const args$4q = {};
 
-  class OligonKentimaTripleYpsili extends BaseBody {
+  class PetastiChamiliElafronApostrofos extends BaseBody {
     constructor() {
       super(glyphname$4q, args$4q);
     }
   }
 
-  const glyphname$4p = 'oligonIson';
+  const glyphname$4p = 'petastiDoubleChamili';
   const args$4p = {};
 
-  class OligonIson extends BaseBody {
+  class PetastiDoubleChamili extends BaseBody {
     constructor() {
       super(glyphname$4p, args$4p);
     }
   }
 
-  const glyphname$4o = 'oligonApostrofos';
+  const glyphname$4o = 'petastiDoubleChamiliApostrofos';
   const args$4o = {};
 
-  class OligonApostrofos extends BaseBody {
+  class PetastiDoubleChamiliApostrofos extends BaseBody {
     constructor() {
       super(glyphname$4o, args$4o);
     }
   }
 
-  const glyphname$4n = 'oligonYporroi';
+  const glyphname$4n = 'kentima';
   const args$4n = {};
 
-  class OligonYporroi extends BaseBody {
+  class Kentima extends BaseBody {
     constructor() {
       super(glyphname$4n, args$4n);
     }
   }
 
-  const glyphname$4m = 'oligonElafron';
+  const glyphname$4m = 'kentimata';
   const args$4m = {};
 
-  class OligonElafron extends BaseBody {
+  class Kentimata extends BaseBody {
     constructor() {
       super(glyphname$4m, args$4m);
     }
   }
 
-  const glyphname$4l = 'oligonElafronApostrofos';
+  const glyphname$4l = 'oligonKentimataBelow';
   const args$4l = {};
-
-  class OligonElafronApostrofos extends BaseBody {
-    constructor() {
-      super(glyphname$4l, args$4l);
-    }
-  }
-
-  const glyphname$4k = 'oligonChamili';
-  const args$4k = {};
-
-  class OligonChamili extends BaseBody {
-    constructor() {
-      super(glyphname$4k, args$4k);
-    }
-  }
-
-  const glyphname$4j = 'isonApostrofos';
-  const args$4j = {};
-
-  class IsonApostrofos extends BaseBody {
-    constructor() {
-      super(glyphname$4j, args$4j);
-    }
-  }
-
-  const glyphname$4i = 'apostrofos';
-  const args$4i = {};
-
-  class Apostrofos extends BaseBody {
-    constructor() {
-      super(glyphname$4i, args$4i);
-    }
-  }
-
-  const glyphname$4h = 'apostrofosSyndesmos';
-  const args$4h = {};
-
-  class ApostrofosSyndesmos extends BaseBody {
-    constructor() {
-      super(glyphname$4h, args$4h);
-    }
-  }
-
-  const glyphname$4g = 'yporroi';
-  const args$4g = {};
-
-  class Yporroi extends BaseBody {
-    constructor() {
-      super(glyphname$4g, args$4g);
-    }
-  }
-
-  const glyphname$4f = 'elafron';
-  const args$4f = {};
-
-  class Elafron extends BaseBody {
-    constructor() {
-      super(glyphname$4f, args$4f);
-    }
-  }
-
-  const glyphname$4e = 'runningElafron';
-  const args$4e = {};
-
-  class RunningElafron extends BaseBody {
-    constructor() {
-      super(glyphname$4e, args$4e);
-    }
-
-    connectedCallback() {
-      super.connectedCallback();
-
-      if (
-        this.parentElement &&
-        this.parentElement.runningElafronConnectedCallback
-      ) {
-        this.parentElement.runningElafronConnectedCallback();
-      }
-    }
-  }
-
-  const glyphname$4d = 'elafronApostrofos';
-  const args$4d = {};
-
-  class ElafronApostrofos extends BaseBody {
-    constructor() {
-      super(glyphname$4d, args$4d);
-    }
-  }
-
-  const glyphname$4c = 'chamili';
-  const args$4c = {};
-
-  class Chamili extends BaseBody {
-    constructor() {
-      super(glyphname$4c, args$4c);
-    }
-  }
-
-  const glyphname$4b = 'chamiliApostrofos';
-  const args$4b = {};
-
-  class ChamiliApostrofos extends BaseBody {
-    constructor() {
-      super(glyphname$4b, args$4b);
-    }
-  }
-
-  const glyphname$4a = 'chamiliElafron';
-  const args$4a = {};
-
-  class ChamiliElafron extends BaseBody {
-    constructor() {
-      super(glyphname$4a, args$4a);
-    }
-  }
-
-  const glyphname$49 = 'chamiliElafronApostrofos';
-  const args$49 = {};
-
-  class ChamiliElafronApostrofos extends BaseBody {
-    constructor() {
-      super(glyphname$49, args$49);
-    }
-  }
-
-  const glyphname$48 = 'doubleChamili';
-  const args$48 = {};
-
-  class DoubleChamili extends BaseBody {
-    constructor() {
-      super(glyphname$48, args$48);
-    }
-  }
-
-  const glyphname$47 = 'doubleChamiliApostrofos';
-  const args$47 = {};
-
-  class DoubleChamiliApostrofos extends BaseBody {
-    constructor() {
-      super(glyphname$47, args$47);
-    }
-  }
-
-  const glyphname$46 = 'doubleChamiliElafron';
-  const args$46 = {};
-
-  class DoubleChamiliElafron extends BaseBody {
-    constructor() {
-      super(glyphname$46, args$46);
-    }
-  }
-
-  const glyphname$45 = 'doubleChamiliElafronApostrofos';
-  const args$45 = {};
-
-  class DoubleChamiliElafronApostrofos extends BaseBody {
-    constructor() {
-      super(glyphname$45, args$45);
-    }
-  }
-
-  const glyphname$44 = 'tripleChamili';
-  const args$44 = {};
-
-  class TripleChamili extends BaseBody {
-    constructor() {
-      super(glyphname$44, args$44);
-    }
-  }
-
-  const glyphname$43 = 'petastiIson';
-  const args$43 = {};
-
-  class PetastiIson extends BaseBody {
-    constructor() {
-      super(glyphname$43, args$43);
-    }
-  }
-
-  const glyphname$42 = 'petasti';
-  const args$42 = {};
-
-  class Petasti extends BaseBody {
-    constructor() {
-      super(glyphname$42, args$42);
-    }
-  }
-
-  const glyphname$41 = 'petastiOligon';
-  const args$41 = {};
-
-  class PetastiOligon extends BaseBody {
-    constructor() {
-      super(glyphname$41, args$41);
-    }
-  }
-
-  const glyphname$40 = 'petastiKentima';
-  const args$40 = {};
-
-  class PetastiKentima extends BaseBody {
-    constructor() {
-      super(glyphname$40, args$40);
-    }
-  }
-
-  const glyphname$3$ = 'petastiYpsiliRight';
-  const args$3$ = {};
-
-  class PetastiYpsiliRight extends BaseBody {
-    constructor() {
-      super(glyphname$3$, args$3$);
-    }
-  }
-
-  const glyphname$3_ = 'petastiYpsiliLeft';
-  const args$3_ = {};
-
-  class PetastiYpsiliLeft extends BaseBody {
-    constructor() {
-      super(glyphname$3_, args$3_);
-    }
-  }
-
-  const glyphname$3Z = 'petastiKentimaYpsiliRight';
-  const args$3Z = {};
-
-  class PetastiKentimaYpsiliRight extends BaseBody {
-    constructor() {
-      super(glyphname$3Z, args$3Z);
-    }
-  }
-
-  const glyphname$3Y = 'petastiKentimaYpsiliMiddle';
-  const args$3Y = {};
-
-  class PetastiKentimaYpsiliMiddle extends BaseBody {
-    constructor() {
-      super(glyphname$3Y, args$3Y);
-    }
-  }
-
-  const glyphname$3X = 'petastiDoubleYpsili';
-  const args$3X = {};
-
-  class PetastiDoubleYpsili extends BaseBody {
-    constructor() {
-      super(glyphname$3X, args$3X);
-    }
-  }
-
-  const glyphname$3W = 'petastiKentimataDoubleYpsili';
-  const args$3W = {};
-
-  class PetastiKentimataDoubleYpsili extends BaseBody {
-    constructor() {
-      super(glyphname$3W, args$3W);
-    }
-  }
-
-  const glyphname$3V = 'petastiKentimaDoubleYpsiliRight';
-  const args$3V = {};
-
-  class PetastiKentimaDoubleYpsiliRight extends BaseBody {
-    constructor() {
-      super(glyphname$3V, args$3V);
-    }
-  }
-
-  const glyphname$3U = 'petastiKentimaDoubleYpsiliLeft';
-  const args$3U = {};
-
-  class PetastiKentimaDoubleYpsiliLeft extends BaseBody {
-    constructor() {
-      super(glyphname$3U, args$3U);
-    }
-  }
-
-  const glyphname$3T = 'petastiTripleYpsili';
-  const args$3T = {};
-
-  class PetastiTripleYpsili extends BaseBody {
-    constructor() {
-      super(glyphname$3T, args$3T);
-    }
-  }
-
-  const glyphname$3S = 'petastiKentimataTripleYpsili';
-  const args$3S = {};
-
-  class PetastiKentimataTripleYpsili extends BaseBody {
-    constructor() {
-      super(glyphname$3S, args$3S);
-    }
-  }
-
-  const glyphname$3R = 'petastiKentimaTripleYpsili';
-  const args$3R = {};
-
-  class PetastiKentimaTripleYpsili extends BaseBody {
-    constructor() {
-      super(glyphname$3R, args$3R);
-    }
-  }
-
-  const glyphname$3Q = 'petastiApostrofos';
-  const args$3Q = {};
-
-  class PetastiApostrofos extends BaseBody {
-    constructor() {
-      super(glyphname$3Q, args$3Q);
-    }
-  }
-
-  const glyphname$3P = 'petastiYporroi';
-  const args$3P = {};
-
-  class PetastiYporroi extends BaseBody {
-    constructor() {
-      super(glyphname$3P, args$3P);
-    }
-  }
-
-  const glyphname$3O = 'petastiElafron';
-  const args$3O = {};
-
-  class PetastiElafron extends BaseBody {
-    constructor() {
-      super(glyphname$3O, args$3O);
-    }
-  }
-
-  const glyphname$3N = 'petastiRunningElafron';
-  const args$3N = {};
-
-  class PetastiRunningElafron extends BaseBody {
-    constructor() {
-      super(glyphname$3N, args$3N);
-    }
-
-    connectedCallback() {
-      super.connectedCallback();
-
-      if (
-        this.parentElement &&
-        this.parentElement.runningElafronConnectedCallback
-      ) {
-        this.parentElement.runningElafronConnectedCallback();
-      }
-    }
-  }
-
-  const glyphname$3M = 'petastiElafronApostrofos';
-  const args$3M = {};
-
-  class PetastiElafronApostrofos extends BaseBody {
-    constructor() {
-      super(glyphname$3M, args$3M);
-    }
-  }
-
-  const glyphname$3L = 'petastiChamili';
-  const args$3L = {};
-
-  class PetastiChamili extends BaseBody {
-    constructor() {
-      super(glyphname$3L, args$3L);
-    }
-  }
-
-  const glyphname$3K = 'petastiChamiliApostrofos';
-  const args$3K = {};
-
-  class PetastiChamiliApostrofos extends BaseBody {
-    constructor() {
-      super(glyphname$3K, args$3K);
-    }
-  }
-
-  const glyphname$3J = 'petastiChamiliElafron';
-  const args$3J = {};
-
-  class PetastiChamiliElafron extends BaseBody {
-    constructor() {
-      super(glyphname$3J, args$3J);
-    }
-  }
-
-  const glyphname$3I = 'petastiChamiliElafronApostrofos';
-  const args$3I = {};
-
-  class PetastiChamiliElafronApostrofos extends BaseBody {
-    constructor() {
-      super(glyphname$3I, args$3I);
-    }
-  }
-
-  const glyphname$3H = 'petastiDoubleChamili';
-  const args$3H = {};
-
-  class PetastiDoubleChamili extends BaseBody {
-    constructor() {
-      super(glyphname$3H, args$3H);
-    }
-  }
-
-  const glyphname$3G = 'petastiDoubleChamiliApostrofos';
-  const args$3G = {};
-
-  class PetastiDoubleChamiliApostrofos extends BaseBody {
-    constructor() {
-      super(glyphname$3G, args$3G);
-    }
-  }
-
-  const glyphname$3F = 'kentima';
-  const args$3F = {};
-
-  class Kentima extends BaseBody {
-    constructor() {
-      super(glyphname$3F, args$3F);
-    }
-  }
-
-  const glyphname$3E = 'kentimata';
-  const args$3E = {};
-
-  class Kentimata extends BaseBody {
-    constructor() {
-      super(glyphname$3E, args$3E);
-    }
-  }
-
-  const glyphname$3D = 'oligonKentimataBelow';
-  const args$3D = {};
 
   const MAX_SEARCH_DEPTH$2 = 100;
 
   class OligonKentimataBelow extends BaseBody {
     constructor() {
-      super(glyphname$3D, args$3D);
+      super(glyphname$4l, args$4l);
 
       // If using webkit positioning, perform a
       // contextual substitution when combined with the psifiston
@@ -2698,111 +2882,111 @@ var byzhtml = (function () {
     }
   }
 
-  const glyphname$3C = 'oligonKentimataAbove';
-  const args$3C = {};
+  const glyphname$4k = 'oligonKentimataAbove';
+  const args$4k = {};
 
   class OligonKentimataAbove extends BaseBody {
     constructor() {
-      super(glyphname$3C, args$3C);
+      super(glyphname$4k, args$4k);
     }
   }
 
-  const glyphname$3B = 'oligonIsonKentimata';
-  const args$3B = {};
+  const glyphname$4j = 'oligonIsonKentimata';
+  const args$4j = {};
 
   class OligonIsonKentimata extends BaseBody {
     constructor() {
-      super(glyphname$3B, args$3B);
+      super(glyphname$4j, args$4j);
     }
   }
 
-  const glyphname$3A = 'oligonKentimaMiddleKentimata';
-  const args$3A = {};
+  const glyphname$4i = 'oligonKentimaMiddleKentimata';
+  const args$4i = {};
 
   class OligonKentimaMiddleKentimata extends BaseBody {
     constructor() {
-      super(glyphname$3A, args$3A);
+      super(glyphname$4i, args$4i);
     }
   }
 
-  const glyphname$3z = 'oligonYpsiliRightKentimata';
-  const args$3z = {};
+  const glyphname$4h = 'oligonYpsiliRightKentimata';
+  const args$4h = {};
 
   class OligonYpsiliRightKentimata extends BaseBody {
     constructor() {
-      super(glyphname$3z, args$3z);
+      super(glyphname$4h, args$4h);
     }
   }
 
-  const glyphname$3y = 'oligonYpsiliLeftKentimata';
-  const args$3y = {};
+  const glyphname$4g = 'oligonYpsiliLeftKentimata';
+  const args$4g = {};
 
   class OligonYpsiliLeftKentimata extends BaseBody {
     constructor() {
-      super(glyphname$3y, args$3y);
+      super(glyphname$4g, args$4g);
     }
   }
 
-  const glyphname$3x = 'oligonApostrofosKentimata';
-  const args$3x = {};
+  const glyphname$4f = 'oligonApostrofosKentimata';
+  const args$4f = {};
 
   class OligonApostrofosKentimata extends BaseBody {
     constructor() {
-      super(glyphname$3x, args$3x);
+      super(glyphname$4f, args$4f);
     }
   }
 
-  const glyphname$3w = 'oligonYporroiKentimata';
-  const args$3w = {};
+  const glyphname$4e = 'oligonYporroiKentimata';
+  const args$4e = {};
 
   class OligonYporroiKentimata extends BaseBody {
     constructor() {
-      super(glyphname$3w, args$3w);
+      super(glyphname$4e, args$4e);
     }
   }
 
-  const glyphname$3v = 'oligonElafronKentimata';
-  const args$3v = {};
+  const glyphname$4d = 'oligonElafronKentimata';
+  const args$4d = {};
 
   class OligonElafronKentimata extends BaseBody {
     constructor() {
-      super(glyphname$3v, args$3v);
+      super(glyphname$4d, args$4d);
     }
   }
 
-  const glyphname$3u = 'oligonRunningElafronKentimata';
-  const args$3u = {};
+  const glyphname$4c = 'oligonRunningElafronKentimata';
+  const args$4c = {};
 
   class OligonRunningElafronKentimata extends BaseBody {
     constructor() {
-      super(glyphname$3u, args$3u);
+      super(glyphname$4c, args$4c);
     }
   }
 
-  const glyphname$3t = 'oligonElafronApostrofosKentimata';
-  const args$3t = {};
+  const glyphname$4b = 'oligonElafronApostrofosKentimata';
+  const args$4b = {};
 
   class OligonElafronApostrofosKentimata extends BaseBody {
     constructor() {
-      super(glyphname$3t, args$3t);
+      super(glyphname$4b, args$4b);
     }
   }
 
-  const glyphname$3s = 'oligonChamiliKentimata';
-  const args$3s = {};
+  const glyphname$4a = 'oligonChamiliKentimata';
+  const args$4a = {};
 
   class OligonChamiliKentimata extends BaseBody {
     constructor() {
-      super(glyphname$3s, args$3s);
+      super(glyphname$4a, args$4a);
     }
   }
 
-  const glyphname$3r = 'vareia';
-  const args$3r = {};
+  const glyphname$49 = 'vareia';
+  const args$49 = {};
 
   class Vareia extends BaseBody {
     constructor() {
-      super(glyphname$3r, args$3r);
+      super(glyphname$49, args$49);
     }
 
     connectedCallback() {
@@ -2953,23 +3137,23 @@ var byzhtml = (function () {
     }
   }
 
-  const glyphname$3q = 'psifiston';
-  const args$3q = {};
+  const glyphname$48 = 'psifiston';
+  const args$48 = {};
 
   class Psifiston extends BaseMark {
     constructor() {
-      super(glyphname$3q, args$3q);
+      super(glyphname$48, args$48);
     }
   }
 
-  const glyphname$3p = 'antikenoma';
-  const args$3p = {};
+  const glyphname$47 = 'antikenoma';
+  const args$47 = {};
 
   const MAX_SEARCH_DEPTH = 100;
 
   class Antikenoma extends BaseMark {
     constructor() {
-      super(glyphname$3p, args$3p);
+      super(glyphname$47, args$47);
 
       // If using webkit positioning, perform a
       // contextual substitution when combined with certain other characters
@@ -3008,1360 +3192,1774 @@ var byzhtml = (function () {
     }
   }
 
-  const glyphname$3o = 'omalon';
-  const args$3o = {};
+  const glyphname$46 = 'omalon';
+  const args$46 = {};
 
   class Omalon extends BaseMark {
+    constructor() {
+      super(glyphname$46, args$46);
+    }
+  }
+
+  const glyphname$45 = 'omalonConnecting';
+  const args$45 = {};
+
+  class OmalonConnecting extends BaseMark {
+    constructor() {
+      super(glyphname$45, args$45);
+    }
+  }
+
+  const glyphname$44 = 'heteron';
+  const args$44 = { color: CssVars.ColorHeteron };
+
+  class Heteron extends BaseMark {
+    constructor() {
+      super(glyphname$44, args$44);
+    }
+  }
+
+  const glyphname$43 = 'heteronConnecting';
+  const args$43 = { color: CssVars.ColorHeteron };
+
+  class HeteronConnecting extends BaseMark {
+    constructor() {
+      super(glyphname$43, args$43);
+    }
+  }
+
+  const glyphname$42 = 'endofonon';
+  const args$42 = { color: CssVars.ColorHeteron };
+
+  class Endofonon extends BaseMark {
+    constructor() {
+      super(glyphname$42, args$42);
+    }
+  }
+
+  const glyphname$41 = 'yfenAbove';
+  const args$41 = {};
+
+  class YfenAbove extends BaseMark {
+    constructor() {
+      super(glyphname$41, args$41);
+    }
+  }
+
+  const glyphname$40 = 'yfenBelow';
+  const args$40 = {};
+
+  class YfenBelow extends BaseMark {
+    constructor() {
+      super(glyphname$40, args$40);
+    }
+  }
+
+  const glyphname$3$ = 'stavros';
+  const args$3$ = {};
+
+  class Stavros extends BaseBody {
+    constructor() {
+      super(glyphname$3$, args$3$);
+    }
+  }
+
+  const glyphname$3_ = 'breath';
+  const args$3_ = {};
+
+  class Breath extends BaseBody {
+    constructor() {
+      super(glyphname$3_, args$3_);
+    }
+  }
+
+  const glyphname$3Z = 'klasmaAbove';
+  const args$3Z = {};
+
+  class KlasmaAbove extends BaseMark {
+    constructor() {
+      super(glyphname$3Z, args$3Z);
+    }
+  }
+
+  const glyphname$3Y = 'klasmaBelow';
+  const args$3Y = {};
+
+  class KlasmaBelow extends BaseMark {
+    constructor() {
+      super(glyphname$3Y, args$3Y);
+    }
+  }
+
+  const glyphname$3X = 'apli';
+  const args$3X = {};
+
+  class Apli extends BaseMark {
+    constructor() {
+      super(glyphname$3X, args$3X);
+    }
+  }
+
+  const glyphname$3W = 'dipli';
+  const args$3W = {};
+
+  class Dipli extends BaseMark {
+    constructor() {
+      super(glyphname$3W, args$3W);
+    }
+  }
+
+  const glyphname$3V = 'tripli';
+  const args$3V = {};
+
+  class Tripli extends BaseMark {
+    constructor() {
+      super(glyphname$3V, args$3V);
+    }
+  }
+
+  const glyphname$3U = 'tetrapli';
+  const args$3U = {};
+
+  class Tetrapli extends BaseMark {
+    constructor() {
+      super(glyphname$3U, args$3U);
+    }
+  }
+
+  const glyphname$3T = 'koronis';
+  const args$3T = { color: CssVars.ColorKoronis };
+
+  class Koronis extends BaseMark {
+    constructor() {
+      super(glyphname$3T, args$3T);
+    }
+  }
+
+  const glyphname$3S = 'leimma1';
+  const args$3S = {};
+
+  class Leimma1 extends BaseBody {
+    constructor() {
+      super(glyphname$3S, args$3S);
+    }
+  }
+
+  const glyphname$3R = 'leimma2';
+  const args$3R = {};
+
+  class Leimma2 extends BaseBody {
+    constructor() {
+      super(glyphname$3R, args$3R);
+    }
+  }
+
+  const glyphname$3Q = 'leimma3';
+  const args$3Q = {};
+
+  class Leimma3 extends BaseBody {
+    constructor() {
+      super(glyphname$3Q, args$3Q);
+    }
+  }
+
+  const glyphname$3P = 'leimma4';
+  const args$3P = {};
+
+  class Leimma4 extends BaseBody {
+    constructor() {
+      super(glyphname$3P, args$3P);
+    }
+  }
+
+  const glyphname$3O = 'leimmaDot';
+  const args$3O = {};
+
+  class LeimmaDot extends BaseMark {
+    constructor() {
+      super(glyphname$3O, args$3O);
+    }
+  }
+
+  const glyphname$3N = 'gorgonAbove';
+  const args$3N = { color: CssVars.ColorGorgon };
+
+  class GorgonAbove extends BaseMark {
+    constructor() {
+      super(glyphname$3N, args$3N);
+    }
+  }
+
+  const glyphname$3M = 'gorgonBelow';
+  const args$3M = { color: CssVars.ColorGorgon };
+
+  class GorgonBelow extends BaseMark {
+    constructor() {
+      super(glyphname$3M, args$3M);
+    }
+  }
+
+  const glyphname$3L = 'gorgonDottedLeft';
+  const args$3L = { color: CssVars.ColorGorgon };
+
+  class GorgonDottedLeft extends BaseMark {
+    constructor() {
+      super(glyphname$3L, args$3L);
+    }
+  }
+
+  const glyphname$3K = 'gorgonDottedRight';
+  const args$3K = { color: CssVars.ColorGorgon };
+
+  class GorgonDottedRight extends BaseMark {
+    constructor() {
+      super(glyphname$3K, args$3K);
+    }
+  }
+
+  const glyphname$3J = 'digorgon';
+  const args$3J = { color: CssVars.ColorGorgon };
+
+  class Digorgon extends BaseMark {
+    constructor() {
+      super(glyphname$3J, args$3J);
+    }
+  }
+
+  const glyphname$3I = 'digorgonDottedLeftBelow';
+  const args$3I = { color: CssVars.ColorGorgon };
+
+  class DigorgonDottedLeftBelow extends BaseMark {
+    constructor() {
+      super(glyphname$3I, args$3I);
+    }
+  }
+
+  const glyphname$3H = 'digorgonDottedLeftAbove';
+  const args$3H = { color: CssVars.ColorGorgon };
+
+  class DigorgonDottedLeftAbove extends BaseMark {
+    constructor() {
+      super(glyphname$3H, args$3H);
+    }
+  }
+
+  const glyphname$3G = 'digorgonDottedRight';
+  const args$3G = { color: CssVars.ColorGorgon };
+
+  class DigorgonDottedRight extends BaseMark {
+    constructor() {
+      super(glyphname$3G, args$3G);
+    }
+  }
+
+  const glyphname$3F = 'trigorgon';
+  const args$3F = { color: CssVars.ColorGorgon };
+
+  class Trigorgon extends BaseMark {
+    constructor() {
+      super(glyphname$3F, args$3F);
+    }
+  }
+
+  const glyphname$3E = 'trigorgonDottedLeftBelow';
+  const args$3E = { color: CssVars.ColorGorgon };
+
+  class TrigorgonDottedLeftBelow extends BaseMark {
+    constructor() {
+      super(glyphname$3E, args$3E);
+    }
+  }
+
+  const glyphname$3D = 'trigorgonDottedLeftAbove';
+  const args$3D = { color: CssVars.ColorGorgon };
+
+  class TrigorgonDottedLeftAbove extends BaseMark {
+    constructor() {
+      super(glyphname$3D, args$3D);
+    }
+  }
+
+  const glyphname$3C = 'trigorgonDottedRight';
+  const args$3C = { color: CssVars.ColorGorgon };
+
+  class TrigorgonDottedRight extends BaseMark {
+    constructor() {
+      super(glyphname$3C, args$3C);
+    }
+  }
+
+  const glyphname$3B = 'argon';
+  const args$3B = { color: CssVars.ColorGorgon };
+
+  class Argon extends BaseMark {
+    constructor() {
+      super(glyphname$3B, args$3B);
+    }
+  }
+
+  const glyphname$3A = 'diargon';
+  const args$3A = { color: CssVars.ColorGorgon };
+
+  class Diargon extends BaseMark {
+    constructor() {
+      super(glyphname$3A, args$3A);
+    }
+  }
+
+  const glyphname$3z = 'triargon';
+  const args$3z = { color: CssVars.ColorGorgon };
+
+  class Triargon extends BaseMark {
+    constructor() {
+      super(glyphname$3z, args$3z);
+    }
+  }
+
+  const glyphname$3y = 'gorgonSecondary';
+  const args$3y = { color: CssVars.ColorGorgon };
+
+  class GorgonSecondary extends BaseMark {
+    constructor() {
+      super(glyphname$3y, args$3y);
+    }
+  }
+
+  const glyphname$3x = 'gorgonDottedLeftSecondary';
+  const args$3x = { color: CssVars.ColorGorgon };
+
+  class GorgonDottedLeftSecondary extends BaseMark {
+    constructor() {
+      super(glyphname$3x, args$3x);
+    }
+  }
+
+  const glyphname$3w = 'gorgonDottedRightSecondary';
+  const args$3w = { color: CssVars.ColorGorgon };
+
+  class GorgonDottedRightSecondary extends BaseMark {
+    constructor() {
+      super(glyphname$3w, args$3w);
+    }
+  }
+
+  const glyphname$3v = 'digorgonSecondary';
+  const args$3v = { color: CssVars.ColorGorgon };
+
+  class DigorgonSecondary extends BaseMark {
+    constructor() {
+      super(glyphname$3v, args$3v);
+    }
+  }
+
+  const glyphname$3u = 'digorgonDottedLeftBelowSecondary';
+  const args$3u = { color: CssVars.ColorGorgon };
+
+  class DigorgonDottedLeftBelowSecondary extends BaseMark {
+    constructor() {
+      super(glyphname$3u, args$3u);
+    }
+  }
+
+  const glyphname$3t = 'digorgonDottedRightSecondary';
+  const args$3t = { color: CssVars.ColorGorgon };
+
+  class DigorgonDottedRightSecondary extends BaseMark {
+    constructor() {
+      super(glyphname$3t, args$3t);
+    }
+  }
+
+  const glyphname$3s = 'trigorgonSecondary';
+  const args$3s = { color: CssVars.ColorGorgon };
+
+  class TrigorgonSecondary extends BaseMark {
+    constructor() {
+      super(glyphname$3s, args$3s);
+    }
+  }
+
+  const glyphname$3r = 'trigorgonDottedLeftBelowSecondary';
+  const args$3r = { color: CssVars.ColorGorgon };
+
+  class TrigorgonDottedLeftBelowSecondary extends BaseMark {
+    constructor() {
+      super(glyphname$3r, args$3r);
+    }
+  }
+
+  const glyphname$3q = 'trigorgonDottedRightSecondary';
+  const args$3q = { color: CssVars.ColorGorgon };
+
+  class TrigorgonDottedRightSecondary extends BaseMark {
+    constructor() {
+      super(glyphname$3q, args$3q);
+    }
+  }
+
+  const glyphname$3p = 'digorgonDottedLeftSecondary';
+  const args$3p = { color: CssVars.ColorGorgon };
+
+  class DigorgonDottedLeftSecondary extends BaseMark {
+    constructor() {
+      super(glyphname$3p, args$3p);
+    }
+  }
+
+  const glyphname$3o = 'trigorgonDottedLeftSecondary';
+  const args$3o = { color: CssVars.ColorGorgon };
+
+  class TrigorgonDottedLeftSecondary extends BaseMark {
     constructor() {
       super(glyphname$3o, args$3o);
     }
   }
 
-  const glyphname$3n = 'omalonConnecting';
-  const args$3n = {};
+  const glyphname$3n = 'agogiPoliArgi';
+  const args$3n = { color: CssVars.ColorAgogi };
 
-  class OmalonConnecting extends BaseMark {
+  class AgogiPoliArgi extends BaseBody {
     constructor() {
       super(glyphname$3n, args$3n);
     }
   }
 
-  const glyphname$3m = 'heteron';
-  const args$3m = { color: CssVars.ColorHeteron };
+  const glyphname$3m = 'agogiArgoteri';
+  const args$3m = { color: CssVars.ColorAgogi };
 
-  class Heteron extends BaseMark {
+  class AgogiArgoteri extends BaseBody {
     constructor() {
       super(glyphname$3m, args$3m);
     }
   }
 
-  const glyphname$3l = 'heteronConnecting';
-  const args$3l = { color: CssVars.ColorHeteron };
+  const glyphname$3l = 'agogiArgi';
+  const args$3l = { color: CssVars.ColorAgogi };
 
-  class HeteronConnecting extends BaseMark {
+  class AgogiArgi extends BaseBody {
     constructor() {
       super(glyphname$3l, args$3l);
     }
   }
 
-  const glyphname$3k = 'endofonon';
-  const args$3k = { color: CssVars.ColorHeteron };
+  const glyphname$3k = 'agogiMetria';
+  const args$3k = { color: CssVars.ColorAgogi };
 
-  class Endofonon extends BaseMark {
+  class AgogiMetria extends BaseBody {
     constructor() {
       super(glyphname$3k, args$3k);
     }
   }
 
-  const glyphname$3j = 'yfenAbove';
-  const args$3j = {};
+  const glyphname$3j = 'agogiMesi';
+  const args$3j = { color: CssVars.ColorAgogi };
 
-  class YfenAbove extends BaseMark {
+  class AgogiMesi extends BaseBody {
     constructor() {
       super(glyphname$3j, args$3j);
     }
   }
 
-  const glyphname$3i = 'yfenBelow';
-  const args$3i = {};
+  const glyphname$3i = 'agogiGorgi';
+  const args$3i = { color: CssVars.ColorAgogi };
 
-  class YfenBelow extends BaseMark {
+  class AgogiGorgi extends BaseBody {
     constructor() {
       super(glyphname$3i, args$3i);
     }
   }
 
-  const glyphname$3h = 'stavros';
-  const args$3h = {};
+  const glyphname$3h = 'agogiGorgoteri';
+  const args$3h = { color: CssVars.ColorAgogi };
 
-  class Stavros extends BaseBody {
+  class AgogiGorgoteri extends BaseBody {
     constructor() {
       super(glyphname$3h, args$3h);
     }
   }
 
-  const glyphname$3g = 'breath';
-  const args$3g = {};
+  const glyphname$3g = 'agogiPoliGorgi';
+  const args$3g = { color: CssVars.ColorAgogi };
 
-  class Breath extends BaseBody {
+  class AgogiPoliGorgi extends BaseBody {
     constructor() {
       super(glyphname$3g, args$3g);
     }
   }
 
-  const glyphname$3f = 'klasmaAbove';
-  const args$3f = {};
+  const glyphname$3f = 'agogiPoliArgiAbove';
+  const args$3f = { color: CssVars.ColorAgogi };
 
-  class KlasmaAbove extends BaseMark {
+  class AgogiPoliArgiAbove extends BaseMark {
     constructor() {
       super(glyphname$3f, args$3f);
     }
   }
 
-  const glyphname$3e = 'klasmaBelow';
-  const args$3e = {};
+  const glyphname$3e = 'agogiArgoteriAbove';
+  const args$3e = { color: CssVars.ColorAgogi };
 
-  class KlasmaBelow extends BaseMark {
+  class AgogiArgoteriAbove extends BaseMark {
     constructor() {
       super(glyphname$3e, args$3e);
     }
   }
 
-  const glyphname$3d = 'apli';
-  const args$3d = {};
+  const glyphname$3d = 'agogiArgiAbove';
+  const args$3d = { color: CssVars.ColorAgogi };
 
-  class Apli extends BaseMark {
+  class AgogiArgiAbove extends BaseMark {
     constructor() {
       super(glyphname$3d, args$3d);
     }
   }
 
-  const glyphname$3c = 'dipli';
-  const args$3c = {};
+  const glyphname$3c = 'agogiMetriaAbove';
+  const args$3c = { color: CssVars.ColorAgogi };
 
-  class Dipli extends BaseMark {
+  class AgogiMetriaAbove extends BaseMark {
     constructor() {
       super(glyphname$3c, args$3c);
     }
   }
 
-  const glyphname$3b = 'tripli';
-  const args$3b = {};
+  const glyphname$3b = 'agogiMesiAbove';
+  const args$3b = { color: CssVars.ColorAgogi };
 
-  class Tripli extends BaseMark {
+  class AgogiMesiAbove extends BaseMark {
     constructor() {
       super(glyphname$3b, args$3b);
     }
   }
 
-  const glyphname$3a = 'tetrapli';
-  const args$3a = {};
+  const glyphname$3a = 'agogiGorgiAbove';
+  const args$3a = { color: CssVars.ColorAgogi };
 
-  class Tetrapli extends BaseMark {
+  class AgogiGorgiAbove extends BaseMark {
     constructor() {
       super(glyphname$3a, args$3a);
     }
   }
 
-  const glyphname$39 = 'koronis';
-  const args$39 = { color: CssVars.ColorKoronis };
+  const glyphname$39 = 'agogiGorgoteriAbove';
+  const args$39 = { color: CssVars.ColorAgogi };
 
-  class Koronis extends BaseMark {
+  class AgogiGorgoteriAbove extends BaseMark {
     constructor() {
       super(glyphname$39, args$39);
     }
   }
 
-  const glyphname$38 = 'leimma1';
-  const args$38 = {};
+  const glyphname$38 = 'agogiPoliGorgiAbove';
+  const args$38 = { color: CssVars.ColorAgogi };
 
-  class Leimma1 extends BaseBody {
+  class AgogiPoliGorgiAbove extends BaseMark {
     constructor() {
       super(glyphname$38, args$38);
     }
   }
 
-  const glyphname$37 = 'leimma2';
-  const args$37 = {};
+  const glyphname$37 = 'martyriaNoteZoLow';
+  const args$37 = { color: CssVars.ColorMartyria };
 
-  class Leimma2 extends BaseBody {
+  class MartyriaNoteZoLow extends BaseBody {
     constructor() {
       super(glyphname$37, args$37);
     }
   }
 
-  const glyphname$36 = 'leimma3';
-  const args$36 = {};
+  const glyphname$36 = 'martyriaNoteNiLow';
+  const args$36 = { color: CssVars.ColorMartyria };
 
-  class Leimma3 extends BaseBody {
+  class MartyriaNoteNiLow extends BaseBody {
     constructor() {
       super(glyphname$36, args$36);
     }
   }
 
-  const glyphname$35 = 'leimma4';
-  const args$35 = {};
+  const glyphname$35 = 'martyriaNotePaLow';
+  const args$35 = { color: CssVars.ColorMartyria };
 
-  class Leimma4 extends BaseBody {
+  class MartyriaNotePaLow extends BaseBody {
     constructor() {
       super(glyphname$35, args$35);
     }
   }
 
-  const glyphname$34 = 'leimmaDot';
-  const args$34 = {};
+  const glyphname$34 = 'martyriaNoteVouLow';
+  const args$34 = { color: CssVars.ColorMartyria };
 
-  class LeimmaDot extends BaseMark {
+  class MartyriaNoteVouLow extends BaseBody {
     constructor() {
       super(glyphname$34, args$34);
     }
   }
 
-  const glyphname$33 = 'gorgonAbove';
-  const args$33 = { color: CssVars.ColorGorgon };
+  const glyphname$33 = 'martyriaNoteGaLow';
+  const args$33 = { color: CssVars.ColorMartyria };
 
-  class GorgonAbove extends BaseMark {
+  class MartyriaNoteGaLow extends BaseBody {
     constructor() {
       super(glyphname$33, args$33);
     }
   }
 
-  const glyphname$32 = 'gorgonBelow';
-  const args$32 = { color: CssVars.ColorGorgon };
+  const glyphname$32 = 'martyriaNoteDiLow';
+  const args$32 = { color: CssVars.ColorMartyria };
 
-  class GorgonBelow extends BaseMark {
+  class MartyriaNoteDiLow extends BaseBody {
     constructor() {
       super(glyphname$32, args$32);
     }
   }
 
-  const glyphname$31 = 'gorgonDottedLeft';
-  const args$31 = { color: CssVars.ColorGorgon };
+  const glyphname$31 = 'martyriaNoteKeLow';
+  const args$31 = { color: CssVars.ColorMartyria };
 
-  class GorgonDottedLeft extends BaseMark {
+  class MartyriaNoteKeLow extends BaseBody {
     constructor() {
       super(glyphname$31, args$31);
     }
   }
 
-  const glyphname$30 = 'gorgonDottedRight';
-  const args$30 = { color: CssVars.ColorGorgon };
+  const glyphname$30 = 'martyriaNoteZo';
+  const args$30 = { color: CssVars.ColorMartyria };
 
-  class GorgonDottedRight extends BaseMark {
+  class MartyriaNoteZo extends BaseBody {
     constructor() {
       super(glyphname$30, args$30);
     }
   }
 
-  const glyphname$2$ = 'digorgon';
-  const args$2$ = { color: CssVars.ColorGorgon };
+  const glyphname$2$ = 'martyriaNoteNi';
+  const args$2$ = { color: CssVars.ColorMartyria };
 
-  class Digorgon extends BaseMark {
+  class MartyriaNoteNi extends BaseBody {
     constructor() {
       super(glyphname$2$, args$2$);
     }
   }
 
-  const glyphname$2_ = 'digorgonDottedLeftBelow';
-  const args$2_ = { color: CssVars.ColorGorgon };
+  const glyphname$2_ = 'martyriaNotePa';
+  const args$2_ = { color: CssVars.ColorMartyria };
 
-  class DigorgonDottedLeftBelow extends BaseMark {
+  class MartyriaNotePa extends BaseBody {
     constructor() {
       super(glyphname$2_, args$2_);
     }
   }
 
-  const glyphname$2Z = 'digorgonDottedLeftAbove';
-  const args$2Z = { color: CssVars.ColorGorgon };
+  const glyphname$2Z = 'martyriaNoteVou';
+  const args$2Z = { color: CssVars.ColorMartyria };
 
-  class DigorgonDottedLeftAbove extends BaseMark {
+  class MartyriaNoteVou extends BaseBody {
     constructor() {
       super(glyphname$2Z, args$2Z);
     }
   }
 
-  const glyphname$2Y = 'digorgonDottedRight';
-  const args$2Y = { color: CssVars.ColorGorgon };
+  const glyphname$2Y = 'martyriaNoteGa';
+  const args$2Y = { color: CssVars.ColorMartyria };
 
-  class DigorgonDottedRight extends BaseMark {
+  class MartyriaNoteGa extends BaseBody {
     constructor() {
       super(glyphname$2Y, args$2Y);
     }
   }
 
-  const glyphname$2X = 'trigorgon';
-  const args$2X = { color: CssVars.ColorGorgon };
+  const glyphname$2X = 'martyriaNoteDi';
+  const args$2X = { color: CssVars.ColorMartyria };
 
-  class Trigorgon extends BaseMark {
+  class MartyriaNoteDi extends BaseBody {
     constructor() {
       super(glyphname$2X, args$2X);
     }
   }
 
-  const glyphname$2W = 'trigorgonDottedLeftBelow';
-  const args$2W = { color: CssVars.ColorGorgon };
+  const glyphname$2W = 'martyriaNoteKe';
+  const args$2W = { color: CssVars.ColorMartyria };
 
-  class TrigorgonDottedLeftBelow extends BaseMark {
+  class MartyriaNoteKe extends BaseBody {
     constructor() {
       super(glyphname$2W, args$2W);
     }
   }
 
-  const glyphname$2V = 'trigorgonDottedLeftAbove';
-  const args$2V = { color: CssVars.ColorGorgon };
+  const glyphname$2V = 'martyriaNoteZoHigh';
+  const args$2V = { color: CssVars.ColorMartyria };
 
-  class TrigorgonDottedLeftAbove extends BaseMark {
+  class MartyriaNoteZoHigh extends BaseBody {
     constructor() {
       super(glyphname$2V, args$2V);
     }
   }
 
-  const glyphname$2U = 'trigorgonDottedRight';
-  const args$2U = { color: CssVars.ColorGorgon };
+  const glyphname$2U = 'martyriaNoteNiHigh';
+  const args$2U = { color: CssVars.ColorMartyria };
 
-  class TrigorgonDottedRight extends BaseMark {
+  class MartyriaNoteNiHigh extends BaseBody {
     constructor() {
       super(glyphname$2U, args$2U);
     }
   }
 
-  const glyphname$2T = 'argon';
-  const args$2T = { color: CssVars.ColorGorgon };
+  const glyphname$2T = 'martyriaNotePaHigh';
+  const args$2T = { color: CssVars.ColorMartyria };
 
-  class Argon extends BaseMark {
+  class MartyriaNotePaHigh extends BaseBody {
     constructor() {
       super(glyphname$2T, args$2T);
     }
   }
 
-  const glyphname$2S = 'diargon';
-  const args$2S = { color: CssVars.ColorGorgon };
+  const glyphname$2S = 'martyriaNoteVouHigh';
+  const args$2S = { color: CssVars.ColorMartyria };
 
-  class Diargon extends BaseMark {
+  class MartyriaNoteVouHigh extends BaseBody {
     constructor() {
       super(glyphname$2S, args$2S);
     }
   }
 
-  const glyphname$2R = 'triargon';
-  const args$2R = { color: CssVars.ColorGorgon };
+  const glyphname$2R = 'martyriaNoteGaHigh';
+  const args$2R = { color: CssVars.ColorMartyria };
 
-  class Triargon extends BaseMark {
+  class MartyriaNoteGaHigh extends BaseBody {
     constructor() {
       super(glyphname$2R, args$2R);
     }
   }
 
-  const glyphname$2Q = 'gorgonSecondary';
-  const args$2Q = { color: CssVars.ColorGorgon };
+  const glyphname$2Q = 'martyriaNoteDiHigh';
+  const args$2Q = { color: CssVars.ColorMartyria };
 
-  class GorgonSecondary extends BaseMark {
+  class MartyriaNoteDiHigh extends BaseBody {
     constructor() {
       super(glyphname$2Q, args$2Q);
     }
   }
 
-  const glyphname$2P = 'gorgonDottedLeftSecondary';
-  const args$2P = { color: CssVars.ColorGorgon };
+  const glyphname$2P = 'martyriaNoteKeHigh';
+  const args$2P = { color: CssVars.ColorMartyria };
 
-  class GorgonDottedLeftSecondary extends BaseMark {
+  class MartyriaNoteKeHigh extends BaseBody {
     constructor() {
       super(glyphname$2P, args$2P);
     }
   }
 
-  const glyphname$2O = 'gorgonDottedRightSecondary';
-  const args$2O = { color: CssVars.ColorGorgon };
+  const glyphname$2O = 'martyriaTick';
+  const args$2O = { color: CssVars.ColorMartyria };
 
-  class GorgonDottedRightSecondary extends BaseMark {
+  class MartyriaTick extends BaseMark {
     constructor() {
       super(glyphname$2O, args$2O);
     }
   }
 
-  const glyphname$2N = 'digorgonSecondary';
-  const args$2N = { color: CssVars.ColorGorgon };
+  const glyphname$2N = 'martyriaZoBelow';
+  const args$2N = { color: CssVars.ColorMartyria };
 
-  class DigorgonSecondary extends BaseMark {
+  class MartyriaZoBelow extends BaseMark {
     constructor() {
       super(glyphname$2N, args$2N);
     }
   }
 
-  const glyphname$2M = 'digorgonDottedLeftBelowSecondary';
-  const args$2M = { color: CssVars.ColorGorgon };
+  const glyphname$2M = 'martyriaDeltaBelow';
+  const args$2M = { color: CssVars.ColorMartyria };
 
-  class DigorgonDottedLeftBelowSecondary extends BaseMark {
+  class MartyriaDeltaBelow extends BaseMark {
     constructor() {
       super(glyphname$2M, args$2M);
     }
   }
 
-  const glyphname$2L = 'digorgonDottedRightSecondary';
-  const args$2L = { color: CssVars.ColorGorgon };
+  const glyphname$2L = 'martyriaAlphaBelow';
+  const args$2L = { color: CssVars.ColorMartyria };
 
-  class DigorgonDottedRightSecondary extends BaseMark {
+  class MartyriaAlphaBelow extends BaseMark {
     constructor() {
       super(glyphname$2L, args$2L);
     }
   }
 
-  const glyphname$2K = 'trigorgonSecondary';
-  const args$2K = { color: CssVars.ColorGorgon };
+  const glyphname$2K = 'martyriaLegetosBelow';
+  const args$2K = { color: CssVars.ColorMartyria };
 
-  class TrigorgonSecondary extends BaseMark {
+  class MartyriaLegetosBelow extends BaseMark {
     constructor() {
       super(glyphname$2K, args$2K);
     }
   }
 
-  const glyphname$2J = 'trigorgonDottedLeftBelowSecondary';
-  const args$2J = { color: CssVars.ColorGorgon };
+  const glyphname$2J = 'martyriaNanaBelow';
+  const args$2J = { color: CssVars.ColorMartyria };
 
-  class TrigorgonDottedLeftBelowSecondary extends BaseMark {
+  class MartyriaNanaBelow extends BaseMark {
     constructor() {
       super(glyphname$2J, args$2J);
     }
   }
 
-  const glyphname$2I = 'trigorgonDottedRightSecondary';
-  const args$2I = { color: CssVars.ColorGorgon };
+  const glyphname$2I = 'martyriaDeltaDottedBelow';
+  const args$2I = { color: CssVars.ColorMartyria };
 
-  class TrigorgonDottedRightSecondary extends BaseMark {
+  class MartyriaDeltaDottedBelow extends BaseMark {
     constructor() {
       super(glyphname$2I, args$2I);
     }
   }
 
-  const glyphname$2H = 'agogiPoliArgi';
-  const args$2H = { color: CssVars.ColorAgogi };
+  const glyphname$2H = 'martyriaAlphaDottedBelow';
+  const args$2H = { color: CssVars.ColorMartyria };
 
-  class AgogiPoliArgi extends BaseBody {
+  class MartyriaAlphaDottedBelow extends BaseMark {
     constructor() {
       super(glyphname$2H, args$2H);
     }
   }
 
-  const glyphname$2G = 'agogiArgoteri';
-  const args$2G = { color: CssVars.ColorAgogi };
+  const glyphname$2G = 'martyriaHardChromaticPaBelow';
+  const args$2G = { color: CssVars.ColorMartyria };
 
-  class AgogiArgoteri extends BaseBody {
+  class MartyriaHardChromaticPaBelow extends BaseMark {
     constructor() {
       super(glyphname$2G, args$2G);
     }
   }
 
-  const glyphname$2F = 'agogiArgi';
-  const args$2F = { color: CssVars.ColorAgogi };
+  const glyphname$2F = 'martyriaHardChromaticDiBelow';
+  const args$2F = { color: CssVars.ColorMartyria };
 
-  class AgogiArgi extends BaseBody {
+  class MartyriaHardChromaticDiBelow extends BaseMark {
     constructor() {
       super(glyphname$2F, args$2F);
     }
   }
 
-  const glyphname$2E = 'agogiMetria';
-  const args$2E = { color: CssVars.ColorAgogi };
+  const glyphname$2E = 'martyriaSoftChromaticDiBelow';
+  const args$2E = { color: CssVars.ColorMartyria };
 
-  class AgogiMetria extends BaseBody {
+  class MartyriaSoftChromaticDiBelow extends BaseMark {
     constructor() {
       super(glyphname$2E, args$2E);
     }
   }
 
-  const glyphname$2D = 'agogiMesi';
-  const args$2D = { color: CssVars.ColorAgogi };
+  const glyphname$2D = 'martyriaSoftChromaticKeBelow';
+  const args$2D = { color: CssVars.ColorMartyria };
 
-  class AgogiMesi extends BaseBody {
+  class MartyriaSoftChromaticKeBelow extends BaseMark {
     constructor() {
       super(glyphname$2D, args$2D);
     }
   }
 
-  const glyphname$2C = 'agogiGorgi';
-  const args$2C = { color: CssVars.ColorAgogi };
+  const glyphname$2C = 'martyriaZygosBelow';
+  const args$2C = { color: CssVars.ColorMartyria };
 
-  class AgogiGorgi extends BaseBody {
+  class MartyriaZygosBelow extends BaseMark {
     constructor() {
       super(glyphname$2C, args$2C);
     }
   }
 
-  const glyphname$2B = 'agogiGorgoteri';
-  const args$2B = { color: CssVars.ColorAgogi };
+  const glyphname$2B = 'martyriaZoAbove';
+  const args$2B = { color: CssVars.ColorMartyria };
 
-  class AgogiGorgoteri extends BaseBody {
+  class MartyriaZoAbove extends BaseMark {
     constructor() {
       super(glyphname$2B, args$2B);
     }
   }
 
-  const glyphname$2A = 'agogiPoliGorgi';
-  const args$2A = { color: CssVars.ColorAgogi };
+  const glyphname$2A = 'martyriaDeltaAbove';
+  const args$2A = { color: CssVars.ColorMartyria };
 
-  class AgogiPoliGorgi extends BaseBody {
+  class MartyriaDeltaAbove extends BaseMark {
     constructor() {
       super(glyphname$2A, args$2A);
     }
   }
 
-  const glyphname$2z = 'agogiPoliArgiAbove';
-  const args$2z = { color: CssVars.ColorAgogi };
+  const glyphname$2z = 'martyriaAlphaAbove';
+  const args$2z = { color: CssVars.ColorMartyria };
 
-  class AgogiPoliArgiAbove extends BaseMark {
+  class MartyriaAlphaAbove extends BaseMark {
     constructor() {
       super(glyphname$2z, args$2z);
     }
   }
 
-  const glyphname$2y = 'agogiArgoteriAbove';
-  const args$2y = { color: CssVars.ColorAgogi };
+  const glyphname$2y = 'martyriaLegetosAbove';
+  const args$2y = { color: CssVars.ColorMartyria };
 
-  class AgogiArgoteriAbove extends BaseMark {
+  class MartyriaLegetosAbove extends BaseMark {
     constructor() {
       super(glyphname$2y, args$2y);
     }
   }
 
-  const glyphname$2x = 'agogiArgiAbove';
-  const args$2x = { color: CssVars.ColorAgogi };
+  const glyphname$2x = 'martyriaNanaAbove';
+  const args$2x = { color: CssVars.ColorMartyria };
 
-  class AgogiArgiAbove extends BaseMark {
+  class MartyriaNanaAbove extends BaseMark {
     constructor() {
       super(glyphname$2x, args$2x);
     }
   }
 
-  const glyphname$2w = 'agogiMetriaAbove';
-  const args$2w = { color: CssVars.ColorAgogi };
+  const glyphname$2w = 'martyriaDeltaDottedAbove';
+  const args$2w = { color: CssVars.ColorMartyria };
 
-  class AgogiMetriaAbove extends BaseMark {
+  class MartyriaDeltaDottedAbove extends BaseMark {
     constructor() {
       super(glyphname$2w, args$2w);
     }
   }
 
-  const glyphname$2v = 'agogiMesiAbove';
-  const args$2v = { color: CssVars.ColorAgogi };
+  const glyphname$2v = 'martyriaAlphaDottedAbove';
+  const args$2v = { color: CssVars.ColorMartyria };
 
-  class AgogiMesiAbove extends BaseMark {
+  class MartyriaAlphaDottedAbove extends BaseMark {
     constructor() {
       super(glyphname$2v, args$2v);
     }
   }
 
-  const glyphname$2u = 'agogiGorgiAbove';
-  const args$2u = { color: CssVars.ColorAgogi };
+  const glyphname$2u = 'martyriaHardChromaticPaAbove';
+  const args$2u = { color: CssVars.ColorMartyria };
 
-  class AgogiGorgiAbove extends BaseMark {
+  class MartyriaHardChromaticPaAbove extends BaseMark {
     constructor() {
       super(glyphname$2u, args$2u);
     }
   }
 
-  const glyphname$2t = 'agogiGorgoteriAbove';
-  const args$2t = { color: CssVars.ColorAgogi };
+  const glyphname$2t = 'martyriaHardChromaticDiAbove';
+  const args$2t = { color: CssVars.ColorMartyria };
 
-  class AgogiGorgoteriAbove extends BaseMark {
+  class MartyriaHardChromaticDiAbove extends BaseMark {
     constructor() {
       super(glyphname$2t, args$2t);
     }
   }
 
-  const glyphname$2s = 'agogiPoliGorgiAbove';
-  const args$2s = { color: CssVars.ColorAgogi };
+  const glyphname$2s = 'martyriaSoftChromaticDiAbove';
+  const args$2s = { color: CssVars.ColorMartyria };
 
-  class AgogiPoliGorgiAbove extends BaseMark {
+  class MartyriaSoftChromaticDiAbove extends BaseMark {
     constructor() {
       super(glyphname$2s, args$2s);
     }
   }
 
-  const glyphname$2r = 'martyriaNoteZoLow';
+  const glyphname$2r = 'martyriaSoftChromaticKeAbove';
   const args$2r = { color: CssVars.ColorMartyria };
 
-  class MartyriaNoteZoLow extends BaseBody {
+  class MartyriaSoftChromaticKeAbove extends BaseMark {
     constructor() {
       super(glyphname$2r, args$2r);
     }
   }
 
-  const glyphname$2q = 'martyriaNoteNiLow';
+  const glyphname$2q = 'martyriaZygosAbove';
   const args$2q = { color: CssVars.ColorMartyria };
 
-  class MartyriaNoteNiLow extends BaseBody {
+  class MartyriaZygosAbove extends BaseMark {
     constructor() {
       super(glyphname$2q, args$2q);
     }
   }
 
-  const glyphname$2p = 'martyriaNotePaLow';
-  const args$2p = { color: CssVars.ColorMartyria };
+  const glyphname$2p = 'fthoraDiatonicNiLowAbove';
+  const args$2p = { color: CssVars.ColorFthora };
 
-  class MartyriaNotePaLow extends BaseBody {
+  class FthoraDiatonicNiLowAbove extends BaseMark {
     constructor() {
       super(glyphname$2p, args$2p);
     }
   }
 
-  const glyphname$2o = 'martyriaNoteVouLow';
-  const args$2o = { color: CssVars.ColorMartyria };
+  const glyphname$2o = 'fthoraDiatonicPaAbove';
+  const args$2o = { color: CssVars.ColorFthora };
 
-  class MartyriaNoteVouLow extends BaseBody {
+  class FthoraDiatonicPaAbove extends BaseMark {
     constructor() {
       super(glyphname$2o, args$2o);
     }
   }
 
-  const glyphname$2n = 'martyriaNoteGaLow';
-  const args$2n = { color: CssVars.ColorMartyria };
+  const glyphname$2n = 'fthoraDiatonicVouAbove';
+  const args$2n = { color: CssVars.ColorFthora };
 
-  class MartyriaNoteGaLow extends BaseBody {
+  class FthoraDiatonicVouAbove extends BaseMark {
     constructor() {
       super(glyphname$2n, args$2n);
     }
   }
 
-  const glyphname$2m = 'martyriaNoteDiLow';
-  const args$2m = { color: CssVars.ColorMartyria };
+  const glyphname$2m = 'fthoraDiatonicGaAbove';
+  const args$2m = { color: CssVars.ColorFthora };
 
-  class MartyriaNoteDiLow extends BaseBody {
+  class FthoraDiatonicGaAbove extends BaseMark {
     constructor() {
       super(glyphname$2m, args$2m);
     }
   }
 
-  const glyphname$2l = 'martyriaNoteKeLow';
-  const args$2l = { color: CssVars.ColorMartyria };
+  const glyphname$2l = 'fthoraDiatonicDiAbove';
+  const args$2l = { color: CssVars.ColorFthora };
 
-  class MartyriaNoteKeLow extends BaseBody {
+  class FthoraDiatonicDiAbove extends BaseMark {
     constructor() {
       super(glyphname$2l, args$2l);
     }
   }
 
-  const glyphname$2k = 'martyriaNoteZo';
-  const args$2k = { color: CssVars.ColorMartyria };
+  const glyphname$2k = 'fthoraDiatonicKeAbove';
+  const args$2k = { color: CssVars.ColorFthora };
 
-  class MartyriaNoteZo extends BaseBody {
+  class FthoraDiatonicKeAbove extends BaseMark {
     constructor() {
       super(glyphname$2k, args$2k);
     }
   }
 
-  const glyphname$2j = 'martyriaNoteNi';
-  const args$2j = { color: CssVars.ColorMartyria };
+  const glyphname$2j = 'fthoraDiatonicZoAbove';
+  const args$2j = { color: CssVars.ColorFthora };
 
-  class MartyriaNoteNi extends BaseBody {
+  class FthoraDiatonicZoAbove extends BaseMark {
     constructor() {
       super(glyphname$2j, args$2j);
     }
   }
 
-  const glyphname$2i = 'martyriaNotePa';
-  const args$2i = { color: CssVars.ColorMartyria };
+  const glyphname$2i = 'fthoraDiatonicNiHighAbove';
+  const args$2i = { color: CssVars.ColorFthora };
 
-  class MartyriaNotePa extends BaseBody {
+  class FthoraDiatonicNiHighAbove extends BaseMark {
     constructor() {
       super(glyphname$2i, args$2i);
     }
   }
 
-  const glyphname$2h = 'martyriaNoteVou';
-  const args$2h = { color: CssVars.ColorMartyria };
+  const glyphname$2h = 'fthoraHardChromaticPaAbove';
+  const args$2h = { color: CssVars.ColorFthora };
 
-  class MartyriaNoteVou extends BaseBody {
+  class FthoraHardChromaticPaAbove extends BaseMark {
     constructor() {
       super(glyphname$2h, args$2h);
     }
   }
 
-  const glyphname$2g = 'martyriaNoteGa';
-  const args$2g = { color: CssVars.ColorMartyria };
+  const glyphname$2g = 'fthoraHardChromaticDiAbove';
+  const args$2g = { color: CssVars.ColorFthora };
 
-  class MartyriaNoteGa extends BaseBody {
+  class FthoraHardChromaticDiAbove extends BaseMark {
     constructor() {
       super(glyphname$2g, args$2g);
     }
   }
 
-  const glyphname$2f = 'martyriaNoteDi';
-  const args$2f = { color: CssVars.ColorMartyria };
+  const glyphname$2f = 'fthoraSoftChromaticDiAbove';
+  const args$2f = { color: CssVars.ColorFthora };
 
-  class MartyriaNoteDi extends BaseBody {
+  class FthoraSoftChromaticDiAbove extends BaseMark {
     constructor() {
       super(glyphname$2f, args$2f);
     }
   }
 
-  const glyphname$2e = 'martyriaNoteKe';
-  const args$2e = { color: CssVars.ColorMartyria };
+  const glyphname$2e = 'fthoraSoftChromaticKeAbove';
+  const args$2e = { color: CssVars.ColorFthora };
 
-  class MartyriaNoteKe extends BaseBody {
+  class FthoraSoftChromaticKeAbove extends BaseMark {
     constructor() {
       super(glyphname$2e, args$2e);
     }
   }
 
-  const glyphname$2d = 'martyriaNoteZoHigh';
-  const args$2d = { color: CssVars.ColorMartyria };
+  const glyphname$2d = 'fthoraEnharmonicAbove';
+  const args$2d = { color: CssVars.ColorFthora };
 
-  class MartyriaNoteZoHigh extends BaseBody {
+  class FthoraEnharmonicAbove extends BaseMark {
     constructor() {
       super(glyphname$2d, args$2d);
     }
   }
 
-  const glyphname$2c = 'martyriaNoteNiHigh';
-  const args$2c = { color: CssVars.ColorMartyria };
+  const glyphname$2c = 'chroaZygosAbove';
+  const args$2c = { color: CssVars.ColorFthora };
 
-  class MartyriaNoteNiHigh extends BaseBody {
+  class ChroaZygosAbove extends BaseMark {
     constructor() {
       super(glyphname$2c, args$2c);
     }
   }
 
-  const glyphname$2b = 'martyriaNotePaHigh';
-  const args$2b = { color: CssVars.ColorMartyria };
+  const glyphname$2b = 'chroaKlitonAbove';
+  const args$2b = { color: CssVars.ColorFthora };
 
-  class MartyriaNotePaHigh extends BaseBody {
+  class ChroaKlitonAbove extends BaseMark {
     constructor() {
       super(glyphname$2b, args$2b);
     }
   }
 
-  const glyphname$2a = 'martyriaNoteVouHigh';
-  const args$2a = { color: CssVars.ColorMartyria };
+  const glyphname$2a = 'chroaSpathiAbove';
+  const args$2a = { color: CssVars.ColorFthora };
 
-  class MartyriaNoteVouHigh extends BaseBody {
+  class ChroaSpathiAbove extends BaseMark {
     constructor() {
       super(glyphname$2a, args$2a);
     }
   }
 
-  const glyphname$29 = 'martyriaNoteGaHigh';
-  const args$29 = { color: CssVars.ColorMartyria };
+  const glyphname$29 = 'fthoraDiatonicNiLowSecondary';
+  const args$29 = { color: CssVars.ColorFthora };
 
-  class MartyriaNoteGaHigh extends BaseBody {
+  class FthoraDiatonicNiLowSecondary extends BaseMark {
     constructor() {
       super(glyphname$29, args$29);
     }
   }
 
-  const glyphname$28 = 'martyriaNoteDiHigh';
-  const args$28 = { color: CssVars.ColorMartyria };
+  const glyphname$28 = 'fthoraDiatonicPaSecondary';
+  const args$28 = { color: CssVars.ColorFthora };
 
-  class MartyriaNoteDiHigh extends BaseBody {
+  class FthoraDiatonicPaSecondary extends BaseMark {
     constructor() {
       super(glyphname$28, args$28);
     }
   }
 
-  const glyphname$27 = 'martyriaNoteKeHigh';
-  const args$27 = { color: CssVars.ColorMartyria };
+  const glyphname$27 = 'fthoraDiatonicVouSecondary';
+  const args$27 = { color: CssVars.ColorFthora };
 
-  class MartyriaNoteKeHigh extends BaseBody {
+  class FthoraDiatonicVouSecondary extends BaseMark {
     constructor() {
       super(glyphname$27, args$27);
     }
   }
 
-  const glyphname$26 = 'martyriaTick';
-  const args$26 = { color: CssVars.ColorMartyria };
+  const glyphname$26 = 'fthoraDiatonicGaSecondary';
+  const args$26 = { color: CssVars.ColorFthora };
 
-  class MartyriaTick extends BaseMark {
+  class FthoraDiatonicGaSecondary extends BaseMark {
     constructor() {
       super(glyphname$26, args$26);
     }
   }
 
-  const glyphname$25 = 'martyriaZoBelow';
-  const args$25 = { color: CssVars.ColorMartyria };
+  const glyphname$25 = 'fthoraDiatonicDiSecondary';
+  const args$25 = { color: CssVars.ColorFthora };
 
-  class MartyriaZoBelow extends BaseMark {
+  class FthoraDiatonicDiSecondary extends BaseMark {
     constructor() {
       super(glyphname$25, args$25);
     }
   }
 
-  const glyphname$24 = 'martyriaDeltaBelow';
-  const args$24 = { color: CssVars.ColorMartyria };
+  const glyphname$24 = 'fthoraDiatonicKeSecondary';
+  const args$24 = { color: CssVars.ColorFthora };
 
-  class MartyriaDeltaBelow extends BaseMark {
+  class FthoraDiatonicKeSecondary extends BaseMark {
     constructor() {
       super(glyphname$24, args$24);
     }
   }
 
-  const glyphname$23 = 'martyriaAlphaBelow';
-  const args$23 = { color: CssVars.ColorMartyria };
+  const glyphname$23 = 'fthoraDiatonicZoSecondary';
+  const args$23 = { color: CssVars.ColorFthora };
 
-  class MartyriaAlphaBelow extends BaseMark {
+  class FthoraDiatonicZoSecondary extends BaseMark {
     constructor() {
       super(glyphname$23, args$23);
     }
   }
 
-  const glyphname$22 = 'martyriaLegetosBelow';
-  const args$22 = { color: CssVars.ColorMartyria };
+  const glyphname$22 = 'fthoraDiatonicNiHighSecondary';
+  const args$22 = { color: CssVars.ColorFthora };
 
-  class MartyriaLegetosBelow extends BaseMark {
+  class FthoraDiatonicNiHighSecondary extends BaseMark {
     constructor() {
       super(glyphname$22, args$22);
     }
   }
 
-  const glyphname$21 = 'martyriaNanaBelow';
-  const args$21 = { color: CssVars.ColorMartyria };
+  const glyphname$21 = 'fthoraHardChromaticPaSecondary';
+  const args$21 = { color: CssVars.ColorFthora };
 
-  class MartyriaNanaBelow extends BaseMark {
+  class FthoraHardChromaticPaSecondary extends BaseMark {
     constructor() {
       super(glyphname$21, args$21);
     }
   }
 
-  const glyphname$20 = 'martyriaDeltaDottedBelow';
-  const args$20 = { color: CssVars.ColorMartyria };
+  const glyphname$20 = 'fthoraHardChromaticDiSecondary';
+  const args$20 = { color: CssVars.ColorFthora };
 
-  class MartyriaDeltaDottedBelow extends BaseMark {
+  class FthoraHardChromaticDiSecondary extends BaseMark {
     constructor() {
       super(glyphname$20, args$20);
     }
   }
 
-  const glyphname$1$ = 'martyriaAlphaDottedBelow';
-  const args$1$ = { color: CssVars.ColorMartyria };
+  const glyphname$1$ = 'fthoraSoftChromaticDiSecondary';
+  const args$1$ = { color: CssVars.ColorFthora };
 
-  class MartyriaAlphaDottedBelow extends BaseMark {
+  class FthoraSoftChromaticDiSecondary extends BaseMark {
     constructor() {
       super(glyphname$1$, args$1$);
     }
   }
 
-  const glyphname$1_ = 'martyriaHardChromaticPaBelow';
-  const args$1_ = { color: CssVars.ColorMartyria };
+  const glyphname$1_ = 'fthoraSoftChromaticKeSecondary';
+  const args$1_ = { color: CssVars.ColorFthora };
 
-  class MartyriaHardChromaticPaBelow extends BaseMark {
+  class FthoraSoftChromaticKeSecondary extends BaseMark {
     constructor() {
       super(glyphname$1_, args$1_);
     }
   }
 
-  const glyphname$1Z = 'martyriaHardChromaticDiBelow';
-  const args$1Z = { color: CssVars.ColorMartyria };
+  const glyphname$1Z = 'fthoraEnharmonicSecondary';
+  const args$1Z = { color: CssVars.ColorFthora };
 
-  class MartyriaHardChromaticDiBelow extends BaseMark {
+  class FthoraEnharmonicSecondary extends BaseMark {
     constructor() {
       super(glyphname$1Z, args$1Z);
     }
   }
 
-  const glyphname$1Y = 'martyriaSoftChromaticDiBelow';
-  const args$1Y = { color: CssVars.ColorMartyria };
+  const glyphname$1Y = 'chroaZygosSecondary';
+  const args$1Y = { color: CssVars.ColorFthora };
 
-  class MartyriaSoftChromaticDiBelow extends BaseMark {
+  class ChroaZygosSecondary extends BaseMark {
     constructor() {
       super(glyphname$1Y, args$1Y);
     }
   }
 
-  const glyphname$1X = 'martyriaSoftChromaticKeBelow';
-  const args$1X = { color: CssVars.ColorMartyria };
+  const glyphname$1X = 'chroaKlitonSecondary';
+  const args$1X = { color: CssVars.ColorFthora };
 
-  class MartyriaSoftChromaticKeBelow extends BaseMark {
+  class ChroaKlitonSecondary extends BaseMark {
     constructor() {
       super(glyphname$1X, args$1X);
     }
   }
 
-  const glyphname$1W = 'martyriaZygosBelow';
-  const args$1W = { color: CssVars.ColorMartyria };
+  const glyphname$1W = 'chroaSpathiSecondary';
+  const args$1W = { color: CssVars.ColorFthora };
 
-  class MartyriaZygosBelow extends BaseMark {
+  class ChroaSpathiSecondary extends BaseMark {
     constructor() {
       super(glyphname$1W, args$1W);
     }
   }
 
-  const glyphname$1V = 'martyriaZoAbove';
-  const args$1V = { color: CssVars.ColorMartyria };
+  const glyphname$1V = 'fthoraDiatonicNiLowTertiary';
+  const args$1V = { color: CssVars.ColorFthora };
 
-  class MartyriaZoAbove extends BaseMark {
+  class FthoraDiatonicNiLowTertiary extends BaseMark {
     constructor() {
       super(glyphname$1V, args$1V);
     }
   }
 
-  const glyphname$1U = 'martyriaDeltaAbove';
-  const args$1U = { color: CssVars.ColorMartyria };
+  const glyphname$1U = 'fthoraDiatonicPaTertiary';
+  const args$1U = { color: CssVars.ColorFthora };
 
-  class MartyriaDeltaAbove extends BaseMark {
+  class FthoraDiatonicPaTertiary extends BaseMark {
     constructor() {
       super(glyphname$1U, args$1U);
     }
   }
 
-  const glyphname$1T = 'martyriaAlphaAbove';
-  const args$1T = { color: CssVars.ColorMartyria };
+  const glyphname$1T = 'fthoraDiatonicVouTertiary';
+  const args$1T = { color: CssVars.ColorFthora };
 
-  class MartyriaAlphaAbove extends BaseMark {
+  class FthoraDiatonicVouTertiary extends BaseMark {
     constructor() {
       super(glyphname$1T, args$1T);
     }
   }
 
-  const glyphname$1S = 'martyriaLegetosAbove';
-  const args$1S = { color: CssVars.ColorMartyria };
+  const glyphname$1S = 'fthoraDiatonicGaTertiary';
+  const args$1S = { color: CssVars.ColorFthora };
 
-  class MartyriaLegetosAbove extends BaseMark {
+  class FthoraDiatonicGaTertiary extends BaseMark {
     constructor() {
       super(glyphname$1S, args$1S);
     }
   }
 
-  const glyphname$1R = 'martyriaNanaAbove';
-  const args$1R = { color: CssVars.ColorMartyria };
+  const glyphname$1R = 'fthoraDiatonicDiTertiary';
+  const args$1R = { color: CssVars.ColorFthora };
 
-  class MartyriaNanaAbove extends BaseMark {
+  class FthoraDiatonicDiTertiary extends BaseMark {
     constructor() {
       super(glyphname$1R, args$1R);
     }
   }
 
-  const glyphname$1Q = 'martyriaDeltaDottedAbove';
-  const args$1Q = { color: CssVars.ColorMartyria };
+  const glyphname$1Q = 'fthoraDiatonicKeTertiary';
+  const args$1Q = { color: CssVars.ColorFthora };
 
-  class MartyriaDeltaDottedAbove extends BaseMark {
+  class FthoraDiatonicKeTertiary extends BaseMark {
     constructor() {
       super(glyphname$1Q, args$1Q);
     }
   }
 
-  const glyphname$1P = 'martyriaAlphaDottedAbove';
-  const args$1P = { color: CssVars.ColorMartyria };
+  const glyphname$1P = 'fthoraDiatonicZoTertiary';
+  const args$1P = { color: CssVars.ColorFthora };
 
-  class MartyriaAlphaDottedAbove extends BaseMark {
+  class FthoraDiatonicZoTertiary extends BaseMark {
     constructor() {
       super(glyphname$1P, args$1P);
     }
   }
 
-  const glyphname$1O = 'martyriaHardChromaticPaAbove';
-  const args$1O = { color: CssVars.ColorMartyria };
+  const glyphname$1O = 'fthoraDiatonicNiHighTertiary';
+  const args$1O = { color: CssVars.ColorFthora };
 
-  class MartyriaHardChromaticPaAbove extends BaseMark {
+  class FthoraDiatonicNiHighTertiary extends BaseMark {
     constructor() {
       super(glyphname$1O, args$1O);
     }
   }
 
-  const glyphname$1N = 'martyriaHardChromaticDiAbove';
-  const args$1N = { color: CssVars.ColorMartyria };
+  const glyphname$1N = 'fthoraHardChromaticPaTertiary';
+  const args$1N = { color: CssVars.ColorFthora };
 
-  class MartyriaHardChromaticDiAbove extends BaseMark {
+  class FthoraHardChromaticPaTertiary extends BaseMark {
     constructor() {
       super(glyphname$1N, args$1N);
     }
   }
 
-  const glyphname$1M = 'martyriaSoftChromaticDiAbove';
-  const args$1M = { color: CssVars.ColorMartyria };
+  const glyphname$1M = 'fthoraHardChromaticDiTertiary';
+  const args$1M = { color: CssVars.ColorFthora };
 
-  class MartyriaSoftChromaticDiAbove extends BaseMark {
+  class FthoraHardChromaticDiTertiary extends BaseMark {
     constructor() {
       super(glyphname$1M, args$1M);
     }
   }
 
-  const glyphname$1L = 'martyriaSoftChromaticKeAbove';
-  const args$1L = { color: CssVars.ColorMartyria };
+  const glyphname$1L = 'fthoraSoftChromaticDiTertiary';
+  const args$1L = { color: CssVars.ColorFthora };
 
-  class MartyriaSoftChromaticKeAbove extends BaseMark {
+  class FthoraSoftChromaticDiTertiary extends BaseMark {
     constructor() {
       super(glyphname$1L, args$1L);
     }
   }
 
-  const glyphname$1K = 'martyriaZygosAbove';
-  const args$1K = { color: CssVars.ColorMartyria };
+  const glyphname$1K = 'fthoraSoftChromaticKeTertiary';
+  const args$1K = { color: CssVars.ColorFthora };
 
-  class MartyriaZygosAbove extends BaseMark {
+  class FthoraSoftChromaticKeTertiary extends BaseMark {
     constructor() {
       super(glyphname$1K, args$1K);
     }
   }
 
-  const glyphname$1J = 'fthoraDiatonicNiLowAbove';
+  const glyphname$1J = 'fthoraEnharmonicTertiary';
   const args$1J = { color: CssVars.ColorFthora };
 
-  class FthoraDiatonicNiLowAbove extends BaseMark {
+  class FthoraEnharmonicTertiary extends BaseMark {
     constructor() {
       super(glyphname$1J, args$1J);
     }
   }
 
-  const glyphname$1I = 'fthoraDiatonicPaAbove';
+  const glyphname$1I = 'chroaZygosTertiary';
   const args$1I = { color: CssVars.ColorFthora };
 
-  class FthoraDiatonicPaAbove extends BaseMark {
+  class ChroaZygosTertiary extends BaseMark {
     constructor() {
       super(glyphname$1I, args$1I);
     }
   }
 
-  const glyphname$1H = 'fthoraDiatonicVouAbove';
+  const glyphname$1H = 'chroaKlitonTertiary';
   const args$1H = { color: CssVars.ColorFthora };
 
-  class FthoraDiatonicVouAbove extends BaseMark {
+  class ChroaKlitonTertiary extends BaseMark {
     constructor() {
       super(glyphname$1H, args$1H);
     }
   }
 
-  const glyphname$1G = 'fthoraDiatonicGaAbove';
+  const glyphname$1G = 'chroaSpathiTertiary';
   const args$1G = { color: CssVars.ColorFthora };
 
-  class FthoraDiatonicGaAbove extends BaseMark {
+  class ChroaSpathiTertiary extends BaseMark {
     constructor() {
       super(glyphname$1G, args$1G);
     }
   }
 
-  const glyphname$1F = 'fthoraDiatonicDiAbove';
+  const glyphname$1F = 'fthoraDiatonicNiLowBelow';
   const args$1F = { color: CssVars.ColorFthora };
 
-  class FthoraDiatonicDiAbove extends BaseMark {
+  class FthoraDiatonicNiLowBelow extends BaseMark {
     constructor() {
       super(glyphname$1F, args$1F);
     }
   }
 
-  const glyphname$1E = 'fthoraDiatonicKeAbove';
+  const glyphname$1E = 'fthoraDiatonicPaBelow';
   const args$1E = { color: CssVars.ColorFthora };
 
-  class FthoraDiatonicKeAbove extends BaseMark {
+  class FthoraDiatonicPaBelow extends BaseMark {
     constructor() {
       super(glyphname$1E, args$1E);
     }
   }
 
-  const glyphname$1D = 'fthoraDiatonicZoAbove';
+  const glyphname$1D = 'fthoraDiatonicVouBelow';
   const args$1D = { color: CssVars.ColorFthora };
 
-  class FthoraDiatonicZoAbove extends BaseMark {
+  class FthoraDiatonicVouBelow extends BaseMark {
     constructor() {
       super(glyphname$1D, args$1D);
     }
   }
 
-  const glyphname$1C = 'fthoraDiatonicNiHighAbove';
+  const glyphname$1C = 'fthoraDiatonicGaBelow';
   const args$1C = { color: CssVars.ColorFthora };
 
-  class FthoraDiatonicNiHighAbove extends BaseMark {
+  class FthoraDiatonicGaBelow extends BaseMark {
     constructor() {
       super(glyphname$1C, args$1C);
     }
   }
 
-  const glyphname$1B = 'fthoraHardChromaticPaAbove';
+  const glyphname$1B = 'fthoraDiatonicDiBelow';
   const args$1B = { color: CssVars.ColorFthora };
 
-  class FthoraHardChromaticPaAbove extends BaseMark {
+  class FthoraDiatonicDiBelow extends BaseMark {
     constructor() {
       super(glyphname$1B, args$1B);
     }
   }
 
-  const glyphname$1A = 'fthoraHardChromaticDiAbove';
+  const glyphname$1A = 'fthoraDiatonicKeBelow';
   const args$1A = { color: CssVars.ColorFthora };
 
-  class FthoraHardChromaticDiAbove extends BaseMark {
+  class FthoraDiatonicKeBelow extends BaseMark {
     constructor() {
       super(glyphname$1A, args$1A);
     }
   }
 
-  const glyphname$1z = 'fthoraSoftChromaticDiAbove';
+  const glyphname$1z = 'fthoraDiatonicZoBelow';
   const args$1z = { color: CssVars.ColorFthora };
 
-  class FthoraSoftChromaticDiAbove extends BaseMark {
+  class FthoraDiatonicZoBelow extends BaseMark {
     constructor() {
       super(glyphname$1z, args$1z);
     }
   }
 
-  const glyphname$1y = 'fthoraSoftChromaticKeAbove';
+  const glyphname$1y = 'fthoraDiatonicNiHighBelow';
   const args$1y = { color: CssVars.ColorFthora };
 
-  class FthoraSoftChromaticKeAbove extends BaseMark {
+  class FthoraDiatonicNiHighBelow extends BaseMark {
     constructor() {
       super(glyphname$1y, args$1y);
     }
   }
 
-  const glyphname$1x = 'fthoraEnharmonicAbove';
+  const glyphname$1x = 'fthoraHardChromaticPaBelow';
   const args$1x = { color: CssVars.ColorFthora };
 
-  class FthoraEnharmonicAbove extends BaseMark {
+  class FthoraHardChromaticPaBelow extends BaseMark {
     constructor() {
       super(glyphname$1x, args$1x);
     }
   }
 
-  const glyphname$1w = 'chroaZygosAbove';
+  const glyphname$1w = 'fthoraHardChromaticDiBelow';
   const args$1w = { color: CssVars.ColorFthora };
 
-  class ChroaZygosAbove extends BaseMark {
+  class FthoraHardChromaticDiBelow extends BaseMark {
     constructor() {
       super(glyphname$1w, args$1w);
     }
   }
 
-  const glyphname$1v = 'chroaKlitonAbove';
+  const glyphname$1v = 'fthoraSoftChromaticDiBelow';
   const args$1v = { color: CssVars.ColorFthora };
 
-  class ChroaKlitonAbove extends BaseMark {
+  class FthoraSoftChromaticDiBelow extends BaseMark {
     constructor() {
       super(glyphname$1v, args$1v);
     }
   }
 
-  const glyphname$1u = 'chroaSpathiAbove';
+  const glyphname$1u = 'fthoraSoftChromaticKeBelow';
   const args$1u = { color: CssVars.ColorFthora };
 
-  class ChroaSpathiAbove extends BaseMark {
+  class FthoraSoftChromaticKeBelow extends BaseMark {
     constructor() {
       super(glyphname$1u, args$1u);
     }
   }
 
-  const glyphname$1t = 'fthoraDiatonicNiLowBelow';
+  const glyphname$1t = 'fthoraEnharmonicBelow';
   const args$1t = { color: CssVars.ColorFthora };
 
-  class FthoraDiatonicNiLowBelow extends BaseMark {
+  class FthoraEnharmonicBelow extends BaseMark {
     constructor() {
       super(glyphname$1t, args$1t);
     }
   }
 
-  const glyphname$1s = 'fthoraDiatonicPaBelow';
+  const glyphname$1s = 'chroaZygosBelow';
   const args$1s = { color: CssVars.ColorFthora };
 
-  class FthoraDiatonicPaBelow extends BaseMark {
+  class ChroaZygosBelow extends BaseMark {
     constructor() {
       super(glyphname$1s, args$1s);
     }
   }
 
-  const glyphname$1r = 'fthoraDiatonicVouBelow';
+  const glyphname$1r = 'chroaKlitonBelow';
   const args$1r = { color: CssVars.ColorFthora };
 
-  class FthoraDiatonicVouBelow extends BaseMark {
+  class ChroaKlitonBelow extends BaseMark {
     constructor() {
       super(glyphname$1r, args$1r);
     }
   }
 
-  const glyphname$1q = 'fthoraDiatonicGaBelow';
+  const glyphname$1q = 'chroaSpathiBelow';
   const args$1q = { color: CssVars.ColorFthora };
 
-  class FthoraDiatonicGaBelow extends BaseMark {
+  class ChroaSpathiBelow extends BaseMark {
     constructor() {
       super(glyphname$1q, args$1q);
     }
   }
 
-  const glyphname$1p = 'fthoraDiatonicDiBelow';
-  const args$1p = { color: CssVars.ColorFthora };
+  const glyphname$1p = 'diesis2';
+  const args$1p = { color: CssVars.ColorAccidental };
 
-  class FthoraDiatonicDiBelow extends BaseMark {
+  class Diesis2 extends BaseMark {
     constructor() {
       super(glyphname$1p, args$1p);
     }
   }
 
-  const glyphname$1o = 'fthoraDiatonicKeBelow';
-  const args$1o = { color: CssVars.ColorFthora };
+  const glyphname$1o = 'diesis4';
+  const args$1o = { color: CssVars.ColorAccidental };
 
-  class FthoraDiatonicKeBelow extends BaseMark {
+  class Diesis4 extends BaseMark {
     constructor() {
       super(glyphname$1o, args$1o);
     }
   }
 
-  const glyphname$1n = 'fthoraDiatonicZoBelow';
-  const args$1n = { color: CssVars.ColorFthora };
+  const glyphname$1n = 'diesis6';
+  const args$1n = { color: CssVars.ColorAccidental };
 
-  class FthoraDiatonicZoBelow extends BaseMark {
+  class Diesis6 extends BaseMark {
     constructor() {
       super(glyphname$1n, args$1n);
     }
   }
 
-  const glyphname$1m = 'fthoraDiatonicNiHighBelow';
-  const args$1m = { color: CssVars.ColorFthora };
+  const glyphname$1m = 'diesis8';
+  const args$1m = { color: CssVars.ColorAccidental };
 
-  class FthoraDiatonicNiHighBelow extends BaseMark {
+  class Diesis8 extends BaseMark {
     constructor() {
       super(glyphname$1m, args$1m);
     }
   }
 
-  const glyphname$1l = 'fthoraHardChromaticPaBelow';
-  const args$1l = { color: CssVars.ColorFthora };
+  const glyphname$1l = 'diesisGenikiAbove';
+  const args$1l = { color: CssVars.ColorAccidental };
 
-  class FthoraHardChromaticPaBelow extends BaseMark {
+  class DiesisGenikiAbove extends BaseMark {
     constructor() {
       super(glyphname$1l, args$1l);
     }
   }
 
-  const glyphname$1k = 'fthoraHardChromaticDiBelow';
-  const args$1k = { color: CssVars.ColorFthora };
+  const glyphname$1k = 'diesisGenikiBelow';
+  const args$1k = { color: CssVars.ColorAccidental };
 
-  class FthoraHardChromaticDiBelow extends BaseMark {
+  class DiesisGenikiBelow extends BaseMark {
     constructor() {
       super(glyphname$1k, args$1k);
     }
   }
 
-  const glyphname$1j = 'fthoraSoftChromaticDiBelow';
-  const args$1j = { color: CssVars.ColorFthora };
+  const glyphname$1j = 'diesisGenikiSecondary';
+  const args$1j = { color: CssVars.ColorAccidental };
 
-  class FthoraSoftChromaticDiBelow extends BaseMark {
+  class DiesisGenikiSecondary extends BaseMark {
     constructor() {
       super(glyphname$1j, args$1j);
     }
   }
 
-  const glyphname$1i = 'fthoraSoftChromaticKeBelow';
-  const args$1i = { color: CssVars.ColorFthora };
+  const glyphname$1i = 'diesisGenikiTertiary';
+  const args$1i = { color: CssVars.ColorAccidental };
 
-  class FthoraSoftChromaticKeBelow extends BaseMark {
+  class DiesisGenikiTertiary extends BaseMark {
     constructor() {
       super(glyphname$1i, args$1i);
     }
   }
 
-  const glyphname$1h = 'fthoraEnharmonicBelow';
-  const args$1h = { color: CssVars.ColorFthora };
+  const glyphname$1h = 'yfesis2';
+  const args$1h = { color: CssVars.ColorAccidental };
 
-  class FthoraEnharmonicBelow extends BaseMark {
+  class Yfesis2 extends BaseMark {
     constructor() {
       super(glyphname$1h, args$1h);
     }
   }
 
-  const glyphname$1g = 'chroaZygosBelow';
-  const args$1g = { color: CssVars.ColorFthora };
+  const glyphname$1g = 'yfesis4';
+  const args$1g = { color: CssVars.ColorAccidental };
 
-  class ChroaZygosBelow extends BaseMark {
+  class Yfesis4 extends BaseMark {
     constructor() {
       super(glyphname$1g, args$1g);
     }
   }
 
-  const glyphname$1f = 'chroaKlitonBelow';
-  const args$1f = { color: CssVars.ColorFthora };
+  const glyphname$1f = 'yfesis6';
+  const args$1f = { color: CssVars.ColorAccidental };
 
-  class ChroaKlitonBelow extends BaseMark {
+  class Yfesis6 extends BaseMark {
     constructor() {
       super(glyphname$1f, args$1f);
     }
   }
 
-  const glyphname$1e = 'chroaSpathiBelow';
-  const args$1e = { color: CssVars.ColorFthora };
+  const glyphname$1e = 'yfesis8';
+  const args$1e = { color: CssVars.ColorAccidental };
 
-  class ChroaSpathiBelow extends BaseMark {
+  class Yfesis8 extends BaseMark {
     constructor() {
       super(glyphname$1e, args$1e);
     }
   }
 
-  const glyphname$1d = 'diesis2';
+  const glyphname$1d = 'yfesisGenikiAbove';
   const args$1d = { color: CssVars.ColorAccidental };
 
-  class Diesis2 extends BaseMark {
+  class YfesisGenikiAbove extends BaseMark {
     constructor() {
       super(glyphname$1d, args$1d);
     }
   }
 
-  const glyphname$1c = 'diesis4';
+  const glyphname$1c = 'yfesisGenikiBelow';
   const args$1c = { color: CssVars.ColorAccidental };
 
-  class Diesis4 extends BaseMark {
+  class YfesisGenikiBelow extends BaseMark {
     constructor() {
       super(glyphname$1c, args$1c);
     }
   }
 
-  const glyphname$1b = 'diesis6';
+  const glyphname$1b = 'yfesis2Secondary';
   const args$1b = { color: CssVars.ColorAccidental };
 
-  class Diesis6 extends BaseMark {
+  class Yfesis2Secondary extends BaseMark {
     constructor() {
       super(glyphname$1b, args$1b);
     }
   }
 
-  const glyphname$1a = 'diesis8';
+  const glyphname$1a = 'yfesis4Secondary';
   const args$1a = { color: CssVars.ColorAccidental };
 
-  class Diesis8 extends BaseMark {
+  class Yfesis4Secondary extends BaseMark {
     constructor() {
       super(glyphname$1a, args$1a);
     }
   }
 
-  const glyphname$19 = 'diesisGenikiAbove';
+  const glyphname$19 = 'yfesis6Secondary';
   const args$19 = { color: CssVars.ColorAccidental };
 
-  class DiesisGenikiAbove extends BaseMark {
+  class Yfesis6Secondary extends BaseMark {
     constructor() {
       super(glyphname$19, args$19);
     }
   }
 
-  const glyphname$18 = 'diesisGenikiBelow';
+  const glyphname$18 = 'yfesis8Secondary';
   const args$18 = { color: CssVars.ColorAccidental };
 
-  class DiesisGenikiBelow extends BaseMark {
+  class Yfesis8Secondary extends BaseMark {
     constructor() {
       super(glyphname$18, args$18);
     }
   }
 
-  const glyphname$17 = 'yfesis2';
+  const glyphname$17 = 'yfesis2Tertiary';
   const args$17 = { color: CssVars.ColorAccidental };
 
-  class Yfesis2 extends BaseMark {
+  class Yfesis2Tertiary extends BaseMark {
     constructor() {
       super(glyphname$17, args$17);
     }
   }
 
-  const glyphname$16 = 'yfesis4';
+  const glyphname$16 = 'yfesis4Tertiary';
   const args$16 = { color: CssVars.ColorAccidental };
 
-  class Yfesis4 extends BaseMark {
+  class Yfesis4Tertiary extends BaseMark {
     constructor() {
       super(glyphname$16, args$16);
     }
   }
 
-  const glyphname$15 = 'yfesis6';
+  const glyphname$15 = 'yfesis6Tertiary';
   const args$15 = { color: CssVars.ColorAccidental };
 
-  class Yfesis6 extends BaseMark {
+  class Yfesis6Tertiary extends BaseMark {
     constructor() {
       super(glyphname$15, args$15);
     }
   }
 
-  const glyphname$14 = 'yfesis8';
+  const glyphname$14 = 'yfesis8Tertiary';
   const args$14 = { color: CssVars.ColorAccidental };
 
-  class Yfesis8 extends BaseMark {
+  class Yfesis8Tertiary extends BaseMark {
     constructor() {
       super(glyphname$14, args$14);
     }
   }
 
-  const glyphname$13 = 'yfesisGenikiAbove';
+  const glyphname$13 = 'yfesisGenikiSecondary';
   const args$13 = { color: CssVars.ColorAccidental };
 
-  class YfesisGenikiAbove extends BaseMark {
+  class YfesisGenikiSecondary extends BaseMark {
     constructor() {
       super(glyphname$13, args$13);
     }
   }
 
-  const glyphname$12 = 'yfesisGenikiBelow';
+  const glyphname$12 = 'yfesisGenikiTertiary';
   const args$12 = { color: CssVars.ColorAccidental };
 
-  class YfesisGenikiBelow extends BaseMark {
+  class YfesisGenikiTertiary extends BaseMark {
     constructor() {
       super(glyphname$12, args$12);
     }
@@ -5274,6 +5872,14 @@ var byzhtml = (function () {
       'x-trigorgon-dotted-right-secondary',
       TrigorgonDottedRightSecondary,
     );
+    customElements.define(
+      'x-digorgon-dotted-left-secondary',
+      DigorgonDottedLeftSecondary,
+    );
+    customElements.define(
+      'x-trigorgon-dotted-left-secondary',
+      TrigorgonDottedLeftSecondary,
+    );
 
     customElements.define('x-agogi-poli-argi-above', AgogiPoliArgiAbove);
     customElements.define('x-agogi-argoteri-above', AgogiArgoteriAbove);
@@ -5380,6 +5986,116 @@ var byzhtml = (function () {
     customElements.define('x-chroa-kliton-above', ChroaKlitonAbove);
     customElements.define('x-chroa-spathi-above', ChroaSpathiAbove);
     customElements.define(
+      'x-fthora-diatonic-ni-low-secondary',
+      FthoraDiatonicNiLowSecondary,
+    );
+    customElements.define(
+      'x-fthora-diatonic-pa-secondary',
+      FthoraDiatonicPaSecondary,
+    );
+    customElements.define(
+      'x-fthora-diatonic-vou-secondary',
+      FthoraDiatonicVouSecondary,
+    );
+    customElements.define(
+      'x-fthora-diatonic-ga-secondary',
+      FthoraDiatonicGaSecondary,
+    );
+    customElements.define(
+      'x-fthora-diatonic-di-secondary',
+      FthoraDiatonicDiSecondary,
+    );
+    customElements.define(
+      'x-fthora-diatonic-ke-secondary',
+      FthoraDiatonicKeSecondary,
+    );
+    customElements.define(
+      'x-fthora-diatonic-zo-secondary',
+      FthoraDiatonicZoSecondary,
+    );
+    customElements.define(
+      'x-fthora-diatonic-ni-high-secondary',
+      FthoraDiatonicNiHighSecondary,
+    );
+    customElements.define(
+      'x-fthora-hard-chromatic-pa-secondary',
+      FthoraHardChromaticPaSecondary,
+    );
+    customElements.define(
+      'x-fthora-hard-chromatic-di-secondary',
+      FthoraHardChromaticDiSecondary,
+    );
+    customElements.define(
+      'x-fthora-soft-chromatic-di-secondary',
+      FthoraSoftChromaticDiSecondary,
+    );
+    customElements.define(
+      'x-fthora-soft-chromatic-ke-secondary',
+      FthoraSoftChromaticKeSecondary,
+    );
+    customElements.define(
+      'x-fthora-enharmonic-secondary',
+      FthoraEnharmonicSecondary,
+    );
+    customElements.define('x-chroa-zygos-secondary', ChroaZygosSecondary);
+    customElements.define('x-chroa-kliton-secondary', ChroaKlitonSecondary);
+    customElements.define('x-chroa-spathi-secondary', ChroaSpathiSecondary);
+    customElements.define(
+      'x-fthora-diatonic-ni-low-tertiary',
+      FthoraDiatonicNiLowTertiary,
+    );
+    customElements.define(
+      'x-fthora-diatonic-pa-tertiary',
+      FthoraDiatonicPaTertiary,
+    );
+    customElements.define(
+      'x-fthora-diatonic-vou-tertiary',
+      FthoraDiatonicVouTertiary,
+    );
+    customElements.define(
+      'x-fthora-diatonic-ga-tertiary',
+      FthoraDiatonicGaTertiary,
+    );
+    customElements.define(
+      'x-fthora-diatonic-di-tertiary',
+      FthoraDiatonicDiTertiary,
+    );
+    customElements.define(
+      'x-fthora-diatonic-ke-tertiary',
+      FthoraDiatonicKeTertiary,
+    );
+    customElements.define(
+      'x-fthora-diatonic-zo-tertiary',
+      FthoraDiatonicZoTertiary,
+    );
+    customElements.define(
+      'x-fthora-diatonic-ni-high-tertiary',
+      FthoraDiatonicNiHighTertiary,
+    );
+    customElements.define(
+      'x-fthora-hard-chromatic-pa-tertiary',
+      FthoraHardChromaticPaTertiary,
+    );
+    customElements.define(
+      'x-fthora-hard-chromatic-di-tertiary',
+      FthoraHardChromaticDiTertiary,
+    );
+    customElements.define(
+      'x-fthora-soft-chromatic-di-tertiary',
+      FthoraSoftChromaticDiTertiary,
+    );
+    customElements.define(
+      'x-fthora-soft-chromatic-ke-tertiary',
+      FthoraSoftChromaticKeTertiary,
+    );
+    customElements.define(
+      'x-fthora-enharmonic-tertiary',
+      FthoraEnharmonicTertiary,
+    );
+    customElements.define('x-chroa-zygos-tertiary', ChroaZygosTertiary);
+    customElements.define('x-chroa-kliton-tertiary', ChroaKlitonTertiary);
+    customElements.define('x-chroa-spathi-tertiary', ChroaSpathiTertiary);
+    customElements.define(
       'x-fthora-diatonic-ni-low-below',
       FthoraDiatonicNiLowBelow,
     );
@@ -5419,12 +6135,24 @@ var byzhtml = (function () {
     customElements.define('x-diesis-8', Diesis8);
     customElements.define('x-diesis-geniki-above', DiesisGenikiAbove);
     customElements.define('x-diesis-geniki-below', DiesisGenikiBelow);
+    customElements.define('x-diesis-geniki-secondary', DiesisGenikiSecondary);
+    customElements.define('x-diesis-geniki-tertiary', DiesisGenikiTertiary);
     customElements.define('x-yfesis-2', Yfesis2);
     customElements.define('x-yfesis-4', Yfesis4);
     customElements.define('x-yfesis-6', Yfesis6);
     customElements.define('x-yfesis-8', Yfesis8);
     customElements.define('x-yfesis-geniki-above', YfesisGenikiAbove);
     customElements.define('x-yfesis-geniki-below', YfesisGenikiBelow);
+    customElements.define('x-yfesis-2-secondary', Yfesis2Secondary);
+    customElements.define('x-yfesis-4-secondary', Yfesis4Secondary);
+    customElements.define('x-yfesis-6-secondary', Yfesis6Secondary);
+    customElements.define('x-yfesis-8-secondary', Yfesis8Secondary);
+    customElements.define('x-yfesis-2-tertiary', Yfesis2Tertiary);
+    customElements.define('x-yfesis-4-tertiary', Yfesis4Tertiary);
+    customElements.define('x-yfesis-6-tertiary', Yfesis6Tertiary);
+    customElements.define('x-yfesis-8-tertiary', Yfesis8Tertiary);
+    customElements.define('x-yfesis-geniki-secondary', YfesisGenikiSecondary);
+    customElements.define('x-yfesis-geniki-tertiary', YfesisGenikiTertiary);
 
     customElements.define('x-measure-number-2', MeasureNumber2);
     customElements.define('x-measure-number-3', MeasureNumber3);
@@ -5761,15 +6489,24 @@ var byzhtml = (function () {
       'x-ggd-2',
       class extends DigorgonDottedRightSecondary {},
     );
+    customElements.define(
+      'x-gdg-2',
+      class extends DigorgonDottedLeftSecondary {},
+    );
     customElements.define('x-ggg-2', class extends TrigorgonSecondary {});
     customElements.define(
-      'x-ggdg-2',
+      'x-dggg-2',
       class extends TrigorgonDottedLeftBelowSecondary {},
     );
     customElements.define(
       'x-gggd-2',
       class extends TrigorgonDottedRightSecondary {},
     );
+    customElements.define(
+      'x-ggdg-2',
+      class extends TrigorgonDottedLeftSecondary {},
+    );
+
     customElements.define('x-t1-m', class extends AgogiPoliArgiAbove {});
     customElements.define('x-t2-m', class extends AgogiArgoteriAbove {});
     customElements.define('x-t3-m', class extends AgogiArgiAbove {});
@@ -5875,6 +6612,120 @@ var byzhtml = (function () {
     customElements.define('x-f-kliton', class extends ChroaKlitonAbove {});
     customElements.define('x-f-spathi', class extends ChroaSpathiAbove {});
     customElements.define(
+      'x-f-d-ni-low-2',
+      class extends FthoraDiatonicNiLowSecondary {},
+    );
+    customElements.define(
+      'x-f-d-pa-2',
+      class extends FthoraDiatonicPaSecondary {},
+    );
+    customElements.define(
+      'x-f-d-vou-2',
+      class extends FthoraDiatonicVouSecondary {},
+    );
+    customElements.define(
+      'x-f-d-ga-2',
+      class extends FthoraDiatonicGaSecondary {},
+    );
+    customElements.define(
+      'x-f-d-di-2',
+      class extends FthoraDiatonicDiSecondary {},
+    );
+    customElements.define(
+      'x-f-d-ke-2',
+      class extends FthoraDiatonicKeSecondary {},
+    );
+    customElements.define(
+      'x-f-d-zo-2',
+      class extends FthoraDiatonicZoSecondary {},
+    );
+    customElements.define(
+      'x-f-d-ni-high-2',
+      class extends FthoraDiatonicNiHighSecondary {},
+    );
+    customElements.define(
+      'x-f-hc-pa-2',
+      class extends FthoraHardChromaticPaSecondary {},
+    );
+    customElements.define(
+      'x-f-hc-di-2',
+      class extends FthoraHardChromaticDiSecondary {},
+    );
+    customElements.define(
+      'x-f-sc-di-2',
+      class extends FthoraSoftChromaticDiSecondary {},
+    );
+    customElements.define(
+      'x-f-sc-ke-2',
+      class extends FthoraSoftChromaticKeSecondary {},
+    );
+    customElements.define(
+      'x-f-agem-2',
+      class extends FthoraEnharmonicSecondary {},
+    );
+    customElements.define('x-f-en-2', class extends FthoraEnharmonicSecondary {});
+    customElements.define('x-f-zygos-2', class extends ChroaZygosSecondary {});
+    customElements.define('x-f-kliton-2', class extends ChroaKlitonSecondary {});
+    customElements.define('x-f-spathi-2', class extends ChroaSpathiSecondary {});
+
+    customElements.define(
+      'x-f-d-ni-low-3',
+      class extends FthoraDiatonicNiLowTertiary {},
+    );
+    customElements.define(
+      'x-f-d-pa-3',
+      class extends FthoraDiatonicPaTertiary {},
+    );
+    customElements.define(
+      'x-f-d-vou-3',
+      class extends FthoraDiatonicVouTertiary {},
+    );
+    customElements.define(
+      'x-f-d-ga-3',
+      class extends FthoraDiatonicGaTertiary {},
+    );
+    customElements.define(
+      'x-f-d-di-3',
+      class extends FthoraDiatonicDiTertiary {},
+    );
+    customElements.define(
+      'x-f-d-ke-3',
+      class extends FthoraDiatonicKeTertiary {},
+    );
+    customElements.define(
+      'x-f-d-zo-3',
+      class extends FthoraDiatonicZoTertiary {},
+    );
+    customElements.define(
+      'x-f-d-ni-high-3',
+      class extends FthoraDiatonicNiHighTertiary {},
+    );
+    customElements.define(
+      'x-f-hc-pa-3',
+      class extends FthoraHardChromaticPaTertiary {},
+    );
+    customElements.define(
+      'x-f-hc-di-3',
+      class extends FthoraHardChromaticDiTertiary {},
+    );
+    customElements.define(
+      'x-f-sc-di-3',
+      class extends FthoraSoftChromaticDiTertiary {},
+    );
+    customElements.define(
+      'x-f-sc-ke-3',
+      class extends FthoraSoftChromaticKeTertiary {},
+    );
+    customElements.define(
+      'x-f-agem-3',
+      class extends FthoraEnharmonicTertiary {},
+    );
+    customElements.define('x-f-en-3', class extends FthoraEnharmonicTertiary {});
+    customElements.define('x-f-zygos-3', class extends ChroaZygosTertiary {});
+    customElements.define('x-f-kliton-3', class extends ChroaKlitonTertiary {});
+    customElements.define('x-f-spathi-3', class extends ChroaSpathiTertiary {});
+
+    customElements.define(
       'x-f-d-ni-low-b',
       class extends FthoraDiatonicNiLowBelow {},
     );
@@ -5914,6 +6765,8 @@ var byzhtml = (function () {
     customElements.define('x-di6', class extends Diesis6 {});
     customElements.define('x-di8', class extends Diesis8 {});
     customElements.define('x-di-g', class extends DiesisGenikiAbove {});
+    customElements.define('x-di-g-2', class extends DiesisGenikiSecondary {});
+    customElements.define('x-di-g-3', class extends DiesisGenikiTertiary {});
     customElements.define('x-di-g-b', class extends DiesisGenikiBelow {});
     customElements.define('x-yf2', class extends Yfesis2 {});
     customElements.define('x-yf4', class extends Yfesis4 {});
@@ -5921,17 +6774,39 @@ var byzhtml = (function () {
     customElements.define('x-yf8', class extends Yfesis8 {});
     customElements.define('x-yf-g', class extends YfesisGenikiAbove {});
     customElements.define('x-yf-g-b', class extends YfesisGenikiBelow {});
+    customElements.define('x-yf2-2', class extends Yfesis2Secondary {});
+    customElements.define('x-yf4-2', class extends Yfesis4Secondary {});
+    customElements.define('x-yf6-2', class extends Yfesis6Secondary {});
+    customElements.define('x-yf8-2', class extends Yfesis8Secondary {});
+    customElements.define('x-yf-g-2', class extends YfesisGenikiSecondary {});
+    customElements.define('x-yf2-3', class extends Yfesis2Tertiary {});
+    customElements.define('x-yf4-3', class extends Yfesis4Tertiary {});
+    customElements.define('x-yf6-3', class extends Yfesis6Tertiary {});
+    customElements.define('x-yf8-3', class extends Yfesis8Tertiary {});
+    customElements.define('x-yf-g-3', class extends YfesisGenikiTertiary {});
     customElements.define('x-sharp-2', class extends Diesis2 {});
     customElements.define('x-sharp-4', class extends Diesis4 {});
     customElements.define('x-sharp-6', class extends Diesis6 {});
     customElements.define('x-sharp-8', class extends Diesis8 {});
     customElements.define('x-sharp-g', class extends DiesisGenikiAbove {});
+    customElements.define('x-sharp-g-2', class extends DiesisGenikiSecondary {});
+    customElements.define('x-sharp-g-3', class extends DiesisGenikiTertiary {});
     customElements.define('x-sharp-g-b', class extends DiesisGenikiBelow {});
     customElements.define('x-flat-2', class extends Yfesis2 {});
     customElements.define('x-flat-4', class extends Yfesis4 {});
     customElements.define('x-flat-6', class extends Yfesis6 {});
     customElements.define('x-flat-8', class extends Yfesis8 {});
+    customElements.define('x-flat-2-2', class extends Yfesis2Secondary {});
+    customElements.define('x-flat-4-2', class extends Yfesis4Secondary {});
+    customElements.define('x-flat-6-2', class extends Yfesis6Secondary {});
+    customElements.define('x-flat-8-2', class extends Yfesis8Secondary {});
+    customElements.define('x-flat-2-3', class extends Yfesis2Tertiary {});
+    customElements.define('x-flat-4-3', class extends Yfesis4Tertiary {});
+    customElements.define('x-flat-6-3', class extends Yfesis6Tertiary {});
+    customElements.define('x-flat-8-3', class extends Yfesis8Tertiary {});
     customElements.define('x-flat-g', class extends YfesisGenikiAbove {});
+    customElements.define('x-flat-g-2', class extends YfesisGenikiSecondary {});
+    customElements.define('x-flat-g-3', class extends YfesisGenikiTertiary {});
     customElements.define('x-flat-g-b', class extends YfesisGenikiBelow {});
     customElements.define('x-mn2', class extends MeasureNumber2 {});
     customElements.define('x-mn3', class extends MeasureNumber3 {});
