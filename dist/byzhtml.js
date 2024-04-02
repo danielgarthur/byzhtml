@@ -1718,6 +1718,8 @@ var byzhtml = (function () {
     }
   }
 
+  const TATWEEL = '\u0640';
+
   function isElementInOrNearViewport(el) {
     const rect = el.getBoundingClientRect();
 
@@ -1839,6 +1841,76 @@ var byzhtml = (function () {
     return change;
   }
 
+  function processAutoMelismaRtl(melisma) {
+    let change;
+    const parentNote = melisma.closest('x-note, x-n');
+    const siblingLyrics = parentNote.querySelector('x-lyric, x-ly');
+    const siblingLyricsRect = siblingLyrics.getBoundingClientRect();
+
+    let nextNote = parentNote.nextElementSibling;
+    let nextLyrics;
+    let depth = 0;
+    let melismaWidth;
+    let lastNoteLeft;
+
+    while (
+      nextNote &&
+      (nextNote.nodeName === 'X-NOTE' || nextNote.nodeName === 'X-N') &&
+      depth < 100
+    ) {
+      nextLyrics = nextNote.querySelector('x-lyric, x-ly');
+
+      const nextNoteRect = nextNote.getBoundingClientRect();
+
+      if (lastNoteLeft < nextNoteRect.left && lastNoteLeft !== undefined) {
+        // We have wrapped around. Extend the melisma to the end of the last note
+        // that was on the same line
+        melismaWidth = siblingLyricsRect.left - lastNoteLeft;
+        break;
+      }
+
+      if (nextLyrics && nextLyrics.innerText != TATWEEL) {
+        // We've found lyrics. Extend the melisma to the start of the lyrics.
+        const nextLyricsRect = nextLyrics.getBoundingClientRect();
+
+        melismaWidth = siblingLyricsRect.left - nextLyricsRect.right;
+
+        break;
+      }
+
+      lastNoteLeft = nextNoteRect.left;
+      nextNote = nextNote.nextElementSibling;
+
+      depth++;
+    }
+
+    if (melismaWidth) {
+      change = { melisma };
+
+      const melismaStyle = getComputedStyle(melisma);
+      const fontFamily = melismaStyle.getPropertyValue(CssVars.LyricFontFamily);
+      const fontSize = melismaStyle.getPropertyValue(CssVars.LyricFontSize);
+      const font = `${fontSize} ${fontFamily}`;
+
+      let text = '';
+
+      const widthOfTatweel = TextMetrics.getTextWidthFromCache(TATWEEL, font);
+
+      const numberOfTatweelsNeeded = Math.ceil(melismaWidth / widthOfTatweel);
+
+      for (let i = 0; i < numberOfTatweelsNeeded; i++) {
+        text += TATWEEL;
+      }
+
+      change.width = `${melismaWidth}px`;
+
+      change.textContent = text;
+    } else {
+      console.log('zero width');
+    }
+    return change;
+  }
+
   function processAutoMelismas() {
     const melismas = document.querySelectorAll(
       'x-melisma[auto], x-mel[auto], x-melisma[a], x-mel[a]',
@@ -1875,7 +1947,9 @@ var byzhtml = (function () {
 
     // Calculate the changes
     for (let melisma of melismasInViewPort) {
-      let change = processAutoMelisma(melisma);
+      let change = byzhtml.options.melkiteRtl
+        ? processAutoMelismaRtl(melisma)
+        : processAutoMelisma(melisma);
 
       if (change) {
         changes.push(change);
@@ -1901,6 +1975,7 @@ var byzhtml = (function () {
   const options = {
     defaultFontFamily: 'Neanes',
     useWebkitPositioning: false,
+    melkiteRtl: false,
   };
 
   var byzhtml = {
