@@ -98,6 +98,7 @@ td:nth-child(3) {
 | x-yfen-above                            |                          | <x-yfen-above></x-yfen-above>                                                       |
 | x-yfen-below                            |                          | <x-yfen-below></x-yfen-below>                                                       |
 | x-stavros                               |                          | <x-stavros></x-stavros>                                                             |
+| x-stavros-above                         |                          | <x-stavros-above></x-stavros-above>                                                 |
 | x-breath                                |                          | <x-breath></x-breath>                                                               |
 | x-klasma-above                          | x-kl                     | <x-klasma-above></x-klasma-above>                                                   |
 | x-klasma-below                          | x-kl-b                   | <x-klasma-below></x-klasma-below>                                                   |
@@ -269,6 +270,14 @@ td:nth-child(3) {
 | x-diesis-8                              | x-di8<br/>x-sharp-8      | <x-diesis-8></x-diesis-8>                                                           |
 | x-diesis-geniki-above                   | x-di-g<br/>x-sharp-g     | <x-diesis-geniki-above></x-diesis-geniki-above>                                     |
 | x-diesis-geniki-below                   | x-di-g-b<br/>x-sharp-g-b | <x-diesis-geniki-below></x-diesis-geniki-below>                                     |
+| x-diesis-2-secondary                    | x-di2-2<br/>x-sharp-2-2  | <x-diesis-2-secondary></x-diesis-2-secondary>                                       |
+| x-diesis-4-secondary                    | x-di4-2<br/>x-sharp-4-2  | <x-diesis-4-secondary></x-diesis-4-secondary>                                       |
+| x-diesis-6-secondary                    | x-di6-2<br/>x-sharp-6-2  | <x-diesis-6-secondary></x-diesis-6-secondary>                                       |
+| x-diesis-8-secondary                    | x-di8-2<br/>x-sharp-8-2  | <x-diesis-8-secondary></x-diesis-8-secondary>                                       |
+| x-diesis-2-tertiary                     | x-di2-3<br/>x-sharp-2-3  | <x-diesis-2-tertiary></x-diesis-2-tertiary>                                         |
+| x-diesis-4-tertiary                     | x-di4-3<br/>x-sharp-4-3  | <x-diesis-4-tertiary></x-diesis-4-tertiary>                                         |
+| x-diesis-6-tertiary                     | x-di6-3<br/>x-sharp-6-3  | <x-diesis-6-tertiary></x-diesis-6-tertiary>                                         |
+| x-diesis-8-tertiary                     | x-di8-3<br/>x-sharp-8-3  | <x-diesis-8-tertiary></x-diesis-8-tertiary>                                         |
 | x-diesis-geniki-secondary               | x-di-g-2<br/>x-sharp-g-2 | <x-diesis-geniki-secondary></x-diesis-geniki-secondary>                             |
 | x-diesis-geniki-tertiary                | x-di-g-3<br/>x-sharp-g-3 | <x-diesis-geniki-tertiary></x-diesis-geniki-tertiary>                               |
 | x-yfesis-2                              | x-yf2<br/>x-flat-2       | <x-yfesis-2></x-yfesis-2>                                                           |
@@ -293,6 +302,12 @@ td:nth-child(3) {
 | x-barline-short-single                  | x-bar-s                  | <x-barline-short-single></x-barline-short-single>                                   |
 | x-barline-short-double                  | x-bar2-s                 | <x-barline-short-double></x-barline-short-double>                                   |
 | x-barline-short-theseos                 | x-bar-th-s               | <x-barline-short-theseos></x-barline-short-theseos>                                 |
+| x-barline-single-above                  | x-bar-a                  | <x-barline-single-above></x-barline-single-above>                                   |
+| x-barline-double-above                  | x-bar2-a                 | <x-barline-double-above></x-barline-double-above>                                   |
+| x-barline-theseos-above                 | x-bar-th-a               | <x-barline-theseos-above></x-barline-theseos-above>                                 |
+| x-barline-short-single-above            | x-bar-s-a                | <x-barline-short-single-above></x-barline-short-single-above>                       |
+| x-barline-short-double-above            | x-bar2-s-a               | <x-barline-short-double-above></x-barline-short-double-above>                       |
+| x-barline-short-theseos-above           | x-bar-th-s-a             | <x-barline-short-theseos-above></x-barline-short-theseos-above>                     |
 | x-measure-number-2                      | x-mn2                    | <x-measure-number-2></x-measure-number-2>                                           |
 | x-measure-number-3                      | x-mn3                    | <x-measure-number-3></x-measure-number-3>                                           |
 | x-measure-number-4                      | x-mn4                    | <x-measure-number-4></x-measure-number-4>                                           |
