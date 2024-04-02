@@ -289,6 +289,10 @@
     "alternateCodepoint": "U+1D112",
     "codepoint": "U+E0C1"
   },
+  "stavrosAbove": {
+    "alternateCodepoint": "U+1D07E",
+    "codepoint": "U+E0C8"
+  },
   "klasmaAbove": {
     "alternateCodepoint": "U+1D07F",
     "codepoint": "U+E0D0"
@@ -842,6 +846,30 @@
   "diesisGenikiBelow": {
     "codepoint": "U+E1F5"
   },
+  "diesis2Secondary": {
+    "codepoint": "U+E1F6"
+  },
+  "diesis4Secondary": {
+    "codepoint": "U+E1F7"
+  },
+  "diesis6Secondary": {
+    "codepoint": "U+E1F8"
+  },
+  "diesis8Secondary": {
+    "codepoint": "U+E1F9"
+  },
+  "diesis2Tertiary": {
+    "codepoint": "U+E1FA"
+  },
+  "diesis4Tertiary": {
+    "codepoint": "U+E1FB"
+  },
+  "diesis6Tertiary": {
+    "codepoint": "U+E1FC"
+  },
+  "diesis8Tertiary": {
+    "codepoint": "U+E1FD"
+  },
   "diesisGenikiSecondary": {
     "codepoint": "U+E1FE"
   },
@@ -921,6 +949,24 @@
   "barlineShortTheseos": {
     "alternateCodepoint": "U+1D0DD",
     "codepoint": "U+E215"
+  },
+  "barlineSingleAbove": {
+    "codepoint": "U+E216"
+  },
+  "barlineDoubleAbove": {
+    "codepoint": "U+E217"
+  },
+  "barlineTheseosAbove": {
+    "codepoint": "U+E218"
+  },
+  "barlineShortSingleAbove": {
+    "codepoint": "U+E219"
+  },
+  "barlineShortDoubleAbove": {
+    "codepoint": "U+E21A"
+  },
+  "barlineShortTheseosAbove": {
+    "codepoint": "U+E21B"
   },
   "measureNumber2": {
     "codepoint": "U+E220"
