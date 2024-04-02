@@ -1,12 +1,12 @@
 @font-face {
   font-family: 'Neanes';
-  src: url(https://cdn.jsdelivr.net/gh/danielgarthur/byzhtml@1.0.20/dist/Neanes.otf);
+  src: url(https://cdn.jsdelivr.net/gh/danielgarthur/byzhtml@1.0.21/dist/Neanes.otf);
   unicode-range: U+E000–F8FF;
 }
 
 @font-face {
   font-family: 'NeanesRTL';
-  src: url(https://cdn.jsdelivr.net/gh/danielgarthur/byzhtml@1.0.20/dist/NeanesRTL.otf);
+  src: url(https://cdn.jsdelivr.net/gh/danielgarthur/byzhtml@1.0.21/dist/NeanesRTL.otf);
   unicode-range: U+E000–F8FF;
 }
 

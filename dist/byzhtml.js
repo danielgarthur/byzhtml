@@ -1,4 +1,4 @@
-// byzhtml v1.0.20
+// byzhtml v1.0.21
 var byzhtml = (function () {
   'use strict';
 
@@ -7357,7 +7357,7 @@ var byzhtml = (function () {
     console.log('byzhtml: webkit browser detected. Using webkit positioning.');
 
     fetch(
-      'https://cdn.jsdelivr.net/gh/danielgarthur/byzhtml@1.0.20/dist/neanes.metadata.json',
+      'https://cdn.jsdelivr.net/gh/danielgarthur/byzhtml@1.0.21/dist/neanes.metadata.json',
     )
       .then((response) => {
         response
