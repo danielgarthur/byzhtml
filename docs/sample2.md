@@ -573,6 +573,7 @@ Source:
 :root {
   --red: #880000;
 
+  --byz-neume-font-family: Neanes;
   --byz-neume-font-size: 20pt;
 
   --byz-neume-font-family: Arial, san-serif;
