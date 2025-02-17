@@ -1,4 +1,5 @@
 import byzhtml from './lib/byzhtml.js';
+import { CssVars } from './lib/util/CssVars.js';
 import { defineCustomElements } from './lib/util/defineCustomElements.js';
 import { isWebkit } from './lib/util/isWebkit.js';
 import { processAutoMelismas } from './lib/util/MelismaProcessor.js';
@@ -7,8 +8,13 @@ import { throttle } from 'throttle-debounce';
 if (isWebkit()) {
   console.log('byzhtml: webkit browser detected. Using webkit positioning.');
 
+  const neumeFontFamily =
+    getComputedStyle(document.documentElement)
+      .getPropertyValue(CssVars.NeumeFontFamily)
+      .trim() ?? 'Neanes';
+
   fetch(
-    'https://cdn.jsdelivr.net/gh/danielgarthur/byzhtml@1.0.21/dist/neanes.metadata.json',
+    `https://cdn.jsdelivr.net/gh/danielgarthur/byzhtml@1.0.21/dist/${neumeFontFamily.toLowerCase()}.metadata.json`,
   )
     .then((response) => {
       response
