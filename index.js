@@ -1,5 +1,6 @@
 import byzhtml from './lib/byzhtml.js';
 import { defineCustomElements } from './lib/util/defineCustomElements.js';
+import { getNeumeFontFamily } from './lib/util/getNeumeFontFamily.js';
 import { isWebkit } from './lib/util/isWebkit.js';
 import { processAutoMelismas } from './lib/util/MelismaProcessor.js';
 import { throttle } from 'throttle-debounce';
@@ -8,7 +9,7 @@ if (isWebkit()) {
   console.log('byzhtml: webkit browser detected. Using webkit positioning.');
 
   fetch(
-    'https://cdn.jsdelivr.net/gh/danielgarthur/byzhtml@1.0.21/dist/neanes.metadata.json',
+    `https://cdn.jsdelivr.net/gh/danielgarthur/byzhtml@1.0.21/dist/${getNeumeFontFamily().toLowerCase()}.metadata.json`,
   )
     .then((response) => {
       response

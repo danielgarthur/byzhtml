@@ -320,6 +320,7 @@ Any component may be styled with CSS using the standard CSS properties. There ar
 | --byz-lyric-font-size         | Sets the font size for lyrics.                  |
 | --byz-lyric-offset-h          | Sets the horizontal offset for lyrics.          |
 | --byz-lyric-offset-v          | Sets the vertical offset for lyrics.            |
+| --byz-neume-font-family       | Sets the font family for neumes.                |
 | --byz-neume-font-size         | Sets the font size for neumes.                  |
 | --byz-spacer-width-apostrofos | Sets the width in ems of the apostrofos spacer. |
 | --byz-spacer-width-vareia     | Sets the width in ems of the vareia spacer.     |

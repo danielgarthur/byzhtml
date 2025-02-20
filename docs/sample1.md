@@ -716,6 +716,7 @@ Source:
 :root {
   --red: #880000;
 
+  --byz-neume-font-family: Neanes;
   --byz-neume-font-size: 20pt;
 
   --byz-lyric-font-size: 12pt;

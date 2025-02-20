@@ -573,9 +573,10 @@ Source:
 :root {
   --red: #880000;
 
+  --byz-neume-font-family: Neanes;
   --byz-neume-font-size: 20pt;
 
-  --byz-neume-font-family: Arial, san-serif;
+  --byz-lyric-font-family: Arial, sans-serif;
   --byz-lyric-font-size: 12pt;
   --byz-lyric-offset-h: 4pt;
   --byz-lyric-offset-v: -3pt;
