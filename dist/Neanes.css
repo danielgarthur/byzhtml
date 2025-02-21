@@ -10,6 +10,12 @@
   unicode-range: U+E000–F8FF;
 }
 
+@font-face {
+  font-family: 'NeanesStathisSeries';
+  src: url(https://cdn.jsdelivr.net/gh/danielgarthur/byzhtml@1.0.21/dist/NeanesStathisSeries.otf);
+  unicode-range: U+E000–F8FF;
+}
+
 :root {
   /*
     Set the width of the vareia spacer for your font.

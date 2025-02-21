@@ -1668,6 +1668,7 @@ var byzhtml = (function () {
     LyricOffsetHorizontal: '--byz-lyric-offset-h',
     LyricOffsetVertical: '--byz-lyric-offset-v',
 
+    NeumeFontFamily: '--byz-neume-font-family',
     NeumeFontSize: '--byz-neume-font-size',
 
     DropCapFontFamily: '--byz-drop-cap-font-family',
@@ -1973,7 +1974,6 @@ var byzhtml = (function () {
   const neumeMappingService = new NeumeMappingService();
   const fontService = new FontService();
   const options = {
-    defaultFontFamily: 'Neanes',
     useWebkitPositioning: false,
     melkiteRtl: false,
   };
@@ -2036,7 +2036,7 @@ var byzhtml = (function () {
       );
 
       let saltStyle = '';
-      let fontFamily = byzhtml.options.defaultFontFamily;
+      let fontFamily = `var(${CssVars.NeumeFontFamily})`;
 
       if (this.hasAttribute('font-family')) {
         fontFamily = this.getAttribute('font-family');
@@ -2166,15 +2166,15 @@ var byzhtml = (function () {
     }
 
     updateStyle() {
-      let fontFamily = byzhtml.options.defaultFontFamily;
-      let fontSizeAttr = `font-size: var(${CssVars.NeumeFontSize})`;
+      let fontFamily = `var(${CssVars.NeumeFontFamily})`;
+      let fontSize = `var(${CssVars.NeumeFontSize})`;
 
       if (this.hasAttribute('font-family')) {
         fontFamily = this.getAttribute('font-family');
       }
 
       if (this.hasAttribute('font-size')) {
-        fontSizeAttr = `font-size: ${this.getAttribute('font-size')};`;
+        fontSize = this.getAttribute('font-size');
       }
 
       this.shadowRoot.innerHTML = `
@@ -2183,7 +2183,7 @@ var byzhtml = (function () {
           display: inline-block;
           width: var(${CssVars.SpacerWidthApostrofos});
           font-family: ${fontFamily};
-          ${fontSizeAttr}
+          font-size: ${fontSize};
         }
       </style>`;
     }
@@ -2209,15 +2209,15 @@ var byzhtml = (function () {
     }
 
     updateStyle() {
-      let fontFamily = byzhtml.options.defaultFontFamily;
-      let fontSizeAttr = `font-size: var(${CssVars.NeumeFontSize})`;
+      let fontFamily = `var(${CssVars.NeumeFontFamily})`;
+      let fontSize = `var(${CssVars.NeumeFontSize})`;
 
       if (this.hasAttribute('font-family')) {
         fontFamily = this.getAttribute('font-family');
       }
 
       if (this.hasAttribute('font-size')) {
-        fontSizeAttr = `font-size: ${this.getAttribute('font-size')};`;
+        fontSize = this.getAttribute('font-size');
       }
 
       this.shadowRoot.innerHTML = `
@@ -2226,7 +2226,7 @@ var byzhtml = (function () {
           display: inline-block;
           width: var(${CssVars.SpacerWidthVareia});
           font-family: ${fontFamily};
-          ${fontSizeAttr}
+          font-size: ${fontSize};
         }
       </style>`;
     }
@@ -2986,6 +2986,14 @@ var byzhtml = (function () {
     }
   }
 
+  function getNeumeFontFamily() {
+    return (
+      getComputedStyle(document.documentElement)
+        .getPropertyValue(CssVars.NeumeFontFamily)
+        .trim() ?? 'Neanes'
+    );
+  }
+
   const glyphname$4A = 'oligonKentimataBelow';
   const args$4A = {};
 
@@ -2999,7 +3007,7 @@ var byzhtml = (function () {
       // contextual substitution when combined with the psifiston
       if (
         byzhtml.options.useWebkitPositioning &&
-        byzhtml.options.defaultFontFamily === 'Neanes'
+        getNeumeFontFamily().startsWith('Neanes')
       ) {
         let nextSibling = this.nextElementSibling;
         let depth = 0;
@@ -3177,7 +3185,7 @@ var byzhtml = (function () {
       }
 
       if (byzhtml.options.useWebkitPositioning) {
-        let fontFamily = byzhtml.options.defaultFontFamily;
+        let fontFamily = `var(${CssVars.NeumeFontFamily})`;
 
         if (this.hasAttribute('font-family')) {
           fontFamily = this.getAttribute('font-family');
@@ -3300,7 +3308,7 @@ var byzhtml = (function () {
       // contextual substitution when combined with certain other characters
       if (
         byzhtml.options.useWebkitPositioning &&
-        byzhtml.options.defaultFontFamily === 'Neanes'
+        getNeumeFontFamily().startsWith('Neanes')
       ) {
         let previousSibling = this.previousElementSibling;
         let depth = 0;
@@ -7356,14 +7364,16 @@ var byzhtml = (function () {
   if (isWebkit()) {
     console.log('byzhtml: webkit browser detected. Using webkit positioning.');
 
+    const fontFamily = getNeumeFontFamily();
+
     fetch(
-      'https://cdn.jsdelivr.net/gh/danielgarthur/byzhtml@1.0.21/dist/neanes.metadata.json',
+      `https://cdn.jsdelivr.net/gh/danielgarthur/byzhtml@1.0.21/dist/${fontFamily.toLowerCase()}.metadata.json`,
     )
       .then((response) => {
         response
           .json()
           .then((data) => {
-            byzhtml.fontService.loadMap(byzhtml.options.defaultFontFamily, data);
+            byzhtml.fontService.loadMap(fontFamily, data);
 
             byzhtml.neumeMappingService.glyphNameToCodepointMap.set(
               'oligonKentimataBelow.alt01',

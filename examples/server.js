@@ -105,6 +105,14 @@ server = http.createServer(function (req, res) {
     pipeFileToResponse(res, '../dist/NeanesRTL.otf', 'text/javascript');
     return;
   }
+  if (/NeanesStathisSeries\.otf$/.test(url)) {
+    pipeFileToResponse(
+      res,
+      '../dist/NeanesStathisSeries.otf',
+      'text/javascript',
+    );
+    return;
+  }
   if (/byzhtml\.default\.css$/.test(url)) {
     pipeFileToResponse(res, './byzhtml.default.css', 'text/javascript');
     return;

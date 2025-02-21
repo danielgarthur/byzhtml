@@ -8,14 +8,16 @@ import { throttle } from 'throttle-debounce';
 if (isWebkit()) {
   console.log('byzhtml: webkit browser detected. Using webkit positioning.');
 
+  const fontFamily = getNeumeFontFamily();
+
   fetch(
-    `https://cdn.jsdelivr.net/gh/danielgarthur/byzhtml@1.0.21/dist/${getNeumeFontFamily().toLowerCase()}.metadata.json`,
+    `https://cdn.jsdelivr.net/gh/danielgarthur/byzhtml@1.0.21/dist/${fontFamily.toLowerCase()}.metadata.json`,
   )
     .then((response) => {
       response
         .json()
         .then((data) => {
-          byzhtml.fontService.loadMap(byzhtml.options.defaultFontFamily, data);
+          byzhtml.fontService.loadMap(fontFamily, data);
 
           byzhtml.neumeMappingService.glyphNameToCodepointMap.set(
             'oligonKentimataBelow.alt01',
