@@ -11,7 +11,7 @@ if (isWebkit()) {
   const fontFamily = getNeumeFontFamily();
 
   fetch(
-    `https://cdn.jsdelivr.net/gh/danielgarthur/byzhtml@1.0.21/dist/${fontFamily.toLowerCase()}.metadata.json`,
+    `https://cdn.jsdelivr.net/gh/danielgarthur/byzhtml@1.0.22/dist/${fontFamily.toLowerCase()}.metadata.json`,
   )
     .then((response) => {
       response

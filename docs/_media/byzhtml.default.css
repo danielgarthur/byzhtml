@@ -3,6 +3,11 @@
   src: url('Neanes.otf');
 }
 
+@font-face {
+  font-family: 'NeanesStathisSeries';
+  src: url('NeanesStathisSeries.otf');
+}
+
 :root {
   /*
     Set the width of the vareia spacer for your font.
