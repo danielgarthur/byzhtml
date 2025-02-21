@@ -1,8 +1,9 @@
 :root {
   --red: #880000;
 
+  --byz-neume-font-family: Neanes;
   --byz-neume-font-size: 20pt;
-  
+
   --byz-lyric-font-size: 12pt;
   --byz-lyric-offset-h: 2pt;
   --byz-lyric-offset-v: -6pt;

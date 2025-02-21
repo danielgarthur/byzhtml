@@ -1,5 +1,6 @@
 <style>
 td {
+    --byz-neume-font-family: Neanes;
     --byz-neume-font-size: 20pt;
 }
 </style>

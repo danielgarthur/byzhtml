@@ -1,8 +1,9 @@
 :root {
   --red: #880000;
 
+  --byz-neume-font-family: Neanes;
   --byz-neume-font-size: 20pt;
-  
+
   --byz-lyric-font-family: Arial, san-serif;
   --byz-lyric-font-size: 12pt;
   --byz-lyric-offset-h: 2pt;
@@ -20,7 +21,7 @@ pre[data-lang='html'] {
 .gorgon,
 .fthora,
 .ison-indicator,
-x-martyria > :not(.agogi),
+x-martyria> :not(.agogi),
 x-heteron,
 x-heteron-connecting,
 x-endofonon {
