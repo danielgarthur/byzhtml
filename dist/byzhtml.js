@@ -1,4 +1,4 @@
-// byzhtml v1.0.22
+// byzhtml v1.0.23
 var byzhtml = (function () {
   'use strict';
 
@@ -7353,7 +7353,7 @@ var byzhtml = (function () {
       for (const fontFamily of fontFamilies) {
         try {
           const response = await fetch(
-            `https://cdn.jsdelivr.net/gh/danielgarthur/byzhtml@1.0.22/dist/${fontFamily.toLowerCase()}.metadata.json`,
+            `https://cdn.jsdelivr.net/gh/danielgarthur/byzhtml@1.0.23/dist/${fontFamily.toLowerCase()}.metadata.json`,
           );
 
           const data = await response.json();
