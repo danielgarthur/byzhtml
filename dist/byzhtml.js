@@ -2986,14 +2986,6 @@ var byzhtml = (function () {
     }
   }
 
-  function getNeumeFontFamily() {
-    return (
-      getComputedStyle(document.documentElement)
-        .getPropertyValue(CssVars.NeumeFontFamily)
-        .trim() ?? 'Neanes'
-    );
-  }
-
   const glyphname$4A = 'oligonKentimataBelow';
   const args$4A = {};
 
@@ -3005,10 +2997,7 @@ var byzhtml = (function () {
 
       // If using webkit positioning, perform a
       // contextual substitution when combined with the psifiston
-      if (
-        byzhtml.options.useWebkitPositioning &&
-        getNeumeFontFamily().startsWith('Neanes')
-      ) {
+      if (byzhtml.options.useWebkitPositioning) {
         let nextSibling = this.nextElementSibling;
         let depth = 0;
 
@@ -3185,12 +3174,6 @@ var byzhtml = (function () {
       }
 
       if (byzhtml.options.useWebkitPositioning) {
-        let fontFamily = `var(${CssVars.NeumeFontFamily})`;
-
-        if (this.hasAttribute('font-family')) {
-          fontFamily = this.getAttribute('font-family');
-        }
-
         let base = null;
 
         let previousSibling = this.previousElementSibling;
@@ -3214,6 +3197,9 @@ var byzhtml = (function () {
         }
 
         if (base) {
+          const style = getComputedStyle(this);
+          const fontFamily = style.getPropertyValue(CssVars.NeumeFontFamily);
+
           const offset = byzhtml.fontService.getMarkOffset(
             fontFamily,
             base,
@@ -3306,10 +3292,7 @@ var byzhtml = (function () {
 
       // If using webkit positioning, perform a
       // contextual substitution when combined with certain other characters
-      if (
-        byzhtml.options.useWebkitPositioning &&
-        getNeumeFontFamily().startsWith('Neanes')
-      ) {
+      if (byzhtml.options.useWebkitPositioning) {
         let previousSibling = this.previousElementSibling;
         let depth = 0;
         let base;
@@ -7364,40 +7347,36 @@ var byzhtml = (function () {
   if (isWebkit()) {
     console.log('byzhtml: webkit browser detected. Using webkit positioning.');
 
-    const fontFamily = getNeumeFontFamily();
+    const fontFamilies = ['Neanes', 'NeanesRTL', 'NeanesStathisSeries'];
 
-    fetch(
-      `https://cdn.jsdelivr.net/gh/danielgarthur/byzhtml@1.0.22/dist/${fontFamily.toLowerCase()}.metadata.json`,
-    )
-      .then((response) => {
-        response
-          .json()
-          .then((data) => {
-            byzhtml.fontService.loadMap(fontFamily, data);
+    (async () => {
+      for (const fontFamily of fontFamilies) {
+        try {
+          const response = await fetch(
+            `https://cdn.jsdelivr.net/gh/danielgarthur/byzhtml@1.0.22/dist/${fontFamily.toLowerCase()}.metadata.json`,
+          );
 
-            byzhtml.neumeMappingService.glyphNameToCodepointMap.set(
-              'oligonKentimataBelow.alt01',
-              '\uF000',
-            );
+          const data = await response.json();
+          byzhtml.fontService.loadMap(fontFamily, data);
+        } catch (err) {
+          console.error(`could not load font metadata for ${fontFamily}: ${err}`);
+        }
+      }
+    })().then(() => {
+      byzhtml.neumeMappingService.glyphNameToCodepointMap.set(
+        'oligonKentimataBelow.alt01',
+        '\uF000',
+      );
 
-            byzhtml.neumeMappingService.glyphNameToCodepointMap.set(
-              'antikenoma.alt01',
-              '\uF002',
-            );
+      byzhtml.neumeMappingService.glyphNameToCodepointMap.set(
+        'antikenoma.alt01',
+        '\uF002',
+      );
 
-            byzhtml.options.useWebkitPositioning = true;
-          })
-          .catch((err) => {
-            console.error('could not load font metadata: ' + err);
-          })
-          .finally(defineCustomElements);
-      })
-      .catch((err) => {
-        console.error('could not load font metadata: ' + err);
+      byzhtml.options.useWebkitPositioning = true;
 
-        // Load the page anyway, even though the styling will be bad
-        defineCustomElements();
-      });
+      defineCustomElements();
+    });
   } else {
     defineCustomElements();
   }
