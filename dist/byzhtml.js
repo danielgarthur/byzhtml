@@ -1,4 +1,4 @@
-// byzhtml v1.0.23
+// byzhtml v1.0.24
 var byzhtml = (function () {
   'use strict';
 
@@ -3198,7 +3198,15 @@ var byzhtml = (function () {
 
         if (base) {
           const style = getComputedStyle(this);
+
           const fontFamily = style.getPropertyValue(CssVars.NeumeFontFamily);
+
+          if (fontFamily === '') {
+            requestAnimationFrame(() => {
+              this.updateStyle();
+            });
+            return;
+          }
 
           const offset = byzhtml.fontService.getMarkOffset(
             fontFamily,
@@ -7353,7 +7361,7 @@ var byzhtml = (function () {
       for (const fontFamily of fontFamilies) {
         try {
           const response = await fetch(
-            `https://cdn.jsdelivr.net/gh/danielgarthur/byzhtml@1.0.23/dist/${fontFamily.toLowerCase()}.metadata.json`,
+            `https://cdn.jsdelivr.net/gh/danielgarthur/byzhtml@1.0.24/dist/${fontFamily.toLowerCase()}.metadata.json`,
           );
 
           const data = await response.json();
